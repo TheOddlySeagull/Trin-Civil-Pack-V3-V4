@@ -1,0 +1,5 @@
+{
+	"packID" : "iv_tcp_v3_txs",
+	"packName" : "TCP V3 - Trin Extreme Sport (TXS)",
+	"dependents" : ["iv_tpp"]
+}

@@ -1,0 +1,101 @@
+{
+  "generic": {
+    "type": "generic_bodypanel_hood",
+    "width": 0.5,
+    "height": 1.0
+  },
+  "definitions": [
+    {
+      "subName": "_carminred",
+      "modelName": "trin_pilocrap_hood",
+      "name": "Trin Pilocrap body panel",
+      "description": "Hood, carmin red",
+      "extraMaterialLists": [
+        ["iv_tpp:paint_bucket_carminred:0:1"]
+      ]
+    },
+    {
+      "subName": "_driveschool",
+      "modelName": "trin_pilocrap_hood",
+      "name": "Trin Pilocrap body panel",
+      "description": "Hood, drive school",
+      "extraMaterialLists": [
+        ["iv_tpp:wrap_roll_driveschool:0:1"]
+      ]
+    },
+    {
+      "subName": "_fireorange",
+      "modelName": "trin_pilocrap_hood",
+      "name": "Trin Pilocrap body panel",
+      "description": "Hood, fire orange",
+      "extraMaterialLists": [
+        ["iv_tpp:paint_bucket_fireorange:0:1"]
+      ]
+    },
+    {
+      "subName": "_midnightpurple",
+      "modelName": "trin_pilocrap_hood",
+      "name": "Trin Pilocrap body panel",
+      "description": "Hood, midnight purple",
+      "extraMaterialLists": [
+        ["iv_tpp:paint_bucket_midnightpurple:0:1"]
+      ]
+    },
+    {
+      "subName": "_pink",
+      "modelName": "trin_pilocrap_hood",
+      "name": "Trin Pilocrap body panel",
+      "description": "Hood, pink",
+      "extraMaterialLists": [
+        ["iv_tpp:paint_bucket_pink:0:1"]
+      ]
+    },
+    {
+      "subName": "_pureblack",
+      "modelName": "trin_pilocrap_hood",
+      "name": "Trin Pilocrap body panel",
+      "description": "Hood, pure black",
+      "extraMaterialLists": [
+        ["iv_tpp:paint_bucket_pureblack:0:1"]
+      ]
+    },
+    {
+      "subName": "_sunshineyellow",
+      "modelName": "trin_pilocrap_hood",
+      "name": "Trin Pilocrap body panel",
+      "description": "Hood, sunshine yellow",
+      "extraMaterialLists": [
+        ["iv_tpp:paint_bucket_sunshineyellow:0:1"]
+      ]
+    },
+    {
+      "subName": "_teel",
+      "modelName": "trin_pilocrap_hood",
+      "name": "Trin Pilocrap body panel",
+      "description": "Hood, teal",
+      "extraMaterialLists": [
+        ["iv_tpp:paint_bucket_teal:0:1"]
+      ]
+    },
+    {
+      "subName": "_turquoise",
+      "modelName": "trin_pilocrap_hood",
+      "name": "Trin Pilocrap body panel",
+      "description": "Hood, turquoise",
+      "extraMaterialLists": [
+        ["iv_tpp:paint_bucket_turquoise:0:1"]
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "particles": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "health": 100,
+    "materialLists": [
+      ["minecraft:iron_ingot:0:5","minecraft:dirt:0:1"]
+    ]
+  }
+}

@@ -1,0 +1,429 @@
+{
+  "motorized": {
+    "hasAutopilot": true,
+    "emptyMass": 1500,
+    "fuelCapacity": 10000,
+    "downForce": 0.3,
+    "overSteer": 0.5,
+    "underSteer": 1.0,
+    "overSteerAccel": -2.0,
+    "overSteerDecel": 1.0,
+    "axleRatio": 3.4,
+    "brakingFactor": 0.7,
+    "maxTiltAngle": 4.0,
+    "dragCoefficient": 0.2
+  },
+  "parts": [
+    {
+      "pos": [0.0,-0.4375,0.0],
+      "rot": [0.0,0.0,0.0],
+      "dismountPos": [1.0,1.0,0.0],
+      "isController": true,
+      "types": ["seat"],
+      "interactableVariables": [
+        ["roofdoor"]
+      ]
+    },
+    {
+      "pos": [1.5,-0.0625,-4.125],
+      "maxValue": 1.5,
+      "intakeOffset": 3.0,
+      "types": ["engine_boat"],
+      "linkedParts": [4,5,6,7],
+      "animations": [
+        {
+          "animationType": "rotation",
+          "variable": "rudder",
+          "centerPoint": [1.5,-0.0625,-4.125],
+          "axis": [0.0,0.5,0.0]
+        }
+      ]
+    },
+    {
+      "pos": [-1.5,-0.0625,-4.125],
+      "maxValue": 1.5,
+      "intakeOffset": 3.0,
+      "types": ["engine_boat"],
+      "linkedParts": [4,5,6,7],
+      "animations": [
+        {
+          "animationType": "rotation",
+          "variable": "rudder",
+          "centerPoint": [-1.5,-0.0625,-4.125],
+          "axis": [0.0,0.5,0.0]
+        }
+      ]
+    },
+    {
+      "pos": [1.46875,0.1875,-3.25],
+      "maxValue": 3.0,
+      "types": ["generic_flag_small"]
+    },
+    {
+      "pos": [-1.46875,0.1875,-3.25],
+      "maxValue": 3.0,
+      "types": ["generic_flag_small"]
+    },
+    {
+      "pos": [1.46875,0.1875,5.1875],
+      "maxValue": 3.0,
+      "types": ["generic_flag_small"]
+    },
+    {
+      "pos": [-1.46875,0.1875,5.1875],
+      "maxValue": 3.0,
+      "types": ["generic_flag_small"]
+    }
+  ],
+  "collisionGroups": [
+    {
+      "isInterior": true,
+      "collisions": [
+        {
+          "pos": [0.0,0.75,-0.0625],
+          "width": 1.0,
+          "height": 0.5,
+          "variableName": "roofdoor",
+          "variableType": "toggle"
+        }
+      ],
+      "animations": [
+        {
+          "animationType": "translation",
+          "variable": "roofdoor",
+          "axis": [0.0,0.3125,-0.875]
+        }
+      ]
+    },
+    {
+      "collisions": [
+        {
+          "pos": [0.0,0.25,3.4375],
+          "width": 2.0,
+          "height": 0.125
+        },
+        {
+          "pos": [0.0,0.25,1.4375],
+          "width": 2.0,
+          "height": 0.125
+        },
+        {
+          "pos": [0.0,0.625,-1.0],
+          "width": 1.0,
+          "height": 0.125
+        },
+        {
+          "pos": [0.0,0.4375,-2.0],
+          "width": 1.0,
+          "height": 0.125
+        },
+        {
+          "pos": [0.0,0.125,-2.8125],
+          "width": 2.0,
+          "height": 0.125
+        },
+        {
+          "pos": [1.5,0.25,5.0],
+          "width": 1.0,
+          "height": 0.125
+        },
+        {
+          "pos": [1.5,0.25,4.0],
+          "width": 1.0,
+          "height": 0.125
+        },
+        {
+          "pos": [1.5,0.25,3.0],
+          "width": 1.0,
+          "height": 0.125
+        },
+        {
+          "pos": [1.5,0.25,2.0],
+          "width": 1.0,
+          "height": 0.125
+        },
+        {
+          "pos": [1.5,0.25,1.0],
+          "width": 1.0,
+          "height": 0.125
+        },
+        {
+          "pos": [1.5,0.25,0.0],
+          "width": 1.0,
+          "height": 0.125
+        },
+        {
+          "pos": [1.5,0.25,-1.0],
+          "width": 1.0,
+          "height": 0.125
+        },
+        {
+          "pos": [1.5,0.25,-2.0],
+          "width": 1.0,
+          "height": 0.125
+        },
+        {
+          "pos": [1.5,0.25,-3.0],
+          "width": 1.0,
+          "height": 0.125
+        },
+        {
+          "pos": [1.5,0.25,-4.0],
+          "width": 1.0,
+          "height": 0.125
+        },
+        {
+          "pos": [-1.5,0.25,5.0],
+          "width": 1.0,
+          "height": 0.125
+        },
+        {
+          "pos": [-1.5,0.25,4.0],
+          "width": 1.0,
+          "height": 0.125
+        },
+        {
+          "pos": [-1.5,0.25,3.0],
+          "width": 1.0,
+          "height": 0.125
+        },
+        {
+          "pos": [-1.5,0.25,2.0],
+          "width": 1.0,
+          "height": 0.125
+        },
+        {
+          "pos": [-1.5,0.25,1.0],
+          "width": 1.0,
+          "height": 0.125
+        },
+        {
+          "pos": [-1.5,0.25,0.0],
+          "width": 1.0,
+          "height": 0.125
+        },
+        {
+          "pos": [-1.5,0.25,-1.0],
+          "width": 1.0,
+          "height": 0.125
+        },
+        {
+          "pos": [-1.5,0.25,-2.0],
+          "width": 1.0,
+          "height": 0.125
+        },
+        {
+          "pos": [-1.5,0.25,-3.0],
+          "width": 1.0,
+          "height": 0.125
+        },
+        {
+          "pos": [-1.5,0.25,-4.0],
+          "width": 1.0,
+          "height": 0.125
+        },
+        {
+          "pos": [0.0,-0.5625,3.5],
+          "width": 1.0,
+          "height": 0.125,
+          "collidesWithLiquids": true
+        },
+        {
+          "pos": [0.0,-0.5625,1.5],
+          "width": 1.0,
+          "height": 0.125,
+          "collidesWithLiquids": true
+        },
+        {
+          "pos": [0.0,-0.5625,-2.0625],
+          "width": 1.0,
+          "height": 0.125,
+          "collidesWithLiquids": true
+        }
+      ]
+    }
+  ],
+  "connectionGroups": [
+    {
+      "groupName": "HOOKUP",
+      "isHookup": true,
+      "connections": [
+        {
+          "type": "tow_wheel",
+          "pos": [0.0,-1.0625,3.3125],
+          "distance": 2.0
+        }
+      ]
+    }
+  ],
+  "instruments": [
+    {
+      "pos": [0.3125,0.03125,0.73438],
+      "rot": [0.0,0.0,0.0],
+      "scale": 0.015625,
+      "hudX": 80,
+      "hudY": 36,
+      "hudScale": 0.25
+    },
+    {
+      "pos": [0.15625,0.09375,0.73438],
+      "rot": [0.0,0.0,0.0],
+      "scale": 0.015625,
+      "hudX": 160,
+      "hudY": 36,
+      "hudScale": 0.5
+    },
+    {
+      "pos": [-0.15625,0.09375,0.73438],
+      "rot": [0.0,0.0,0.0],
+      "scale": 0.015625,
+      "hudX": 240,
+      "hudY": 36,
+      "hudScale": 0.5
+    },
+    {
+      "pos": [-0.3125,0.03125,0.73438],
+      "rot": [0.0,0.0,0.0],
+      "scale": 0.015625,
+      "hudX": 320,
+      "hudY": 36,
+      "hudScale": 0.25
+    }
+  ],
+  "definitions": [
+    {
+      "subName": "_steelblueandteel",
+      "name": "Trin Fabulide TXS - Steel Blue & Teel paint",
+      "extraMaterialLists": [
+        ["mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1"]
+      ]
+    },
+    {
+      "subName": "_midnightpurple",
+      "name": "Trin Fabulide TXS - Midnight Purple paint",
+      "extraMaterialLists": [
+        ["mts:iv_tpp.paint_bucket_midnightpurple:0:1"]
+      ]
+    },
+    {
+      "subName": "_coldspruce",
+      "name": "Trin Fabulide TXS - Cold Spruce paint",
+      "extraMaterialLists": [
+        ["mts:iv_tpp.paint_bucket_coldspruce:0:1"]
+      ]
+    },
+    {
+      "subName": "_tungstenandelectricblue",
+      "name": "Trin Fabulide TXS - Tungsten & Electric Blue paint",
+      "extraMaterialLists": [
+        ["mts:iv_tpp.paint_double_bucket_tungstenandelectricblue:0:1"]
+      ]
+    },
+    {
+      "subName": "_firered",
+      "name": "Trin Fabulide TXS - Fire Red paint",
+      "extraMaterialLists": [
+        ["mts:iv_tpp.paint_bucket_firered:0:1"]
+      ]
+    },
+    {
+      "subName": "_pureblack",
+      "name": "Trin Fabulide TXS - Pure Black paint",
+      "extraMaterialLists": [
+        ["mts:iv_tpp.paint_bucket_pureblack:0:1"]
+      ]
+    },
+    {
+      "subName": "_white",
+      "name": "Trin Fabulide TXS - White paint",
+      "extraMaterialLists": [
+        ["mts:iv_tpp.paint_bucket_white:0:1"]
+      ]
+    },
+    {
+      "subName": "_amber",
+      "name": "Trin Fabulide TXS - Amber paint",
+      "extraMaterialLists": [
+        ["mts:iv_tpp.paint_bucket_amber:0:1"]
+      ]
+    },
+    {
+      "subName": "_sunshineyellow",
+      "name": "Trin Fabulide TXS - Sunshine Yellow paint",
+      "extraMaterialLists": [
+        ["mts:iv_tpp.paint_bucket_sunshineyellow:0:1"]
+      ]
+    }
+  ],
+  "rendering": {
+    "textObjects": [],
+    "animatedObjects": [
+      {
+        "objectName": "steer",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [0.0,0.0625,0.6875],
+            "axis": [0.0,0.0,1.0]
+          }
+        ]
+      },
+      {
+        "objectName": "doorwindow",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "roofdoor",
+            "centerPoint": [0.0,0.8125,-0.5625],
+            "axis": [-150.0,0.0,0.0],
+            "duration": 15,
+            "forwardsEasing": "easeoutquint",
+            "reverseEasing": "easeincubic",
+            "forwardsStartSound": "iv_tpp:bootopen",
+            "reverseEndSound": "iv_tpp:bootclose"
+          }
+        ]
+      }
+    ],
+    "lightObjects": [],
+    "customVariables": [],
+    "initialVariables": ["roofdoor"],
+    "sounds": [
+      {
+        "name": "iv_tpp:horn_1",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "horn",
+            "clampMin": 1.0,
+            "clampMax": 1.0,
+            "reverseDelay": 4
+          }
+        ],
+        "volumeAnimations": [
+          {
+            "animationType": "translation",
+            "variable": "horn",
+            "axis": [0.0,1.0,0.0],
+            "duration": 3,
+            "forwardsDelay": -2
+          }
+        ],
+        "looping": true
+      }
+    ],
+    "particles": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "description": "Trin Extreme Sport - race super boat\n\nRecommended parts:\noutboard V8 Engine\nmodel 1 Seat",
+    "health": 3000,
+    "materialLists": [
+      ["minecraft:iron_ingot:0:16","minecraft:iron_block:0:9","minecraft:glowstone_dust:0:16","minecraft:glass_pane:0:6","mts:iv_tpp.carbon_fiber_pile:0:8"]
+    ],
+    "repairMaterialLists": [
+      ["minecraft:iron_ingot:0:8","minecraft:iron_block:0:4","minecraft:glowstone_dust:0:8","minecraft:glass_pane:0:6","mts:iv_tpp.carbon_fiber_pile:0:4"]
+    ]
+  }
+}

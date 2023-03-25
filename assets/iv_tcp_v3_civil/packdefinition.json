@@ -1,0 +1,5 @@
+{
+	"packID" : "iv_tcp_v3_civil",
+	"packName" : "TCP V3 - Trin Civilian Vehicles",
+	"dependents" : ["iv_tpp"]
+}

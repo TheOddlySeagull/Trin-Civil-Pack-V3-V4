@@ -1,0 +1,234 @@
+{
+  "generic": {
+    "type": "generic_bodypanel_bumper_f",
+    "width": 0.5,
+    "height": 1.0
+  },
+  "definitions": [
+    {
+      "subName": "_carminred",
+      "modelName": "trin_pilocrap_bumper_f",
+      "name": "Trin Pilocrap body panel",
+      "description": "Front Bumper, carmin red",
+      "extraMaterialLists": [
+        ["iv_tpp:paint_bucket_carminred:0:1"]
+      ]
+    },
+    {
+      "subName": "_driveschool",
+      "modelName": "trin_pilocrap_bumper_f",
+      "name": "Trin Pilocrap body panel",
+      "description": "Front Bumper, drive school",
+      "extraMaterialLists": [
+        ["iv_tpp:wrap_roll_driveschool:0:1"]
+      ]
+    },
+    {
+      "subName": "_fireorange",
+      "modelName": "trin_pilocrap_bumper_f",
+      "name": "Trin Pilocrap body panel",
+      "description": "Front Bumper, fire orange",
+      "extraMaterialLists": [
+        ["iv_tpp:paint_bucket_fireorange:0:1"]
+      ]
+    },
+    {
+      "subName": "_midnightpurple",
+      "modelName": "trin_pilocrap_bumper_f",
+      "name": "Trin Pilocrap body panel",
+      "description": "Front Bumper, midnight purple",
+      "extraMaterialLists": [
+        ["iv_tpp:paint_bucket_midnightpurple:0:1"]
+      ]
+    },
+    {
+      "subName": "_pink",
+      "modelName": "trin_pilocrap_bumper_f",
+      "name": "Trin Pilocrap body panel",
+      "description": "Front Bumper, pink",
+      "extraMaterialLists": [
+        ["iv_tpp:paint_bucket_pink:0:1"]
+      ]
+    },
+    {
+      "subName": "_pureblack",
+      "modelName": "trin_pilocrap_bumper_f",
+      "name": "Trin Pilocrap body panel",
+      "description": "Front Bumper, pure black",
+      "extraMaterialLists": [
+        ["iv_tpp:paint_bucket_pureblack:0:1"]
+      ]
+    },
+    {
+      "subName": "_sunshineyellow",
+      "modelName": "trin_pilocrap_bumper_f",
+      "name": "Trin Pilocrap body panel",
+      "description": "Front Bumper, sunshine yellow",
+      "extraMaterialLists": [
+        ["iv_tpp:paint_bucket_sunshineyellow:0:1"]
+      ]
+    },
+    {
+      "subName": "_teel",
+      "modelName": "trin_pilocrap_bumper_f",
+      "name": "Trin Pilocrap body panel",
+      "description": "Front Bumper, teal",
+      "extraMaterialLists": [
+        ["iv_tpp:paint_bucket_teal:0:1"]
+      ]
+    },
+    {
+      "subName": "_turquoise",
+      "modelName": "trin_pilocrap_bumper_f",
+      "name": "Trin Pilocrap body panel",
+      "description": "Front Bumper, turquoise",
+      "extraMaterialLists": [
+        ["iv_tpp:paint_bucket_turquoise:0:1"]
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [
+      {
+        "objectName": "&Headlight_FFFFA7_FFFFF_111",
+        "emissive": true,
+        "covered": true,
+        "isElectric": true,
+        "color": "FFFFA7",
+        "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "headlight",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "blendableComponents": [
+          {
+            "pos": [0.8125,0.125,0.06875000149011612],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.375,
+            "flareWidth": 0.375,
+            "beamDiameter": 8.0,
+            "beamLength": 24.0
+          },
+          {
+            "pos": [-0.8125,0.125,0.06875000149011612],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.375,
+            "flareWidth": 0.375,
+            "beamDiameter": 8.0,
+            "beamLength": 24.0
+          }
+        ]
+      },
+      {
+        "objectName": "&LeftTurnLight_ff6600_FFC00_111",
+        "emissive": true,
+        "covered": true,
+        "isElectric": true,
+        "color": "FF6600",
+        "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "left_turn_signal",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
+          {
+            "animationType": "visibility",
+            "variable": "10_10_0_cycle",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "blendableComponents": [
+          {
+            "pos": [0.96875,-0.15625,0.05624999850988388],
+            "axis": [-0.0,0.0,1.0],
+            "flareHeight": 0.5625,
+            "flareWidth": 0.5625
+          }
+        ]
+      },
+      {
+        "objectName": "&RightTurnLight_ff6600_FFC00_111",
+        "emissive": true,
+        "covered": true,
+        "isElectric": true,
+        "color": "FF6600",
+        "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "right_turn_signal",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
+          {
+            "animationType": "visibility",
+            "variable": "10_10_0_cycle",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "blendableComponents": [
+          {
+            "pos": [-0.96875,-0.15625,0.05624999850988388],
+            "axis": [-0.0,0.0,1.0],
+            "flareHeight": 0.5625,
+            "flareWidth": 0.5625
+          }
+        ]
+      },
+      {
+        "objectName": "&RunningLight_FFFFA7_FFFFF_111",
+        "emissive": true,
+        "covered": true,
+        "isElectric": true,
+        "color": "FFFFA7",
+        "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "running_light",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "blendableComponents": [
+          {
+            "pos": [0.9375,0.125,0.05624999850988388],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.375,
+            "flareWidth": 0.375
+          },
+          {
+            "pos": [1.0625,0.125,0.04374999925494194],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.375,
+            "flareWidth": 0.375
+          },
+          {
+            "pos": [-0.9375,0.125,0.05624999850988388],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.375,
+            "flareWidth": 0.375
+          },
+          {
+            "pos": [-1.0625,0.125,0.04374999925494194],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.375,
+            "flareWidth": 0.375
+          }
+        ]
+      }
+    ],
+    "particles": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "health": 100,
+    "materialLists": [
+      ["minecraft:iron_ingot:0:5","minecraft:dirt:0:1"]
+    ]
+  }
+}
