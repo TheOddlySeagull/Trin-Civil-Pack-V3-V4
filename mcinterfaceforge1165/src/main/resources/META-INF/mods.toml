@@ -17,18 +17,14 @@ version="3.20.0"
 # Display name for the pack in the in-game mods list.
 displayName="Immersive Vehicles (MTS/IV) - Trin Civil Pack"
 # A URL for the "homepage" for this pack, displayed in the mod UI.
-displayURL="https://www.empiretoday.com"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/immersive-vehicles-trin-civil-pack-v3"
 # Pack logo.
 logoFile="vingette.png"
 # Authors list, put your name here so people know who made your pack.
-authors="Notch"
+authors="TheOddlySeagull"
 # Credits, put the name of helpful contributors here so people know who did the *real* work! d:
-credits="Elephant1214, The Academy, creeper.gonzales.2004"
+credits=""
 # The description text for the pack (multi line!)
 description='''
-Rawr X3 *nuzzles* How are you?
-*registers with Forge ModLoader* teehee
-your gpu's so warm o3o *reverses polarity of neutron flow* nyeetbzzt~
-if u are readin this someone forgot to replace their packy wacky's description!! hehe
+The Trims Of Freedom
 '''
-# I had an anyerusm writing that, if you don't override the description... youtu.be/cnvaHW6zNLY?t=9
