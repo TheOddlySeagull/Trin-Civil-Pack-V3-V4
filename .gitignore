@@ -1,0 +1,7 @@
+*/build/*
+*/bin/*
+.gradle/*
+*.jar
+*.class
+*.bin
+*.lock
