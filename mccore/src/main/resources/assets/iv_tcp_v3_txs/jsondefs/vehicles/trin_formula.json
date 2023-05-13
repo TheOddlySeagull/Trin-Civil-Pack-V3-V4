@@ -291,14 +291,6 @@
       "extraMaterialLists": [
         ["mts:iv_tpp.paint_bucket_firered:0:1"]
       ]
-    },
-    {
-      "subName": "_dkz",
-      "name": "DKZ Industries #1 Trin TXS Formula Racer",
-      "description": "DKZ Industries Race Livery",
-      "extraMaterialLists": [
-        ["oredict:dyeBlack:3","oredict:dyeRed:3","oredict:dyeYellow:3"]
-      ]
     }
   ],
   "variableModifiers": [
