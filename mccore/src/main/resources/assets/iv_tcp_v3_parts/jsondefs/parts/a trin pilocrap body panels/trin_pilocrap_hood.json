@@ -11,7 +11,7 @@
       "name": "Trin Pilocrap body panel",
       "description": "Hood, carmin red",
       "extraMaterialLists": [
-        ["iv_tpp:paint_bucket_carminred:0:1"]
+        ["mts:iv_tpp.paint_bucket_carminred:0:1"]
       ]
     },
     {
@@ -20,7 +20,7 @@
       "name": "Trin Pilocrap body panel",
       "description": "Hood, drive school",
       "extraMaterialLists": [
-        ["iv_tpp:wrap_roll_driveschool:0:1"]
+        ["mts:iv_tpp.wrap_roll_driveschool:0:1"]
       ]
     },
     {
@@ -29,7 +29,7 @@
       "name": "Trin Pilocrap body panel",
       "description": "Hood, fire orange",
       "extraMaterialLists": [
-        ["iv_tpp:paint_bucket_fireorange:0:1"]
+        ["mts:iv_tpp.paint_bucket_fireorange:0:1"]
       ]
     },
     {
@@ -38,7 +38,7 @@
       "name": "Trin Pilocrap body panel",
       "description": "Hood, midnight purple",
       "extraMaterialLists": [
-        ["iv_tpp:paint_bucket_midnightpurple:0:1"]
+        ["mts:iv_tpp.paint_bucket_midnightpurple:0:1"]
       ]
     },
     {
@@ -47,7 +47,7 @@
       "name": "Trin Pilocrap body panel",
       "description": "Hood, pink",
       "extraMaterialLists": [
-        ["iv_tpp:paint_bucket_pink:0:1"]
+        ["mts:iv_tpp.paint_bucket_pink:0:1"]
       ]
     },
     {
@@ -56,7 +56,7 @@
       "name": "Trin Pilocrap body panel",
       "description": "Hood, pure black",
       "extraMaterialLists": [
-        ["iv_tpp:paint_bucket_pureblack:0:1"]
+        ["mts:iv_tpp.paint_bucket_pureblack:0:1"]
       ]
     },
     {
@@ -65,7 +65,7 @@
       "name": "Trin Pilocrap body panel",
       "description": "Hood, sunshine yellow",
       "extraMaterialLists": [
-        ["iv_tpp:paint_bucket_sunshineyellow:0:1"]
+        ["mts:iv_tpp.paint_bucket_sunshineyellow:0:1"]
       ]
     },
     {
@@ -74,7 +74,7 @@
       "name": "Trin Pilocrap body panel",
       "description": "Hood, teal",
       "extraMaterialLists": [
-        ["iv_tpp:paint_bucket_teal:0:1"]
+        ["mts:iv_tpp.paint_bucket_teal:0:1"]
       ]
     },
     {
@@ -83,7 +83,7 @@
       "name": "Trin Pilocrap body panel",
       "description": "Hood, turquoise",
       "extraMaterialLists": [
-        ["iv_tpp:paint_bucket_turquoise:0:1"]
+        ["mts:iv_tpp.paint_bucket_turquoise:0:1"]
       ]
     }
   ],
