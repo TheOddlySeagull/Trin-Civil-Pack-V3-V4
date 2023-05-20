@@ -38,3 +38,9 @@ Trin Civil Pack 3.20.0 changelog:
 + Introduced Trin Ropy Emergency, a police version of the Ropy, in 3 variants (Generic Police, Gramados Police, Sheriff)
 
 /Fixed recipes for Trin Pilocrap body panels
+
+###########################################################################################
+
+Trin Civil Pack 3.20.1 changelog:
+
+/ Fixed body roll rotation on Trin Ropy
