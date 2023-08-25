@@ -532,12 +532,12 @@
       "isHookup": true,
       "connections": [
         {
-          "type": "tow_bumper",
+          "type": "tow_bumper_heavy",
           "pos": [0.0,0.3125,7.09375],
           "distance": 2.0
         },
         {
-          "type": "tow_wheel",
+          "type": "tow_wheel_heavy",
           "pos": [0.0,-0.625,5.625],
           "distance": 2.0
         }
