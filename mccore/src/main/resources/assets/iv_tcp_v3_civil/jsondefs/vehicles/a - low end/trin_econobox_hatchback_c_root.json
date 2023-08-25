@@ -5,21 +5,23 @@
     "hasTurnSignals": true,
     "emptyMass": 1060,
     "fuelCapacity": 8000,
-    "downForce": 0.6,
-    "overSteer": 0.5,
-    "underSteer": 2.0,
-    "overSteerAccel": -1.0,
-    "overSteerDecel": 2.0,
+    "downForce": 0.55,
+    "overSteer": 1.0,
+    "underSteer": 1.0,
     "axleRatio": 4.286,
     "brakingFactor": 1.1,
-    "dragCoefficient": 0.34
+    "dragCoefficient": 0.34,
+    "litVariable": "engine_magneto_1",
+    "panel": "mts:default_car"
   },
   "parts": [
     {
       "pos": [1.0,0.0,0.0],
       "minValue": 0.7,
       "maxValue": 0.875,
-      "types": ["ground_wheel"],
+      "types": [
+        "ground_wheel"
+      ],
       "animations": [
         {
           "animationType": "rotation",
@@ -35,7 +37,9 @@
       "isMirrored": true,
       "minValue": 0.7,
       "maxValue": 0.875,
-      "types": ["ground_wheel"],
+      "types": [
+        "ground_wheel"
+      ],
       "animations": [
         {
           "animationType": "rotation",
@@ -50,7 +54,9 @@
       "turnsWithSteer": true,
       "minValue": 0.7,
       "maxValue": 0.875,
-      "types": ["ground_wheel"],
+      "types": [
+        "ground_wheel"
+      ],
       "animations": [
         {
           "animationType": "rotation",
@@ -73,7 +79,9 @@
       "isMirrored": true,
       "minValue": 0.7,
       "maxValue": 0.875,
-      "types": ["ground_wheel"],
+      "types": [
+        "ground_wheel"
+      ],
       "animations": [
         {
           "animationType": "rotation",
@@ -94,75 +102,113 @@
       "rot": [0.0,0.0,0.0],
       "dismountPos": [1.5,0.375,2.0],
       "isController": true,
-      "types": ["seat"],
+      "types": [
+        "seat"
+      ],
       "interactableVariables": [
-        ["door_fl"]
+        [
+          "door_fl"
+        ]
       ]
     },
     {
       "pos": [-0.5,0.375,2.0],
       "rot": [0.0,0.0,0.0],
       "dismountPos": [-1.5,0.375,2.0],
-      "types": ["seat"],
+      "types": [
+        "seat"
+      ],
       "interactableVariables": [
-        ["door_fr"]
+        [
+          "door_fr"
+        ]
       ]
     },
     {
       "pos": [-0.5,0.38,2.0],
       "rot": [0.0,90.0,0.0],
       "maxValue": 2.0,
-      "types": ["interactable_luggage"],
+      "types": [
+        "interactable_luggage"
+      ],
       "interactableVariables": [
-        ["part_present_6"],
-        ["door_fr"]
+        [
+          "part_present_6"
+        ],
+        [
+          "door_fr"
+        ]
       ]
     },
     {
       "pos": [0.5,0.375,1.0],
       "rot": [0.0,0.0,0.0],
       "dismountPos": [1.5,0.375,1.0],
-      "types": ["seat"],
+      "types": [
+        "seat"
+      ],
       "interactableVariables": [
-        ["door_fl"]
+        [
+          "door_fl"
+        ]
       ]
     },
     {
       "pos": [0.5,0.38,1.0],
       "rot": [0.0,90.0,0.0],
       "maxValue": 2.0,
-      "types": ["interactable_luggage"],
+      "types": [
+        "interactable_luggage"
+      ],
       "interactableVariables": [
-        ["part_present_8"],
-        ["door_fl"]
+        [
+          "part_present_8"
+        ],
+        [
+          "door_fl"
+        ]
       ]
     },
     {
       "pos": [-0.5,0.375,1.0],
       "rot": [0.0,0.0,0.0],
       "dismountPos": [-1.5,0.375,1.0],
-      "types": ["seat"],
+      "types": [
+        "seat"
+      ],
       "interactableVariables": [
-        ["door_fr"]
+        [
+          "door_fr"
+        ]
       ]
     },
     {
       "pos": [-0.5,0.38,1.0],
       "rot": [0.0,90.0,0.0],
       "maxValue": 2.0,
-      "types": ["interactable_luggage"],
+      "types": [
+        "interactable_luggage"
+      ],
       "interactableVariables": [
-        ["part_present_10"],
-        ["door_fr"]
+        [
+          "part_present_10"
+        ],
+        [
+          "door_fr"
+        ]
       ]
     },
     {
       "pos": [0.0,0.1875,3.1875],
       "rot": [0.0,0.0,0.0],
       "maxValue": 0.27,
-      "types": ["engine_car"],
+      "types": [
+        "engine_car"
+      ],
       "interactableVariables": [
-        ["door_hood"]
+        [
+          "door_hood"
+        ]
       ],
       "linkedParts": [3,4,10,12,13,14,15,19,20]
     },
@@ -170,90 +216,129 @@
       "pos": [0.0,0.40625,4.48438],
       "maxValue": 3.0,
       "defaultPart": "iv_tpp:plate_gramados",
-      "types": ["generic_licenseplate_us","generic_licenseplate_euro"]
+      "types": [
+        "generic_licenseplate_us",
+        "generic_licenseplate_euro"
+      ]
     },
     {
       "pos": [0.0,0.28125,-0.89063],
       "rot": [0.0,180.0,0.0],
       "maxValue": 3.0,
       "defaultPart": "iv_tpp:plate_gramados",
-      "types": ["generic_licenseplate_us","generic_licenseplate_euro"]
+      "types": [
+        "generic_licenseplate_us",
+        "generic_licenseplate_euro"
+      ]
     },
     {
       "pos": [0.0,1.8125,1.8125],
       "maxValue": 3.0,
-      "types": ["generic_lightbar","generic_roofdevice"]
+      "types": [
+        "generic_lightbar",
+        "generic_roofdevice"
+      ]
     },
     {
       "pos": [0.0,1.8125,1.25],
       "maxValue": 3.0,
-      "types": ["generic_lightbar","generic_roofdevice"]
+      "types": [
+        "generic_lightbar",
+        "generic_roofdevice"
+      ]
     },
     {
       "pos": [0.0,1.8125,0.6875],
       "maxValue": 3.0,
-      "types": ["generic_lightbar","generic_roofdevice"]
+      "types": [
+        "generic_lightbar",
+        "generic_roofdevice"
+      ]
     },
     {
       "pos": [0.0,0.15625,4.375],
       "maxValue": 2.0,
-      "types": ["generic_bullbar"]
+      "types": [
+        "generic_bullbar"
+      ]
     },
     {
       "pos": [0.1875,0.1875,-0.0625],
       "rot": [1.0,-3.0,-1.0],
       "maxValue": 2.0,
-      "types": ["interactable_luggage"],
+      "types": [
+        "interactable_luggage"
+      ],
       "interactableVariables": [
-        ["door_boot"]
+        [
+          "door_boot"
+        ]
       ]
     },
     {
       "pos": [-0.1875,0.1875,-0.0625],
       "rot": [3.0,5.0,0.0],
       "maxValue": 2.0,
-      "types": ["interactable_luggage"],
+      "types": [
+        "interactable_luggage"
+      ],
       "interactableVariables": [
-        ["door_boot"]
+        [
+          "door_boot"
+        ]
       ]
     },
     {
       "pos": [0.0,0.125,-0.5625],
       "rot": [-2.0,92.0,1.0],
       "maxValue": 2.0,
-      "types": ["interactable_luggage"],
+      "types": [
+        "interactable_luggage"
+      ],
       "interactableVariables": [
-        ["door_boot"]
+        [
+          "door_boot"
+        ]
       ]
     },
     {
       "pos": [0.6875,0.40625,4.45625],
       "rot": [0.0,186.0,0.0],
       "maxValue": 1.0,
-      "types": ["generic_bumpersticker"]
+      "types": [
+        "generic_bumpersticker"
+      ]
     },
     {
       "pos": [-0.6875,0.40625,4.45625],
       "rot": [0.0,174.0,0.0],
       "maxValue": 1.0,
-      "types": ["generic_bumpersticker"]
+      "types": [
+        "generic_bumpersticker"
+      ]
     },
     {
       "pos": [0.65625,0.21875,-0.88125],
       "rot": [0.0,0.0,0.0],
       "maxValue": 1.0,
-      "types": ["generic_bumpersticker"]
+      "types": [
+        "generic_bumpersticker"
+      ]
     },
     {
       "pos": [-0.65625,0.21875,-0.88125],
       "rot": [0.0,0.0,0.0],
       "maxValue": 1.0,
-      "types": ["generic_bumpersticker"]
+      "types": [
+        "generic_bumpersticker"
+      ]
     },
     {
       "pos": [0.0,1.8125,1.3125],
       "maxValue": 3.0,
-      "types": ["interactable_crate_roof"]
+      "types": [
+        "interactable_crate_roof"
+      ]
     }
   ],
   "collisionGroups": [
@@ -485,23 +570,42 @@
       "subName": "_purewhite_g",
       "name": "Trin Econobox Hatchback Coupe Root Trim - Pure White Paint, Gray Interior",
       "extraMaterialLists": [
-        ["mts:iv_tpp.paint_bucket_purewhite:0:1","minecraft:wool:7:2","minecraft:wool:8:3"]
+        [
+          "mts:iv_tpp.paint_bucket_purewhite:0:1",
+          "minecraft:wool:7:2",
+          "minecraft:wool:8:3"
+        ]
       ]
     },
     {
       "subName": "_pink_g",
       "name": "Trin Econobox Hatchback Coupe Root Trim - Pink Paint, Gray Interior",
       "extraMaterialLists": [
-        ["mts:iv_tpp.paint_bucket_pink:0:1","minecraft:wool:7:2","minecraft:wool:8:3"]
+        [
+          "mts:iv_tpp.paint_bucket_pink:0:1",
+          "minecraft:wool:7:2",
+          "minecraft:wool:8:3"
+        ]
       ]
     },
     {
       "subName": "_oakgreen_g",
       "name": "Trin Econobox Hatchback Coupe Root Trim - Oak Green Paint, Gray Interior",
       "extraMaterialLists": [
-        ["mts:iv_tpp.paint_bucket_oakgreen:0:1","minecraft:wool:7:2","minecraft:wool:8:3"]
+        [
+          "mts:iv_tpp.paint_bucket_oakgreen:0:1",
+          "minecraft:wool:7:2",
+          "minecraft:wool:8:3"
+        ]
       ]
     }
+  ],
+  "initialVariables": [
+    "door_fl",
+    "door_fr",
+    "door_fl",
+    "door_fr",
+    "door_hood"
   ],
   "variableModifiers": [
     {
@@ -512,9 +616,25 @@
           "variable": "engine_isautomatic_1"
         },
         {
+          "animationType": "visibility",
+          "variable": "engine_isdualclutch_1"
+        },
+        {
+          "animationType": "visibility",
+          "variable": "!engine_gear_1",
+          "reverseDelay": 6
+        },
+        {
           "animationType": "translation",
-          "variable": "!engine_clutching_1",
-          "axis": [1,0,0],
+          "variable": "!engine_clutch_downshift_1",
+          "axis": [0.5,0.0,0.0],
+          "offset": 0.5,
+          "duration": 3
+        },
+        {
+          "animationType": "translation",
+          "variable": "!engine_clutch_upshift_1",
+          "axis": [1.0,0.0,0.0],
           "duration": 3
         }
       ]
@@ -523,10 +643,8 @@
       "variable": "brakingFactor",
       "animations": [
         {
-          "animationType": "inhibitor",
-          "variable": "p_brake",
-          "clampMin": 1.0,
-          "clampMax": 1.0
+          "animationType": "visibility",
+          "variable": "p_brake"
         },
         {
           "animationType": "translation",
@@ -536,114 +654,186 @@
       ]
     },
     {
+      "variable": "axleRatio",
+      "animations": [
+        {
+          "animationType": "visibility",
+          "variable": "slip",
+          "clampMin": 8.0,
+          "clampMax": 32767.0,
+          "absolute": true
+        },
+        {
+          "animationType": "translation",
+          "variable": "slip",
+          "axis": [0.0,0.0625,0.0],
+          "offset": -0.5,
+          "clampMin": 0.001,
+          "absolute": true
+        },
+        {
+          "animationType": "translation",
+          "variable": "throttle",
+          "axis": [1.5,0.0,0.0],
+          "offset": -0.5,
+          "clampMin": 0.0125,
+          "clampMax": 1.0
+        },
+        {
+          "animationType": "translation",
+          "variable": "engine_rpm_percent_revlimit_1",
+          "axis": [-8.0,0.0,0.0],
+          "offset": 8.5,
+          "clampMin": 0.125,
+          "clampMax": 1.0
+        }
+      ]
+    },
+    {
       "variable": "rlBodyroll",
       "minValue": -1.0,
-      "maxValue": 1.0,
+      "maxValue": 0.5,
       "animations": [
         {
           "animationType": "translation",
           "variable": "turn_indicator",
-          "axis": [0.0,0.0,-0.00125]
+          "axis": [0.0,-0.001,0.0]
+        },
+        {
+          "animationType": "translation",
+          "variable": "slip",
+          "axis": [0.0,0.005,0.0]
         },
         {
           "animationType": "translation",
           "variable": "!ground_onground_1",
-          "axis": [0.0,-1.0,0.0],
-          "duration": 4
+          "axis": [0.0,-1.0,0.0]
         },
         {
-          "animationType": "inhibitor",
-          "variable": "speed",
-          "clampMax": 0.125
+          "animationType": "translation",
+          "variable": "damage_totaled",
+          "axis": [0.0,1.0,0.0]
         },
         {
           "animationType": "translation",
           "variable": "acceleration",
           "axis": [0.0,4.0,0.0]
+        },
+        {
+          "animationType": "translation",
+          "variable": "rlBodyroll",
+          "axis": [0.0,-0.375,0.0]
         }
       ]
     },
     {
       "variable": "rrBodyroll",
-      "minValue": -1.0,
+      "minValue": -0.5,
       "maxValue": 1.0,
       "animations": [
         {
           "animationType": "translation",
           "variable": "turn_indicator",
-          "axis": [0.0,0.0,-0.00125]
+          "axis": [0.0,-0.001,0.0]
+        },
+        {
+          "animationType": "translation",
+          "variable": "slip",
+          "axis": [0.0,0.005,0.0]
         },
         {
           "animationType": "translation",
           "variable": "!ground_onground_2",
-          "axis": [0.0,1.0,0.0],
-          "duration": 4
+          "axis": [0.0,1.0,0.0]
         },
         {
-          "animationType": "inhibitor",
-          "variable": "speed",
-          "clampMax": 0.125
+          "animationType": "translation",
+          "variable": "damage_totaled",
+          "axis": [0.0,-1.0,0.0]
         },
         {
           "animationType": "translation",
           "variable": "acceleration",
           "axis": [0.0,-4.0,0.0]
+        },
+        {
+          "animationType": "translation",
+          "variable": "rrBodyroll",
+          "axis": [0.0,-0.375,0.0]
         }
       ]
     },
     {
       "variable": "flBodyroll",
       "minValue": -1.0,
-      "maxValue": 1.0,
+      "maxValue": 0.5,
       "animations": [
         {
           "animationType": "translation",
           "variable": "turn_indicator",
-          "axis": [0.0,0.0,-0.00125]
+          "axis": [0.0,-0.001,0.0]
+        },
+        {
+          "animationType": "translation",
+          "variable": "slip",
+          "axis": [0.0,0.005,0.0]
         },
         {
           "animationType": "translation",
           "variable": "!ground_onground_3",
-          "axis": [0.0,-1.0,0.0],
-          "duration": 4
+          "axis": [0.0,-1.0,0.0]
         },
         {
-          "animationType": "inhibitor",
-          "variable": "speed",
-          "clampMax": 0.125
+          "animationType": "translation",
+          "variable": "damage_totaled",
+          "axis": [0.0,1.0,0.0]
         },
         {
           "animationType": "translation",
           "variable": "acceleration",
           "axis": [0.0,-4.0,0.0]
+        },
+        {
+          "animationType": "translation",
+          "variable": "flBodyroll",
+          "axis": [0.0,-0.375,0.0]
         }
       ]
     },
     {
       "variable": "frBodyroll",
-      "minValue": -1.0,
+      "minValue": -0.5,
       "maxValue": 1.0,
       "animations": [
         {
           "animationType": "translation",
           "variable": "turn_indicator",
-          "axis": [0.0,0.0,-0.00125]
+          "axis": [0.0,-0.001,0.0]
+        },
+        {
+          "animationType": "translation",
+          "variable": "slip",
+          "axis": [0.0,0.005,0.0]
         },
         {
           "animationType": "translation",
           "variable": "!ground_onground_4",
-          "axis": [0.0,1.0,0.0],
-          "duration": 4
+          "axis": [0.0,1.0,0.0]
         },
         {
-          "animationType": "inhibitor",
-          "variable": "speed",
-          "clampMax": 0.125
+          "animationType": "translation",
+          "variable": "damage_totaled",
+          "axis": [0.0,-1.0,0.0]
         },
         {
           "animationType": "translation",
           "variable": "acceleration",
           "axis": [0.0,4.0,0.0]
+        },
+        {
+          "animationType": "translation",
+          "variable": "frBodyroll",
+          "axis": [0.0,-0.375,0.0]
         }
       ]
     }
@@ -1366,8 +1556,9 @@
         ]
       }
     ],
-    "customVariables": ["EMERLTS"],
-    "initialVariables": ["door_fl","door_fr","door_fl","door_fr","door_hood"],
+    "customVariables": [
+      "EMERLTS"
+    ],
     "sounds": [
       {
         "name": "iv_tpp:horn_2",
@@ -1389,16 +1580,25 @@
             "forwardsDelay": -2
           }
         ],
-        "looping": true
+        "looping": true,
+        "minDistance": 0.0,
+        "minDistanceVolume": 0.0,
+        "middleDistance": 0.0,
+        "middleDistanceVolume": 0.0,
+        "maxDistance": 0.0,
+        "maxDistanceVolume": 0.0
       }
     ],
     "particles": [
       {
         "type": "smoke",
+        "spawningOrientation": "entity",
+        "renderingOrientation": "player",
         "quantity": 1,
         "transparency": 0.25,
         "toTransparency": 0.25,
-        "scale": 1.0,
+        "scale": 0.2,
+        "hitboxSize": 0.2,
         "color": "D9D9D9",
         "pos": [-1.15625,-0.03125,0.65625],
         "initialVelocity": [-1.0,0.0,0.0],
@@ -1413,8 +1613,11 @@
       },
       {
         "type": "smoke",
+        "spawningOrientation": "entity",
+        "renderingOrientation": "player",
         "quantity": 5,
-        "scale": 2.5,
+        "scale": 0.5,
+        "hitboxSize": 0.2,
         "color": "000000",
         "pos": [-1.15625,-0.03125,0.65625],
         "initialVelocity": [-1.0,0.0,0.0],
@@ -1432,12 +1635,27 @@
   },
   "general": {
     "description": "Low End Hatchback\n2 doors, 4 seats\n\nRecommended parts:\nAverage Sized Wheels\nI4 Engine\nModel 3 Seats",
-    "health": 2120,
+    "health": 116,
     "materialLists": [
-      ["mts:iv_tpp.chassis_ld4_t14_i5_econobox:0:1","minecraft:iron_ingot:0:14","minecraft:iron_block:0:5","minecraft:glowstone_dust:0:16","minecraft:glass_pane:0:6","mts:iv_tpp.metal_pile_2:0:1"]
+      [
+        "mts:iv_tpp.chassis_ld4_t14_i5_econobox:0:1",
+        "minecraft:iron_ingot:0:14",
+        "minecraft:iron_block:0:5",
+        "minecraft:glowstone_dust:0:16",
+        "minecraft:glass_pane:0:6",
+        "mts:iv_tpp.metal_pile_2:0:1"
+      ]
     ],
     "repairMaterialLists": [
-      ["minecraft:iron_ingot:0:7","minecraft:iron_block:0:2","minecraft:glowstone_dust:0:8","minecraft:glass_pane:0:5","mts:iv_tpp.metal_pile_2:0:1"]
-    ]
+      [
+        "minecraft:iron_ingot:0:7",
+        "minecraft:iron_block:0:2",
+        "minecraft:glowstone_dust:0:8",
+        "minecraft:glass_pane:0:5",
+        "mts:iv_tpp.metal_pile_2:0:1"
+      ]
+    ],
+    "radarWidth": 0.0,
+    "radarRange": 0.0
   }
 }
