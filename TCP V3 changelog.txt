@@ -43,4 +43,8 @@ Trin Civil Pack 3.20.0 changelog:
 
 Trin Civil Pack 3.20.1 changelog:
 
++ Introduced Trin Heavorum, a heavy duty crew cab dually pickup truck
+
 / Fixed body roll rotation on Trin Ropy
+
+/ Tweaked standard trin Gobig and Bultizorg so they require Heavy Duty Tow
