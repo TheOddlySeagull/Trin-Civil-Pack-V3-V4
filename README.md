@@ -1,22 +1,40 @@
 # Trin Civil Pack Changelogs
 
-## Trin Civil Pack 3.18.0 changelog:
+## Trin Civil Pack 3.21.0 changelog:
+
+### Main Additions:
+
+- Introduced Trin Heavorum, a heavy duty crew cab dually pickup truck
 
 ### Additions:
 
-- Added all Trin Pilocrap body panels (moved from TPP)
+- Added a slip-based axleRatio increasing VM to most vehicles (thanks to cowboycosmic)
 
 ### Fixes:
 
-- Fixed all rotations on Trin Pilocrap
-- Fixed mirroring of Trin Pilocrap body panels
-- Fixed crafting recipe for Trin Trainingor
+- Fixed body roll rotation on Trin Ropy
+- Fixed mirroring of Trin Pilocrap wheels (thanks to cowboycosmic)
 
 ### Tweaks:
 
-- Tweaked the entire inventory organisation: Split the pack into 4 tabs
-- Tweaked item IDs: WARNING: all cars will despawn in your save!
+- Tweaked standard trin Gobig and Bultizorg so they require Heavy Duty Tow
+- Tweaked body roll system on most vehicles (thanks to cowboycosmic)
+- Tweaked manual throttle VM modified on most vehicles (thanks to cowboycosmic)
+- Tweaked door opening on Trin Transortus (thanks to cowboycosmic)
 
+---
+
+## Trin Civil Pack 3.20.0 changelog:
+
+### Main Additions:
+
+- Introduced TCP V3 for minecraft 1.16.5!
+- Introduced Trin Ropy, an economy compact car
+- Introduced Trin Ropy Emergency, a police version of the Ropy, in 3 variants (Generic Police, Gramados Police, Sheriff)
+
+### Fixes:
+
+- Fixed recipes for Trin Pilocrap body panels
 
 ---
 
@@ -41,41 +59,21 @@
 
 - Tweaked door, hoods, tailgates animations (thanks to cowboycosmic)
 
-
 ---
 
-## Trin Civil Pack 3.20.0 changelog:
-
-### Introductions:
-
-- Introduced TCP V3 for minecraft 1.16.5!
-- Introduced Trin Ropy, an economy compact car
-- Introduced Trin Ropy Emergency, a police version of the Ropy, in 3 variants (Generic Police, Gramados Police, Sheriff)
-
-### Fixes:
-
-- Fixed recipes for Trin Pilocrap body panels
-
----
-
-## Trin Civil Pack 3.21.0 changelog:
-
-### Introductions:
-
-- Introduced Trin Heavorum, a heavy duty crew cab dually pickup truck
+## Trin Civil Pack 3.18.0 changelog:
 
 ### Additions:
 
-- Added a slip-based axleRatio increasing VM to most vehicles (thanks to cowboycosmic)
+- Added all Trin Pilocrap body panels (moved from TPP)
 
 ### Fixes:
 
-- Fixed body roll rotation on Trin Ropy
-- Fixed mirroring of Trin Pilocrap wheels (thanks to cowboycosmic)
+- Fixed all rotations on Trin Pilocrap
+- Fixed mirroring of Trin Pilocrap body panels
+- Fixed crafting recipe for Trin Trainingor
 
 ### Tweaks:
 
-- Tweaked standard trin Gobig and Bultizorg so they require Heavy Duty Tow
-- Tweaked body roll system on most vehicles (thanks to cowboycosmic)
-- Tweaked manual throttle VM modified on most vehicles (thanks to cowboycosmic)
-- Tweaked door opening on Trin Transortus (thanks to cowboycosmic)
+- Tweaked the entire inventory organisation: Split the pack into 4 tabs
+- Tweaked item IDs: WARNING: all cars will despawn in your save!
