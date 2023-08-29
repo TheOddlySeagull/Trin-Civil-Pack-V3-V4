@@ -1,9 +1,10 @@
 */build/*
 */bin/*
-.gradle/*
+*gradle/*
 *.jar
 *.class
 *.bin
 *.lock
 mcinterfaceforge1122/*
 mcinterfaceforge1165/*
+my_own_readme.md
