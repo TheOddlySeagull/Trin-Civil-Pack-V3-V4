@@ -8,12 +8,12 @@
 		"fuelCapacity": 40000,
 		"axleRatio": 3.08,
 		"dragCoefficient": 0.34,
-		"overSteer": 3,
-		"underSteer": 1.75,
-		"overSteerAccel": 3,
-		"overSteerDecel": -1,
 		"brakingFactor": 1.4,
-		"downForce": 0.65
+		"downForce": 0.65,//How easily the vehicle can turn at higher speeds, this is NOT actually conventional downforce though and is unrelated to dragCoefficient/weight/etc.
+		"overSteer": 3,//How much this vehicle wants to throw its butt out when turning
+		"underSteer": 1.75,//How much this vehicle will resist from throwing out its butt when turning
+		"overSteerAccel": 3,//Added (or subtracted) oversteer on acceleration
+		"overSteerDecel": 0//Added (or subtracted) oversteer on deceleration
 	},
 	"parts": [
 		{//wheel RL (rear left)
@@ -172,28 +172,42 @@
 	],
   "variableModifiers": [
     {
-      "variable": "throttle",//Stick shift logic
-      "animations": [
-          {
-            "animationType": "visibility",
-            "variable": "engine_isautomatic_1"//Checks if engine is actually stick shift
-          },
-          {
-            "animationType": "translation",
-            "variable": "!engine_clutching_1",//Checks if engine is shifting without necessarily being shifting up or down
-            "axis": [1,0,0],//"Multiplies" throttle amount by this, which makes throttle either equal to throttle or 0
-            "duration": 3//Smooths out the animation for better sound behavior
-          }
-        ]
-      },
-      {//Makes braking smooth unless parking brake is on (otherwise it would break the p_brake)
-      "variable": "brakingFactor",
+      "variable": "throttle",//Shift stick logic, disables when engine is automatic or "dualclutch" automatic
       "animations": [
         {
-          "animationType": "inhibitor",
-          "variable": "p_brake",
-          "clampMin": 1.0,
-          "clampMax": 1.0
+          "animationType": "visibility",
+          "variable": "engine_isautomatic_1"
+        },
+        {
+          "animationType": "visibility",
+          "variable": "engine_isdualclutch_1"
+        },
+        {
+          "animationType": "visibility",
+          "variable": "!engine_gear_1",
+          "reverseDelay": 6
+        },
+        {
+          "animationType": "translation",
+          "variable": "!engine_clutch_downshift_1",
+          "axis": [0.5,0.0,0.0],
+          "offset": 0.5,
+          "duration": 3
+        },
+        {
+          "animationType": "translation",
+          "variable": "!engine_clutch_upshift_1",
+          "axis": [1.0,0.0,0.0],
+          "duration": 3
+        }
+      ]
+    },
+    {
+      "variable": "brakingFactor",//Smoother braking for controller compatibility
+      "animations": [
+        {
+          "animationType": "visibility",
+          "variable": "p_brake"
         },
         {
           "animationType": "translation",
@@ -202,115 +216,187 @@
         }
       ]
     },
-    {//How much the rear left wheel will roll
-      "variable": "rlBodyroll",
-      "minValue": -1.0,
-      "maxValue": 1.0,
+    {
+      "variable": "axleRatio",//Revs up engine when drifting or sliding
       "animations": [
         {
-          "animationType": "translation",
-          "variable": "turn_indicator",//Steering Bodyroll
-          "axis": [0.0,0.0,-0.002]//Divide 1 by a large hundredths number for best results (1÷400 to 1÷1000, higher dividing numbers make a more stiff/less responsive suspension.)
+          "animationType": "visibility",
+          "variable": "slip",
+          "clampMin": 8.0,
+          "clampMax": 32767.0,
+          "absolute": true
         },
         {
           "animationType": "translation",
-          "variable": "!ground_onground_1",//Drops suspension when this wheel is in the air
-          "axis": [0.0,-1.0,0.0],
-          "duration": 4
-        },
-        {
-          "animationType": "inhibitor",
-          "variable": "speed",//Inhibitor to keep vehicle from being very bouncy at a standstill
-          "clampMax": 0.125
+          "variable": "slip",
+          "axis": [0.0,0.0625,0.0],
+          "offset": -0.5,
+          "clampMin": 0.001,
+          "absolute": true
         },
         {
           "animationType": "translation",
-          "variable": "acceleration",//Acceleration Bodyroll
-          "axis": [0.0,4.0,0]
+          "variable": "throttle",
+          "axis": [1.5,0.0,0.0],
+          "offset": -0.5,
+          "clampMin": 0.0125,
+          "clampMax": 1.0
+        },
+        {
+          "animationType": "translation",
+          "variable": "engine_rpm_percent_revlimit_1",
+          "axis": [-8.0,0.0,0.0],
+          "offset": 8.5,
+          "clampMin": 0.125,
+          "clampMax": 1.0
         }
       ]
     },
-    {//How much the rear right wheel will roll
-      "variable": "rrBodyroll",
-      "minValue": -1.0,
-      "maxValue": 1.0,
+    {
+      "variable": "rlBodyroll",//How much the rear left wheel will roll
+      "minValue": -1.0,//Not inverted
+      "maxValue": 0.5,//Half value to prevent wheel from clipping into the wheel well
       "animations": [
         {
           "animationType": "translation",
-          "variable": "turn_indicator",//Steering Bodyroll
-          "axis": [0.0,0.0,-0.002]//Divide 1 by a large hundredths number for best results (1÷400 to 1÷1000, higher dividing numbers make a more stiff/less responsive suspension.)
+          "variable": "turn_indicator",
+          "axis": [0.0,-0.001,0.0]
         },
         {
           "animationType": "translation",
-          "variable": "!ground_onground_2",//Drops suspension when this wheel is in the air
-          "axis": [0.0,1.0,0.0],
-          "duration": 4
-        },
-        {
-          "animationType": "inhibitor",
-          "variable": "speed",//Inhibitor to keep vehicle from being very bouncy at a standstill
-          "clampMax": 0.125
+          "variable": "slip",
+          "axis": [0.0,0.005,0.0]
         },
         {
           "animationType": "translation",
-          "variable": "acceleration",//Acceleration Bodyroll
-          "axis": [0.0,-4.0,0]
+          "variable": "!ground_onground_1",
+          "axis": [0.0,-1.0,0.0]
+        },
+        {
+          "animationType": "translation",
+          "variable": "damage_totaled",
+          "axis": [0.0,1.0,0.0]
+        },
+        {
+          "animationType": "translation",
+          "variable": "acceleration",
+          "axis": [0.0,4.0,0.0]
+        },
+        {
+          "animationType": "translation",
+          "variable": "rlBodyroll",
+          "axis": [0.0,-0.375,0.0]
         }
       ]
     },
-    {//How much the front left wheel will roll
-      "variable": "flBodyroll",
-      "minValue": -1.0,
-      "maxValue": 1.0,
+    {
+      "variable": "rrBodyroll",//How much the rear right wheel will roll
+      "minValue": -0.5,//Half value to prevent wheel from clipping into the wheel well
+      "maxValue": 1.0,//Inverted for mirroring
       "animations": [
         {
           "animationType": "translation",
-          "variable": "turn_indicator",//Steering Bodyroll
-          "axis": [0.0,0.0,-0.002]//Divide 1 by a large hundredths number for best results (1÷400 to 1÷1000, higher dividing numbers make a more stiff/less responsive suspension.)
+          "variable": "turn_indicator",
+          "axis": [0.0,-0.001,0.0]
         },
         {
           "animationType": "translation",
-          "variable": "!ground_onground_3",//Drops suspension when this wheel is in the air
-          "axis": [0.0,-1.0,0.0],
-          "duration": 4
-        },
-        {
-          "animationType": "inhibitor",
-          "variable": "speed",//Inhibitor to keep vehicle from being very bouncy at a standstill
-          "clampMax": 0.125
+          "variable": "slip",
+          "axis": [0.0,0.005,0.0]
         },
         {
           "animationType": "translation",
-          "variable": "acceleration",//Acceleration Bodyroll
-          "axis": [0.0,-4.0,0]
+          "variable": "!ground_onground_2",
+          "axis": [0.0,1.0,0.0]
+        },
+        {
+          "animationType": "translation",
+          "variable": "damage_totaled",
+          "axis": [0.0,-1.0,0.0]
+        },
+        {
+          "animationType": "translation",
+          "variable": "acceleration",
+          "axis": [0.0,-4.0,0.0]
+        },
+        {
+          "animationType": "translation",
+          "variable": "rrBodyroll",
+          "axis": [0.0,-0.375,0.0]
         }
       ]
     },
-    {//How much the front right wheel will roll
-      "variable": "frBodyroll",
-      "minValue": -1.0,
-      "maxValue": 1.0,
+    {
+      "variable": "flBodyroll",//How much the front left wheel will roll
+      "minValue": -1.0,//Not inverted
+      "maxValue": 0.5,//Half value to prevent wheel from clipping into the wheel well
       "animations": [
         {
           "animationType": "translation",
-          "variable": "turn_indicator",//Steering Bodyroll
-          "axis": [0.0,0.0,-0.002]//Divide 1 by a large hundredths number for best results (1÷400 to 1÷1000, higher dividing numbers make a more stiff/less responsive suspension.)
+          "variable": "turn_indicator",
+          "axis": [0.0,-0.001,0.0]
         },
         {
           "animationType": "translation",
-          "variable": "!ground_onground_4",//Drops suspension when this wheel is in the air
-          "axis": [0.0,1.0,0.0],
-          "duration": 4
-        },
-        {
-          "animationType": "inhibitor",
-          "variable": "speed",//Inhibitor to keep vehicle from being very bouncy at a standstill
-          "clampMax": 0.125
+          "variable": "slip",
+          "axis": [0.0,0.005,0.0]
         },
         {
           "animationType": "translation",
-          "variable": "acceleration",//Acceleration Bodyroll
-          "axis": [0.0,4.0,0]
+          "variable": "!ground_onground_3",
+          "axis": [0.0,1.0,0.0]
+        },
+        {
+          "animationType": "translation",
+          "variable": "damage_totaled",
+          "axis": [0.0,-1.0,0.0]
+        },
+        {
+          "animationType": "translation",
+          "variable": "acceleration",
+          "axis": [0.0,-4.0,0.0]
+        },
+        {
+          "animationType": "translation",
+          "variable": "flBodyroll",
+          "axis": [0.0,-0.375,0.0]
+        }
+      ]
+    },
+    {
+      "variable": "frBodyroll",//How much the front right wheel will roll
+      "minValue": -0.5,//Half value to prevent wheel from clipping into the wheel well
+      "maxValue": 1.0,//Inverted for mirroring
+      "animations": [
+        {
+          "animationType": "translation",
+          "variable": "turn_indicator",
+          "axis": [0.0,-0.001,0.0]
+        },
+        {
+          "animationType": "translation",
+          "variable": "slip",
+          "axis": [0.0,0.005,0.0]
+        },
+        {
+          "animationType": "translation",
+          "variable": "!ground_onground_4",
+          "axis": [0.0,-1.0,0.0]
+        },
+        {
+          "animationType": "translation",
+          "variable": "damage_totaled",
+          "axis": [0.0,1.0,0.0]
+        },
+        {
+          "animationType": "translation",
+          "variable": "acceleration",
+          "axis": [0.0,4.0,0.0]
+        },
+        {
+          "animationType": "translation",
+          "variable": "frBodyroll",
+          "axis": [0.0,-0.375,0.0]
         }
       ]
     }
