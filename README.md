@@ -1,6 +1,6 @@
 # Trin Civil Pack Changelogs
 
-## Trin Civil Pack 3.21.0 changelog:
+## Trin Civil Pack 3.21.0 (4.1) changelog:
 
 ### Main Additions:
 
@@ -24,7 +24,7 @@
 
 ---
 
-## Trin Civil Pack 3.20.0 changelog:
+## Trin Civil Pack 3.20.0 (4.0) changelog:
 
 ### Main Additions:
 
