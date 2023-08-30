@@ -50,6 +50,7 @@
 		{"_comment": "part 3: Rear right wheel (INNER)",
 			"pos" : [-1.1875, 0, 0],
 			"rot": [0.0,180.0,0.0],
+      		"isMirrored": true,
 			"types": ["ground_wheel"],
 			"minValue": 0,
 			"maxValue" : 1.1,
@@ -66,6 +67,7 @@
 		{"_comment": "part 4: Rear right wheel (OUTTER)",
 			"pos" : [-1.46875, 0, 0],
 			"rot": [0.0,180.0,0.0],
+      		"isMirrored": true,
 			"types": ["ground_wheel"],
 			"minValue": 0,
 			"maxValue" : 1.1,
@@ -105,6 +107,7 @@
 			"pos" : [-1.25, 0.125, 5.625],
 			"turnsWithSteer": true,
 			"rot": [0.0,180.0,0.0],
+      		"isMirrored": true,
 			"types": ["ground_wheel"],
 			"minValue": 0,
 			"maxValue" : 1.1,
@@ -1450,7 +1453,7 @@
 				"scale": 1.0,
 				"color": "D9D9D9",
 				"pos": [0.84375, 0.25, -1.65938],
-				"initialVelocity": [-1.0,0.0,0.0],
+				"initialVelocity": [0.0,0.0,-1.0],
 				"activeAnimations": [
 					{
 						"animationType": "visibility",
@@ -1468,7 +1471,7 @@
 				"scale": 1.0,
 				"color": "D9D9D9",
 				"pos": [-0.84375, 0.25, -1.65938],
-				"initialVelocity": [-1.0,0.0,0.0],
+				"initialVelocity": [0.0,0.0,-1.0],
 				"activeAnimations": [
 					{
 						"animationType": "visibility",
