@@ -2,6 +2,16 @@
 
 ## Trin Civil Pack 3.21.0 (4.1) changelog:
 
+### Fixes:
+
+- Fixed right side wheels rotation on Trin Heavorum
+- Fixed exhaust particles velocity on Trin Heavorum
+
+---
+
+
+## Trin Civil Pack 3.21.0 (4.1) changelog:
+
 ### Main Additions:
 
 - Introduced Trin Heavorum, a heavy duty crew cab dually pickup truck
