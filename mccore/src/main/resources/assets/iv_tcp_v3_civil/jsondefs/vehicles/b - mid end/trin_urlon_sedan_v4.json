@@ -21,6 +21,7 @@
       "pos": [1.0,0.0,0.0],
       "minValue": 0.7,
       "maxValue": 0.875,
+      "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
       "types": [
         "ground_wheel"
       ],
@@ -39,6 +40,7 @@
       "isMirrored": true,
       "minValue": 0.7,
       "maxValue": 0.875,
+      "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
       "types": [
         "ground_wheel"
       ],
@@ -56,6 +58,7 @@
       "turnsWithSteer": true,
       "minValue": 0.7,
       "maxValue": 0.875,
+      "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
       "types": [
         "ground_wheel"
       ],
@@ -81,6 +84,7 @@
       "isMirrored": true,
       "minValue": 0.7,
       "maxValue": 0.875,
+      "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
       "types": [
         "ground_wheel"
       ],
@@ -103,6 +107,7 @@
       "pos": [0.5625,0.25,2.3125],
       "rot": [0.0,0.0,0.0],
       "dismountPos": [1.5625,0.25,2.3125],
+			"defaultPart": "iv_tpp:trin_seat_1_gray",
       "isController": true,
       "types": [
         "seat"
@@ -117,6 +122,7 @@
       "pos": [-0.5625,0.25,2.3125],
       "rot": [0.0,0.0,0.0],
       "dismountPos": [-1.5625,0.25,2.3125],
+			"defaultPart": "iv_tpp:trin_seat_1_gray",
       "types": [
         "seat"
       ],
@@ -130,6 +136,7 @@
       "pos": [0.5625,0.25,1.0],
       "rot": [0.0,0.0,0.0],
       "dismountPos": [1.5625,0.25,1.0],
+			"defaultPart": "iv_tpp:trin_seat_1_gray",
       "types": [
         "seat"
       ],
@@ -143,6 +150,7 @@
       "pos": [-0.5625,0.25,1.0],
       "rot": [0.0,0.0,0.0],
       "dismountPos": [-1.5625,0.25,1.0],
+			"defaultPart": "iv_tpp:trin_seat_1_gray",
       "types": [
         "seat"
       ],
@@ -155,6 +163,7 @@
     {"_comment": "part 9: Engine (i4), powering back and front wheels",
       "pos": [0.0,0.0625,3.5],
       "rot": [0.0,0.0,0.0],
+      "defaultPart": "iv_tpp:engine_i4_gasoline_normal_aut",
       "maxValue": 0.65,
       "types": [
         "engine_car"
@@ -171,7 +180,8 @@
       "maxValue": 3.0,
       "types": [
         "generic_lightbar",
-        "generic_roofdevice"
+        "generic_roofdevice",
+        "generic_gyrophare"
       ],
       "interactableVariables": [
 				["!part_present_28"]
@@ -182,7 +192,8 @@
       "maxValue": 3.0,
       "types": [
         "generic_lightbar",
-        "generic_roofdevice"
+        "generic_roofdevice",
+        "generic_gyrophare"
       ],
       "interactableVariables": [
 				["!part_present_28"]
@@ -318,7 +329,7 @@
     },
 		{"_comment": "part 26: Dashboard Secondary",
 			"pos": [0, 0.25, 2.96875],
-			"rot": [-8.0,0.0,0],
+			"rot": [8.0,0.0,0],
 			"maxValue": 1.0,
 			"types": ["generic_dashboard_console"],
 			"defaultPart": "iv_tpp_v4_tests:dashboard_console_bottom_lowend_g"
@@ -1130,7 +1141,7 @@
       }
     ],
     "lightObjects": [
-      {
+      {"_comment": "Backup lights - White lights",
         "objectName": "&BackupLight_ffffcc_FFFFF_111",
         "emissive": true,
         "covered": true,
@@ -1142,6 +1153,12 @@
             "variable": "engine_reversed_1",
             "clampMin": 1.0,
             "clampMax": 1.0
+          },
+          {
+            "animationType": "visibility",
+            "variable": "engine_running_1",
+            "clampMin": 1.0,
+            "clampMax": 1.0
           }
         ],
         "blendableComponents": [
@@ -1171,7 +1188,42 @@
           }
         ]
       },
-      {
+      {"_comment": "Fog lights - White lights",
+        "objectName": "&RunningLight_ffffcc_FFFFF_111.001",
+        "emissive": true,
+        "covered": true,
+        "isElectric": true,
+        "color": "FFFFCC",
+        "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "rain_strength",
+            "clampMin": 1.0,
+            "clampMax": 2.0
+          },
+          {
+            "animationType": "visibility",
+            "variable": "engine_running_1",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "blendableComponents": [
+          {
+            "pos": [0.937263,-5.28697,0.106301],
+            "axis": [0.0,0.0,1.0],
+            "flareHeight": 0.375,
+            "flareWidth": 0.375
+          },
+          {
+            "pos": [-0.937263,-5.28697,0.106301],
+            "axis": [0.0,0.0,1.0],
+            "flareHeight": 0.375,
+            "flareWidth": 0.375
+          }
+        ]
+      },
+      {"_comment": "Map lights - White lights",
         "objectName": "&RunningLight_ffffcc_FFFFF_111",
         "emissive": true,
         "covered": true,
@@ -1180,63 +1232,13 @@
         "brightnessAnimations": [
           {
             "animationType": "visibility",
-            "variable": "running_light",
+            "variable": "map_light",
             "clampMin": 1.0,
             "clampMax": 1.0
           }
-        ],
-        "blendableComponents": [
-          {
-            "pos": [-0.09375,1.46875,1.46875],
-            "axis": [-0.4472000002861023,-0.8944000005722046,0.0],
-            "flareHeight": 0.375,
-            "flareWidth": 0.375
-          },
-          {
-            "pos": [-0.09375,1.46875,1.46875],
-            "axis": [-0.4472000002861023,-0.8944000005722046,0.0],
-            "flareHeight": 0.375,
-            "flareWidth": 0.375
-          },
-          {
-            "pos": [0.09375,1.46875,1.46875],
-            "axis": [0.4472000002861023,-0.8944000005722046,0.0],
-            "flareHeight": 0.375,
-            "flareWidth": 0.375
-          },
-          {
-            "pos": [0.09375,1.46875,1.46875],
-            "axis": [0.4472000002861023,-0.8944000005722046,0.0],
-            "flareHeight": 0.375,
-            "flareWidth": 0.375
-          },
-          {
-            "pos": [-0.09375,1.46875,2.21875],
-            "axis": [-0.4472000002861023,-0.8944000005722046,0.0],
-            "flareHeight": 0.375,
-            "flareWidth": 0.375
-          },
-          {
-            "pos": [-0.09375,1.46875,2.21875],
-            "axis": [-0.4472000002861023,-0.8944000005722046,0.0],
-            "flareHeight": 0.375,
-            "flareWidth": 0.375
-          },
-          {
-            "pos": [0.09375,1.46875,2.21875],
-            "axis": [0.4472000002861023,-0.8944000005722046,0.0],
-            "flareHeight": 0.375,
-            "flareWidth": 0.375
-          },
-          {
-            "pos": [0.09375,1.46875,2.21875],
-            "axis": [0.4472000002861023,-0.8944000005722046,0.0],
-            "flareHeight": 0.375,
-            "flareWidth": 0.375
-          }
         ]
       },
-      {
+      {"_comment": "Headlights - Yellow lights",
         "objectName": "&Headlight_FFFFA7_FFFFF_111",
         "emissive": true,
         "covered": true,
@@ -1252,40 +1254,24 @@
         ],
         "blendableComponents": [
           {
-            "pos": [0.90625,0.49999700486660004,5.328125],
-            "axis": [0.16439999639987946,0.0,0.9864000082015991],
-            "flareHeight": 0.7500001,
-            "flareWidth": 0.7500001,
-            "beamDiameter": 16.000002,
-            "beamLength": 48.000008
+            "pos": [-0.8, 0.51, 5.4],
+            "axis": [0.0,0.0,1.0],
+            "flareHeight": 1.0,
+            "flareWidth": 1.0,
+            "beamDiameter": 16.0,
+            "beamLength": 48.0
           },
           {
-            "pos": [0.90625,0.49999700486660004,5.328125],
-            "axis": [0.16439999639987946,0.0,0.9864000082015991],
-            "flareHeight": 0.7500001,
-            "flareWidth": 0.7500001,
-            "beamDiameter": 16.000002,
-            "beamLength": 48.000008
-          },
-          {
-            "pos": [-0.90625,0.49999700486660004,5.328125],
-            "axis": [-0.16439999639987946,0.0,0.9864000082015991],
-            "flareHeight": 0.7500001,
-            "flareWidth": 0.7500001,
-            "beamDiameter": 16.000002,
-            "beamLength": 48.000008
-          },
-          {
-            "pos": [-0.90625,0.49999700486660004,5.328125],
-            "axis": [-0.16439999639987946,0.0,0.9864000082015991],
-            "flareHeight": 0.7500001,
-            "flareWidth": 0.7500001,
-            "beamDiameter": 16.000002,
-            "beamLength": 48.000008
+            "pos": [0.8, 0.51, 5.4],
+            "axis": [0.0,0.0,1.0],
+            "flareHeight": 1.0,
+            "flareWidth": 1.0,
+            "beamDiameter": 16.0,
+            "beamLength": 48.0
           }
         ]
       },
-      {
+      {"_comment": "Left Turn Signals - Orange Clicking lights",
         "objectName": "&LeftTurnLight_ff6600_FFC00_111",
         "emissive": true,
         "covered": true,
@@ -1304,119 +1290,9 @@
             "clampMin": 1.0,
             "clampMax": 1.0
           }
-        ],
-        "blendableComponents": [
-          {
-            "pos": [1.1484375,0.43749698996543884,5.0625],
-            "axis": [0.9362999796867371,0.0,0.35109999775886536],
-            "flareHeight": 0.375,
-            "flareWidth": 0.375
-          },
-          {
-            "pos": [1.1484375,0.43749698996543884,5.0625],
-            "axis": [0.9362999796867371,0.0,0.35109999775886536],
-            "flareHeight": 0.375,
-            "flareWidth": 0.375
-          },
-          {
-            "pos": [1.09375,0.40624698996543884,5.1875],
-            "axis": [0.8944000005722046,0.0,0.4472000002861023],
-            "flareHeight": 0.375,
-            "flareWidth": 0.375
-          },
-          {
-            "pos": [1.09375,0.40624698996543884,5.1875],
-            "axis": [0.8944000005722046,0.0,0.4472000002861023],
-            "flareHeight": 0.375,
-            "flareWidth": 0.375
-          },
-          {
-            "pos": [1.03125,0.40624698996543884,5.28125],
-            "axis": [0.707099974155426,0.0,0.707099974155426],
-            "flareHeight": 0.1875,
-            "flareWidth": 0.1875
-          },
-          {
-            "pos": [1.03125,0.40624698996543884,5.28125],
-            "axis": [0.707099974155426,0.0,0.707099974155426],
-            "flareHeight": 0.1875,
-            "flareWidth": 0.1875
-          },
-          {
-            "pos": [1.1328125,0.5624970048666,5.09375],
-            "axis": [0.9478999972343445,0.039500001817941666,0.3160000145435333],
-            "flareHeight": 0.3750001,
-            "flareWidth": 0.3750001
-          },
-          {
-            "pos": [1.1484375,0.5624970048666,5.0625],
-            "axis": [0.9478999972343445,0.039500001817941666,0.3160000145435333],
-            "flareHeight": 0.3750001,
-            "flareWidth": 0.3750001
-          },
-          {
-            "pos": [1.171875,0.40625,-1.3125],
-            "axis": [1.0,0.0,0.0],
-            "flareHeight": 0.375,
-            "flareWidth": 0.375
-          },
-          {
-            "pos": [1.171875,0.40625,-1.3125],
-            "axis": [1.0,0.0,0.0],
-            "flareHeight": 0.375,
-            "flareWidth": 0.375
-          },
-          {
-            "pos": [1.1484375,0.40625,-1.3984375],
-            "axis": [0.707099974155426,0.0,-0.707099974155426],
-            "flareHeight": 0.1875,
-            "flareWidth": 0.1875
-          },
-          {
-            "pos": [1.1484375,0.40625,-1.3984375],
-            "axis": [0.707099974155426,0.0,-0.707099974155426],
-            "flareHeight": 0.1875,
-            "flareWidth": 0.1875
-          },
-          {
-            "pos": [0.71875,0.5437040030956268,3.029559016227722],
-            "axis": [0.0,0.6690999865531921,-0.7430999875068665],
-            "flareHeight": 0.1875,
-            "flareWidth": 0.1875
-          },
-          {
-            "pos": [0.71875,0.5437040030956268,3.029559016227722],
-            "axis": [0.0,0.6690999865531921,-0.7430999875068665],
-            "flareHeight": 0.1875,
-            "flareWidth": 0.1875
-          },
-          {
-            "pos": [1.203125,0.5312470048666,3.40625],
-            "axis": [1.0,0.0,0.0],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [1.203125,0.5312470048666,3.40625],
-            "axis": [1.0,0.0,0.0],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [1.203125,0.53125,0.3125],
-            "axis": [1.0,0.0,0.0],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [1.203125,0.53125,0.3125],
-            "axis": [1.0,0.0,0.0],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          }
         ]
       },
-      {
+      {"_comment": "Emergency lights - Orange Clicking lights",
         "objectName": "&EmergencyLight_ff6600_00F0F_111",
         "emissive": true,
         "covered": true,
@@ -1435,23 +1311,9 @@
             "clampMin": 1.0,
             "clampMax": 1.0
           }
-        ],
-        "blendableComponents": [
-          {
-            "pos": [0.84375,0.5437040030956268,3.029559016227722],
-            "axis": [0.0,0.6690999865531921,-0.7430999875068665],
-            "flareHeight": 0.1875,
-            "flareWidth": 0.1875
-          },
-          {
-            "pos": [0.84375,0.5437040030956268,3.029559016227722],
-            "axis": [0.0,0.6690999865531921,-0.7430999875068665],
-            "flareHeight": 0.1875,
-            "flareWidth": 0.1875
-          }
         ]
       },
-      {
+      {"_comment": "Right Turn Signals - Orange Clicking lights",
         "objectName": "&RightTurnLight_ff6600_FFC00_111",
         "emissive": true,
         "covered": true,
@@ -1470,119 +1332,9 @@
             "clampMin": 1.0,
             "clampMax": 1.0
           }
-        ],
-        "blendableComponents": [
-          {
-            "pos": [-1.09375,0.40624698996543884,5.1875],
-            "axis": [-0.8944000005722046,0.0,0.4472000002861023],
-            "flareHeight": 0.375,
-            "flareWidth": 0.375
-          },
-          {
-            "pos": [-1.09375,0.40624698996543884,5.1875],
-            "axis": [-0.8944000005722046,0.0,0.4472000002861023],
-            "flareHeight": 0.375,
-            "flareWidth": 0.375
-          },
-          {
-            "pos": [-1.03125,0.40624698996543884,5.28125],
-            "axis": [-0.707099974155426,0.0,0.707099974155426],
-            "flareHeight": 0.1875,
-            "flareWidth": 0.1875
-          },
-          {
-            "pos": [-1.03125,0.40624698996543884,5.28125],
-            "axis": [-0.707099974155426,0.0,0.707099974155426],
-            "flareHeight": 0.1875,
-            "flareWidth": 0.1875
-          },
-          {
-            "pos": [-1.1484375,0.43749698996543884,5.0625],
-            "axis": [-0.9362999796867371,0.0,0.35109999775886536],
-            "flareHeight": 0.375,
-            "flareWidth": 0.375
-          },
-          {
-            "pos": [-1.1484375,0.43749698996543884,5.0625],
-            "axis": [-0.9362999796867371,0.0,0.35109999775886536],
-            "flareHeight": 0.375,
-            "flareWidth": 0.375
-          },
-          {
-            "pos": [-1.1484375,0.5624970048666,5.0625],
-            "axis": [-0.9478999972343445,0.039500001817941666,0.3160000145435333],
-            "flareHeight": 0.3750001,
-            "flareWidth": 0.3750001
-          },
-          {
-            "pos": [-1.1484375,0.5624970048666,5.0625],
-            "axis": [-0.9478999972343445,0.039500001817941666,0.3160000145435333],
-            "flareHeight": 0.3750001,
-            "flareWidth": 0.3750001
-          },
-          {
-            "pos": [-1.171875,0.40625,-1.3125],
-            "axis": [-1.0,0.0,0.0],
-            "flareHeight": 0.375,
-            "flareWidth": 0.375
-          },
-          {
-            "pos": [-1.171875,0.40625,-1.3125],
-            "axis": [-1.0,0.0,0.0],
-            "flareHeight": 0.375,
-            "flareWidth": 0.375
-          },
-          {
-            "pos": [-1.1484375,0.40625,-1.3984375],
-            "axis": [-0.707099974155426,0.0,-0.707099974155426],
-            "flareHeight": 0.1875,
-            "flareWidth": 0.1875
-          },
-          {
-            "pos": [-1.1484375,0.40625,-1.3984375],
-            "axis": [-0.707099974155426,0.0,-0.707099974155426],
-            "flareHeight": 0.1875,
-            "flareWidth": 0.1875
-          },
-          {
-            "pos": [0.40625,0.5437040030956268,3.029559016227722],
-            "axis": [0.0,0.6690999865531921,-0.7430999875068665],
-            "flareHeight": 0.1875,
-            "flareWidth": 0.1875
-          },
-          {
-            "pos": [0.40625,0.5437040030956268,3.029559016227722],
-            "axis": [0.0,0.6690999865531921,-0.7430999875068665],
-            "flareHeight": 0.1875,
-            "flareWidth": 0.1875
-          },
-          {
-            "pos": [-1.203125,0.53125,0.3125],
-            "axis": [-1.0,0.0,0.0],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [-1.203125,0.53125,0.3125],
-            "axis": [-1.0,0.0,0.0],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [-1.203125,0.5312470048666,3.40625],
-            "axis": [-1.0,0.0,0.0],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [-1.203125,0.5312470048666,3.40625],
-            "axis": [-1.0,0.0,0.0],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          }
         ]
       },
-      {
+      {"_comment": "Rear Running lights - Red lights",
         "objectName": "&RunningLight_e60000_FFFFF_111",
         "emissive": true,
         "covered": true,
@@ -1598,104 +1350,32 @@
         ],
         "blendableComponents": [
           {
-            "pos": [1.171875,0.53125,-1.3125],
+            "pos": [0.94, 0.55, -1.44],
+            "axis": [0.0,0.0,-1.0],
+            "flareHeight": 0.5,
+            "flareWidth": 0.8
+          },
+          {
+            "pos": [-0.94, 0.55, -1.44],
+            "axis": [0.0,0.0,-1.0],
+            "flareHeight": 0.5,
+            "flareWidth": 0.8
+          },
+          {
+            "pos": [1.19, 0.55, -1.35],
             "axis": [1.0,0.0,0.0],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
+            "flareHeight": 0.5,
+            "flareWidth": 0.5
           },
           {
-            "pos": [1.171875,0.53125,-1.3125],
-            "axis": [1.0,0.0,0.0],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [1.1484375,0.53125,-1.3984375],
-            "axis": [0.707099974155426,0.0,-0.707099974155426],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [1.1484375,0.53125,-1.3984375],
-            "axis": [0.707099974155426,0.0,-0.707099974155426],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [1.03125,0.53125,-1.421875],
-            "axis": [0.0,0.0,-1.0],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [1.03125,0.53125,-1.421875],
-            "axis": [0.0,0.0,-1.0],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [1.03125,0.4375,-1.421875],
-            "axis": [0.0,0.0,-1.0],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [1.03125,0.4375,-1.421875],
-            "axis": [0.0,0.0,-1.0],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [-1.171875,0.53125,-1.3125],
+            "pos": [-1.19, 0.55, -1.35],
             "axis": [-1.0,0.0,0.0],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [-1.171875,0.53125,-1.3125],
-            "axis": [-1.0,0.0,0.0],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [-1.1484375,0.53125,-1.3984375],
-            "axis": [-0.707099974155426,0.0,-0.707099974155426],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [-1.1484375,0.53125,-1.3984375],
-            "axis": [-0.707099974155426,0.0,-0.707099974155426],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [-1.03125,0.4375,-1.421875],
-            "axis": [0.0,0.0,-1.0],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [-1.03125,0.40625,-1.421875],
-            "axis": [0.0,0.0,-1.0],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [-1.03125,0.5625,-1.421875],
-            "axis": [0.0,0.0,-1.0],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [-1.03125,0.53125,-1.421875],
-            "axis": [0.0,0.0,-1.0],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
+            "flareHeight": 0.5,
+            "flareWidth": 0.5
           }
         ]
       },
-      {
+      {"_comment": "Brake lights - Red lights",
         "objectName": "&BrakeLight_e60000_FFFFF_111",
         "emissive": true,
         "covered": true,
@@ -1711,44 +1391,14 @@
         ],
         "blendableComponents": [
           {
-            "pos": [0.84375,0.5625,-1.421875],
+            "pos": [0, 1.6, 0.555],
             "axis": [0.0,0.0,-1.0],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [0.84375,0.5625,-1.421875],
-            "axis": [0.0,0.0,-1.0],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [-0.84375,0.5625,-1.421875],
-            "axis": [0.0,0.0,-1.0],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [-0.84375,0.5625,-1.421875],
-            "axis": [0.0,0.0,-1.0],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [0.015625,1.59375,0.5625],
-            "axis": [0.0,0.0,-1.0],
-            "flareHeight": 0.84375,
-            "flareWidth": 0.84375
-          },
-          {
-            "pos": [0.0,1.59375,0.5625],
-            "axis": [0.0,0.0,-1.0],
-            "flareHeight": 0.9375,
-            "flareWidth": 0.9375
+            "flareHeight": 0.4,
+            "flareWidth": 0.6
           }
         ]
       },
-      {
+      {"_comment": "Front Running lights - Yellow lights",
         "objectName": "&RunningLight_FFFFA7_FFFFF_111",
         "emissive": true,
         "covered": true,
@@ -1764,136 +1414,16 @@
         ],
         "blendableComponents": [
           {
-            "pos": [0.9375,0.10739000514149666,5.287354469299316],
-            "axis": [0.0,-0.34200000762939453,0.9397000074386597],
-            "flareHeight": 0.375,
-            "flareWidth": 0.375
+            "pos": [-0.8, 0.5, 5.38],
+            "axis": [0.0,0.0,1.0],
+            "flareHeight": 0.75,
+            "flareWidth": 0.75
           },
           {
-            "pos": [0.9375,0.10739000514149666,5.287354469299316],
-            "axis": [0.0,-0.34200000762939453,0.9397000074386597],
-            "flareHeight": 0.375,
-            "flareWidth": 0.375
-          },
-          {
-            "pos": [-0.9375,0.10739000514149666,5.287354469299316],
-            "axis": [0.0,-0.34200000762939453,0.9397000074386597],
-            "flareHeight": 0.375,
-            "flareWidth": 0.375
-          },
-          {
-            "pos": [-0.9375,0.10739000514149666,5.287354469299316],
-            "axis": [0.0,-0.34200000762939453,0.9397000074386597],
-            "flareHeight": 0.375,
-            "flareWidth": 0.375
-          },
-          {
-            "pos": [1.09375,0.5312470048666,5.1875],
-            "axis": [0.8944000005722046,0.0,0.4472000002861023],
-            "flareHeight": 0.5625001,
-            "flareWidth": 0.5625001
-          },
-          {
-            "pos": [1.09375,0.5312470048666,5.1875],
-            "axis": [0.8944000005722046,0.0,0.4472000002861023],
-            "flareHeight": 0.5625001,
-            "flareWidth": 0.5625001
-          },
-          {
-            "pos": [1.03125,0.5312470048666,5.28125],
-            "axis": [0.707099974155426,0.0,0.707099974155426],
-            "flareHeight": 0.5625001,
-            "flareWidth": 0.5625001
-          },
-          {
-            "pos": [1.03125,0.5312470048666,5.28125],
-            "axis": [0.707099974155426,0.0,0.707099974155426],
-            "flareHeight": 0.5625001,
-            "flareWidth": 0.5625001
-          },
-          {
-            "pos": [0.71875,0.5312470048666,5.3515625],
-            "axis": [0.09950000047683716,-0.016599999740719795,0.9948999881744385],
-            "flareHeight": 0.5625001,
-            "flareWidth": 0.5625001
-          },
-          {
-            "pos": [0.71875,0.5312470048666,5.3515625],
-            "axis": [0.09950000047683716,-0.016599999740719795,0.9948999881744385],
-            "flareHeight": 0.5625001,
-            "flareWidth": 0.5625001
-          },
-          {
-            "pos": [0.71875,0.40624698996543884,5.3515625],
-            "axis": [0.08299999684095383,0.0,0.9965000152587891],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [0.71875,0.40624698996543884,5.3515625],
-            "axis": [0.08299999684095383,0.0,0.9965000152587891],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [-0.71875,0.40624698996543884,5.3515625],
-            "axis": [-0.08299999684095383,0.0,0.9965000152587891],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [-0.71875,0.40624698996543884,5.3515625],
-            "axis": [-0.08299999684095383,0.0,0.9965000152587891],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [-0.75,0.5312470048666,5.3515625],
-            "axis": [-0.09950000047683716,-0.016599999740719795,0.9948999881744385],
-            "flareHeight": 0.5625001,
-            "flareWidth": 0.5625001
-          },
-          {
-            "pos": [-0.71875,0.5312470048666,5.3515625],
-            "axis": [-0.09950000047683716,-0.016599999740719795,0.9948999881744385],
-            "flareHeight": 0.5625001,
-            "flareWidth": 0.5625001
-          },
-          {
-            "pos": [-1.09375,0.5312470048666,5.1875],
-            "axis": [-0.8944000005722046,0.0,0.4472000002861023],
-            "flareHeight": 0.5625001,
-            "flareWidth": 0.5625001
-          },
-          {
-            "pos": [-1.09375,0.5312470048666,5.1875],
-            "axis": [-0.8944000005722046,0.0,0.4472000002861023],
-            "flareHeight": 0.5625001,
-            "flareWidth": 0.5625001
-          },
-          {
-            "pos": [-1.03125,0.5312470048666,5.28125],
-            "axis": [-0.707099974155426,0.0,0.707099974155426],
-            "flareHeight": 0.5625001,
-            "flareWidth": 0.5625001
-          },
-          {
-            "pos": [-1.03125,0.5312470048666,5.28125],
-            "axis": [-0.707099974155426,0.0,0.707099974155426],
-            "flareHeight": 0.5625001,
-            "flareWidth": 0.5625001
-          },
-          {
-            "pos": [0.28125,0.5437040030956268,3.029559016227722],
-            "axis": [0.0,0.6690999865531921,-0.7430999875068665],
-            "flareHeight": 0.1875,
-            "flareWidth": 0.1875
-          },
-          {
-            "pos": [0.28125,0.5437040030956268,3.029559016227722],
-            "axis": [0.0,0.6690999865531921,-0.7430999875068665],
-            "flareHeight": 0.1875,
-            "flareWidth": 0.1875
+            "pos": [0.8, 0.5, 5.38],
+            "axis": [0.0,0.0,1.0],
+            "flareHeight": 0.75,
+            "flareWidth": 0.75
           }
         ]
       }
@@ -1932,7 +1462,7 @@
       }
     ],
     "particles": [
-      {
+      {"_comment": "Exhaust particles Left",
         "type": "smoke",
         "spawningOrientation": "entity",
         "renderingOrientation": "player",
@@ -1942,8 +1472,8 @@
         "scale": 0.2,
         "hitboxSize": 0.2,
         "color": "D9D9D9",
-        "pos": [1.0625,-0.21875,0.875],
-        "initialVelocity": [1.0,0.0,0.0],
+        "pos": [0.5, -0.10938, -1.375],
+        "initialVelocity": [0.0,0.0,-1.0],
         "activeAnimations": [
           {
             "animationType": "visibility",
@@ -1953,7 +1483,7 @@
           }
         ]
       },
-      {
+      {"_comment": "Engine go ouch",
         "type": "smoke",
         "spawningOrientation": "entity",
         "renderingOrientation": "player",
@@ -1961,8 +1491,8 @@
         "scale": 0.5,
         "hitboxSize": 0.2,
         "color": "000000",
-        "pos": [1.0625,-0.21875,0.875],
-        "initialVelocity": [1.0,0.0,0.0],
+        "pos": [0.5, -0.10938, -1.375],
+        "initialVelocity": [0.0,0.0,-1.0],
         "activeAnimations": [
           {
             "animationType": "visibility",
@@ -1972,7 +1502,7 @@
           }
         ]
       },
-      {
+      {"_comment": "Exhaust particles Right",
         "type": "smoke",
         "spawningOrientation": "entity",
         "renderingOrientation": "player",
@@ -1982,8 +1512,8 @@
         "scale": 0.2,
         "hitboxSize": 0.2,
         "color": "D9D9D9",
-        "pos": [-1.0625,-0.21875,0.875],
-        "initialVelocity": [-1.0,0.0,0.0],
+        "pos": [-0.5, -0.10938, -1.375],
+        "initialVelocity": [0.0,0.0,-1.0],
         "activeAnimations": [
           {
             "animationType": "visibility",
@@ -1993,7 +1523,7 @@
           }
         ]
       },
-      {
+      {"_comment": "Engine go ouch",
         "type": "smoke",
         "spawningOrientation": "entity",
         "renderingOrientation": "player",
@@ -2001,8 +1531,8 @@
         "scale": 0.5,
         "hitboxSize": 0.2,
         "color": "000000",
-        "pos": [-1.0625,-0.21875,0.875],
-        "initialVelocity": [-1.0,0.0,0.0],
+        "pos": [-0.5, -0.10938, -1.375],
+        "initialVelocity": [0.0,0.0,-1.0],
         "activeAnimations": [
           {
             "animationType": "visibility",
