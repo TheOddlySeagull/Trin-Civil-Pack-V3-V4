@@ -87,3 +87,17 @@
 
 - Tweaked the entire inventory organisation: Split the pack into 4 tabs
 - Tweaked item IDs: WARNING: all cars will despawn in your save!
+
+---
+
+## License
+
+[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
+
+---
+
+## Author Info
+
+- Discord - [TheOddlySeagull](https://discordapp.com/users/374911928428134400)
+- GitHub - [TheOddlySeagull](https://github.com/TheOddlySeagull)
+
