@@ -1,6 +1,14 @@
 # Trin Civil Pack Changelogs
 
-## Trin Civil Pack 3.21.0 (4.1) changelog:
+## Trin Civil Pack 3.22.0 (4.2) changelog: (WIP)
+
+### Main Additions:
+
+- Reintroduced Trin Urlon V4, a mid-size 4wd sedan
+
+---
+
+## Trin Civil Pack 3.21.1 (4.1.1) changelog:
 
 ### Fixes:
 
@@ -87,17 +95,3 @@
 
 - Tweaked the entire inventory organisation: Split the pack into 4 tabs
 - Tweaked item IDs: WARNING: all cars will despawn in your save!
-
----
-
-## License
-
-[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
-
----
-
-## Author Info
-
-- Discord - [TheOddlySeagull](https://discordapp.com/users/374911928428134400)
-- GitHub - [TheOddlySeagull](https://github.com/TheOddlySeagull)
-
