@@ -709,8 +709,8 @@
       "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\n?I4 Engine\nModel 1 Seats",
       "extraMaterialLists": [
         [
-          "minecraft:dye:15:3",
-          "minecraft:dye:12:2",
+          "minecraft:white_dye:0:3",
+          "minecraft:light_blue_dye:0:2",
           "minecraft:wool:7:2",
           "minecraft:wool:14:3"
         ]
