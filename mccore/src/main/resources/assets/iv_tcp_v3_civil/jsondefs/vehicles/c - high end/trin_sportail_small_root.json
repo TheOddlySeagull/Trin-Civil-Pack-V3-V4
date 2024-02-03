@@ -53,7 +53,7 @@
       ]
     },
     {
-      "pos": [1.125,0.0,4.25],
+      "pos": [1.125,0.0,3.125],
       "turnsWithSteer": true,
       "minValue": 0.7,
       "maxValue": 1.0,
@@ -70,7 +70,7 @@
         {
           "animationType": "rotation",
           "variable": "rudder",
-          "centerPoint": [1.125,0.0,4.25],
+          "centerPoint": [1.125,0.0,3.125],
           "axis": [0.0,-1.0,0.0]
         }
       ]
