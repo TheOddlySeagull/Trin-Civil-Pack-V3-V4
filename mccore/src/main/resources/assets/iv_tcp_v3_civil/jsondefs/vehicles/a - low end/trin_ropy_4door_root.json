@@ -639,10 +639,24 @@
           "variable": "engine_isautomatic_1"
         },
         {
+          "animationType": "visibility",
+          "variable": "engine_isdualclutch_1"
+        },
+        {
+          "animationType": "visibility",
+          "variable": "!engine_gear_1",
+          "reverseDelay": 6
+        },
+        {
           "animationType": "translation",
-          "variable": "!engine_clutching_1",
-          "axis": [1.0,0.0,0.0],
-          "duration": 3
+          "variable": "!engine_clutch_downshift_1",
+          "axis": [0.5,0.0,0.0],
+          "offset": 0.5
+        },
+        {
+          "animationType": "translation",
+          "variable": "!engine_clutch_upshift_1",
+          "axis": [1.0,0.0,0.0]
         }
       ]
     },
@@ -650,15 +664,49 @@
       "variable": "brakingFactor",
       "animations": [
         {
-          "animationType": "inhibitor",
-          "variable": "p_brake",
-          "clampMin": 1.0,
-          "clampMax": 1.0
+          "animationType": "visibility",
+          "variable": "p_brake"
         },
         {
           "animationType": "translation",
           "variable": "brake",
           "axis": [1.0,0.0,0.0]
+        }
+      ]
+    },
+    {"_comment": "Rev up the engine if drifting and throttle is applied",
+      "variable": "axleRatio",
+      "animations": [
+        {
+          "animationType": "visibility",
+          "variable": "slip",
+          "clampMin": 8.0,
+          "clampMax": 32767.0,
+          "absolute": true
+        },
+        {
+          "animationType": "translation",
+          "variable": "slip",
+          "axis": [0.0,0.0625,0.0],
+          "offset": -0.5,
+          "clampMin": 0.001,
+          "absolute": true
+        },
+        {
+          "animationType": "translation",
+          "variable": "throttle",
+          "axis": [1.5,0.0,0.0],
+          "offset": -0.5,
+          "clampMin": 0.0125,
+          "clampMax": 1.0
+        },
+        {
+          "animationType": "translation",
+          "variable": "engine_rpm_percent_revlimit_1",
+          "axis": [-8.0,0.0,0.0],
+          "offset": 8.5,
+          "clampMin": 0.125,
+          "clampMax": 1.0
         }
       ]
     },
@@ -668,25 +716,40 @@
       "maxValue": 1.0,
       "animations": [
         {
+          "_comment": "Roll stiffness for gripping",
           "animationType": "translation",
           "variable": "turn_indicator",
-          "axis": [0.0,0.0,-0.00125]
+          "axis": [0.0,-0.001,0.0]
         },
         {
+          "_comment": "Roll stiffness for sliding/drifting",
+          "animationType": "translation",
+          "variable": "slip",
+          "axis": [0.0,0.005,0.0]
+        },
+        {
+          "_comment": "Wheel is or isn't on the ground",
           "animationType": "translation",
           "variable": "!ground_onground_1",
-          "axis": [0.0,-1.0,0.0],
-          "duration": 4
+          "axis": [0.0,-1.0,0.0]
         },
         {
-          "animationType": "inhibitor",
-          "variable": "speed",
-          "clampMax": 0.125
+          "_comment": "If vehicle is dead, make it collapse",
+          "animationType": "translation",
+          "variable": "damage_totaled",
+          "axis": [0.0,1.0,0.0]
         },
         {
+          "_comment": "Pitch stiffness",
           "animationType": "translation",
           "variable": "acceleration",
           "axis": [0.0,4.0,0.0]
+        },
+        {
+          "_comment": "Returns variable to 0 when nothing is being added or subtracted",
+          "animationType": "translation",
+          "variable": "rlBodyroll",
+          "axis": [0.0,-0.375,0.0]
         }
       ]
     },
@@ -696,25 +759,40 @@
       "maxValue": 1.0,
       "animations": [
         {
+          "_comment": "Roll stiffness for gripping",
           "animationType": "translation",
           "variable": "turn_indicator",
-          "axis": [0.0,0.0,-0.00125]
+          "axis": [0.0,-0.001,0.0]
         },
         {
+          "_comment": "Roll stiffness for sliding/drifting",
+          "animationType": "translation",
+          "variable": "slip",
+          "axis": [0.0,0.005,0.0]
+        },
+        {
+          "_comment": "Wheel is or isn't on the ground",
           "animationType": "translation",
           "variable": "!ground_onground_2",
-          "axis": [0.0,1.0,0.0],
-          "duration": 4
+          "axis": [0.0,1.0,0.0]
         },
         {
-          "animationType": "inhibitor",
-          "variable": "speed",
-          "clampMax": 0.125
+          "_comment": "If vehicle is dead, make it collapse",
+          "animationType": "translation",
+          "variable": "damage_totaled",
+          "axis": [0.0,-1.0,0.0]
         },
         {
+          "_comment": "Pitch stiffness",
           "animationType": "translation",
           "variable": "acceleration",
           "axis": [0.0,-4.0,0.0]
+        },
+        {
+          "_comment": "Returns variable to 0 when nothing is being added or subtracted",
+          "animationType": "translation",
+          "variable": "rrBodyroll",
+          "axis": [0.0,-0.375,0.0]
         }
       ]
     },
@@ -724,25 +802,40 @@
       "maxValue": 1.0,
       "animations": [
         {
+          "_comment": "Roll stiffness for gripping",
           "animationType": "translation",
           "variable": "turn_indicator",
-          "axis": [0.0,0.0,-0.00125]
+          "axis": [0.0,-0.001,0.0]
         },
         {
+          "_comment": "Roll stiffness for sliding/drifting",
+          "animationType": "translation",
+          "variable": "slip",
+          "axis": [0.0,0.005,0.0]
+        },
+        {
+          "_comment": "Wheel is or isn't on the ground",
           "animationType": "translation",
           "variable": "!ground_onground_3",
-          "axis": [0.0,-1.0,0.0],
-          "duration": 4
+          "axis": [0.0,1.0,0.0]
         },
         {
-          "animationType": "inhibitor",
-          "variable": "speed",
-          "clampMax": 0.125
+          "_comment": "If vehicle is dead, make it collapse",
+          "animationType": "translation",
+          "variable": "damage_totaled",
+          "axis": [0.0,-1.0,0.0]
         },
         {
+          "_comment": "Pitch stiffness",
           "animationType": "translation",
           "variable": "acceleration",
           "axis": [0.0,-4.0,0.0]
+        },
+        {
+          "_comment": "Returns variable to 0 when nothing is being added or subtracted",
+          "animationType": "translation",
+          "variable": "flBodyroll",
+          "axis": [0.0,-0.375,0.0]
         }
       ]
     },
@@ -752,25 +845,40 @@
       "maxValue": 1.0,
       "animations": [
         {
+          "_comment": "Roll stiffness for gripping",
           "animationType": "translation",
           "variable": "turn_indicator",
-          "axis": [0.0,0.0,-0.00125]
+          "axis": [0.0,-0.001,0.0]
         },
         {
+          "_comment": "Roll stiffness for sliding/drifting",
+          "animationType": "translation",
+          "variable": "slip",
+          "axis": [0.0,0.005,0.0]
+        },
+        {
+          "_comment": "Wheel is or isn't on the ground",
           "animationType": "translation",
           "variable": "!ground_onground_4",
-          "axis": [0.0,1.0,0.0],
-          "duration": 4
+          "axis": [0.0,-1.0,0.0]
         },
         {
-          "animationType": "inhibitor",
-          "variable": "speed",
-          "clampMax": 0.125
+          "_comment": "If vehicle is dead, make it collapse",
+          "animationType": "translation",
+          "variable": "damage_totaled",
+          "axis": [0.0,1.0,0.0]
         },
         {
+          "_comment": "Pitch stiffness",
           "animationType": "translation",
           "variable": "acceleration",
           "axis": [0.0,4.0,0.0]
+        },
+        {
+          "_comment": "Returns variable to 0 when nothing is being added or subtracted",
+          "animationType": "translation",
+          "variable": "frBodyroll",
+          "axis": [0.0,-0.375,0.0]
         }
       ]
     }
@@ -1666,7 +1774,7 @@
   },
   "general": {
     "description": "Low End Hatchback\n4 doors, 4 seats\n\nRecommended parts:\nCompact Sized Wheels\nI3 Engine\nModel 3 Seats",
-    "health": 2120,
+    "health": 120,
     "materialLists": [
       ["mts:iv_tpp.chassis_ld4_l5m_i3_ropy:0:1","minecraft:iron_ingot:0:14","minecraft:iron_block:0:5","minecraft:glowstone_dust:0:16","minecraft:glass_pane:0:6","mts:iv_tpp.metal_pile_2:0:1"]
     ],

@@ -9,28 +9,28 @@
       "subName": "_black",
       "name": "Trin Rodeo Cabrio removable roof (black)",
       "extraMaterialLists": [
-        ["minecraft:dye:0:3"]
+        ["minecraft:black_dye:0:3"]
       ]
     },
     {
       "subName": "_brown",
       "name": "Trin Rodeo Cabrio removable roof (brown)",
       "extraMaterialLists": [
-        ["minecraft:dye:3:3"]
+        ["minecraft:brown_dye:0:3"]
       ]
     },
     {
       "subName": "_red",
       "name": "Trin Rodeo Cabrio removable roof (red)",
       "extraMaterialLists": [
-        ["minecraft:dye:1:3"]
+        ["minecraft:red_dye:0:3"]
       ]
     },
     {
       "subName": "_white",
       "name": "Trin Rodeo Cabrio removable roof (white)",
       "extraMaterialLists": [
-        ["minecraft:dye:15:3"]
+        ["minecraft:white_dye:0:3"]
       ]
     }
   ],
