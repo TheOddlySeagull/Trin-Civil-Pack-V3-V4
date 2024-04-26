@@ -1502,7 +1502,7 @@
 	},
 	"general": {
 		"description": "Mid End Heavy Duty Pickup\n4 doors, 4 seats\n\nRecommended parts:\nLarge Sized Wheels\nV8 Engine\nModel 1 Seats",
-		"health": 4000,
+		"health": 270,
 		"materialLists": [
 			["mts:iv_tpp.chassis_md6_l9m_t16_v10_heavorum:0:1","minecraft:iron_ingot:0:14","minecraft:iron_block:0:8","minecraft:glowstone_dust:0:16","minecraft:glass_pane:0:8","mts:iv_tpp.metal_pile_2:0:2","mts:iv_tpp.metal_pile_4:0:1"]
 		],
