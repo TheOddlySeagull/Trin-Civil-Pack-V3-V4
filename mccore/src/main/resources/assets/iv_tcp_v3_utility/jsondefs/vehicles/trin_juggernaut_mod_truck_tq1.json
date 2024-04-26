@@ -16,7 +16,7 @@
     "dragCoefficient": 0.75
   },
   "parts": [
-    {
+    { "_comment": "part 1: Rear2 left2 wheel",
       "pos": [1.375,0.0,-1.5],
       "rot": [0.0,0.0,0.0],
       "maxValue": 1.26,
@@ -30,9 +30,10 @@
         }
       ]
     },
-    {
+    { "_comment": "part 2: Rear2 right2 wheel",
       "pos": [-1.375,0.0,-1.5],
       "rot": [0.0,180.0,0.0],
+      "isMirrored": true,
       "maxValue": 1.26,
       "types": ["ground_wheel"],
       "animations": [
@@ -44,7 +45,7 @@
         }
       ]
     },
-    {
+    { "_comment": "part 3: rear2 left1 wheel",
       "pos": [0.9375,0.0,-1.5],
       "rot": [0.0,0.0,0.0],
       "maxValue": 1.26,
@@ -58,9 +59,10 @@
         }
       ]
     },
-    {
+    { "_comment": "part 4: rear2 right1 wheel",
       "pos": [-0.9375,0.0,-1.5],
       "rot": [0.0,180.0,0.0],
+      "isMirrored": true,
       "maxValue": 1.26,
       "types": ["ground_wheel"],
       "animations": [
@@ -72,7 +74,7 @@
         }
       ]
     },
-    {
+    { "_comment": "part 5: rear1 left2 wheel",
       "pos": [1.375,0.0,0.0],
       "rot": [0.0,0.0,0.0],
       "maxValue": 1.26,
@@ -86,9 +88,10 @@
         }
       ]
     },
-    {
+    { "_comment": "part 6: rear1 right2 wheel",
       "pos": [-1.375,0.0,0.0],
       "rot": [0.0,180.0,0.0],
+      "isMirrored": true,
       "maxValue": 1.26,
       "types": ["ground_wheel"],
       "animations": [
@@ -100,7 +103,7 @@
         }
       ]
     },
-    {
+    { "_comment": "part 7: rear1 left1 wheel",
       "pos": [0.9375,0.0,0.0],
       "rot": [0.0,0.0,0.0],
       "maxValue": 1.26,
@@ -114,9 +117,10 @@
         }
       ]
     },
-    {
+    { "_comment": "part 8: rear1 right1 wheel",
       "pos": [-0.9375,0.0,0.0],
       "rot": [0.0,180.0,0.0],
+      "isMirrored": true,
       "maxValue": 1.26,
       "types": ["ground_wheel"],
       "animations": [
@@ -128,7 +132,7 @@
         }
       ]
     },
-    {
+    { "_comment": "part 9: front left wheel",
       "pos": [1.4,0.0,6.25],
       "rot": [0.0,0.0,0.0],
       "turnsWithSteer": true,
@@ -149,10 +153,11 @@
         }
       ]
     },
-    {
+    { "_comment": "part 10: front right wheel",
       "pos": [-1.4,0.0,6.25],
       "rot": [0.0,180.0,0.0],
       "turnsWithSteer": true,
+      "isMirrored": true,
       "maxValue": 1.26,
       "types": ["ground_wheel"],
       "animations": [
