@@ -974,9 +974,7 @@
             "duration": 20,
             "forwardsEasing": "easeinoutsine",
             "reverseEasing": "easeinoutsine",
-            "forwardsDelay": 10,
-            "forwardsStartSound": "iv_tpp:dooropen",
-            "reverseEndSound": "iv_tpp:doorclose"
+            "forwardsDelay": 10
           },
           {
             "animationType": "translation",
