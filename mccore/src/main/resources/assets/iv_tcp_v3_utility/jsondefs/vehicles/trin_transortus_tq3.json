@@ -2837,7 +2837,7 @@
   },
   "general": {
     "description": "Utility City Bus\nOpen passenger doors by clicking intertainment screen\n\nRecommended parts:\nLarge Sized Wheels\nHeavy Duty V8 Engine\nModel 1 Seat (Driver), Bus seats (Passengers)",
-    "health": 21000,
+    "health": 250,
     "materialLists": [
       ["minecraft:iron_ingot:0:16","minecraft:iron_block:0:13","minecraft:glowstone_dust:0:16","minecraft:glass_pane:0:36","mts:iv_tpp.metal_pile_4:0:3","mts:iv_tpp.metal_pile_1:0:6","mts:iv_tpp.chassis_cbs_t3d:0:1","minecraft:daylight_detector:0:10"]
     ],

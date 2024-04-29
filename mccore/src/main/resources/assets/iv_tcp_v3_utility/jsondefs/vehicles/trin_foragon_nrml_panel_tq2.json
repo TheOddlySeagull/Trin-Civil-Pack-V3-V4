@@ -1476,7 +1476,7 @@
   },
   "general": {
     "stackSize": 1,
-    "health": 3800,
+    "health": 200,
     "materialLists": [
       ["minecraft:iron_ingot:0:16","minecraft:iron_block:0:7","minecraft:glowstone_dust:0:16","minecraft:glass_pane:0:5","mts:iv_tpp.metal_pile_2:0:1","mts:iv_tpp.metal_pile_4:0:1","mts:iv_tpp.chassis_md4_l7m_t14_i4_foragon:0:1"]
     ],

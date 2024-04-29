@@ -2125,7 +2125,7 @@
   },
   "general": {
     "description": "Utility Class C Super Heavy Duty Tow Truck\n\nRecommended parts:\nGiant Sized Wheels\nHeavy Duty V10 Engine\nModel 2 Seats",
-    "health": 48000,
+    "health": 400,
     "materialLists": [
       ["minecraft:iron_ingot:0:16","minecraft:iron_block:0:12","minecraft:iron_nugget:0:12","minecraft:glowstone_dust:0:18","minecraft:wool:7:4","minecraft:glass_pane:0:6"]
     ],

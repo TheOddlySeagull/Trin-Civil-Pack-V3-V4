@@ -1788,7 +1788,7 @@
   },
   "general": {
     "description": "Utility Modular Truck Platform\n\nRecommended parts:\nLarge Sized Wheels\nHeavy Duty V8 Engine\nModel 2 Seats",
-    "health": 9000,
+    "health": 260,
     "materialLists": [
       ["minecraft:iron_ingot:0:16","minecraft:iron_block:0:11","minecraft:glowstone_dust:0:16","minecraft:glass_pane:0:4","mts:iv_tpp.metal_pile_2:0:2","mts:iv_tpp.metal_pile_1:0:2","mts:iv_tpp.chassis_hd10mod_t16_hv8:0:1"]
     ],

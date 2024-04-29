@@ -1588,7 +1588,7 @@
   },
   "general": {
     "description": "Utility Class B Medium Duty Tow Truck\n\nRecommended parts:\nGiant Sized Wheels\nHeavy Duty V10 Engine\nModel 1 Seats",
-    "health": 26000,
+    "health": 250,
     "materialLists": [
       ["mts:iv_tpp.chassis_HD6_t20_HV10:0:1","minecraft:iron_ingot:0:14","minecraft:iron_block:0:9","minecraft:glowstone_dust:0:16","minecraft:glass_pane:0:4","mts:iv_tpp.metal_pile_2:0:2","mts:iv_tpp.metal_pile_1:0:2","mts:iv_tpp.metal_pile_4:0:1","mts:iv_tpp.fire_extinguisher_red:0:1"]
     ],
