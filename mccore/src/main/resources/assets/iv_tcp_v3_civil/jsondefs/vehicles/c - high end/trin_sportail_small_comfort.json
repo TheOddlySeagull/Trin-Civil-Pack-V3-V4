@@ -1854,7 +1854,7 @@
   },
   "general": {
     "description": "High End Compact SUV\n3 door, 4 seater\n\nRecommended parts:\nLarge Sized Wheels\nV8 Engine\nModel 1 Seats",
-    "health": 2100,
+    "health": 200,
     "materialLists": [
       [
         "minecraft:iron_ingot:0:16",
