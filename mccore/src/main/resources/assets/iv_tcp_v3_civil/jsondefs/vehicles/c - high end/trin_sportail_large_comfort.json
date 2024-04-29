@@ -2089,7 +2089,7 @@
   },
   "general": {
     "description": "High End Full Size SUV\n4 doors, 6 seats\n\nRecommended Parts:\nLarge Sized Wheels\nV6 Engine\nModel 1 Seats",
-    "health": 5600,
+    "health": 280,
     "materialLists": [
       [
         "minecraft:iron_ingot:0:16",
