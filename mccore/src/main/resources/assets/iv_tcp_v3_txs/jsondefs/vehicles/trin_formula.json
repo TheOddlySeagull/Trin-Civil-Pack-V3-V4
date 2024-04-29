@@ -651,7 +651,7 @@
   },
   "general": {
     "description": "Trin Extreme Sport (TXS) F1. Nyoom.\n\nRecommended parts:\nTXS Average Sized Wheels\nTXS V12 Engine\nModel 3 Seats",
-    "health": 1320,
+    "health": 100,
     "materialLists": [
       ["minecraft:iron_ingot:0:16","minecraft:iron_block:0:7","minecraft:glowstone_dust:0:16"]
     ],

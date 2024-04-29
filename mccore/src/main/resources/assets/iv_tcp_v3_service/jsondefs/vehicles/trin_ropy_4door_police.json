@@ -1717,7 +1717,7 @@
   },
   "general": {
     "description": "Low End Hatchback\n4 doors, 4 seats\n\nRecommended parts:\nCompact Sized Wheels\nI3 Engine\nModel 3 Seats",
-    "health": 2120,
+    "health": 110,
     "materialLists": [
       ["mts:iv_tpp.chassis_ld4_l5m_i3_ropy:0:1","minecraft:iron_ingot:0:14","minecraft:iron_block:0:5","minecraft:glowstone_dust:0:16","minecraft:glass_pane:0:6","mts:iv_tpp.metal_pile_2:0:1"]
     ],
