@@ -1081,7 +1081,7 @@
   },
   "general": {
     "description": "Body panels come in the trin Part Pack\n\nRecommended parts:\nAverage Wheels\ni3 engine\nModel 3 Seats",
-    "health": 2000,
+    "health": 260,
     "materialLists": [
       [
         "mts:iv_tpp.chassis_nce_ladder_t6m:0:1",
