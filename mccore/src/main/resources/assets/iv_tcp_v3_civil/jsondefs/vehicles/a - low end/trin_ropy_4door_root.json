@@ -969,6 +969,12 @@
             "reverseEasing": "easeincubic",
             "forwardsStartSound": "iv_tpp:dooropen",
             "reverseEndSound": "iv_tpp:doorclose"
+          },
+          {
+            "animationType": "rotation",
+            "variable": "damage_totaled",
+            "centerPoint": [-1.125, 0.4375, 2.90625],
+            "axis": [6.3,5.0,9.5]
           }
         ]
       },
@@ -990,6 +996,12 @@
             "reverseEasing": "easeincubic",
             "forwardsStartSound": "iv_tpp:dooropen",
             "reverseEndSound": "iv_tpp:doorclose"
+          },
+          {
+            "animationType": "rotation",
+            "variable": "damage_totaled",
+            "centerPoint": [1.125, 0.4375, 2.90625],
+            "axis": [7.5, -6.5, -2.2]
           }
         ]
       },
@@ -1011,6 +1023,12 @@
             "reverseEasing": "easeincubic",
             "forwardsStartSound": "iv_tpp:dooropen",
             "reverseEndSound": "iv_tpp:doorclose"
+          },
+          {
+            "animationType": "rotation",
+            "variable": "damage_totaled",
+            "centerPoint": [-1.125, 0.4375, 1.53125],
+            "axis": [-5.2, 3.0, 4.5]
           }
         ]
       },
@@ -1032,6 +1050,12 @@
             "reverseEasing": "easeincubic",
             "forwardsStartSound": "iv_tpp:dooropen",
             "reverseEndSound": "iv_tpp:doorclose"
+          },
+          {
+            "animationType": "rotation",
+            "variable": "damage_totaled",
+            "centerPoint": [1.125, 0.4375, 1.53125],
+            "axis": [-2.2, 4.0, -2.5]
           }
         ]
       },
@@ -1053,6 +1077,12 @@
             "reverseEasing": "easeincubic",
             "forwardsStartSound": "iv_tpp:hoodopen",
             "reverseStartSound": "iv_tpp:hoodclose"
+          },
+          {
+            "animationType": "rotation",
+            "variable": "damage_totaled",
+            "centerPoint": [0, 0.8125, 3.09375],
+            "axis": [-10.2, 6.0, 5.5]
           }
         ]
       },
@@ -1069,6 +1099,12 @@
             "reverseEasing": "easeincubic",
             "forwardsStartSound": "iv_tpp:bootopen",
             "reverseEndSound": "iv_tpp:bootclose"
+          },
+          {
+            "animationType": "rotation",
+            "variable": "damage_totaled",
+            "centerPoint": [0, 1.4375, 0.15625],
+            "axis": [5.2, 3.0, 4.5]
           }
         ]
       },
