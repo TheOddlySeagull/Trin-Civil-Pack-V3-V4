@@ -1,662 +1,1045 @@
 {
-  "motorized": {
-    "hasOpenTop": true,
-    "emptyMass": 660,
-    "fuelCapacity": 20000,
-    "downForce": 0.8,
-    "overSteer": 3.0,
-    "underSteer": 4.0,
-    "overSteerAccel": 4.0,
-    "overSteerDecel": -5.0,
-    "axleRatio": 4.1,
-    "brakingFactor": 0.8,
-    "maxTiltAngle": -2.0,
-    "dragCoefficient": 0.15
-  },
-  "parts": [
-    {
-      "pos": [1.1563,0.0,0.0],
-      "minValue": 0.8,
-      "maxValue": 0.88,
-      "types": ["ground_wheel"],
-      "animations": [
+    "motorized": {
+        "hasOpenTop": true,
+        "emptyMass": 660,
+        "fuelCapacity": 20000,
+        "downForce": 0.8,
+        "overSteer": 3.0,
+        "underSteer": 4.0,
+        "overSteerAccel": 4.0,
+        "overSteerDecel": -5.0,
+        "axleRatio": 4.1,
+        "brakingFactor": 0.8,
+        "maxTiltAngle": -2.0,
+        "dragCoefficient": 0.15
+    },
+    "parts": [
         {
-          "animationType": "rotation",
-          "variable": "rlBodyroll",
-          "centerPoint": [-1.0E-8,0.0,0.0],
-          "axis": [0.0,0.0,2.0]
+            "pos": [
+                1.1563,
+                0.0,
+                0.0
+            ],
+            "minValue": 0.8,
+            "maxValue": 0.88,
+            "types": [
+                "ground_wheel"
+            ],
+            "animations": [
+                {
+                    "animationType": "rotation",
+                    "variable": "rlBodyroll",
+                    "centerPoint": [
+                        -1e-08,
+                        0.0,
+                        0.0
+                    ],
+                    "axis": [
+                        0.0,
+                        0.0,
+                        2.0
+                    ]
+                }
+            ]
+        },
+        {
+            "pos": [
+                -1.1563,
+                0.0,
+                0.0
+            ],
+            "rot": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "isMirrored": true,
+            "minValue": 0.8,
+            "maxValue": 0.88,
+            "types": [
+                "ground_wheel"
+            ],
+            "animations": [
+                {
+                    "animationType": "rotation",
+                    "variable": "rrBodyroll",
+                    "centerPoint": [
+                        -1e-08,
+                        0.0,
+                        0.0
+                    ],
+                    "axis": [
+                        0.0,
+                        0.0,
+                        2.0
+                    ]
+                }
+            ]
+        },
+        {
+            "pos": [
+                1.1563,
+                0.0,
+                4.625
+            ],
+            "turnsWithSteer": true,
+            "minValue": 0.65,
+            "maxValue": 0.88,
+            "types": [
+                "ground_wheel"
+            ],
+            "animations": [
+                {
+                    "animationType": "rotation",
+                    "variable": "flBodyroll",
+                    "centerPoint": [
+                        -1e-08,
+                        0.0,
+                        4.625
+                    ],
+                    "axis": [
+                        0.0,
+                        0.0,
+                        2.0
+                    ]
+                },
+                {
+                    "animationType": "rotation",
+                    "variable": "rudder",
+                    "centerPoint": [
+                        1.1563,
+                        0.0,
+                        4.625
+                    ],
+                    "axis": [
+                        0.0,
+                        -1.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "pos": [
+                -1.1563,
+                0.0,
+                4.625
+            ],
+            "rot": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "turnsWithSteer": true,
+            "isMirrored": true,
+            "minValue": 0.65,
+            "maxValue": 0.88,
+            "types": [
+                "ground_wheel"
+            ],
+            "animations": [
+                {
+                    "animationType": "rotation",
+                    "variable": "frBodyroll",
+                    "centerPoint": [
+                        -1e-08,
+                        0.0,
+                        4.625
+                    ],
+                    "axis": [
+                        0.0,
+                        0.0,
+                        2.0
+                    ]
+                },
+                {
+                    "animationType": "rotation",
+                    "variable": "rudder",
+                    "centerPoint": [
+                        -1.1563,
+                        0.0,
+                        4.625
+                    ],
+                    "axis": [
+                        0.0,
+                        -1.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "pos": [
+                0.0,
+                0.0,
+                1.75
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "dismountPos": [
+                1.0,
+                0.0,
+                1.75
+            ],
+            "isController": true,
+            "types": [
+                "seat"
+            ]
+        },
+        {
+            "pos": [
+                0.0,
+                -0.125,
+                -0.4375
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "maxValue": 1.1,
+            "types": [
+                "engine_car"
+            ],
+            "interactableVariables": [
+                [
+                    "door_hood"
+                ]
+            ],
+            "linkedParts": [
+                1,
+                2,
+                3,
+                4
+            ]
         }
-      ]
-    },
-    {
-      "pos": [-1.1563,0.0,0.0],
-      "rot": [0.0,180.0,0.0],
-      "isMirrored": true,
-      "minValue": 0.8,
-      "maxValue": 0.88,
-      "types": ["ground_wheel"],
-      "animations": [
+    ],
+    "collisionGroups": [
         {
-          "animationType": "rotation",
-          "variable": "rrBodyroll",
-          "centerPoint": [-1.0E-8,0.0,0.0],
-          "axis": [0.0,0.0,2.0]
+            "isInterior": true,
+            "collisions": [
+                {
+                    "pos": [
+                        0.0,
+                        0.3125,
+                        -0.3125
+                    ],
+                    "width": 1.0,
+                    "height": 0.5,
+                    "variableName": "door_hood",
+                    "variableType": "toggle"
+                }
+            ],
+            "animations": [
+                {
+                    "animationType": "translation",
+                    "variable": "door_hood",
+                    "axis": [
+                        0.0,
+                        0.4375,
+                        0.1875
+                    ]
+                }
+            ]
+        },
+        {
+            "collisions": [
+                {
+                    "pos": [
+                        0.0,
+                        0.0625,
+                        5.125
+                    ],
+                    "width": 1.0,
+                    "height": 0.125
+                },
+                {
+                    "pos": [
+                        0.0,
+                        0.375,
+                        4.125
+                    ],
+                    "width": 1.0,
+                    "height": 0.125
+                },
+                {
+                    "pos": [
+                        0.0,
+                        0.5625,
+                        3.0
+                    ],
+                    "width": 1.0,
+                    "height": 0.125
+                },
+                {
+                    "pos": [
+                        0.75,
+                        0.375,
+                        2.125
+                    ],
+                    "width": 1.0,
+                    "height": 0.125
+                },
+                {
+                    "pos": [
+                        -0.75,
+                        0.375,
+                        2.125
+                    ],
+                    "width": 1.0,
+                    "height": 0.125
+                },
+                {
+                    "pos": [
+                        0.75,
+                        0.375,
+                        1.1875
+                    ],
+                    "width": 0.5,
+                    "height": 0.125
+                },
+                {
+                    "pos": [
+                        -0.75,
+                        0.375,
+                        1.1875
+                    ],
+                    "width": 0.5,
+                    "height": 0.125
+                },
+                {
+                    "pos": [
+                        0.0,
+                        0.5,
+                        0.6875
+                    ],
+                    "width": 1.0,
+                    "height": 0.125
+                },
+                {
+                    "pos": [
+                        0.0,
+                        0.1875,
+                        -0.3125
+                    ],
+                    "width": 1.0,
+                    "height": 0.125
+                }
+            ]
         }
-      ]
-    },
-    {
-      "pos": [1.1563,0.0,4.625],
-      "turnsWithSteer": true,
-      "minValue": 0.65,
-      "maxValue": 0.88,
-      "types": ["ground_wheel"],
-      "animations": [
+    ],
+    "connectionGroups": [
         {
-          "animationType": "rotation",
-          "variable": "flBodyroll",
-          "centerPoint": [-1.0E-8,0.0,4.625],
-          "axis": [0.0,0.0,2.0]
-        },
-        {
-          "animationType": "rotation",
-          "variable": "rudder",
-          "centerPoint": [1.1563,0.0,4.625],
-          "axis": [0.0,-1.0,0.0]
+            "groupName": "HOOKUP",
+            "isHookup": true,
+            "connections": [
+                {
+                    "type": "tow_bumper",
+                    "pos": [
+                        0.0,
+                        -0.25,
+                        5.9375
+                    ],
+                    "distance": 2.0
+                },
+                {
+                    "type": "tow_wheel",
+                    "pos": [
+                        0.0,
+                        -0.4375,
+                        4.625
+                    ],
+                    "distance": 2.0
+                }
+            ]
         }
-      ]
-    },
-    {
-      "pos": [-1.1563,0.0,4.625],
-      "rot": [0.0,180.0,0.0],
-      "turnsWithSteer": true,
-      "isMirrored": true,
-      "minValue": 0.65,
-      "maxValue": 0.88,
-      "types": ["ground_wheel"],
-      "animations": [
+    ],
+    "instruments": [
         {
-          "animationType": "rotation",
-          "variable": "frBodyroll",
-          "centerPoint": [-1.0E-8,0.0,4.625],
-          "axis": [0.0,0.0,2.0]
+            "pos": [
+                0.3125,
+                0.46875,
+                2.35625
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 0.015625,
+            "hudX": 80,
+            "hudY": 36,
+            "hudScale": 0.25
         },
         {
-          "animationType": "rotation",
-          "variable": "rudder",
-          "centerPoint": [-1.1563,0.0,4.625],
-          "axis": [0.0,-1.0,0.0]
+            "pos": [
+                0.15625,
+                0.53125,
+                2.35625
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 0.015625,
+            "hudX": 160,
+            "hudY": 36,
+            "hudScale": 0.5
+        },
+        {
+            "pos": [
+                -0.15625,
+                0.53125,
+                2.35625
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 0.015625,
+            "hudX": 240,
+            "hudY": 36,
+            "hudScale": 0.5
+        },
+        {
+            "pos": [
+                -0.3125,
+                0.46875,
+                2.35625
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 0.015625,
+            "hudX": 320,
+            "hudY": 36,
+            "hudScale": 0.25
         }
-      ]
-    },
-    {
-      "pos": [0.0,0.0,1.75],
-      "rot": [0.0,0.0,0.0],
-      "dismountPos": [1.0,0.0,1.75],
-      "isController": true,
-      "types": ["seat"]
-    },
-    {
-      "pos": [0.0,-0.125,-0.4375],
-      "rot": [0.0,0.0,0.0],
-      "maxValue": 1.1,
-      "types": ["engine_car"],
-      "interactableVariables": [
-        ["door_hood"]
-      ],
-      "linkedParts": [1,2,3,4]
-    }
-  ],
-  "collisionGroups": [
-    {
-      "isInterior": true,
-      "collisions": [
+    ],
+    "definitions": [
         {
-          "pos": [0.0,0.3125,-0.3125],
-          "width": 1.0,
-          "height": 0.5,
-          "variableName": "door_hood",
-          "variableType": "toggle"
+            "subName": "_redandblack",
+            "name": "Trin TXS Formula number 1 - Red & Black paint",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_double_bucket_redandblack:0:1"
+                ]
+            ]
+        },
+        {
+            "subName": "_tungstenandelectricblue",
+            "name": "Trin TXS Formula number 2 - Tungsten & Electric Blue paint",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_double_bucket_tungstenandelectricblue:0:1"
+                ]
+            ]
+        },
+        {
+            "subName": "_pureblack",
+            "name": "Trin TXS Formula number 3 - Pure Black paint",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_bucket_pureblack:0:1"
+                ]
+            ]
+        },
+        {
+            "subName": "_white",
+            "name": "Trin TXS Formula number 4 - White paint",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_bucket_white:0:1"
+                ]
+            ]
+        },
+        {
+            "subName": "_tungsten",
+            "name": "Trin TXS Formula number 5 - Tungsten paint",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_bucket_tungsten:0:1"
+                ]
+            ]
+        },
+        {
+            "subName": "_spruce",
+            "name": "Trin TXS Formula number 6 - Spruce paint",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_bucket_spruce:0:1"
+                ]
+            ]
+        },
+        {
+            "subName": "_sunshineyellow",
+            "name": "Trin TXS Formula number 7 - Sunshine paint",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_bucket_sunshineyellow:0:1"
+                ]
+            ]
+        },
+        {
+            "subName": "_plum",
+            "name": "Trin TXS Formula number 8 - Plum paint",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_bucket_plum:0:1"
+                ]
+            ]
+        },
+        {
+            "subName": "_firered",
+            "name": "Trin TXS Formula number 9 - Fire Red paint",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_bucket_firered:0:1"
+                ]
+            ]
         }
-      ],
-      "animations": [
+    ],
+    "variableModifiers": [
         {
-          "animationType": "translation",
-          "variable": "door_hood",
-          "axis": [0.0,0.4375,0.1875]
-        }
-      ]
-    },
-    {
-      "collisions": [
-        {
-          "pos": [0.0,0.0625,5.125],
-          "width": 1.0,
-          "height": 0.125
-        },
-        {
-          "pos": [0.0,0.375,4.125],
-          "width": 1.0,
-          "height": 0.125
-        },
-        {
-          "pos": [0.0,0.5625,3.0],
-          "width": 1.0,
-          "height": 0.125
-        },
-        {
-          "pos": [0.75,0.375,2.125],
-          "width": 1.0,
-          "height": 0.125
-        },
-        {
-          "pos": [-0.75,0.375,2.125],
-          "width": 1.0,
-          "height": 0.125
-        },
-        {
-          "pos": [0.75,0.375,1.1875],
-          "width": 0.5,
-          "height": 0.125
-        },
-        {
-          "pos": [-0.75,0.375,1.1875],
-          "width": 0.5,
-          "height": 0.125
-        },
-        {
-          "pos": [0.0,0.5,0.6875],
-          "width": 1.0,
-          "height": 0.125
-        },
-        {
-          "pos": [0.0,0.1875,-0.3125],
-          "width": 1.0,
-          "height": 0.125
-        }
-      ]
-    }
-  ],
-  "connectionGroups": [
-    {
-      "groupName": "HOOKUP",
-      "isHookup": true,
-      "connections": [
-        {
-          "type": "tow_bumper",
-          "pos": [0.0,-0.25,5.9375],
-          "distance": 2.0
-        },
-        {
-          "type": "tow_wheel",
-          "pos": [0.0,-0.4375,4.625],
-          "distance": 2.0
-        }
-      ]
-    }
-  ],
-  "instruments": [
-    {
-      "pos": [0.3125,0.46875,2.35625],
-      "rot": [0.0,0.0,0.0],
-      "scale": 0.015625,
-      "hudX": 80,
-      "hudY": 36,
-      "hudScale": 0.25
-    },
-    {
-      "pos": [0.15625,0.53125,2.35625],
-      "rot": [0.0,0.0,0.0],
-      "scale": 0.015625,
-      "hudX": 160,
-      "hudY": 36,
-      "hudScale": 0.5
-    },
-    {
-      "pos": [-0.15625,0.53125,2.35625],
-      "rot": [0.0,0.0,0.0],
-      "scale": 0.015625,
-      "hudX": 240,
-      "hudY": 36,
-      "hudScale": 0.5
-    },
-    {
-      "pos": [-0.3125,0.46875,2.35625],
-      "rot": [0.0,0.0,0.0],
-      "scale": 0.015625,
-      "hudX": 320,
-      "hudY": 36,
-      "hudScale": 0.25
-    }
-  ],
-  "definitions": [
-    {
-      "subName": "_redandblack",
-      "name": "Trin TXS Formula number 1 - Red & Black paint",
-      "extraMaterialLists": [
-        ["mts:iv_tpp.paint_double_bucket_redandblack:0:1"]
-      ]
-    },
-    {
-      "subName": "_tungstenandelectricblue",
-      "name": "Trin TXS Formula number 2 - Tungsten & Electric Blue paint",
-      "extraMaterialLists": [
-        ["mts:iv_tpp.paint_double_bucket_tungstenandelectricblue:0:1"]
-      ]
-    },
-    {
-      "subName": "_pureblack",
-      "name": "Trin TXS Formula number 3 - Pure Black paint",
-      "extraMaterialLists": [
-        ["mts:iv_tpp.paint_bucket_pureblack:0:1"]
-      ]
-    },
-    {
-      "subName": "_white",
-      "name": "Trin TXS Formula number 4 - White paint",
-      "extraMaterialLists": [
-        ["mts:iv_tpp.paint_bucket_white:0:1"]
-      ]
-    },
-    {
-      "subName": "_tungsten",
-      "name": "Trin TXS Formula number 5 - Tungsten paint",
-      "extraMaterialLists": [
-        ["mts:iv_tpp.paint_bucket_tungsten:0:1"]
-      ]
-    },
-    {
-      "subName": "_spruce",
-      "name": "Trin TXS Formula number 6 - Spruce paint",
-      "extraMaterialLists": [
-        ["mts:iv_tpp.paint_bucket_spruce:0:1"]
-      ]
-    },
-    {
-      "subName": "_sunshineyellow",
-      "name": "Trin TXS Formula number 7 - Sunshine paint",
-      "extraMaterialLists": [
-        ["mts:iv_tpp.paint_bucket_sunshineyellow:0:1"]
-      ]
-    },
-    {
-      "subName": "_plum",
-      "name": "Trin TXS Formula number 8 - Plum paint",
-      "extraMaterialLists": [
-        ["mts:iv_tpp.paint_bucket_plum:0:1"]
-      ]
-    },
-    {
-      "subName": "_firered",
-      "name": "Trin TXS Formula number 9 - Fire Red paint",
-      "extraMaterialLists": [
-        ["mts:iv_tpp.paint_bucket_firered:0:1"]
-      ]
-    }
-  ],
-  "variableModifiers": [
-    {
-      "variable": "throttle",
-      "animations": [
-        {
-          "animationType": "visibility",
-          "variable": "engine_isautomatic_1"
-        },
-        {
-          "animationType": "translation",
-          "variable": "!engine_clutching_1",
-          "axis": [1.0,0.0,0.0],
-          "duration": 3
-        }
-      ]
-    },
-    {
-      "variable": "throttle",
-      "animations": [
-        {
-          "animationType": "visibility",
-          "variable": "engine_isautomatic_1"
-        },
-        {
-          "animationType": "translation",
-          "variable": "!engine_clutching_1",
-          "axis": [1.0,0.0,0.0],
-          "duration": 3
-        }
-      ]
-    },
-    {
-      "variable": "throttle",
-      "animations": [
-        {
-          "animationType": "visibility",
-          "variable": "engine_isautomatic_1"
-        },
-        {
-          "animationType": "translation",
-          "variable": "!engine_clutching_1",
-          "axis": [1.0,0.0,0.0],
-          "duration": 3
-        }
-      ]
-    },
-    {
-      "variable": "brakingFactor",
-      "animations": [
-        {
-          "animationType": "inhibitor",
-          "variable": "p_brake",
-          "clampMin": 1.0,
-          "clampMax": 1.0
-        },
-        {
-          "animationType": "translation",
-          "variable": "brake",
-          "axis": [1.0,0.0,0.0]
-        }
-      ]
-    },
-    {
-      "variable": "rlBodyroll",
-      "minValue": -1.0,
-      "maxValue": 1.0,
-      "animations": [
-        {
-          "animationType": "translation",
-          "variable": "turn_indicator",
-          "axis": [0.0,0.0,-9.09091E-4]
-        },
-        {
-          "animationType": "translation",
-          "variable": "!ground_onground_1",
-          "axis": [0.0,-1.0,0.0],
-          "duration": 4
-        },
-        {
-          "animationType": "inhibitor",
-          "variable": "speed",
-          "clampMax": 0.125
-        },
-        {
-          "animationType": "translation",
-          "variable": "acceleration",
-          "axis": [0.0,1.5,0.0]
-        }
-      ]
-    },
-    {
-      "variable": "rrBodyroll",
-      "minValue": -1.0,
-      "maxValue": 1.0,
-      "animations": [
-        {
-          "animationType": "translation",
-          "variable": "turn_indicator",
-          "axis": [0.0,0.0,-9.09091E-4]
-        },
-        {
-          "animationType": "translation",
-          "variable": "!ground_onground_2",
-          "axis": [0.0,1.0,0.0],
-          "duration": 4
-        },
-        {
-          "animationType": "inhibitor",
-          "variable": "speed",
-          "clampMax": 0.125
-        },
-        {
-          "animationType": "translation",
-          "variable": "acceleration",
-          "axis": [0.0,-1.5,0.0]
-        }
-      ]
-    },
-    {
-      "variable": "flBodyroll",
-      "minValue": -1.0,
-      "maxValue": 1.0,
-      "animations": [
-        {
-          "animationType": "translation",
-          "variable": "turn_indicator",
-          "axis": [0.0,0.0,-9.09091E-4]
-        },
-        {
-          "animationType": "translation",
-          "variable": "!ground_onground_3",
-          "axis": [0.0,-1.0,0.0],
-          "duration": 4
-        },
-        {
-          "animationType": "inhibitor",
-          "variable": "speed",
-          "clampMax": 0.125
-        },
-        {
-          "animationType": "translation",
-          "variable": "acceleration",
-          "axis": [0.0,-1.5,0.0]
-        }
-      ]
-    },
-    {
-      "variable": "frBodyroll",
-      "minValue": -1.0,
-      "maxValue": 1.0,
-      "animations": [
-        {
-          "animationType": "translation",
-          "variable": "turn_indicator",
-          "axis": [0.0,0.0,-9.09091E-4]
-        },
-        {
-          "animationType": "translation",
-          "variable": "!ground_onground_4",
-          "axis": [0.0,1.0,0.0],
-          "duration": 4
-        },
-        {
-          "animationType": "inhibitor",
-          "variable": "speed",
-          "clampMax": 0.125
-        },
-        {
-          "animationType": "translation",
-          "variable": "acceleration",
-          "axis": [0.0,1.5,0.0]
-        }
-      ]
-    }
-  ],
-  "rendering": {
-    "textObjects": [],
-    "animatedObjects": [
-      {
-        "objectName": "$steer",
-        "animations": [
-          {
-            "animationType": "rotation",
-            "variable": "rudder",
-            "centerPoint": [0.0,0.5,2.3125],
-            "axis": [0.0,0.0,1.0]
-          }
-        ]
-      },
-      {
-        "objectName": "$gas",
-        "animations": [
-          {
-            "animationType": "rotation",
             "variable": "throttle",
-            "centerPoint": [0.0,-0.1875,2.625],
-            "axis": [30.0,0.0,0.0]
-          }
-        ]
-      },
-      {
-        "objectName": "$brake",
-        "animations": [
-          {
-            "animationType": "rotation",
-            "variable": "brake",
-            "centerPoint": [0.0,-0.1875,2.625],
-            "axis": [30.0,0.0,0.0]
-          }
-        ]
-      },
-      {
-        "objectName": "$hood",
-        "animations": [
-          {
-            "animationType": "rotation",
-            "variable": "door_hood",
-            "centerPoint": [0.0,0.5625,0.125],
-            "axis": [60.0,0.0,0.0],
-            "duration": 25,
-            "forwardsEasing": "easeoutquint",
-            "reverseEasing": "easeincubic",
-            "forwardsStartSound": "iv_tpp:hoodopen",
-            "reverseStartSound": "iv_tpp:hoodclose"
-          }
-        ]
-      },
-      {
-        "objectName": "wheel_hold_r",
-        "animations": [
-          {
-            "animationType": "rotation",
-            "variable": "rudder",
-            "centerPoint": [-0.84375,0.09375,4.625],
-            "axis": [0.0,-1.0,0.0]
-          }
-        ]
-      },
-      {
-        "objectName": "wheel_hold_l",
-        "animations": [
-          {
-            "animationType": "rotation",
-            "variable": "rudder",
-            "centerPoint": [0.84375,0.09375,4.625],
-            "axis": [0.0,-1.0,0.0]
-          }
-        ]
-      }
+            "animations": [
+                {
+                    "animationType": "visibility",
+                    "variable": "engine_isautomatic_1"
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "!engine_clutching_1",
+                    "axis": [
+                        1.0,
+                        0.0,
+                        0.0
+                    ],
+                    "duration": 3
+                }
+            ]
+        },
+        {
+            "variable": "throttle",
+            "animations": [
+                {
+                    "animationType": "visibility",
+                    "variable": "engine_isautomatic_1"
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "!engine_clutching_1",
+                    "axis": [
+                        1.0,
+                        0.0,
+                        0.0
+                    ],
+                    "duration": 3
+                }
+            ]
+        },
+        {
+            "variable": "throttle",
+            "animations": [
+                {
+                    "animationType": "visibility",
+                    "variable": "engine_isautomatic_1"
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "!engine_clutching_1",
+                    "axis": [
+                        1.0,
+                        0.0,
+                        0.0
+                    ],
+                    "duration": 3
+                }
+            ]
+        },
+        {
+            "variable": "brakingFactor",
+            "animations": [
+                {
+                    "animationType": "inhibitor",
+                    "variable": "p_brake",
+                    "clampMin": 1.0,
+                    "clampMax": 1.0
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "brake",
+                    "axis": [
+                        1.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "variable": "rlBodyroll",
+            "minValue": -1.0,
+            "maxValue": 1.0,
+            "animations": [
+                {
+                    "animationType": "translation",
+                    "variable": "turn_indicator",
+                    "axis": [
+                        0.0,
+                        0.0,
+                        -0.000909091
+                    ]
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "!ground_onground_1",
+                    "axis": [
+                        0.0,
+                        -1.0,
+                        0.0
+                    ],
+                    "duration": 4
+                },
+                {
+                    "animationType": "inhibitor",
+                    "variable": "speed",
+                    "clampMax": 0.125
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "acceleration",
+                    "axis": [
+                        0.0,
+                        1.5,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "variable": "rrBodyroll",
+            "minValue": -1.0,
+            "maxValue": 1.0,
+            "animations": [
+                {
+                    "animationType": "translation",
+                    "variable": "turn_indicator",
+                    "axis": [
+                        0.0,
+                        0.0,
+                        -0.000909091
+                    ]
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "!ground_onground_2",
+                    "axis": [
+                        0.0,
+                        1.0,
+                        0.0
+                    ],
+                    "duration": 4
+                },
+                {
+                    "animationType": "inhibitor",
+                    "variable": "speed",
+                    "clampMax": 0.125
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "acceleration",
+                    "axis": [
+                        0.0,
+                        -1.5,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "variable": "flBodyroll",
+            "minValue": -1.0,
+            "maxValue": 1.0,
+            "animations": [
+                {
+                    "animationType": "translation",
+                    "variable": "turn_indicator",
+                    "axis": [
+                        0.0,
+                        0.0,
+                        -0.000909091
+                    ]
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "!ground_onground_3",
+                    "axis": [
+                        0.0,
+                        -1.0,
+                        0.0
+                    ],
+                    "duration": 4
+                },
+                {
+                    "animationType": "inhibitor",
+                    "variable": "speed",
+                    "clampMax": 0.125
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "acceleration",
+                    "axis": [
+                        0.0,
+                        -1.5,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "variable": "frBodyroll",
+            "minValue": -1.0,
+            "maxValue": 1.0,
+            "animations": [
+                {
+                    "animationType": "translation",
+                    "variable": "turn_indicator",
+                    "axis": [
+                        0.0,
+                        0.0,
+                        -0.000909091
+                    ]
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "!ground_onground_4",
+                    "axis": [
+                        0.0,
+                        1.0,
+                        0.0
+                    ],
+                    "duration": 4
+                },
+                {
+                    "animationType": "inhibitor",
+                    "variable": "speed",
+                    "clampMax": 0.125
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "acceleration",
+                    "axis": [
+                        0.0,
+                        1.5,
+                        0.0
+                    ]
+                }
+            ]
+        }
     ],
-    "lightObjects": [
-      {
-        "objectName": "&BrakeLight_e60000_FFFFF_111",
-        "emissive": true,
-        "covered": true,
-        "isElectric": true,
-        "color": "E60000",
-        "brightnessAnimations": [
-          {
-            "animationType": "visibility",
-            "variable": "brake",
-            "clampMin": 0.01,
-            "clampMax": 1.0
-          }
+    "rendering": {
+        "textObjects": [],
+        "animatedObjects": [
+            {
+                "objectName": "$steer",
+                "animations": [
+                    {
+                        "animationType": "rotation",
+                        "variable": "rudder",
+                        "centerPoint": [
+                            0.0,
+                            0.5,
+                            2.3125
+                        ],
+                        "axis": [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                ]
+            },
+            {
+                "objectName": "$gas",
+                "animations": [
+                    {
+                        "animationType": "rotation",
+                        "variable": "throttle",
+                        "centerPoint": [
+                            0.0,
+                            -0.1875,
+                            2.625
+                        ],
+                        "axis": [
+                            30.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                ]
+            },
+            {
+                "objectName": "$brake",
+                "animations": [
+                    {
+                        "animationType": "rotation",
+                        "variable": "brake",
+                        "centerPoint": [
+                            0.0,
+                            -0.1875,
+                            2.625
+                        ],
+                        "axis": [
+                            30.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                ]
+            },
+            {
+                "objectName": "$hood",
+                "animations": [
+                    {
+                        "animationType": "rotation",
+                        "variable": "door_hood",
+                        "centerPoint": [
+                            0.0,
+                            0.5625,
+                            0.125
+                        ],
+                        "axis": [
+                            60.0,
+                            0.0,
+                            0.0
+                        ],
+                        "duration": 25,
+                        "forwardsEasing": "easeoutquint",
+                        "reverseEasing": "easeincubic",
+                        "forwardsStartSound": "iv_tpp:hoodopen",
+                        "reverseStartSound": "iv_tpp:hoodclose"
+                    }
+                ]
+            },
+            {
+                "objectName": "wheel_hold_r",
+                "animations": [
+                    {
+                        "animationType": "rotation",
+                        "variable": "rudder",
+                        "centerPoint": [
+                            -0.84375,
+                            0.09375,
+                            4.625
+                        ],
+                        "axis": [
+                            0.0,
+                            -1.0,
+                            0.0
+                        ]
+                    }
+                ]
+            },
+            {
+                "objectName": "wheel_hold_l",
+                "animations": [
+                    {
+                        "animationType": "rotation",
+                        "variable": "rudder",
+                        "centerPoint": [
+                            0.84375,
+                            0.09375,
+                            4.625
+                        ],
+                        "axis": [
+                            0.0,
+                            -1.0,
+                            0.0
+                        ]
+                    }
+                ]
+            }
         ],
-        "blendableComponents": [
-          {
-            "pos": [0.0,0.0625,-0.84375],
-            "axis": [0.0,0.0,-1.0],
-            "flareHeight": 0.75,
-            "flareWidth": 0.75
-          },
-          {
-            "pos": [0.0,0.0625,-0.84375],
-            "axis": [0.0,0.0,-1.0],
-            "flareHeight": 0.75,
-            "flareWidth": 0.75
-          }
+        "lightObjects": [
+            {
+                "objectName": "&BrakeLight_e60000_FFFFF_111",
+                "emissive": true,
+                "covered": true,
+                "isElectric": true,
+                "color": "E60000",
+                "brightnessAnimations": [
+                    {
+                        "animationType": "visibility",
+                        "variable": "brake",
+                        "clampMin": 0.01,
+                        "clampMax": 1.0
+                    }
+                ],
+                "blendableComponents": [
+                    {
+                        "pos": [
+                            0.0,
+                            0.0625,
+                            -0.84375
+                        ],
+                        "axis": [
+                            0.0,
+                            0.0,
+                            -1.0
+                        ],
+                        "flareHeight": 0.75,
+                        "flareWidth": 0.75
+                    },
+                    {
+                        "pos": [
+                            0.0,
+                            0.0625,
+                            -0.84375
+                        ],
+                        "axis": [
+                            0.0,
+                            0.0,
+                            -1.0
+                        ],
+                        "flareHeight": 0.75,
+                        "flareWidth": 0.75
+                    }
+                ]
+            }
+        ],
+        "customVariables": [],
+        "initialVariables": [
+            "door_hood"
+        ],
+        "sounds": [],
+        "particles": [
+            {
+                "type": "smoke",
+                "quantity": 1,
+                "transparency": 0.25,
+                "toTransparency": 0.25,
+                "scale": 1.0,
+                "color": "D9D9D9",
+                "pos": [
+                    0.375,
+                    0.0625,
+                    -0.8125
+                ],
+                "initialVelocity": [
+                    0.0,
+                    0.0,
+                    -1.0
+                ],
+                "activeAnimations": [
+                    {
+                        "animationType": "visibility",
+                        "variable": "engine_piston_1_2_cam_1",
+                        "clampMin": 1.0,
+                        "clampMax": 1.0
+                    }
+                ]
+            },
+            {
+                "type": "smoke",
+                "quantity": 5,
+                "scale": 2.5,
+                "color": "000000",
+                "pos": [
+                    0.375,
+                    0.0625,
+                    -0.8125
+                ],
+                "initialVelocity": [
+                    0.0,
+                    0.0,
+                    -1.0
+                ],
+                "activeAnimations": [
+                    {
+                        "animationType": "visibility",
+                        "variable": "engine_backfired_1",
+                        "clampMin": 1.0,
+                        "clampMax": 1.0
+                    }
+                ]
+            },
+            {
+                "type": "smoke",
+                "quantity": 1,
+                "transparency": 0.25,
+                "toTransparency": 0.25,
+                "scale": 1.0,
+                "color": "D9D9D9",
+                "pos": [
+                    -0.375,
+                    0.0625,
+                    -0.8125
+                ],
+                "initialVelocity": [
+                    0.0,
+                    0.0,
+                    -1.0
+                ],
+                "activeAnimations": [
+                    {
+                        "animationType": "visibility",
+                        "variable": "engine_piston_2_2_cam_1",
+                        "clampMin": 1.0,
+                        "clampMax": 1.0
+                    }
+                ]
+            },
+            {
+                "type": "smoke",
+                "quantity": 5,
+                "scale": 2.5,
+                "color": "000000",
+                "pos": [
+                    -0.375,
+                    0.0625,
+                    -0.8125
+                ],
+                "initialVelocity": [
+                    0.0,
+                    0.0,
+                    -1.0
+                ],
+                "activeAnimations": [
+                    {
+                        "animationType": "visibility",
+                        "variable": "engine_backfired_1",
+                        "clampMin": 1.0,
+                        "clampMax": 1.0
+                    }
+                ]
+            }
+        ],
+        "modelType": "obj"
+    },
+    "general": {
+        "description": "Trin Extreme Sport (TXS) F1. Nyoom.\n\nRecommended parts:\nTXS Average Sized Wheels\nTXS V12 Engine\nModel 3 Seats",
+        "health": 100,
+        "materialLists": [
+            [
+                "minecraft:iron_ingot:0:16",
+                "minecraft:iron_block:0:7",
+                "minecraft:glowstone_dust:0:16"
+            ]
+        ],
+        "repairMaterialLists": [
+            [
+                "minecraft:iron_ingot:0:8",
+                "minecraft:iron_block:0:3",
+                "minecraft:glowstone_dust:0:8"
+            ]
         ]
-      }
-    ],
-    "customVariables": [],
-    "initialVariables": ["door_hood"],
-    "sounds": [],
-    "particles": [
-      {
-        "type": "smoke",
-        "quantity": 1,
-        "transparency": 0.25,
-        "toTransparency": 0.25,
-        "scale": 1.0,
-        "color": "D9D9D9",
-        "pos": [0.375,0.0625,-0.8125],
-        "initialVelocity": [0.0,0.0,-1.0],
-        "activeAnimations": [
-          {
-            "animationType": "visibility",
-            "variable": "engine_piston_1_2_cam_1",
-            "clampMin": 1.0,
-            "clampMax": 1.0
-          }
-        ]
-      },
-      {
-        "type": "smoke",
-        "quantity": 5,
-        "scale": 2.5,
-        "color": "000000",
-        "pos": [0.375,0.0625,-0.8125],
-        "initialVelocity": [0.0,0.0,-1.0],
-        "activeAnimations": [
-          {
-            "animationType": "visibility",
-            "variable": "engine_backfired_1",
-            "clampMin": 1.0,
-            "clampMax": 1.0
-          }
-        ]
-      },
-      {
-        "type": "smoke",
-        "quantity": 1,
-        "transparency": 0.25,
-        "toTransparency": 0.25,
-        "scale": 1.0,
-        "color": "D9D9D9",
-        "pos": [-0.375,0.0625,-0.8125],
-        "initialVelocity": [0.0,0.0,-1.0],
-        "activeAnimations": [
-          {
-            "animationType": "visibility",
-            "variable": "engine_piston_2_2_cam_1",
-            "clampMin": 1.0,
-            "clampMax": 1.0
-          }
-        ]
-      },
-      {
-        "type": "smoke",
-        "quantity": 5,
-        "scale": 2.5,
-        "color": "000000",
-        "pos": [-0.375,0.0625,-0.8125],
-        "initialVelocity": [0.0,0.0,-1.0],
-        "activeAnimations": [
-          {
-            "animationType": "visibility",
-            "variable": "engine_backfired_1",
-            "clampMin": 1.0,
-            "clampMax": 1.0
-          }
-        ]
-      }
-    ],
-    "modelType": "obj"
-  },
-  "general": {
-    "description": "Trin Extreme Sport (TXS) F1. Nyoom.\n\nRecommended parts:\nTXS Average Sized Wheels\nTXS V12 Engine\nModel 3 Seats",
-    "health": 100,
-    "materialLists": [
-      ["minecraft:iron_ingot:0:16","minecraft:iron_block:0:7","minecraft:glowstone_dust:0:16"]
-    ],
-    "repairMaterialLists": [
-      ["minecraft:iron_ingot:0:8","minecraft:iron_block:0:3","minecraft:glowstone_dust:0:8"]
-    ]
-  }
+    }
 }
