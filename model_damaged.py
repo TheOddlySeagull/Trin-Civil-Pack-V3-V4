@@ -1,9 +1,13 @@
 import os
 import json
 import random
+import argparse
 
-# Path to the folder containing the JSON files
-folder_path = "E:/Documents Global/Programmation/Trin/Trin Civil Pack V3/mccore/src/main/resources/assets/iv_tcp_v3_txs/jsondefs/vehicles"
+# Parse the folder path from the command line
+parser = argparse.ArgumentParser(description="Add 'damaged' animations to JSON files")
+parser.add_argument("folder_path", help="Path to the folder containing the JSON files")
+args = parser.parse_args()
+folder_path = args.folder_path
 
 # Function to add "damaged" animations to a JSON file
 def add_damaged_animation(json_file):
