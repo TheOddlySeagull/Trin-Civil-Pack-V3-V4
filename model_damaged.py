@@ -5,9 +5,9 @@ import argparse
 
 # Parse the folder path from the command line
 parser = argparse.ArgumentParser(description="Add 'damaged' animations to JSON files")
-parser.add_argument("folder_path", help="Path to the folder containing the JSON files")
+parser.add_argument("--folder_path", required=True, help="Path to the folder containing JSON files")
 args = parser.parse_args()
-folder_path = args.folder_path
+folder_path = args.folder_path.replace("\\", "/")
 
 # Function to add "damaged" animations to a JSON file
 def add_damaged_animation(json_file):
@@ -63,10 +63,16 @@ def add_damaged_animation(json_file):
     with open(json_file, 'w') as f:
         json.dump(data, f, indent=4)
 
-# Iterate through each JSON file in the folder
-for filename in os.listdir(folder_path):
-    if filename.endswith(".json"):
-        file_path = os.path.join(folder_path, filename)
-        add_damaged_animation(file_path)
+# Iterate through each JSON file in the folder and subfolders
+for root, _, files in os.walk(folder_path):
+    for file_name in files:
+        if file_name.endswith(".json"):
+            file_path = os.path.join(root, file_name)
+            # try to add a damaged animation to the file
+            try:
+                add_damaged_animation(file_path)
+                print(f"Modified: {file_path}")
+            except Exception as e:
+                print(f"Error processing {file_path}: {e}")
 
 print("Done!")
