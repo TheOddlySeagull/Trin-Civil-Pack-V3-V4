@@ -1,1573 +1,2705 @@
 {
-  "motorized": {
-    "hasAutopilot": true,
-    "hasRunningLights": true,
-    "hasHeadlights": true,
-    "hasTurnSignals": true,
-    "emptyMass": 1700,
-    "fuelCapacity": 15000,
-    "downForce": 0.7,
-    "overSteer": 3.0,
-    "underSteer": 0.5,
-    "overSteerAccel": 6.0,
-    "axleRatio": 3.08,
-    "brakingFactor": 1.5,
-    "dragCoefficient": 0.34,
-    "litVariable": "running_light",
-    "panel": "mts:default_car"
-  },
-  "parts": [
-    {"_comment": "part 1: Rear left wheel",
-      "pos": [1.0,0.0,0.0],
-      "minValue": 0.7,
-      "maxValue": 0.875,
-      "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
-      "types": [
-        "ground_wheel"
-      ],
-      "animations": [
+    "motorized": {
+        "hasAutopilot": true,
+        "hasRunningLights": true,
+        "hasHeadlights": true,
+        "hasTurnSignals": true,
+        "emptyMass": 1700,
+        "fuelCapacity": 15000,
+        "downForce": 0.7,
+        "overSteer": 3.0,
+        "underSteer": 0.5,
+        "overSteerAccel": 6.0,
+        "axleRatio": 3.08,
+        "brakingFactor": 1.5,
+        "dragCoefficient": 0.34,
+        "litVariable": "running_light",
+        "panel": "mts:default_car"
+    },
+    "parts": [
         {
-          "animationType": "rotation",
-          "variable": "rlBodyroll",
-          "centerPoint": [-1.0E-8,0.0,0.0],
-          "axis": [0.0,0.0,6.0]
+            "_comment": "part 1: Rear left wheel",
+            "pos": [
+                1.0,
+                0.0,
+                0.0
+            ],
+            "minValue": 0.7,
+            "maxValue": 0.875,
+            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
+            "types": [
+                "ground_wheel"
+            ],
+            "animations": [
+                {
+                    "animationType": "rotation",
+                    "variable": "rlBodyroll",
+                    "centerPoint": [
+                        -1e-08,
+                        0.0,
+                        0.0
+                    ],
+                    "axis": [
+                        0.0,
+                        0.0,
+                        6.0
+                    ]
+                }
+            ]
+        },
+        {
+            "_comment": "part 2: Rear right wheel",
+            "pos": [
+                -1.0,
+                0.0,
+                0.0
+            ],
+            "rot": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "isMirrored": true,
+            "minValue": 0.7,
+            "maxValue": 0.875,
+            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
+            "types": [
+                "ground_wheel"
+            ],
+            "animations": [
+                {
+                    "animationType": "rotation",
+                    "variable": "rrBodyroll",
+                    "centerPoint": [
+                        -1e-08,
+                        0.0,
+                        0.0
+                    ],
+                    "axis": [
+                        0.0,
+                        0.0,
+                        6.0
+                    ]
+                }
+            ]
+        },
+        {
+            "_comment": "part 3: Front left wheel",
+            "pos": [
+                1.0625,
+                0,
+                4.125
+            ],
+            "turnsWithSteer": true,
+            "minValue": 0.7,
+            "maxValue": 0.875,
+            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
+            "types": [
+                "ground_wheel"
+            ],
+            "animations": [
+                {
+                    "animationType": "rotation",
+                    "variable": "flBodyroll",
+                    "centerPoint": [
+                        -1e-08,
+                        0.0,
+                        4.125
+                    ],
+                    "axis": [
+                        0.0,
+                        0.0,
+                        6.0
+                    ]
+                },
+                {
+                    "animationType": "rotation",
+                    "variable": "rudder",
+                    "centerPoint": [
+                        1.0625,
+                        0,
+                        4.125
+                    ],
+                    "axis": [
+                        0.0,
+                        -1.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "_comment": "part 4: Front right wheel",
+            "pos": [
+                -1.0625,
+                0,
+                4.125
+            ],
+            "rot": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "turnsWithSteer": true,
+            "isMirrored": true,
+            "minValue": 0.7,
+            "maxValue": 0.875,
+            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
+            "types": [
+                "ground_wheel"
+            ],
+            "animations": [
+                {
+                    "animationType": "rotation",
+                    "variable": "frBodyroll",
+                    "centerPoint": [
+                        -1e-08,
+                        0.0,
+                        4.125
+                    ],
+                    "axis": [
+                        0.0,
+                        0.0,
+                        6.0
+                    ]
+                },
+                {
+                    "animationType": "rotation",
+                    "variable": "rudder",
+                    "centerPoint": [
+                        -1.0625,
+                        0,
+                        4.125
+                    ],
+                    "axis": [
+                        0.0,
+                        -1.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "_comment": "part 5: Front left seat",
+            "pos": [
+                0.5625,
+                0.25,
+                2.3125
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "dismountPos": [
+                1.5625,
+                0.25,
+                2.3125
+            ],
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
+            "isController": true,
+            "types": [
+                "seat"
+            ],
+            "interactableVariables": [
+                [
+                    "door_fl"
+                ]
+            ]
+        },
+        {
+            "_comment": "part 6: Front right seat",
+            "pos": [
+                -0.5625,
+                0.25,
+                2.3125
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "dismountPos": [
+                -1.5625,
+                0.25,
+                2.3125
+            ],
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
+            "types": [
+                "seat"
+            ],
+            "interactableVariables": [
+                [
+                    "door_fr"
+                ]
+            ]
+        },
+        {
+            "_comment": "part 7: Rear left seat",
+            "pos": [
+                0.5625,
+                0.25,
+                1.0
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "dismountPos": [
+                1.5625,
+                0.25,
+                1.0
+            ],
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
+            "types": [
+                "seat"
+            ],
+            "interactableVariables": [
+                [
+                    "door_rl"
+                ]
+            ]
+        },
+        {
+            "_comment": "part 8: Rear right seat",
+            "pos": [
+                -0.5625,
+                0.25,
+                1.0
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "dismountPos": [
+                -1.5625,
+                0.25,
+                1.0
+            ],
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
+            "types": [
+                "seat"
+            ],
+            "interactableVariables": [
+                [
+                    "door_rr"
+                ]
+            ]
+        },
+        {
+            "_comment": "part 9: Engine (i4), powering back and front wheels",
+            "pos": [
+                0.0,
+                0.0625,
+                3.5
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "defaultPart": "iv_tpp:engine_i4_gasoline_normal_aut",
+            "maxValue": 0.65,
+            "types": [
+                "engine_car"
+            ],
+            "interactableVariables": [
+                [
+                    "door_hood"
+                ]
+            ],
+            "linkedParts": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "_comment": "part 10: Generic Lightbar",
+            "pos": [
+                0.0,
+                1.5625,
+                2.25
+            ],
+            "maxValue": 3.0,
+            "types": [
+                "generic_lightbar",
+                "generic_roofdevice",
+                "generic_gyrophare"
+            ],
+            "interactableVariables": [
+                [
+                    "!part_present_28"
+                ]
+            ]
+        },
+        {
+            "_comment": "part 11: Generic Lightbar",
+            "pos": [
+                0.0,
+                1.5625,
+                1.46875
+            ],
+            "maxValue": 3.0,
+            "types": [
+                "generic_lightbar",
+                "generic_roofdevice",
+                "generic_gyrophare"
+            ],
+            "interactableVariables": [
+                [
+                    "!part_present_28"
+                ]
+            ]
+        },
+        {
+            "_comment": "part 12: Generic Bullbar",
+            "pos": [
+                0.0,
+                -0.09375,
+                5.25
+            ],
+            "maxValue": 2.0,
+            "types": [
+                "generic_bullbar"
+            ]
+        },
+        {
+            "_comment": "part 13: Luggage (boot)",
+            "pos": [
+                0.5625,
+                -0.125,
+                -0.8125
+            ],
+            "rot": [
+                1.0,
+                90.0,
+                2.0
+            ],
+            "maxValue": 2.0,
+            "types": [
+                "interactable_luggage"
+            ],
+            "interactableVariables": [
+                [
+                    "door_boot"
+                ]
+            ]
+        },
+        {
+            "_comment": "part 14: Luggage (boot)",
+            "pos": [
+                -0.5625,
+                -0.125,
+                -0.8125
+            ],
+            "rot": [
+                -3.0,
+                94.0,
+                1.0
+            ],
+            "maxValue": 2.0,
+            "types": [
+                "interactable_luggage"
+            ],
+            "interactableVariables": [
+                [
+                    "door_boot"
+                ]
+            ]
+        },
+        {
+            "_comment": "part 15: Luggage (boot)",
+            "pos": [
+                0.0,
+                0.25,
+                -0.3125
+            ],
+            "rot": [
+                2.0,
+                87.0,
+                -1.0
+            ],
+            "maxValue": 2.0,
+            "types": [
+                "interactable_luggage"
+            ],
+            "interactableVariables": [
+                [
+                    "door_boot"
+                ]
+            ]
+        },
+        {
+            "_comment": "part 16: Bumper Sticker",
+            "pos": [
+                0.0,
+                0.3125,
+                5.42188
+            ],
+            "rot": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "maxValue": 1.0,
+            "types": [
+                "generic_bumpersticker"
+            ]
+        },
+        {
+            "_comment": "part 17: Bumper Sticker",
+            "pos": [
+                0.75,
+                0.15625,
+                -1.45313
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "maxValue": 1.0,
+            "types": [
+                "generic_bumpersticker"
+            ]
+        },
+        {
+            "_comment": "part 18: Bumper Sticker",
+            "pos": [
+                -0.75,
+                0.15625,
+                -1.45313
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "maxValue": 1.0,
+            "types": [
+                "generic_bumpersticker"
+            ]
+        },
+        {
+            "_comment": "part 19: Bumper Sticker",
+            "pos": [
+                1.23438,
+                0.3125,
+                -0.89063
+            ],
+            "rot": [
+                0.0,
+                -90.0,
+                0.0
+            ],
+            "maxValue": 1.0,
+            "types": [
+                "generic_bumpersticker"
+            ]
+        },
+        {
+            "_comment": "part 20: Bumper Sticker",
+            "pos": [
+                -1.23438,
+                0.3125,
+                -0.89063
+            ],
+            "rot": [
+                0.0,
+                90.0,
+                0.0
+            ],
+            "maxValue": 1.0,
+            "types": [
+                "generic_bumpersticker"
+            ]
+        },
+        {
+            "_comment": "part 21: Bumper Sticker",
+            "pos": [
+                1.23438,
+                0.3125,
+                4.85938
+            ],
+            "rot": [
+                0.0,
+                -90.0,
+                0.0
+            ],
+            "maxValue": 1.0,
+            "types": [
+                "generic_bumpersticker"
+            ]
+        },
+        {
+            "_comment": "part 22: Bumper Sticker",
+            "pos": [
+                -1.23438,
+                0.3125,
+                4.85938
+            ],
+            "rot": [
+                0.0,
+                90.0,
+                0.0
+            ],
+            "maxValue": 1.0,
+            "types": [
+                "generic_bumpersticker"
+            ]
+        },
+        {
+            "_comment": "part 23: License Plate (front)",
+            "pos": [
+                -0.78125,
+                -0.03125,
+                5.28125
+            ],
+            "rot": [
+                0.0,
+                -5.0,
+                0.0
+            ],
+            "maxValue": 3.0,
+            "defaultPart": "iv_tpp:plate_gramados",
+            "types": [
+                "generic_licenseplate_us",
+                "generic_licenseplate_euro"
+            ]
+        },
+        {
+            "_comment": "part 24: License Plate (rear)",
+            "pos": [
+                0.0,
+                0.15625,
+                -1.46875
+            ],
+            "rot": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "maxValue": 3.0,
+            "defaultPart": "iv_tpp:plate_gramados",
+            "types": [
+                "generic_licenseplate_us",
+                "generic_licenseplate_euro"
+            ]
+        },
+        {
+            "_comment": "part 25: IVL radio",
+            "pos": [
+                -0.5625,
+                0.8125,
+                3.1875
+            ],
+            "rot": [
+                0,
+                180.0,
+                0
+            ],
+            "maxValue": 1.0,
+            "types": [
+                "generic_radio"
+            ]
+        },
+        {
+            "_comment": "part 26: Dashboard Secondary",
+            "pos": [
+                0,
+                0.25,
+                2.96875
+            ],
+            "rot": [
+                8.0,
+                0.0,
+                0
+            ],
+            "maxValue": 1.0,
+            "types": [
+                "generic_dashboard_console"
+            ],
+            "defaultPart": "iv_tpp_v4_tests:dashboard_console_bottom_lowend_g"
+        },
+        {
+            "_comment": "part 27: Dashboard Main",
+            "pos": [
+                0,
+                0.65625,
+                2.98438
+            ],
+            "rot": [
+                0,
+                0.0,
+                0
+            ],
+            "maxValue": 1.0,
+            "types": [
+                "generic_dashboard_console"
+            ],
+            "defaultPart": "iv_tpp_v4_tests:dashboard_console_main_lowend_nr_g"
+        },
+        {
+            "_comment": "part 28: Roof crate",
+            "pos": [
+                0.0,
+                1.5625,
+                1.46875
+            ],
+            "maxValue": 30.0,
+            "types": [
+                "interactable_crate_roof"
+            ],
+            "interactableVariables": [
+                [
+                    "!part_present_10",
+                    "!part_present_11"
+                ]
+            ]
+        },
+        {
+            "_comment": "part 29: Generic Led Light",
+            "pos": [
+                0.6875,
+                0.125,
+                5.25
+            ],
+            "maxValue": 0.13,
+            "types": [
+                "generic_ledlight"
+            ]
+        },
+        {
+            "_comment": "part 30: Generic Led Light",
+            "pos": [
+                0.0,
+                0.125,
+                5.28125
+            ],
+            "maxValue": 0.13,
+            "types": [
+                "generic_ledlight"
+            ]
+        },
+        {
+            "_comment": "part 31: Generic Led Light",
+            "pos": [
+                -0.6875,
+                0.125,
+                5.25
+            ],
+            "maxValue": 0.13,
+            "types": [
+                "generic_ledlight"
+            ]
+        },
+        {
+            "_comment": "part 32: Generic Led Light",
+            "pos": [
+                1.375,
+                0.875,
+                3.425
+            ],
+            "rot": [
+                0.0,
+                24.0,
+                0.0
+            ],
+            "maxValue": 0.13,
+            "types": [
+                "generic_ledlight"
+            ]
+        },
+        {
+            "_comment": "part 33: Generic Led Light",
+            "pos": [
+                -1.375,
+                0.875,
+                3.425
+            ],
+            "rot": [
+                0.0,
+                -24.0,
+                0.0
+            ],
+            "maxValue": 0.13,
+            "types": [
+                "generic_ledlight"
+            ]
+        },
+        {
+            "_comment": "part 34: Generic Led Light (big)",
+            "pos": [
+                1.0625,
+                0.875,
+                3.39375
+            ],
+            "rot": [
+                0.0,
+                24.0,
+                0.0
+            ],
+            "maxValue": 0.18,
+            "types": [
+                "generic_ledlight"
+            ]
+        },
+        {
+            "_comment": "part 35: Generic Led Light",
+            "pos": [
+                0.375,
+                1.48438,
+                2.35
+            ],
+            "maxValue": 0.13,
+            "types": [
+                "generic_ledlight"
+            ]
+        },
+        {
+            "_comment": "part 36: Generic Led Light",
+            "pos": [
+                -0.375,
+                1.48438,
+                2.35
+            ],
+            "maxValue": 0.13,
+            "types": [
+                "generic_ledlight"
+            ]
+        },
+        {
+            "_comment": "part 37: Generic Led Light",
+            "pos": [
+                0.375,
+                1.48438,
+                0.5875
+            ],
+            "rot": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "maxValue": 0.13,
+            "types": [
+                "generic_ledlight"
+            ]
+        },
+        {
+            "_comment": "part 38: Generic Led Light",
+            "pos": [
+                -0.375,
+                1.48438,
+                0.5875
+            ],
+            "rot": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "maxValue": 0.13,
+            "types": [
+                "generic_ledlight"
+            ]
         }
-      ]
-    },
-    {"_comment": "part 2: Rear right wheel",
-      "pos": [-1.0,0.0,0.0],
-      "rot": [0.0,180.0,0.0],
-      "isMirrored": true,
-      "minValue": 0.7,
-      "maxValue": 0.875,
-      "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
-      "types": [
-        "ground_wheel"
-      ],
-      "animations": [
+    ],
+    "collisionGroups": [
         {
-          "animationType": "rotation",
-          "variable": "rrBodyroll",
-          "centerPoint": [-1.0E-8,0.0,0.0],
-          "axis": [0.0,0.0,6.0]
+            "isInterior": true,
+            "collisions": [
+                {
+                    "pos": [
+                        1.15625,
+                        0.65625,
+                        1.90625
+                    ],
+                    "width": 0.3125,
+                    "height": 0.125,
+                    "variableName": "door_fl",
+                    "variableType": "toggle"
+                }
+            ],
+            "animations": [
+                {
+                    "animationType": "translation",
+                    "variable": "door_fl",
+                    "axis": [
+                        0.9375,
+                        0.0,
+                        0.5
+                    ]
+                }
+            ]
+        },
+        {
+            "isInterior": true,
+            "collisions": [
+                {
+                    "pos": [
+                        1.15625,
+                        0.59375,
+                        2.71875
+                    ],
+                    "width": 0.3125,
+                    "height": 0.125,
+                    "variableName": "door_fl",
+                    "variableType": "toggle"
+                }
+            ],
+            "animations": [
+                {
+                    "animationType": "translation",
+                    "variable": "door_fl",
+                    "axis": [
+                        0.125,
+                        0.0,
+                        0.0625
+                    ]
+                }
+            ]
+        },
+        {
+            "isInterior": true,
+            "collisions": [
+                {
+                    "pos": [
+                        -1.15625,
+                        0.65625,
+                        1.90625
+                    ],
+                    "width": 0.3125,
+                    "height": 0.125,
+                    "variableName": "door_fr",
+                    "variableType": "toggle"
+                }
+            ],
+            "animations": [
+                {
+                    "animationType": "translation",
+                    "variable": "door_fr",
+                    "axis": [
+                        -0.9375,
+                        0.0,
+                        0.5
+                    ]
+                }
+            ]
+        },
+        {
+            "isInterior": true,
+            "collisions": [
+                {
+                    "pos": [
+                        -1.15625,
+                        0.59375,
+                        2.71875
+                    ],
+                    "width": 0.3125,
+                    "height": 0.125,
+                    "variableName": "door_fr",
+                    "variableType": "toggle"
+                }
+            ],
+            "animations": [
+                {
+                    "animationType": "translation",
+                    "variable": "door_fr",
+                    "axis": [
+                        -0.125,
+                        0.0,
+                        0.0625
+                    ]
+                }
+            ]
+        },
+        {
+            "isInterior": true,
+            "collisions": [
+                {
+                    "pos": [
+                        1.15625,
+                        0.65625,
+                        0.59375
+                    ],
+                    "width": 0.3125,
+                    "height": 0.125,
+                    "variableName": "door_rl",
+                    "variableType": "toggle"
+                }
+            ],
+            "animations": [
+                {
+                    "animationType": "translation",
+                    "variable": "door_rl",
+                    "axis": [
+                        0.9375,
+                        0.0,
+                        0.5
+                    ]
+                }
+            ]
+        },
+        {
+            "isInterior": true,
+            "collisions": [
+                {
+                    "pos": [
+                        1.15625,
+                        0.65625,
+                        1.46875
+                    ],
+                    "width": 0.3125,
+                    "height": 0.125,
+                    "variableName": "door_rl",
+                    "variableType": "toggle"
+                }
+            ],
+            "animations": [
+                {
+                    "animationType": "translation",
+                    "variable": "door_rl",
+                    "axis": [
+                        0.125,
+                        0.0,
+                        0.0625
+                    ]
+                }
+            ]
+        },
+        {
+            "isInterior": true,
+            "collisions": [
+                {
+                    "pos": [
+                        -1.15625,
+                        0.65625,
+                        0.59375
+                    ],
+                    "width": 0.3125,
+                    "height": 0.125,
+                    "variableName": "door_rr",
+                    "variableType": "toggle"
+                }
+            ],
+            "animations": [
+                {
+                    "animationType": "translation",
+                    "variable": "door_rr",
+                    "axis": [
+                        -0.9375,
+                        0.0,
+                        0.5
+                    ]
+                }
+            ]
+        },
+        {
+            "isInterior": true,
+            "collisions": [
+                {
+                    "pos": [
+                        -1.15625,
+                        0.65625,
+                        1.46875
+                    ],
+                    "width": 0.3125,
+                    "height": 0.125,
+                    "variableName": "door_rr",
+                    "variableType": "toggle"
+                }
+            ],
+            "animations": [
+                {
+                    "animationType": "translation",
+                    "variable": "door_rr",
+                    "axis": [
+                        -0.125,
+                        0.0,
+                        0.0625
+                    ]
+                }
+            ]
+        },
+        {
+            "isInterior": true,
+            "collisions": [
+                {
+                    "pos": [
+                        0.0,
+                        0.8125,
+                        4.5
+                    ],
+                    "width": 1.0,
+                    "height": 0.5,
+                    "variableName": "door_hood",
+                    "variableType": "toggle"
+                }
+            ],
+            "animations": [
+                {
+                    "animationType": "translation",
+                    "variable": "door_hood",
+                    "axis": [
+                        0.0,
+                        1.125,
+                        -0.375
+                    ]
+                }
+            ]
+        },
+        {
+            "isInterior": true,
+            "collisions": [
+                {
+                    "pos": [
+                        0.0,
+                        0.6875,
+                        -1.34375
+                    ],
+                    "width": 0.3125,
+                    "height": 0.125,
+                    "variableName": "door_boot",
+                    "variableType": "toggle"
+                }
+            ],
+            "animations": [
+                {
+                    "animationType": "translation",
+                    "variable": "door_boot",
+                    "axis": [
+                        0.0,
+                        1.125,
+                        0.25
+                    ]
+                }
+            ]
+        },
+        {
+            "collisions": [
+                {
+                    "pos": [
+                        0.0,
+                        0.8125,
+                        4.0
+                    ],
+                    "width": 2.0,
+                    "height": 0.125
+                },
+                {
+                    "pos": [
+                        0.0,
+                        1.5,
+                        1.5625
+                    ],
+                    "width": 2.0,
+                    "height": 0.125
+                },
+                {
+                    "pos": [
+                        0.5,
+                        0.75,
+                        -0.0625
+                    ],
+                    "width": 1.0,
+                    "height": 0.125
+                },
+                {
+                    "pos": [
+                        -0.5,
+                        0.75,
+                        -0.0625
+                    ],
+                    "width": 1.0,
+                    "height": 0.125
+                }
+            ]
         }
-      ]
-    },
-    {"_comment": "part 3: Front left wheel",
-      "pos": [1.0625, 0, 4.125],
-      "turnsWithSteer": true,
-      "minValue": 0.7,
-      "maxValue": 0.875,
-      "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
-      "types": [
-        "ground_wheel"
-      ],
-      "animations": [
+    ],
+    "connectionGroups": [
         {
-          "animationType": "rotation",
-          "variable": "flBodyroll",
-          "centerPoint": [-1.0E-8,0.0,4.125],
-          "axis": [0.0,0.0,6.0]
+            "groupName": "HOOKUP",
+            "isHookup": true,
+            "connections": [
+                {
+                    "type": "tow_bumper",
+                    "pos": [
+                        0.0,
+                        -0.1875,
+                        5.125
+                    ],
+                    "distance": 2.0
+                },
+                {
+                    "type": "tow_bumper",
+                    "pos": [
+                        0.0,
+                        -0.0625,
+                        -1.375
+                    ],
+                    "distance": 2.0
+                },
+                {
+                    "type": "tow_wheel",
+                    "pos": [
+                        0.0,
+                        -0.4375,
+                        4.125
+                    ],
+                    "distance": 2.0
+                }
+            ]
         },
         {
-          "animationType": "rotation",
-          "variable": "rudder",
-          "centerPoint": [1.0625, 0, 4.125],
-          "axis": [0.0,-1.0,0.0]
+            "groupName": "TRAILER",
+            "canInitiateConnections": true,
+            "isHitch": true,
+            "connections": [
+                {
+                    "type": "trailer_standard",
+                    "pos": [
+                        0.0,
+                        -0.0625,
+                        -1.375
+                    ],
+                    "distance": 2.0
+                }
+            ]
         }
-      ]
-    },
-    {"_comment": "part 4: Front right wheel",
-      "pos": [-1.0625, 0, 4.125],
-      "rot": [0.0,180.0,0.0],
-      "turnsWithSteer": true,
-      "isMirrored": true,
-      "minValue": 0.7,
-      "maxValue": 0.875,
-      "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
-      "types": [
-        "ground_wheel"
-      ],
-      "animations": [
+    ],
+    "instruments": [
         {
-          "animationType": "rotation",
-          "variable": "frBodyroll",
-          "centerPoint": [-1.0E-8,0.0,4.125],
-          "axis": [0.0,0.0,6.0]
+            "pos": [
+                0.84375,
+                0.7125,
+                3.04625
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 0.015625,
+            "hudX": 80,
+            "hudY": 36,
+            "hudScale": 0.25
         },
         {
-          "animationType": "rotation",
-          "variable": "rudder",
-          "centerPoint": [-1.0625, 0, 4.125],
-          "axis": [0.0,-1.0,0.0]
+            "pos": [
+                0.6875,
+                0.725,
+                3.04625
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 0.015625,
+            "hudX": 160,
+            "hudY": 36,
+            "hudScale": 0.5
+        },
+        {
+            "pos": [
+                0.4375,
+                0.725,
+                3.04625
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 0.015625,
+            "hudX": 240,
+            "hudY": 36,
+            "hudScale": 0.5
+        },
+        {
+            "pos": [
+                0.28125,
+                0.7125,
+                3.04625
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 0.015625,
+            "hudX": 320,
+            "hudY": 36,
+            "hudScale": 0.25
         }
-      ]
-    },
-    {"_comment": "part 5: Front left seat",
-      "pos": [0.5625,0.25,2.3125],
-      "rot": [0.0,0.0,0.0],
-      "dismountPos": [1.5625,0.25,2.3125],
-			"defaultPart": "iv_tpp:trin_seat_1_gray",
-      "isController": true,
-      "types": [
-        "seat"
-      ],
-      "interactableVariables": [
-        [
-          "door_fl"
-        ]
-      ]
-    },
-    {"_comment": "part 6: Front right seat",
-      "pos": [-0.5625,0.25,2.3125],
-      "rot": [0.0,0.0,0.0],
-      "dismountPos": [-1.5625,0.25,2.3125],
-			"defaultPart": "iv_tpp:trin_seat_1_gray",
-      "types": [
-        "seat"
-      ],
-      "interactableVariables": [
-        [
-          "door_fr"
-        ]
-      ]
-    },
-    {"_comment": "part 7: Rear left seat",
-      "pos": [0.5625,0.25,1.0],
-      "rot": [0.0,0.0,0.0],
-      "dismountPos": [1.5625,0.25,1.0],
-			"defaultPart": "iv_tpp:trin_seat_1_gray",
-      "types": [
-        "seat"
-      ],
-      "interactableVariables": [
-        [
-          "door_rl"
-        ]
-      ]
-    },
-    {"_comment": "part 8: Rear right seat",
-      "pos": [-0.5625,0.25,1.0],
-      "rot": [0.0,0.0,0.0],
-      "dismountPos": [-1.5625,0.25,1.0],
-			"defaultPart": "iv_tpp:trin_seat_1_gray",
-      "types": [
-        "seat"
-      ],
-      "interactableVariables": [
-        [
-          "door_rr"
-        ]
-      ]
-    },
-    {"_comment": "part 9: Engine (i4), powering back and front wheels",
-      "pos": [0.0,0.0625,3.5],
-      "rot": [0.0,0.0,0.0],
-      "defaultPart": "iv_tpp:engine_i4_gasoline_normal_aut",
-      "maxValue": 0.65,
-      "types": [
-        "engine_car"
-      ],
-      "interactableVariables": [
-        [
-          "door_hood"
-        ]
-      ],
-      "linkedParts": [1,2,3,4]
-    },
-    {"_comment": "part 10: Generic Lightbar",
-      "pos": [0.0,1.5625,2.25],
-      "maxValue": 3.0,
-      "types": [
-        "generic_lightbar",
-        "generic_roofdevice",
-        "generic_gyrophare"
-      ],
-      "interactableVariables": [
-				["!part_present_28"]
-			]
-    },
-    {"_comment": "part 11: Generic Lightbar",
-      "pos": [0.0,1.5625,1.46875],
-      "maxValue": 3.0,
-      "types": [
-        "generic_lightbar",
-        "generic_roofdevice",
-        "generic_gyrophare"
-      ],
-      "interactableVariables": [
-				["!part_present_28"]
-			]
-    },
-    {"_comment": "part 12: Generic Bullbar",
-      "pos": [0.0,-0.09375,5.25],
-      "maxValue": 2.0,
-      "types": [
-        "generic_bullbar"
-      ]
-    },
-    {"_comment": "part 13: Luggage (boot)",
-      "pos": [0.5625,-0.125,-0.8125],
-      "rot": [1.0,90.0,2.0],
-      "maxValue": 2.0,
-      "types": [
-        "interactable_luggage"
-      ],
-      "interactableVariables": [
-        [
-          "door_boot"
-        ]
-      ]
-    },
-    {"_comment": "part 14: Luggage (boot)",
-      "pos": [-0.5625,-0.125,-0.8125],
-      "rot": [-3.0,94.0,1.0],
-      "maxValue": 2.0,
-      "types": [
-        "interactable_luggage"
-      ],
-      "interactableVariables": [
-        [
-          "door_boot"
-        ]
-      ]
-    },
-    {"_comment": "part 15: Luggage (boot)",
-      "pos": [0.0,0.25,-0.3125],
-      "rot": [2.0,87.0,-1.0],
-      "maxValue": 2.0,
-      "types": [
-        "interactable_luggage"
-      ],
-      "interactableVariables": [
-        [
-          "door_boot"
-        ]
-      ]
-    },
-    {"_comment": "part 16: Bumper Sticker",
-      "pos": [0.0,0.3125,5.42188],
-      "rot": [0.0,180.0,0.0],
-      "maxValue": 1.0,
-      "types": [
-        "generic_bumpersticker"
-      ]
-    },
-    {"_comment": "part 17: Bumper Sticker",
-      "pos": [0.75,0.15625,-1.45313],
-      "rot": [0.0,0.0,0.0],
-      "maxValue": 1.0,
-      "types": [
-        "generic_bumpersticker"
-      ]
-    },
-    {"_comment": "part 18: Bumper Sticker",
-      "pos": [-0.75,0.15625,-1.45313],
-      "rot": [0.0,0.0,0.0],
-      "maxValue": 1.0,
-      "types": [
-        "generic_bumpersticker"
-      ]
-    },
-    {"_comment": "part 19: Bumper Sticker",
-      "pos": [1.23438,0.3125,-0.89063],
-      "rot": [0.0,-90.0,0.0],
-      "maxValue": 1.0,
-      "types": [
-        "generic_bumpersticker"
-      ]
-    },
-    {"_comment": "part 20: Bumper Sticker",
-      "pos": [-1.23438,0.3125,-0.89063],
-      "rot": [0.0,90.0,0.0],
-      "maxValue": 1.0,
-      "types": [
-        "generic_bumpersticker"
-      ]
-    },
-    {"_comment": "part 21: Bumper Sticker",
-      "pos": [1.23438,0.3125,4.85938],
-      "rot": [0.0,-90.0,0.0],
-      "maxValue": 1.0,
-      "types": [
-        "generic_bumpersticker"
-      ]
-    },
-    {"_comment": "part 22: Bumper Sticker",
-      "pos": [-1.23438,0.3125,4.85938],
-      "rot": [0.0,90.0,0.0],
-      "maxValue": 1.0,
-      "types": [
-        "generic_bumpersticker"
-      ]
-    },
-    {"_comment": "part 23: License Plate (front)",
-      "pos": [-0.78125,-0.03125,5.28125],
-      "rot": [0.0,-5.0,0.0],
-      "maxValue": 3.0,
-      "defaultPart": "iv_tpp:plate_gramados",
-      "types": [
-        "generic_licenseplate_us",
-        "generic_licenseplate_euro"
-      ]
-    },
-    {"_comment": "part 24: License Plate (rear)",
-      "pos": [0.0,0.15625,-1.46875],
-      "rot": [0.0,180.0,0.0],
-      "maxValue": 3.0,
-      "defaultPart": "iv_tpp:plate_gramados",
-      "types": [
-        "generic_licenseplate_us",
-        "generic_licenseplate_euro"
-      ]
-    },
-    {"_comment": "part 25: IVL radio",
-      "pos": [-0.5625, 0.8125, 3.1875],
-      "rot": [0,180.0,0],
-      "maxValue": 1.0,
-      "types": ["generic_radio"]
-    },
-		{"_comment": "part 26: Dashboard Secondary",
-			"pos": [0, 0.25, 2.96875],
-			"rot": [8.0,0.0,0],
-			"maxValue": 1.0,
-			"types": ["generic_dashboard_console"],
-			"defaultPart": "iv_tpp_v4_tests:dashboard_console_bottom_lowend_g"
-		},
-		{"_comment": "part 27: Dashboard Main",
-			"pos": [0, 0.65625, 2.98438],
-			"rot": [0,0.0,0],
-			"maxValue": 1.0,
-			"types": ["generic_dashboard_console"],
-			"defaultPart": "iv_tpp_v4_tests:dashboard_console_main_lowend_nr_g"
-		},
-		{"_comment": "part 28: Roof crate",
-			"pos": [0.0,1.5625,1.46875],
-			"maxValue": 30.0,
-			"types": ["interactable_crate_roof"],
-			"interactableVariables": [
-				["!part_present_10","!part_present_11"]
-			]
-		},
-    {"_comment": "part 29: Generic Led Light",
-      "pos": [0.6875,0.125,5.25],
-      "maxValue": 0.13,
-      "types": ["generic_ledlight"]
-    },
-    {"_comment": "part 30: Generic Led Light",
-      "pos": [0.0,0.125,5.28125],
-      "maxValue": 0.13,
-      "types": ["generic_ledlight"]
-    },
-    {"_comment": "part 31: Generic Led Light",
-      "pos": [-0.6875,0.125,5.25],
-      "maxValue": 0.13,
-      "types": ["generic_ledlight"]
-    },
-    {"_comment": "part 32: Generic Led Light",
-      "pos": [1.375,0.875,3.425],
-      "rot": [0.0,24.0,0.0],
-      "maxValue": 0.13,
-      "types": ["generic_ledlight"]
-    },
-    {"_comment": "part 33: Generic Led Light",
-      "pos": [-1.375,0.875,3.425],
-      "rot": [0.0,-24.0,0.0],
-      "maxValue": 0.13,
-      "types": ["generic_ledlight"]
-    },
-    {"_comment": "part 34: Generic Led Light (big)",
-      "pos": [1.0625,0.875,3.39375],
-      "rot": [0.0,24.0,0.0],
-      "maxValue": 0.18,
-      "types": ["generic_ledlight"]
-    },
-    {"_comment": "part 35: Generic Led Light",
-      "pos": [0.375,1.48438,2.35],
-      "maxValue": 0.13,
-      "types": ["generic_ledlight"]
-    },
-    {"_comment": "part 36: Generic Led Light",
-      "pos": [-0.375,1.48438,2.35],
-      "maxValue": 0.13,
-      "types": ["generic_ledlight"]
-    },
-    {"_comment": "part 37: Generic Led Light",
-      "pos": [0.375,1.48438,0.5875],
-      "rot": [0.0,180.0,0.0],
-      "maxValue": 0.13,
-      "types": ["generic_ledlight"]
-    },
-    {"_comment": "part 38: Generic Led Light",
-      "pos": [-0.375,1.48438,0.5875],
-      "rot": [0.0,180.0,0.0],
-      "maxValue": 0.13,
-      "types": ["generic_ledlight"]
-    }
-  ],
-  "collisionGroups": [
-    {
-      "isInterior": true,
-      "collisions": [
+    ],
+    "definitions": [
         {
-          "pos": [1.15625,0.65625,1.90625],
-          "width": 0.3125,
-          "height": 0.125,
-          "variableName": "door_fl",
-          "variableType": "toggle"
+            "subName": "_dev_g",
+            "name": "Trin Urlon Sedan V4 - Dev Paint, Gray Interior",
+            "extraMaterialLists": [
+                [
+                    "minecraft:wool:8:2",
+                    "minecraft:wool:0:3"
+                ]
+            ]
         }
-      ],
-      "animations": [
+    ],
+    "initialVariables": [
+        "door_fl",
+        "door_fl",
+        "door_fr",
+        "door_fr",
+        "door_rl",
+        "door_rl",
+        "door_rr",
+        "door_rr",
+        "door_hood"
+    ],
+    "variableModifiers": [
         {
-          "animationType": "translation",
-          "variable": "door_fl",
-          "axis": [0.9375,0.0,0.5]
-        }
-      ]
-    },
-    {
-      "isInterior": true,
-      "collisions": [
-        {
-          "pos": [1.15625,0.59375,2.71875],
-          "width": 0.3125,
-          "height": 0.125,
-          "variableName": "door_fl",
-          "variableType": "toggle"
-        }
-      ],
-      "animations": [
-        {
-          "animationType": "translation",
-          "variable": "door_fl",
-          "axis": [0.125,0.0,0.0625]
-        }
-      ]
-    },
-    {
-      "isInterior": true,
-      "collisions": [
-        {
-          "pos": [-1.15625,0.65625,1.90625],
-          "width": 0.3125,
-          "height": 0.125,
-          "variableName": "door_fr",
-          "variableType": "toggle"
-        }
-      ],
-      "animations": [
-        {
-          "animationType": "translation",
-          "variable": "door_fr",
-          "axis": [-0.9375,0.0,0.5]
-        }
-      ]
-    },
-    {
-      "isInterior": true,
-      "collisions": [
-        {
-          "pos": [-1.15625,0.59375,2.71875],
-          "width": 0.3125,
-          "height": 0.125,
-          "variableName": "door_fr",
-          "variableType": "toggle"
-        }
-      ],
-      "animations": [
-        {
-          "animationType": "translation",
-          "variable": "door_fr",
-          "axis": [-0.125,0.0,0.0625]
-        }
-      ]
-    },
-    {
-      "isInterior": true,
-      "collisions": [
-        {
-          "pos": [1.15625,0.65625,0.59375],
-          "width": 0.3125,
-          "height": 0.125,
-          "variableName": "door_rl",
-          "variableType": "toggle"
-        }
-      ],
-      "animations": [
-        {
-          "animationType": "translation",
-          "variable": "door_rl",
-          "axis": [0.9375,0.0,0.5]
-        }
-      ]
-    },
-    {
-      "isInterior": true,
-      "collisions": [
-        {
-          "pos": [1.15625,0.65625,1.46875],
-          "width": 0.3125,
-          "height": 0.125,
-          "variableName": "door_rl",
-          "variableType": "toggle"
-        }
-      ],
-      "animations": [
-        {
-          "animationType": "translation",
-          "variable": "door_rl",
-          "axis": [0.125,0.0,0.0625]
-        }
-      ]
-    },
-    {
-      "isInterior": true,
-      "collisions": [
-        {
-          "pos": [-1.15625,0.65625,0.59375],
-          "width": 0.3125,
-          "height": 0.125,
-          "variableName": "door_rr",
-          "variableType": "toggle"
-        }
-      ],
-      "animations": [
-        {
-          "animationType": "translation",
-          "variable": "door_rr",
-          "axis": [-0.9375,0.0,0.5]
-        }
-      ]
-    },
-    {
-      "isInterior": true,
-      "collisions": [
-        {
-          "pos": [-1.15625,0.65625,1.46875],
-          "width": 0.3125,
-          "height": 0.125,
-          "variableName": "door_rr",
-          "variableType": "toggle"
-        }
-      ],
-      "animations": [
-        {
-          "animationType": "translation",
-          "variable": "door_rr",
-          "axis": [-0.125,0.0,0.0625]
-        }
-      ]
-    },
-    {
-      "isInterior": true,
-      "collisions": [
-        {
-          "pos": [0.0,0.8125,4.5],
-          "width": 1.0,
-          "height": 0.5,
-          "variableName": "door_hood",
-          "variableType": "toggle"
-        }
-      ],
-      "animations": [
-        {
-          "animationType": "translation",
-          "variable": "door_hood",
-          "axis": [0.0,1.125,-0.375]
-        }
-      ]
-    },
-    {
-      "isInterior": true,
-      "collisions": [
-        {
-          "pos": [0.0,0.6875,-1.34375],
-          "width": 0.3125,
-          "height": 0.125,
-          "variableName": "door_boot",
-          "variableType": "toggle"
-        }
-      ],
-      "animations": [
-        {
-          "animationType": "translation",
-          "variable": "door_boot",
-          "axis": [0.0,1.125,0.25]
-        }
-      ]
-    },
-    {
-      "collisions": [
-        {
-          "pos": [0.0,0.8125,4.0],
-          "width": 2.0,
-          "height": 0.125
-        },
-        {
-          "pos": [0.0,1.5,1.5625],
-          "width": 2.0,
-          "height": 0.125
-        },
-        {
-          "pos": [0.5,0.75,-0.0625],
-          "width": 1.0,
-          "height": 0.125
-        },
-        {
-          "pos": [-0.5,0.75,-0.0625],
-          "width": 1.0,
-          "height": 0.125
-        }
-      ]
-    }
-  ],
-  "connectionGroups": [
-    {
-      "groupName": "HOOKUP",
-      "isHookup": true,
-      "connections": [
-        {
-          "type": "tow_bumper",
-          "pos": [0.0,-0.1875,5.125],
-          "distance": 2.0
-        },
-        {
-          "type": "tow_bumper",
-          "pos": [0.0,-0.0625,-1.375],
-          "distance": 2.0
-        },
-        {
-          "type": "tow_wheel",
-          "pos": [0.0,-0.4375,4.125],
-          "distance": 2.0
-        }
-      ]
-    },
-    {
-      "groupName": "TRAILER",
-      "canInitiateConnections": true,
-      "isHitch": true,
-      "connections": [
-        {
-          "type": "trailer_standard",
-          "pos": [0.0,-0.0625,-1.375],
-          "distance": 2.0
-        }
-      ]
-    }
-  ],
-  "instruments": [
-    {
-      "pos": [0.84375,0.7125,3.04625],
-      "rot": [0.0,0.0,0.0],
-      "scale": 0.015625,
-      "hudX": 80,
-      "hudY": 36,
-      "hudScale": 0.25
-    },
-    {
-      "pos": [0.6875,0.725,3.04625],
-      "rot": [0.0,0.0,0.0],
-      "scale": 0.015625,
-      "hudX": 160,
-      "hudY": 36,
-      "hudScale": 0.5
-    },
-    {
-      "pos": [0.4375,0.725,3.04625],
-      "rot": [0.0,0.0,0.0],
-      "scale": 0.015625,
-      "hudX": 240,
-      "hudY": 36,
-      "hudScale": 0.5
-    },
-    {
-      "pos": [0.28125,0.7125,3.04625],
-      "rot": [0.0,0.0,0.0],
-      "scale": 0.015625,
-      "hudX": 320,
-      "hudY": 36,
-      "hudScale": 0.25
-    }
-  ],
-  "definitions": [
-    {
-      "subName": "_dev_g",
-      "name": "Trin Urlon Sedan V4 - Dev Paint, Gray Interior",
-      "extraMaterialLists": [
-        [
-          "minecraft:wool:8:2",
-          "minecraft:wool:0:3"
-        ]
-      ]
-    }
-  ],
-  "initialVariables": [
-    "door_fl",
-    "door_fl",
-    "door_fr",
-    "door_fr",
-    "door_rl",
-    "door_rl",
-    "door_rr",
-    "door_rr",
-    "door_hood"
-  ],
-  "variableModifiers": [
-    {
-      "variable": "throttle",
-      "animations": [
-        {
-          "animationType": "visibility",
-          "variable": "engine_isautomatic_1"
-        },
-        {
-          "animationType": "visibility",
-          "variable": "engine_isdualclutch_1"
-        },
-        {
-          "animationType": "visibility",
-          "variable": "!engine_gear_1",
-          "reverseDelay": 6
-        },
-        {
-          "animationType": "translation",
-          "variable": "!engine_clutch_downshift_1",
-          "axis": [0.5,0.0,0.0],
-          "offset": 0.5,
-          "duration": 3
-        },
-        {
-          "animationType": "translation",
-          "variable": "!engine_clutch_upshift_1",
-          "axis": [1.0,0.0,0.0],
-          "duration": 3
-        }
-      ]
-    },
-    {
-      "variable": "brakingFactor",
-      "animations": [
-        {
-          "animationType": "visibility",
-          "variable": "p_brake"
-        },
-        {
-          "animationType": "translation",
-          "variable": "brake",
-          "axis": [1.0,0.0,0.0]
-        }
-      ]
-    },
-    {
-      "variable": "axleRatio",
-      "animations": [
-        {
-          "animationType": "visibility",
-          "variable": "slip",
-          "clampMin": 8.0,
-          "clampMax": 32767.0,
-          "absolute": true
-        },
-        {
-          "animationType": "translation",
-          "variable": "slip",
-          "axis": [0.0,0.0625,0.0],
-          "offset": -0.5,
-          "clampMin": 0.001,
-          "absolute": true
-        },
-        {
-          "animationType": "translation",
-          "variable": "throttle",
-          "axis": [1.5,0.0,0.0],
-          "offset": -0.5,
-          "clampMin": 0.0125,
-          "clampMax": 1.0
-        },
-        {
-          "animationType": "translation",
-          "variable": "engine_rpm_percent_revlimit_1",
-          "axis": [-8.0,0.0,0.0],
-          "offset": 8.5,
-          "clampMin": 0.125,
-          "clampMax": 1.0
-        }
-      ]
-    },
-    {
-      "variable": "rlBodyroll",
-      "minValue": -1.0,
-      "maxValue": 0.5,
-      "animations": [
-        {
-          "animationType": "translation",
-          "variable": "turn_indicator",
-          "axis": [0.0,-0.001,0.0]
-        },
-        {
-          "animationType": "translation",
-          "variable": "slip",
-          "axis": [0.0,0.005,0.0]
-        },
-        {
-          "animationType": "translation",
-          "variable": "!ground_onground_1",
-          "axis": [0.0,-1.0,0.0]
-        },
-        {
-          "animationType": "translation",
-          "variable": "damage_totaled",
-          "axis": [0.0,1.0,0.0]
-        },
-        {
-          "animationType": "translation",
-          "variable": "acceleration",
-          "axis": [0.0,3.0,0.0]
-        },
-        {
-          "animationType": "translation",
-          "variable": "rlBodyroll",
-          "axis": [0.0,-0.375,0.0]
-        }
-      ]
-    },
-    {
-      "variable": "rrBodyroll",
-      "minValue": -0.5,
-      "maxValue": 1.0,
-      "animations": [
-        {
-          "animationType": "translation",
-          "variable": "turn_indicator",
-          "axis": [0.0,-0.001,0.0]
-        },
-        {
-          "animationType": "translation",
-          "variable": "slip",
-          "axis": [0.0,0.005,0.0]
-        },
-        {
-          "animationType": "translation",
-          "variable": "!ground_onground_2",
-          "axis": [0.0,1.0,0.0]
-        },
-        {
-          "animationType": "translation",
-          "variable": "damage_totaled",
-          "axis": [0.0,-1.0,0.0]
-        },
-        {
-          "animationType": "translation",
-          "variable": "acceleration",
-          "axis": [0.0,-3.0,0.0]
-        },
-        {
-          "animationType": "translation",
-          "variable": "rrBodyroll",
-          "axis": [0.0,-0.375,0.0]
-        }
-      ]
-    },
-    {
-      "variable": "flBodyroll",
-      "minValue": -1.0,
-      "maxValue": 0.5,
-      "animations": [
-        {
-          "animationType": "translation",
-          "variable": "turn_indicator",
-          "axis": [0.0,-0.001,0.0]
-        },
-        {
-          "animationType": "translation",
-          "variable": "slip",
-          "axis": [0.0,0.005,0.0]
-        },
-        {
-          "animationType": "translation",
-          "variable": "!ground_onground_3",
-          "axis": [0.0,-1.0,0.0]
-        },
-        {
-          "animationType": "translation",
-          "variable": "damage_totaled",
-          "axis": [0.0,1.0,0.0]
-        },
-        {
-          "animationType": "translation",
-          "variable": "acceleration",
-          "axis": [0.0,-3.0,0.0]
-        },
-        {
-          "animationType": "translation",
-          "variable": "flBodyroll",
-          "axis": [0.0,-0.375,0.0]
-        }
-      ]
-    },
-    {
-      "variable": "frBodyroll",
-      "minValue": -0.5,
-      "maxValue": 1.0,
-      "animations": [
-        {
-          "animationType": "translation",
-          "variable": "turn_indicator",
-          "axis": [0.0,-0.001,0.0]
-        },
-        {
-          "animationType": "translation",
-          "variable": "slip",
-          "axis": [0.0,0.005,0.0]
-        },
-        {
-          "animationType": "translation",
-          "variable": "!ground_onground_4",
-          "axis": [0.0,1.0,0.0]
-        },
-        {
-          "animationType": "translation",
-          "variable": "damage_totaled",
-          "axis": [0.0,-1.0,0.0]
-        },
-        {
-          "animationType": "translation",
-          "variable": "acceleration",
-          "axis": [0.0,3.0,0.0]
-        },
-        {
-          "animationType": "translation",
-          "variable": "frBodyroll",
-          "axis": [0.0,-0.375,0.0]
-        }
-      ]
-    }
-  ],
-  "rendering": {
-    "textObjects": [],
-    "animatedObjects": [
-      {
-        "objectName": "steer",
-        "animations": [
-          {
-            "animationType": "rotation",
-            "variable": "rudder",
-            "centerPoint": [0.5625,0.65625,2.9375],
-            "axis": [0.0,0.0,1.0]
-          }
-        ]
-      },
-      {
-        "objectName": "gas",
-        "animations": [
-          {
-            "animationType": "rotation",
             "variable": "throttle",
-            "centerPoint": [0.0,0.28125,3.375],
-            "axis": [-30.0,0.0,0.0]
-          }
-        ]
-      },
-      {
-        "objectName": "brake",
-        "animations": [
-          {
-            "animationType": "rotation",
-            "variable": "brake",
-            "centerPoint": [0.0,0.28125,3.375],
-            "axis": [-30.0,0.0,0.0]
-          }
-        ]
-      },
-      {
-        "objectName": "clutch",
-        "animations": [
-          {
-            "animationType": "visibility",
-            "variable": "engine_isautomatic_1"
-          },
-          {
-            "animationType": "rotation",
-            "variable": "engine_clutch_upshift_1",
-            "centerPoint": [0.0,0.28125,3.375],
-            "axis": [-30.0,0.0,0.0]
-          },
-          {
-            "animationType": "rotation",
-            "variable": "engine_clutch_downshift_1",
-            "centerPoint": [0.0,0.28125,3.375],
-            "axis": [-30.0,0.0,0.0]
-          }
-        ]
-      },
-      {
-        "objectName": "p_brake",
-        "animations": [
-          {
-            "animationType": "rotation",
-            "variable": "p_brake",
-            "centerPoint": [0.0,-0.0625,2.28125],
-            "axis": [-30.0,0.0,0.0]
-          }
-        ]
-      },
-      {
-        "objectName": "shift",
-        "animations": [
-          {
-            "animationType": "rotation",
-            "variable": "engine_gearshift_1",
-            "centerPoint": [0.0,-0.01563,2.78125],
-            "axis": [1.0,0.0,0.0]
-          }
-        ]
-      },
-      {
-        "objectName": "doorFR",
-        "animations": [
-          {
-            "animationType": "rotation",
-            "variable": "door_fr",
-            "centerPoint": [-1.1875,0.25,3.0],
-            "axis": [0.0,60.0,0.0],
-            "duration": 15,
-            "forwardsEasing": "easeoutback",
-            "reverseEasing": "easeincubic",
-            "forwardsStartSound": "iv_tpp:dooropen",
-            "reverseEndSound": "iv_tpp:doorclose"
-          }
-        ]
-      },
-      {
-        "objectName": "doorwindowFR",
-        "applyAfter": "doorFR",
-        "animations": []
-      },
-      {
-        "objectName": "doorFL",
-        "animations": [
-          {
-            "animationType": "rotation",
-            "variable": "door_fl",
-            "centerPoint": [1.1875,0.25,3.0],
-            "axis": [0.0,-60.0,0.0],
-            "duration": 15,
-            "forwardsEasing": "easeoutback",
-            "reverseEasing": "easeincubic",
-            "forwardsStartSound": "iv_tpp:dooropen",
-            "reverseEndSound": "iv_tpp:doorclose"
-          }
-        ]
-      },
-      {
-        "objectName": "doorwindowFL",
-        "applyAfter": "doorFL",
-        "animations": []
-      },
-      {
-        "objectName": "doorRL",
-        "animations": [
-          {
-            "animationType": "rotation",
-            "variable": "door_rl",
-            "centerPoint": [1.1875,0.25,1.6875],
-            "axis": [0.0,-60.0,0.0],
-            "duration": 15,
-            "forwardsEasing": "easeoutback",
-            "reverseEasing": "easeincubic",
-            "forwardsStartSound": "iv_tpp:dooropen",
-            "reverseEndSound": "iv_tpp:doorclose"
-          }
-        ]
-      },
-      {
-        "objectName": "doorwindowRL",
-        "applyAfter": "doorRL",
-        "animations": []
-      },
-      {
-        "objectName": "doorRR",
-        "animations": [
-          {
-            "animationType": "rotation",
-            "variable": "door_rr",
-            "centerPoint": [-1.1875,0.25,1.6875],
-            "axis": [0.0,60.0,0.0],
-            "duration": 15,
-            "forwardsEasing": "easeoutback",
-            "reverseEasing": "easeincubic",
-            "forwardsStartSound": "iv_tpp:dooropen",
-            "reverseEndSound": "iv_tpp:doorclose"
-          }
-        ]
-      },
-      {
-        "objectName": "doorwindowRR",
-        "applyAfter": "doorRR",
-        "animations": []
-      },
-      {
-        "objectName": "hood",
-        "animations": [
-          {
-            "animationType": "rotation",
-            "variable": "door_hood",
-            "centerPoint": [0.0,0.875,3.5625],
-            "axis": [-60.0,0.0,0.0],
-            "duration": 25,
-            "forwardsEasing": "easeoutquint",
-            "reverseEasing": "easeincubic",
-            "forwardsStartSound": "iv_tpp:hoodopen",
-            "reverseStartSound": "iv_tpp:hoodclose"
-          }
-        ]
-      },
-      {
-        "objectName": "boot",
-        "animations": [
-          {
-            "animationType": "rotation",
-            "variable": "door_boot",
-            "centerPoint": [0.0,1.0,-0.25],
-            "axis": [60.0,0.0,0.0],
-            "duration": 15,
-            "forwardsEasing": "easeoutquint",
-            "reverseEasing": "easeincubic",
-            "forwardsStartSound": "iv_tpp:bootopen",
-            "reverseEndSound": "iv_tpp:bootclose"
-          }
-        ]
-      }
+            "animations": [
+                {
+                    "animationType": "visibility",
+                    "variable": "engine_isautomatic_1"
+                },
+                {
+                    "animationType": "visibility",
+                    "variable": "engine_isdualclutch_1"
+                },
+                {
+                    "animationType": "visibility",
+                    "variable": "!engine_gear_1",
+                    "reverseDelay": 6
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "!engine_clutch_downshift_1",
+                    "axis": [
+                        0.5,
+                        0.0,
+                        0.0
+                    ],
+                    "offset": 0.5,
+                    "duration": 3
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "!engine_clutch_upshift_1",
+                    "axis": [
+                        1.0,
+                        0.0,
+                        0.0
+                    ],
+                    "duration": 3
+                }
+            ]
+        },
+        {
+            "variable": "brakingFactor",
+            "animations": [
+                {
+                    "animationType": "visibility",
+                    "variable": "p_brake"
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "brake",
+                    "axis": [
+                        1.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "variable": "axleRatio",
+            "animations": [
+                {
+                    "animationType": "visibility",
+                    "variable": "slip",
+                    "clampMin": 8.0,
+                    "clampMax": 32767.0,
+                    "absolute": true
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "slip",
+                    "axis": [
+                        0.0,
+                        0.0625,
+                        0.0
+                    ],
+                    "offset": -0.5,
+                    "clampMin": 0.001,
+                    "absolute": true
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "throttle",
+                    "axis": [
+                        1.5,
+                        0.0,
+                        0.0
+                    ],
+                    "offset": -0.5,
+                    "clampMin": 0.0125,
+                    "clampMax": 1.0
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "engine_rpm_percent_revlimit_1",
+                    "axis": [
+                        -8.0,
+                        0.0,
+                        0.0
+                    ],
+                    "offset": 8.5,
+                    "clampMin": 0.125,
+                    "clampMax": 1.0
+                }
+            ]
+        },
+        {
+            "variable": "rlBodyroll",
+            "minValue": -1.0,
+            "maxValue": 0.5,
+            "animations": [
+                {
+                    "animationType": "translation",
+                    "variable": "turn_indicator",
+                    "axis": [
+                        0.0,
+                        -0.001,
+                        0.0
+                    ]
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "slip",
+                    "axis": [
+                        0.0,
+                        0.005,
+                        0.0
+                    ]
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "!ground_onground_1",
+                    "axis": [
+                        0.0,
+                        -1.0,
+                        0.0
+                    ]
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "damage_totaled",
+                    "axis": [
+                        0.0,
+                        1.0,
+                        0.0
+                    ]
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "acceleration",
+                    "axis": [
+                        0.0,
+                        3.0,
+                        0.0
+                    ]
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "rlBodyroll",
+                    "axis": [
+                        0.0,
+                        -0.375,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "variable": "rrBodyroll",
+            "minValue": -0.5,
+            "maxValue": 1.0,
+            "animations": [
+                {
+                    "animationType": "translation",
+                    "variable": "turn_indicator",
+                    "axis": [
+                        0.0,
+                        -0.001,
+                        0.0
+                    ]
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "slip",
+                    "axis": [
+                        0.0,
+                        0.005,
+                        0.0
+                    ]
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "!ground_onground_2",
+                    "axis": [
+                        0.0,
+                        1.0,
+                        0.0
+                    ]
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "damage_totaled",
+                    "axis": [
+                        0.0,
+                        -1.0,
+                        0.0
+                    ]
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "acceleration",
+                    "axis": [
+                        0.0,
+                        -3.0,
+                        0.0
+                    ]
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "rrBodyroll",
+                    "axis": [
+                        0.0,
+                        -0.375,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "variable": "flBodyroll",
+            "minValue": -1.0,
+            "maxValue": 0.5,
+            "animations": [
+                {
+                    "animationType": "translation",
+                    "variable": "turn_indicator",
+                    "axis": [
+                        0.0,
+                        -0.001,
+                        0.0
+                    ]
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "slip",
+                    "axis": [
+                        0.0,
+                        0.005,
+                        0.0
+                    ]
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "!ground_onground_3",
+                    "axis": [
+                        0.0,
+                        -1.0,
+                        0.0
+                    ]
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "damage_totaled",
+                    "axis": [
+                        0.0,
+                        1.0,
+                        0.0
+                    ]
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "acceleration",
+                    "axis": [
+                        0.0,
+                        -3.0,
+                        0.0
+                    ]
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "flBodyroll",
+                    "axis": [
+                        0.0,
+                        -0.375,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "variable": "frBodyroll",
+            "minValue": -0.5,
+            "maxValue": 1.0,
+            "animations": [
+                {
+                    "animationType": "translation",
+                    "variable": "turn_indicator",
+                    "axis": [
+                        0.0,
+                        -0.001,
+                        0.0
+                    ]
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "slip",
+                    "axis": [
+                        0.0,
+                        0.005,
+                        0.0
+                    ]
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "!ground_onground_4",
+                    "axis": [
+                        0.0,
+                        1.0,
+                        0.0
+                    ]
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "damage_totaled",
+                    "axis": [
+                        0.0,
+                        -1.0,
+                        0.0
+                    ]
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "acceleration",
+                    "axis": [
+                        0.0,
+                        3.0,
+                        0.0
+                    ]
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "frBodyroll",
+                    "axis": [
+                        0.0,
+                        -0.375,
+                        0.0
+                    ]
+                }
+            ]
+        }
     ],
-    "lightObjects": [
-      {"_comment": "Backup lights - White lights",
-        "objectName": "&BackupLight_ffffcc_FFFFF_111",
-        "emissive": true,
-        "covered": true,
-        "isElectric": true,
-        "color": "FFFFCC",
-        "brightnessAnimations": [
-          {
-            "animationType": "visibility",
-            "variable": "engine_reversed_1",
-            "clampMin": 1.0,
-            "clampMax": 1.0
-          },
-          {
-            "animationType": "visibility",
-            "variable": "engine_running_1",
-            "clampMin": 1.0,
-            "clampMax": 1.0
-          }
+    "rendering": {
+        "textObjects": [],
+        "animatedObjects": [
+            {
+                "objectName": "steer",
+                "animations": [
+                    {
+                        "animationType": "rotation",
+                        "variable": "rudder",
+                        "centerPoint": [
+                            0.5625,
+                            0.65625,
+                            2.9375
+                        ],
+                        "axis": [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "damage_totaled",
+                        "centerPoint": [
+                            0.5625,
+                            0.65625,
+                            2.9375
+                        ],
+                        "axis": [
+                            5.148591562679668,
+                            -3.9943165889044474,
+                            -6.738212684725902
+                        ]
+                    }
+                ]
+            },
+            {
+                "objectName": "gas",
+                "animations": [
+                    {
+                        "animationType": "rotation",
+                        "variable": "throttle",
+                        "centerPoint": [
+                            0.0,
+                            0.28125,
+                            3.375
+                        ],
+                        "axis": [
+                            -30.0,
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "damage_totaled",
+                        "centerPoint": [
+                            0.0,
+                            0.28125,
+                            3.375
+                        ],
+                        "axis": [
+                            2.779111958001385,
+                            -6.590974348920828,
+                            -3.223958621237011
+                        ]
+                    }
+                ]
+            },
+            {
+                "objectName": "brake",
+                "animations": [
+                    {
+                        "animationType": "rotation",
+                        "variable": "brake",
+                        "centerPoint": [
+                            0.0,
+                            0.28125,
+                            3.375
+                        ],
+                        "axis": [
+                            -30.0,
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "damage_totaled",
+                        "centerPoint": [
+                            0.0,
+                            0.28125,
+                            3.375
+                        ],
+                        "axis": [
+                            0.00042719881021469064,
+                            0.694263997648541,
+                            -3.242907745470296
+                        ]
+                    }
+                ]
+            },
+            {
+                "objectName": "clutch",
+                "animations": [
+                    {
+                        "animationType": "visibility",
+                        "variable": "engine_isautomatic_1"
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "engine_clutch_upshift_1",
+                        "centerPoint": [
+                            0.0,
+                            0.28125,
+                            3.375
+                        ],
+                        "axis": [
+                            -30.0,
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "engine_clutch_downshift_1",
+                        "centerPoint": [
+                            0.0,
+                            0.28125,
+                            3.375
+                        ],
+                        "axis": [
+                            -30.0,
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "damage_totaled",
+                        "centerPoint": null,
+                        "axis": [
+                            -2.6277424583748843,
+                            6.8543962426454,
+                            4.821495706533401
+                        ]
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "damage_totaled",
+                        "centerPoint": [
+                            0.0,
+                            0.28125,
+                            3.375
+                        ],
+                        "axis": [
+                            7.725096487435241,
+                            3.9662243228131917,
+                            -6.387061104613458
+                        ]
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "damage_totaled",
+                        "centerPoint": [
+                            0.0,
+                            0.28125,
+                            3.375
+                        ],
+                        "axis": [
+                            5.552505546663038,
+                            -4.164127936595989,
+                            -5.482529005686077
+                        ]
+                    }
+                ]
+            },
+            {
+                "objectName": "p_brake",
+                "animations": [
+                    {
+                        "animationType": "rotation",
+                        "variable": "p_brake",
+                        "centerPoint": [
+                            0.0,
+                            -0.0625,
+                            2.28125
+                        ],
+                        "axis": [
+                            -30.0,
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "damage_totaled",
+                        "centerPoint": [
+                            0.0,
+                            -0.0625,
+                            2.28125
+                        ],
+                        "axis": [
+                            -4.88485696225858,
+                            -5.149017991380489,
+                            2.9565192221237204
+                        ]
+                    }
+                ]
+            },
+            {
+                "objectName": "shift",
+                "animations": [
+                    {
+                        "animationType": "rotation",
+                        "variable": "engine_gearshift_1",
+                        "centerPoint": [
+                            0.0,
+                            -0.01563,
+                            2.78125
+                        ],
+                        "axis": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "damage_totaled",
+                        "centerPoint": [
+                            0.0,
+                            -0.01563,
+                            2.78125
+                        ],
+                        "axis": [
+                            -3.227572441735134,
+                            5.850930777596904,
+                            1.7216375596583955
+                        ]
+                    }
+                ]
+            },
+            {
+                "objectName": "doorFR",
+                "animations": [
+                    {
+                        "animationType": "rotation",
+                        "variable": "door_fr",
+                        "centerPoint": [
+                            -1.1875,
+                            0.25,
+                            3.0
+                        ],
+                        "axis": [
+                            0.0,
+                            60.0,
+                            0.0
+                        ],
+                        "duration": 15,
+                        "forwardsEasing": "easeoutback",
+                        "reverseEasing": "easeincubic",
+                        "forwardsStartSound": "iv_tpp:dooropen",
+                        "reverseEndSound": "iv_tpp:doorclose"
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "damage_totaled",
+                        "centerPoint": [
+                            -1.1875,
+                            0.25,
+                            3.0
+                        ],
+                        "axis": [
+                            -9.190558693251635,
+                            -7.7373173087551965,
+                            -0.4501698861847423
+                        ]
+                    }
+                ]
+            },
+            {
+                "objectName": "doorwindowFR",
+                "applyAfter": "doorFR",
+                "animations": []
+            },
+            {
+                "objectName": "doorFL",
+                "animations": [
+                    {
+                        "animationType": "rotation",
+                        "variable": "door_fl",
+                        "centerPoint": [
+                            1.1875,
+                            0.25,
+                            3.0
+                        ],
+                        "axis": [
+                            0.0,
+                            -60.0,
+                            0.0
+                        ],
+                        "duration": 15,
+                        "forwardsEasing": "easeoutback",
+                        "reverseEasing": "easeincubic",
+                        "forwardsStartSound": "iv_tpp:dooropen",
+                        "reverseEndSound": "iv_tpp:doorclose"
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "damage_totaled",
+                        "centerPoint": [
+                            1.1875,
+                            0.25,
+                            3.0
+                        ],
+                        "axis": [
+                            -2.6401170969578125,
+                            3.5468958655372163,
+                            -4.851330781710804
+                        ]
+                    }
+                ]
+            },
+            {
+                "objectName": "doorwindowFL",
+                "applyAfter": "doorFL",
+                "animations": []
+            },
+            {
+                "objectName": "doorRL",
+                "animations": [
+                    {
+                        "animationType": "rotation",
+                        "variable": "door_rl",
+                        "centerPoint": [
+                            1.1875,
+                            0.25,
+                            1.6875
+                        ],
+                        "axis": [
+                            0.0,
+                            -60.0,
+                            0.0
+                        ],
+                        "duration": 15,
+                        "forwardsEasing": "easeoutback",
+                        "reverseEasing": "easeincubic",
+                        "forwardsStartSound": "iv_tpp:dooropen",
+                        "reverseEndSound": "iv_tpp:doorclose"
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "damage_totaled",
+                        "centerPoint": [
+                            1.1875,
+                            0.25,
+                            1.6875
+                        ],
+                        "axis": [
+                            2.64553491701988,
+                            9.840620453323186,
+                            8.682756937572712
+                        ]
+                    }
+                ]
+            },
+            {
+                "objectName": "doorwindowRL",
+                "applyAfter": "doorRL",
+                "animations": []
+            },
+            {
+                "objectName": "doorRR",
+                "animations": [
+                    {
+                        "animationType": "rotation",
+                        "variable": "door_rr",
+                        "centerPoint": [
+                            -1.1875,
+                            0.25,
+                            1.6875
+                        ],
+                        "axis": [
+                            0.0,
+                            60.0,
+                            0.0
+                        ],
+                        "duration": 15,
+                        "forwardsEasing": "easeoutback",
+                        "reverseEasing": "easeincubic",
+                        "forwardsStartSound": "iv_tpp:dooropen",
+                        "reverseEndSound": "iv_tpp:doorclose"
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "damage_totaled",
+                        "centerPoint": [
+                            -1.1875,
+                            0.25,
+                            1.6875
+                        ],
+                        "axis": [
+                            -7.2862974570755075,
+                            -1.1369862197406206,
+                            -7.756985173055567
+                        ]
+                    }
+                ]
+            },
+            {
+                "objectName": "doorwindowRR",
+                "applyAfter": "doorRR",
+                "animations": []
+            },
+            {
+                "objectName": "hood",
+                "animations": [
+                    {
+                        "animationType": "rotation",
+                        "variable": "door_hood",
+                        "centerPoint": [
+                            0.0,
+                            0.875,
+                            3.5625
+                        ],
+                        "axis": [
+                            -60.0,
+                            0.0,
+                            0.0
+                        ],
+                        "duration": 25,
+                        "forwardsEasing": "easeoutquint",
+                        "reverseEasing": "easeincubic",
+                        "forwardsStartSound": "iv_tpp:hoodopen",
+                        "reverseStartSound": "iv_tpp:hoodclose"
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "damage_totaled",
+                        "centerPoint": [
+                            0.0,
+                            0.875,
+                            3.5625
+                        ],
+                        "axis": [
+                            -8.950183218263154,
+                            -5.730769003369285,
+                            1.1542057067586153
+                        ]
+                    }
+                ]
+            },
+            {
+                "objectName": "boot",
+                "animations": [
+                    {
+                        "animationType": "rotation",
+                        "variable": "door_boot",
+                        "centerPoint": [
+                            0.0,
+                            1.0,
+                            -0.25
+                        ],
+                        "axis": [
+                            60.0,
+                            0.0,
+                            0.0
+                        ],
+                        "duration": 15,
+                        "forwardsEasing": "easeoutquint",
+                        "reverseEasing": "easeincubic",
+                        "forwardsStartSound": "iv_tpp:bootopen",
+                        "reverseEndSound": "iv_tpp:bootclose"
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "damage_totaled",
+                        "centerPoint": [
+                            0.0,
+                            1.0,
+                            -0.25
+                        ],
+                        "axis": [
+                            7.141597625356717,
+                            -1.6261054285375227,
+                            -9.60187442536557
+                        ]
+                    }
+                ]
+            }
         ],
-        "blendableComponents": [
-          {
-            "pos": [0.84375,0.4375,-1.421875],
-            "axis": [0.0,0.0,-1.0],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [0.84375,0.4375,-1.421875],
-            "axis": [0.0,0.0,-1.0],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [-0.84375,0.4375,-1.421875],
-            "axis": [0.0,0.0,-1.0],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          },
-          {
-            "pos": [-0.84375,0.4375,-1.421875],
-            "axis": [0.0,0.0,-1.0],
-            "flareHeight": 0.5625,
-            "flareWidth": 0.5625
-          }
-        ]
-      },
-      {"_comment": "Fog lights - White lights",
-        "objectName": "&RunningLight_ffffcc_FFFFF_111.001",
-        "emissive": true,
-        "covered": true,
-        "isElectric": true,
-        "color": "FFFFCC",
-        "brightnessAnimations": [
-          {
-            "animationType": "visibility",
-            "variable": "rain_strength",
-            "clampMin": 1.0,
-            "clampMax": 2.0
-          },
-          {
-            "animationType": "visibility",
-            "variable": "engine_running_1",
-            "clampMin": 1.0,
-            "clampMax": 1.0
-          }
+        "lightObjects": [
+            {
+                "_comment": "Backup lights - White lights",
+                "objectName": "&BackupLight_ffffcc_FFFFF_111",
+                "emissive": true,
+                "covered": true,
+                "isElectric": true,
+                "color": "FFFFCC",
+                "brightnessAnimations": [
+                    {
+                        "animationType": "visibility",
+                        "variable": "engine_reversed_1",
+                        "clampMin": 1.0,
+                        "clampMax": 1.0
+                    },
+                    {
+                        "animationType": "visibility",
+                        "variable": "engine_running_1",
+                        "clampMin": 1.0,
+                        "clampMax": 1.0
+                    }
+                ],
+                "blendableComponents": [
+                    {
+                        "pos": [
+                            0.84375,
+                            0.4375,
+                            -1.421875
+                        ],
+                        "axis": [
+                            0.0,
+                            0.0,
+                            -1.0
+                        ],
+                        "flareHeight": 0.5625,
+                        "flareWidth": 0.5625
+                    },
+                    {
+                        "pos": [
+                            0.84375,
+                            0.4375,
+                            -1.421875
+                        ],
+                        "axis": [
+                            0.0,
+                            0.0,
+                            -1.0
+                        ],
+                        "flareHeight": 0.5625,
+                        "flareWidth": 0.5625
+                    },
+                    {
+                        "pos": [
+                            -0.84375,
+                            0.4375,
+                            -1.421875
+                        ],
+                        "axis": [
+                            0.0,
+                            0.0,
+                            -1.0
+                        ],
+                        "flareHeight": 0.5625,
+                        "flareWidth": 0.5625
+                    },
+                    {
+                        "pos": [
+                            -0.84375,
+                            0.4375,
+                            -1.421875
+                        ],
+                        "axis": [
+                            0.0,
+                            0.0,
+                            -1.0
+                        ],
+                        "flareHeight": 0.5625,
+                        "flareWidth": 0.5625
+                    }
+                ]
+            },
+            {
+                "_comment": "Fog lights - White lights",
+                "objectName": "&RunningLight_ffffcc_FFFFF_111.001",
+                "emissive": true,
+                "covered": true,
+                "isElectric": true,
+                "color": "FFFFCC",
+                "brightnessAnimations": [
+                    {
+                        "animationType": "visibility",
+                        "variable": "rain_strength",
+                        "clampMin": 1.0,
+                        "clampMax": 2.0
+                    },
+                    {
+                        "animationType": "visibility",
+                        "variable": "engine_running_1",
+                        "clampMin": 1.0,
+                        "clampMax": 1.0
+                    }
+                ],
+                "blendableComponents": [
+                    {
+                        "pos": [
+                            0.937263,
+                            -5.28697,
+                            0.106301
+                        ],
+                        "axis": [
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "flareHeight": 0.375,
+                        "flareWidth": 0.375
+                    },
+                    {
+                        "pos": [
+                            -0.937263,
+                            -5.28697,
+                            0.106301
+                        ],
+                        "axis": [
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "flareHeight": 0.375,
+                        "flareWidth": 0.375
+                    }
+                ]
+            },
+            {
+                "_comment": "Map lights - White lights",
+                "objectName": "&RunningLight_ffffcc_FFFFF_111",
+                "emissive": true,
+                "covered": true,
+                "isElectric": true,
+                "color": "FFFFCC",
+                "brightnessAnimations": [
+                    {
+                        "animationType": "visibility",
+                        "variable": "map_light",
+                        "clampMin": 1.0,
+                        "clampMax": 1.0
+                    }
+                ]
+            },
+            {
+                "_comment": "Headlights - Yellow lights",
+                "objectName": "&Headlight_FFFFA7_FFFFF_111",
+                "emissive": true,
+                "covered": true,
+                "isElectric": true,
+                "color": "FFFFA7",
+                "brightnessAnimations": [
+                    {
+                        "animationType": "visibility",
+                        "variable": "headlight",
+                        "clampMin": 1.0,
+                        "clampMax": 1.0
+                    }
+                ],
+                "blendableComponents": [
+                    {
+                        "pos": [
+                            -0.8,
+                            0.51,
+                            5.4
+                        ],
+                        "axis": [
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "flareHeight": 1.0,
+                        "flareWidth": 1.0,
+                        "beamDiameter": 16.0,
+                        "beamLength": 48.0
+                    },
+                    {
+                        "pos": [
+                            0.8,
+                            0.51,
+                            5.4
+                        ],
+                        "axis": [
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "flareHeight": 1.0,
+                        "flareWidth": 1.0,
+                        "beamDiameter": 16.0,
+                        "beamLength": 48.0
+                    }
+                ]
+            },
+            {
+                "_comment": "Left Turn Signals - Orange Clicking lights",
+                "objectName": "&LeftTurnLight_ff6600_FFC00_111",
+                "emissive": true,
+                "covered": true,
+                "isElectric": true,
+                "color": "FF6600",
+                "brightnessAnimations": [
+                    {
+                        "animationType": "visibility",
+                        "variable": "left_turn_signal",
+                        "clampMin": 1.0,
+                        "clampMax": 1.0
+                    },
+                    {
+                        "animationType": "visibility",
+                        "variable": "10_10_0_cycle",
+                        "clampMin": 1.0,
+                        "clampMax": 1.0
+                    }
+                ]
+            },
+            {
+                "_comment": "Emergency lights - Orange Clicking lights",
+                "objectName": "&EmergencyLight_ff6600_00F0F_111",
+                "emissive": true,
+                "covered": true,
+                "isElectric": true,
+                "color": "FF6600",
+                "brightnessAnimations": [
+                    {
+                        "animationType": "visibility",
+                        "variable": "EMERLTS",
+                        "clampMin": 1.0,
+                        "clampMax": 1.0
+                    },
+                    {
+                        "animationType": "visibility",
+                        "variable": "0_4_16_cycle",
+                        "clampMin": 1.0,
+                        "clampMax": 1.0
+                    }
+                ]
+            },
+            {
+                "_comment": "Right Turn Signals - Orange Clicking lights",
+                "objectName": "&RightTurnLight_ff6600_FFC00_111",
+                "emissive": true,
+                "covered": true,
+                "isElectric": true,
+                "color": "FF6600",
+                "brightnessAnimations": [
+                    {
+                        "animationType": "visibility",
+                        "variable": "right_turn_signal",
+                        "clampMin": 1.0,
+                        "clampMax": 1.0
+                    },
+                    {
+                        "animationType": "visibility",
+                        "variable": "10_10_0_cycle",
+                        "clampMin": 1.0,
+                        "clampMax": 1.0
+                    }
+                ]
+            },
+            {
+                "_comment": "Rear Running lights - Red lights",
+                "objectName": "&RunningLight_e60000_FFFFF_111",
+                "emissive": true,
+                "covered": true,
+                "isElectric": true,
+                "color": "E60000",
+                "brightnessAnimations": [
+                    {
+                        "animationType": "visibility",
+                        "variable": "running_light",
+                        "clampMin": 1.0,
+                        "clampMax": 1.0
+                    }
+                ],
+                "blendableComponents": [
+                    {
+                        "pos": [
+                            0.94,
+                            0.55,
+                            -1.44
+                        ],
+                        "axis": [
+                            0.0,
+                            0.0,
+                            -1.0
+                        ],
+                        "flareHeight": 0.5,
+                        "flareWidth": 0.8
+                    },
+                    {
+                        "pos": [
+                            -0.94,
+                            0.55,
+                            -1.44
+                        ],
+                        "axis": [
+                            0.0,
+                            0.0,
+                            -1.0
+                        ],
+                        "flareHeight": 0.5,
+                        "flareWidth": 0.8
+                    },
+                    {
+                        "pos": [
+                            1.19,
+                            0.55,
+                            -1.35
+                        ],
+                        "axis": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "flareHeight": 0.5,
+                        "flareWidth": 0.5
+                    },
+                    {
+                        "pos": [
+                            -1.19,
+                            0.55,
+                            -1.35
+                        ],
+                        "axis": [
+                            -1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "flareHeight": 0.5,
+                        "flareWidth": 0.5
+                    }
+                ]
+            },
+            {
+                "_comment": "Brake lights - Red lights",
+                "objectName": "&BrakeLight_e60000_FFFFF_111",
+                "emissive": true,
+                "covered": true,
+                "isElectric": true,
+                "color": "E60000",
+                "brightnessAnimations": [
+                    {
+                        "animationType": "visibility",
+                        "variable": "brake",
+                        "clampMin": 0.01,
+                        "clampMax": 1.0
+                    }
+                ],
+                "blendableComponents": [
+                    {
+                        "pos": [
+                            0,
+                            1.6,
+                            0.555
+                        ],
+                        "axis": [
+                            0.0,
+                            0.0,
+                            -1.0
+                        ],
+                        "flareHeight": 0.4,
+                        "flareWidth": 0.6
+                    }
+                ]
+            },
+            {
+                "_comment": "Front Running lights - Yellow lights",
+                "objectName": "&RunningLight_FFFFA7_FFFFF_111",
+                "emissive": true,
+                "covered": true,
+                "isElectric": true,
+                "color": "FFFFA7",
+                "brightnessAnimations": [
+                    {
+                        "animationType": "visibility",
+                        "variable": "running_light",
+                        "clampMin": 1.0,
+                        "clampMax": 1.0
+                    }
+                ],
+                "blendableComponents": [
+                    {
+                        "pos": [
+                            -0.8,
+                            0.5,
+                            5.38
+                        ],
+                        "axis": [
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "flareHeight": 0.75,
+                        "flareWidth": 0.75
+                    },
+                    {
+                        "pos": [
+                            0.8,
+                            0.5,
+                            5.38
+                        ],
+                        "axis": [
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "flareHeight": 0.75,
+                        "flareWidth": 0.75
+                    }
+                ]
+            }
         ],
-        "blendableComponents": [
-          {
-            "pos": [0.937263,-5.28697,0.106301],
-            "axis": [0.0,0.0,1.0],
-            "flareHeight": 0.375,
-            "flareWidth": 0.375
-          },
-          {
-            "pos": [-0.937263,-5.28697,0.106301],
-            "axis": [0.0,0.0,1.0],
-            "flareHeight": 0.375,
-            "flareWidth": 0.375
-          }
-        ]
-      },
-      {"_comment": "Map lights - White lights",
-        "objectName": "&RunningLight_ffffcc_FFFFF_111",
-        "emissive": true,
-        "covered": true,
-        "isElectric": true,
-        "color": "FFFFCC",
-        "brightnessAnimations": [
-          {
-            "animationType": "visibility",
-            "variable": "map_light",
-            "clampMin": 1.0,
-            "clampMax": 1.0
-          }
-        ]
-      },
-      {"_comment": "Headlights - Yellow lights",
-        "objectName": "&Headlight_FFFFA7_FFFFF_111",
-        "emissive": true,
-        "covered": true,
-        "isElectric": true,
-        "color": "FFFFA7",
-        "brightnessAnimations": [
-          {
-            "animationType": "visibility",
-            "variable": "headlight",
-            "clampMin": 1.0,
-            "clampMax": 1.0
-          }
+        "customVariables": [
+            "EMERLTS"
         ],
-        "blendableComponents": [
-          {
-            "pos": [-0.8, 0.51, 5.4],
-            "axis": [0.0,0.0,1.0],
-            "flareHeight": 1.0,
-            "flareWidth": 1.0,
-            "beamDiameter": 16.0,
-            "beamLength": 48.0
-          },
-          {
-            "pos": [0.8, 0.51, 5.4],
-            "axis": [0.0,0.0,1.0],
-            "flareHeight": 1.0,
-            "flareWidth": 1.0,
-            "beamDiameter": 16.0,
-            "beamLength": 48.0
-          }
-        ]
-      },
-      {"_comment": "Left Turn Signals - Orange Clicking lights",
-        "objectName": "&LeftTurnLight_ff6600_FFC00_111",
-        "emissive": true,
-        "covered": true,
-        "isElectric": true,
-        "color": "FF6600",
-        "brightnessAnimations": [
-          {
-            "animationType": "visibility",
-            "variable": "left_turn_signal",
-            "clampMin": 1.0,
-            "clampMax": 1.0
-          },
-          {
-            "animationType": "visibility",
-            "variable": "10_10_0_cycle",
-            "clampMin": 1.0,
-            "clampMax": 1.0
-          }
-        ]
-      },
-      {"_comment": "Emergency lights - Orange Clicking lights",
-        "objectName": "&EmergencyLight_ff6600_00F0F_111",
-        "emissive": true,
-        "covered": true,
-        "isElectric": true,
-        "color": "FF6600",
-        "brightnessAnimations": [
-          {
-            "animationType": "visibility",
-            "variable": "EMERLTS",
-            "clampMin": 1.0,
-            "clampMax": 1.0
-          },
-          {
-            "animationType": "visibility",
-            "variable": "0_4_16_cycle",
-            "clampMin": 1.0,
-            "clampMax": 1.0
-          }
-        ]
-      },
-      {"_comment": "Right Turn Signals - Orange Clicking lights",
-        "objectName": "&RightTurnLight_ff6600_FFC00_111",
-        "emissive": true,
-        "covered": true,
-        "isElectric": true,
-        "color": "FF6600",
-        "brightnessAnimations": [
-          {
-            "animationType": "visibility",
-            "variable": "right_turn_signal",
-            "clampMin": 1.0,
-            "clampMax": 1.0
-          },
-          {
-            "animationType": "visibility",
-            "variable": "10_10_0_cycle",
-            "clampMin": 1.0,
-            "clampMax": 1.0
-          }
-        ]
-      },
-      {"_comment": "Rear Running lights - Red lights",
-        "objectName": "&RunningLight_e60000_FFFFF_111",
-        "emissive": true,
-        "covered": true,
-        "isElectric": true,
-        "color": "E60000",
-        "brightnessAnimations": [
-          {
-            "animationType": "visibility",
-            "variable": "running_light",
-            "clampMin": 1.0,
-            "clampMax": 1.0
-          }
+        "sounds": [
+            {
+                "name": "iv_tpp:horn_1",
+                "activeAnimations": [
+                    {
+                        "animationType": "visibility",
+                        "variable": "horn",
+                        "clampMin": 1.0,
+                        "clampMax": 1.0,
+                        "reverseDelay": 4
+                    }
+                ],
+                "volumeAnimations": [
+                    {
+                        "animationType": "translation",
+                        "variable": "horn",
+                        "axis": [
+                            0.0,
+                            1.0,
+                            0.0
+                        ],
+                        "duration": 3,
+                        "forwardsDelay": -2
+                    }
+                ],
+                "looping": true,
+                "minDistance": 0.0,
+                "minDistanceVolume": 0.0,
+                "middleDistance": 0.0,
+                "middleDistanceVolume": 0.0,
+                "maxDistance": 0.0,
+                "maxDistanceVolume": 0.0
+            }
         ],
-        "blendableComponents": [
-          {
-            "pos": [0.94, 0.55, -1.44],
-            "axis": [0.0,0.0,-1.0],
-            "flareHeight": 0.5,
-            "flareWidth": 0.8
-          },
-          {
-            "pos": [-0.94, 0.55, -1.44],
-            "axis": [0.0,0.0,-1.0],
-            "flareHeight": 0.5,
-            "flareWidth": 0.8
-          },
-          {
-            "pos": [1.19, 0.55, -1.35],
-            "axis": [1.0,0.0,0.0],
-            "flareHeight": 0.5,
-            "flareWidth": 0.5
-          },
-          {
-            "pos": [-1.19, 0.55, -1.35],
-            "axis": [-1.0,0.0,0.0],
-            "flareHeight": 0.5,
-            "flareWidth": 0.5
-          }
-        ]
-      },
-      {"_comment": "Brake lights - Red lights",
-        "objectName": "&BrakeLight_e60000_FFFFF_111",
-        "emissive": true,
-        "covered": true,
-        "isElectric": true,
-        "color": "E60000",
-        "brightnessAnimations": [
-          {
-            "animationType": "visibility",
-            "variable": "brake",
-            "clampMin": 0.01,
-            "clampMax": 1.0
-          }
+        "particles": [
+            {
+                "_comment": "Exhaust particles Left",
+                "type": "smoke",
+                "spawningOrientation": "entity",
+                "renderingOrientation": "player",
+                "quantity": 1,
+                "transparency": 0.25,
+                "toTransparency": 0.25,
+                "scale": 0.2,
+                "hitboxSize": 0.2,
+                "color": "D9D9D9",
+                "pos": [
+                    0.5,
+                    -0.10938,
+                    -1.375
+                ],
+                "initialVelocity": [
+                    0.0,
+                    0.0,
+                    -1.0
+                ],
+                "activeAnimations": [
+                    {
+                        "animationType": "visibility",
+                        "variable": "engine_piston_1_2_cam_1",
+                        "clampMin": 1.0,
+                        "clampMax": 1.0
+                    }
+                ]
+            },
+            {
+                "_comment": "Engine go ouch",
+                "type": "smoke",
+                "spawningOrientation": "entity",
+                "renderingOrientation": "player",
+                "quantity": 5,
+                "scale": 0.5,
+                "hitboxSize": 0.2,
+                "color": "000000",
+                "pos": [
+                    0.5,
+                    -0.10938,
+                    -1.375
+                ],
+                "initialVelocity": [
+                    0.0,
+                    0.0,
+                    -1.0
+                ],
+                "activeAnimations": [
+                    {
+                        "animationType": "visibility",
+                        "variable": "engine_backfired_1",
+                        "clampMin": 1.0,
+                        "clampMax": 1.0
+                    }
+                ]
+            },
+            {
+                "_comment": "Exhaust particles Right",
+                "type": "smoke",
+                "spawningOrientation": "entity",
+                "renderingOrientation": "player",
+                "quantity": 1,
+                "transparency": 0.25,
+                "toTransparency": 0.25,
+                "scale": 0.2,
+                "hitboxSize": 0.2,
+                "color": "D9D9D9",
+                "pos": [
+                    -0.5,
+                    -0.10938,
+                    -1.375
+                ],
+                "initialVelocity": [
+                    0.0,
+                    0.0,
+                    -1.0
+                ],
+                "activeAnimations": [
+                    {
+                        "animationType": "visibility",
+                        "variable": "engine_piston_2_2_cam_1",
+                        "clampMin": 1.0,
+                        "clampMax": 1.0
+                    }
+                ]
+            },
+            {
+                "_comment": "Engine go ouch",
+                "type": "smoke",
+                "spawningOrientation": "entity",
+                "renderingOrientation": "player",
+                "quantity": 5,
+                "scale": 0.5,
+                "hitboxSize": 0.2,
+                "color": "000000",
+                "pos": [
+                    -0.5,
+                    -0.10938,
+                    -1.375
+                ],
+                "initialVelocity": [
+                    0.0,
+                    0.0,
+                    -1.0
+                ],
+                "activeAnimations": [
+                    {
+                        "animationType": "visibility",
+                        "variable": "engine_backfired_1",
+                        "clampMin": 1.0,
+                        "clampMax": 1.0
+                    }
+                ]
+            }
         ],
-        "blendableComponents": [
-          {
-            "pos": [0, 1.6, 0.555],
-            "axis": [0.0,0.0,-1.0],
-            "flareHeight": 0.4,
-            "flareWidth": 0.6
-          }
-        ]
-      },
-      {"_comment": "Front Running lights - Yellow lights",
-        "objectName": "&RunningLight_FFFFA7_FFFFF_111",
-        "emissive": true,
-        "covered": true,
-        "isElectric": true,
-        "color": "FFFFA7",
-        "brightnessAnimations": [
-          {
-            "animationType": "visibility",
-            "variable": "running_light",
-            "clampMin": 1.0,
-            "clampMax": 1.0
-          }
+        "modelType": "obj"
+    },
+    "general": {
+        "description": "4wd Mid End Sedan\n4 door, 4 seats\n\nRecommended parts:\nAverage Sized Wheels\nI4 Engine\nModel 1 Seats",
+        "health": 150,
+        "materialLists": [
+            [
+                "mts:iv_tpp.chassis_ld4_l6m_t14_i4_urlon:0:1",
+                "minecraft:iron_ingot:0:16",
+                "minecraft:iron_block:0:7",
+                "minecraft:glowstone_dust:0:16",
+                "minecraft:glass_pane:0:10",
+                "mts:iv_tpp.metal_pile_2:0:2"
+            ]
         ],
-        "blendableComponents": [
-          {
-            "pos": [-0.8, 0.5, 5.38],
-            "axis": [0.0,0.0,1.0],
-            "flareHeight": 0.75,
-            "flareWidth": 0.75
-          },
-          {
-            "pos": [0.8, 0.5, 5.38],
-            "axis": [0.0,0.0,1.0],
-            "flareHeight": 0.75,
-            "flareWidth": 0.75
-          }
-        ]
-      }
-    ],
-    "customVariables": [
-      "EMERLTS"
-    ],
-    "sounds": [
-      {
-        "name": "iv_tpp:horn_1",
-        "activeAnimations": [
-          {
-            "animationType": "visibility",
-            "variable": "horn",
-            "clampMin": 1.0,
-            "clampMax": 1.0,
-            "reverseDelay": 4
-          }
+        "repairMaterialLists": [
+            [
+                "minecraft:iron_ingot:0:8",
+                "minecraft:iron_block:0:3",
+                "minecraft:glowstone_dust:0:8",
+                "minecraft:glass_pane:0:10",
+                "mts:iv_tpp.metal_pile_2:0:1"
+            ]
         ],
-        "volumeAnimations": [
-          {
-            "animationType": "translation",
-            "variable": "horn",
-            "axis": [0.0,1.0,0.0],
-            "duration": 3,
-            "forwardsDelay": -2
-          }
-        ],
-        "looping": true,
-        "minDistance": 0.0,
-        "minDistanceVolume": 0.0,
-        "middleDistance": 0.0,
-        "middleDistanceVolume": 0.0,
-        "maxDistance": 0.0,
-        "maxDistanceVolume": 0.0
-      }
-    ],
-    "particles": [
-      {"_comment": "Exhaust particles Left",
-        "type": "smoke",
-        "spawningOrientation": "entity",
-        "renderingOrientation": "player",
-        "quantity": 1,
-        "transparency": 0.25,
-        "toTransparency": 0.25,
-        "scale": 0.2,
-        "hitboxSize": 0.2,
-        "color": "D9D9D9",
-        "pos": [0.5, -0.10938, -1.375],
-        "initialVelocity": [0.0,0.0,-1.0],
-        "activeAnimations": [
-          {
-            "animationType": "visibility",
-            "variable": "engine_piston_1_2_cam_1",
-            "clampMin": 1.0,
-            "clampMax": 1.0
-          }
-        ]
-      },
-      {"_comment": "Engine go ouch",
-        "type": "smoke",
-        "spawningOrientation": "entity",
-        "renderingOrientation": "player",
-        "quantity": 5,
-        "scale": 0.5,
-        "hitboxSize": 0.2,
-        "color": "000000",
-        "pos": [0.5, -0.10938, -1.375],
-        "initialVelocity": [0.0,0.0,-1.0],
-        "activeAnimations": [
-          {
-            "animationType": "visibility",
-            "variable": "engine_backfired_1",
-            "clampMin": 1.0,
-            "clampMax": 1.0
-          }
-        ]
-      },
-      {"_comment": "Exhaust particles Right",
-        "type": "smoke",
-        "spawningOrientation": "entity",
-        "renderingOrientation": "player",
-        "quantity": 1,
-        "transparency": 0.25,
-        "toTransparency": 0.25,
-        "scale": 0.2,
-        "hitboxSize": 0.2,
-        "color": "D9D9D9",
-        "pos": [-0.5, -0.10938, -1.375],
-        "initialVelocity": [0.0,0.0,-1.0],
-        "activeAnimations": [
-          {
-            "animationType": "visibility",
-            "variable": "engine_piston_2_2_cam_1",
-            "clampMin": 1.0,
-            "clampMax": 1.0
-          }
-        ]
-      },
-      {"_comment": "Engine go ouch",
-        "type": "smoke",
-        "spawningOrientation": "entity",
-        "renderingOrientation": "player",
-        "quantity": 5,
-        "scale": 0.5,
-        "hitboxSize": 0.2,
-        "color": "000000",
-        "pos": [-0.5, -0.10938, -1.375],
-        "initialVelocity": [0.0,0.0,-1.0],
-        "activeAnimations": [
-          {
-            "animationType": "visibility",
-            "variable": "engine_backfired_1",
-            "clampMin": 1.0,
-            "clampMax": 1.0
-          }
-        ]
-      }
-    ],
-    "modelType": "obj"
-  },
-  "general": {
-    "description": "4wd Mid End Sedan\n4 door, 4 seats\n\nRecommended parts:\nAverage Sized Wheels\nI4 Engine\nModel 1 Seats",
-    "health": 150,
-    "materialLists": [
-      [
-        "mts:iv_tpp.chassis_ld4_l6m_t14_i4_urlon:0:1",
-        "minecraft:iron_ingot:0:16",
-        "minecraft:iron_block:0:7",
-        "minecraft:glowstone_dust:0:16",
-        "minecraft:glass_pane:0:10",
-        "mts:iv_tpp.metal_pile_2:0:2"
-      ]
-    ],
-    "repairMaterialLists": [
-      [
-        "minecraft:iron_ingot:0:8",
-        "minecraft:iron_block:0:3",
-        "minecraft:glowstone_dust:0:8",
-        "minecraft:glass_pane:0:10",
-        "mts:iv_tpp.metal_pile_2:0:1"
-      ]
-    ],
-    "radarWidth": 0.0,
-    "radarRange": 0.0
-  }
+        "radarWidth": 0.0,
+        "radarRange": 0.0
+    }
 }

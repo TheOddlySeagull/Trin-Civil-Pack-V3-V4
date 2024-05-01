@@ -1,123 +1,164 @@
 {
-  "generic": {
-    "type": "generic_bodypanel_fender_f",
-    "width": 0.5,
-    "height": 1.0
-  },
-  "definitions": [
-    {
-      "subName": "_carminred",
-      "modelName": "trin_pilocrap_fender_f",
-      "name": "Trin Pilocrap body panel",
-      "description": "Front Fender, carmin red",
-      "extraMaterialLists": [
-        ["mts:iv_tpp.paint_bucket_carminred:0:1"]
-      ]
+    "generic": {
+        "type": "generic_bodypanel_fender_f",
+        "width": 0.5,
+        "height": 1.0
     },
-    {
-      "subName": "_driveschool",
-      "modelName": "trin_pilocrap_fender_f",
-      "name": "Trin Pilocrap body panel",
-      "description": "Front Fender, drive school",
-      "extraMaterialLists": [
-        ["mts:iv_tpp.wrap_roll_driveschool:0:1"]
-      ]
-    },
-    {
-      "subName": "_fireorange",
-      "modelName": "trin_pilocrap_fender_f",
-      "name": "Trin Pilocrap body panel",
-      "description": "Front Fender, fire orange",
-      "extraMaterialLists": [
-        ["mts:iv_tpp.paint_bucket_fireorange:0:1"]
-      ]
-    },
-    {
-      "subName": "_midnightpurple",
-      "modelName": "trin_pilocrap_fender_f",
-      "name": "Trin Pilocrap body panel",
-      "description": "Front Fender, midnight purple",
-      "extraMaterialLists": [
-        ["mts:iv_tpp.paint_bucket_midnightpurple:0:1"]
-      ]
-    },
-    {
-      "subName": "_pink",
-      "modelName": "trin_pilocrap_fender_f",
-      "name": "Trin Pilocrap body panel",
-      "description": "Front Fender, pink",
-      "extraMaterialLists": [
-        ["mts:iv_tpp.paint_bucket_pink:0:1"]
-      ]
-    },
-    {
-      "subName": "_pureblack",
-      "modelName": "trin_pilocrap_fender_f",
-      "name": "Trin Pilocrap body panel",
-      "description": "Front Fender, pure black",
-      "extraMaterialLists": [
-        ["mts:iv_tpp.paint_bucket_pureblack:0:1"]
-      ]
-    },
-    {
-      "subName": "_sunshineyellow",
-      "modelName": "trin_pilocrap_fender_f",
-      "name": "Trin Pilocrap body panel",
-      "description": "Front Fender, sunshine yellow",
-      "extraMaterialLists": [
-        ["mts:iv_tpp.paint_bucket_sunshineyellow:0:1"]
-      ]
-    },
-    {
-      "subName": "_teel",
-      "modelName": "trin_pilocrap_fender_f",
-      "name": "Trin Pilocrap body panel",
-      "description": "Front Fender, teal",
-      "extraMaterialLists": [
-        ["mts:iv_tpp.paint_bucket_teal:0:1"]
-      ]
-    },
-    {
-      "subName": "_turquoise",
-      "modelName": "trin_pilocrap_fender_f",
-      "name": "Trin Pilocrap body panel",
-      "description": "Front Fender, turquoise",
-      "extraMaterialLists": [
-        ["mts:iv_tpp.paint_bucket_turquoise:0:1"]
-      ]
-    }
-  ],
-  "rendering": {
-    "animatedObjects": [
-      {
-        "objectName": "fender_F_mirrored",
-        "animations": [
-          {
-            "animationType": "visibility",
-            "variable": "part_ismirrored",
-            "clampMin": 1.0,
-            "clampMax": 1.0
-          }
-        ]
-      },
-      {
-        "objectName": "fender_F",
-        "animations": [
-          {
-            "animationType": "visibility",
-            "variable": "part_ismirrored"
-          }
-        ]
-      }
+    "definitions": [
+        {
+            "subName": "_carminred",
+            "modelName": "trin_pilocrap_fender_f",
+            "name": "Trin Pilocrap body panel",
+            "description": "Front Fender, carmin red",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_bucket_carminred:0:1"
+                ]
+            ]
+        },
+        {
+            "subName": "_driveschool",
+            "modelName": "trin_pilocrap_fender_f",
+            "name": "Trin Pilocrap body panel",
+            "description": "Front Fender, drive school",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.wrap_roll_driveschool:0:1"
+                ]
+            ]
+        },
+        {
+            "subName": "_fireorange",
+            "modelName": "trin_pilocrap_fender_f",
+            "name": "Trin Pilocrap body panel",
+            "description": "Front Fender, fire orange",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_bucket_fireorange:0:1"
+                ]
+            ]
+        },
+        {
+            "subName": "_midnightpurple",
+            "modelName": "trin_pilocrap_fender_f",
+            "name": "Trin Pilocrap body panel",
+            "description": "Front Fender, midnight purple",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_bucket_midnightpurple:0:1"
+                ]
+            ]
+        },
+        {
+            "subName": "_pink",
+            "modelName": "trin_pilocrap_fender_f",
+            "name": "Trin Pilocrap body panel",
+            "description": "Front Fender, pink",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_bucket_pink:0:1"
+                ]
+            ]
+        },
+        {
+            "subName": "_pureblack",
+            "modelName": "trin_pilocrap_fender_f",
+            "name": "Trin Pilocrap body panel",
+            "description": "Front Fender, pure black",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_bucket_pureblack:0:1"
+                ]
+            ]
+        },
+        {
+            "subName": "_sunshineyellow",
+            "modelName": "trin_pilocrap_fender_f",
+            "name": "Trin Pilocrap body panel",
+            "description": "Front Fender, sunshine yellow",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_bucket_sunshineyellow:0:1"
+                ]
+            ]
+        },
+        {
+            "subName": "_teel",
+            "modelName": "trin_pilocrap_fender_f",
+            "name": "Trin Pilocrap body panel",
+            "description": "Front Fender, teal",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_bucket_teal:0:1"
+                ]
+            ]
+        },
+        {
+            "subName": "_turquoise",
+            "modelName": "trin_pilocrap_fender_f",
+            "name": "Trin Pilocrap body panel",
+            "description": "Front Fender, turquoise",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_bucket_turquoise:0:1"
+                ]
+            ]
+        }
     ],
-    "lightObjects": [],
-    "particles": [],
-    "modelType": "obj"
-  },
-  "general": {
-    "health": 100,
-    "materialLists": [
-      ["minecraft:iron_ingot:0:5","minecraft:dirt:0:1"]
-    ]
-  }
+    "rendering": {
+        "animatedObjects": [
+            {
+                "objectName": "fender_F_mirrored",
+                "animations": [
+                    {
+                        "animationType": "visibility",
+                        "variable": "part_ismirrored",
+                        "clampMin": 1.0,
+                        "clampMax": 1.0
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "damage_totaled",
+                        "centerPoint": null,
+                        "axis": [
+                            1.4920158371062886,
+                            -2.0932287640456586,
+                            8.995956300127961
+                        ]
+                    }
+                ]
+            },
+            {
+                "objectName": "fender_F",
+                "animations": [
+                    {
+                        "animationType": "visibility",
+                        "variable": "part_ismirrored"
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "damage_totaled",
+                        "centerPoint": null,
+                        "axis": [
+                            6.522215812968195,
+                            1.5240577278651486,
+                            -9.619643814507848
+                        ]
+                    }
+                ]
+            }
+        ],
+        "lightObjects": [],
+        "particles": [],
+        "modelType": "obj"
+    },
+    "general": {
+        "health": 100,
+        "materialLists": [
+            [
+                "minecraft:iron_ingot:0:5",
+                "minecraft:dirt:0:1"
+            ]
+        ]
+    }
 }

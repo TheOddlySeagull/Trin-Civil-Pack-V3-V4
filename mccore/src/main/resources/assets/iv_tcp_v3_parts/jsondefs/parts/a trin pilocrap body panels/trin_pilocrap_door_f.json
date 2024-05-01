@@ -1,123 +1,164 @@
 {
-  "generic": {
-    "type": "generic_bodypanel_door_f",
-    "width": 0.5,
-    "height": 1.0
-  },
-  "definitions": [
-    {
-      "subName": "_carminred",
-      "modelName": "trin_pilocrap_door_f",
-      "name": "Trin Pilocrap body panel",
-      "description": "Front Door, carmin red",
-      "extraMaterialLists": [
-        ["mts:iv_tpp.paint_bucket_carminred:0:1"]
-      ]
+    "generic": {
+        "type": "generic_bodypanel_door_f",
+        "width": 0.5,
+        "height": 1.0
     },
-    {
-      "subName": "_driveschool",
-      "modelName": "trin_pilocrap_door_f",
-      "name": "Trin Pilocrap body panel",
-      "description": "Front Door, drive school",
-      "extraMaterialLists": [
-        ["mts:iv_tpp.wrap_roll_driveschool:0:1"]
-      ]
-    },
-    {
-      "subName": "_fireorange",
-      "modelName": "trin_pilocrap_door_f",
-      "name": "Trin Pilocrap body panel",
-      "description": "Front Door, fire orange",
-      "extraMaterialLists": [
-        ["mts:iv_tpp.paint_bucket_fireorange:0:1"]
-      ]
-    },
-    {
-      "subName": "_midnightpurple",
-      "modelName": "trin_pilocrap_door_f",
-      "name": "Trin Pilocrap body panel",
-      "description": "Front Door, midnight purple",
-      "extraMaterialLists": [
-        ["mts:iv_tpp.paint_bucket_midnightpurple:0:1"]
-      ]
-    },
-    {
-      "subName": "_pink",
-      "modelName": "trin_pilocrap_door_f",
-      "name": "Trin Pilocrap body panel",
-      "description": "Front Door, pink",
-      "extraMaterialLists": [
-        ["mts:iv_tpp.paint_bucket_pink:0:1"]
-      ]
-    },
-    {
-      "subName": "_pureblack",
-      "modelName": "trin_pilocrap_door_f",
-      "name": "Trin Pilocrap body panel",
-      "description": "Front Door, pure black",
-      "extraMaterialLists": [
-        ["mts:iv_tpp.paint_bucket_pureblack:0:1"]
-      ]
-    },
-    {
-      "subName": "_sunshineyellow",
-      "modelName": "trin_pilocrap_door_f",
-      "name": "Trin Pilocrap body panel",
-      "description": "Front Door, sunshine yellow",
-      "extraMaterialLists": [
-        ["mts:iv_tpp.paint_bucket_sunshineyellow:0:1"]
-      ]
-    },
-    {
-      "subName": "_teel",
-      "modelName": "trin_pilocrap_door_f",
-      "name": "Trin Pilocrap body panel",
-      "description": "Front Door, teal",
-      "extraMaterialLists": [
-        ["mts:iv_tpp.paint_bucket_teal:0:1"]
-      ]
-    },
-    {
-      "subName": "_turquoise",
-      "modelName": "trin_pilocrap_door_f",
-      "name": "Trin Pilocrap body panel",
-      "description": "Front Door, turquoise",
-      "extraMaterialLists": [
-        ["mts:iv_tpp.paint_bucket_turquoise:0:1"]
-      ]
-    }
-  ],
-  "rendering": {
-    "animatedObjects": [
-      {
-        "objectName": "$door_F_mirrored",
-        "animations": [
-          {
-            "animationType": "visibility",
-            "variable": "part_ismirrored",
-            "clampMin": 1.0,
-            "clampMax": 1.0
-          }
-        ]
-      },
-      {
-        "objectName": "$door_F",
-        "animations": [
-          {
-            "animationType": "visibility",
-            "variable": "part_ismirrored"
-          }
-        ]
-      }
+    "definitions": [
+        {
+            "subName": "_carminred",
+            "modelName": "trin_pilocrap_door_f",
+            "name": "Trin Pilocrap body panel",
+            "description": "Front Door, carmin red",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_bucket_carminred:0:1"
+                ]
+            ]
+        },
+        {
+            "subName": "_driveschool",
+            "modelName": "trin_pilocrap_door_f",
+            "name": "Trin Pilocrap body panel",
+            "description": "Front Door, drive school",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.wrap_roll_driveschool:0:1"
+                ]
+            ]
+        },
+        {
+            "subName": "_fireorange",
+            "modelName": "trin_pilocrap_door_f",
+            "name": "Trin Pilocrap body panel",
+            "description": "Front Door, fire orange",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_bucket_fireorange:0:1"
+                ]
+            ]
+        },
+        {
+            "subName": "_midnightpurple",
+            "modelName": "trin_pilocrap_door_f",
+            "name": "Trin Pilocrap body panel",
+            "description": "Front Door, midnight purple",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_bucket_midnightpurple:0:1"
+                ]
+            ]
+        },
+        {
+            "subName": "_pink",
+            "modelName": "trin_pilocrap_door_f",
+            "name": "Trin Pilocrap body panel",
+            "description": "Front Door, pink",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_bucket_pink:0:1"
+                ]
+            ]
+        },
+        {
+            "subName": "_pureblack",
+            "modelName": "trin_pilocrap_door_f",
+            "name": "Trin Pilocrap body panel",
+            "description": "Front Door, pure black",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_bucket_pureblack:0:1"
+                ]
+            ]
+        },
+        {
+            "subName": "_sunshineyellow",
+            "modelName": "trin_pilocrap_door_f",
+            "name": "Trin Pilocrap body panel",
+            "description": "Front Door, sunshine yellow",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_bucket_sunshineyellow:0:1"
+                ]
+            ]
+        },
+        {
+            "subName": "_teel",
+            "modelName": "trin_pilocrap_door_f",
+            "name": "Trin Pilocrap body panel",
+            "description": "Front Door, teal",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_bucket_teal:0:1"
+                ]
+            ]
+        },
+        {
+            "subName": "_turquoise",
+            "modelName": "trin_pilocrap_door_f",
+            "name": "Trin Pilocrap body panel",
+            "description": "Front Door, turquoise",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_bucket_turquoise:0:1"
+                ]
+            ]
+        }
     ],
-    "lightObjects": [],
-    "particles": [],
-    "modelType": "obj"
-  },
-  "general": {
-    "health": 100,
-    "materialLists": [
-      ["minecraft:iron_ingot:0:5","minecraft:dirt:0:1"]
-    ]
-  }
+    "rendering": {
+        "animatedObjects": [
+            {
+                "objectName": "$door_F_mirrored",
+                "animations": [
+                    {
+                        "animationType": "visibility",
+                        "variable": "part_ismirrored",
+                        "clampMin": 1.0,
+                        "clampMax": 1.0
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "damage_totaled",
+                        "centerPoint": null,
+                        "axis": [
+                            0.8544802502213429,
+                            -1.8501626042066377,
+                            -2.1228708322192213
+                        ]
+                    }
+                ]
+            },
+            {
+                "objectName": "$door_F",
+                "animations": [
+                    {
+                        "animationType": "visibility",
+                        "variable": "part_ismirrored"
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "damage_totaled",
+                        "centerPoint": null,
+                        "axis": [
+                            -6.213139625310107,
+                            6.082819503958611,
+                            -8.005364334468457
+                        ]
+                    }
+                ]
+            }
+        ],
+        "lightObjects": [],
+        "particles": [],
+        "modelType": "obj"
+    },
+    "general": {
+        "health": 100,
+        "materialLists": [
+            [
+                "minecraft:iron_ingot:0:5",
+                "minecraft:dirt:0:1"
+            ]
+        ]
+    }
 }
