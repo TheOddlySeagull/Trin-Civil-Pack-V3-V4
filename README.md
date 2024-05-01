@@ -4,7 +4,13 @@
 
 ### Main Additions:
 
-- Reintroduced Trin Urlon V4, a mid-size 4wd sedan
+- Reintroduced Trin Urlon V4, a mid-size sedan
+
+### Fixes:
+
+- Fixed all vehicles that had overly-high health values
+- Fixed wheel symmetry on Trin Juggernaut
+- Fixed Trin Foragon duplicated sounds on rear right doors
 
 ---
 
