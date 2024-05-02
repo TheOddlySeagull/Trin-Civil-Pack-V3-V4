@@ -115,16 +115,6 @@
                         "variable": "part_ismirrored",
                         "clampMin": 1.0,
                         "clampMax": 1.0
-                    },
-                    {
-                        "animationType": "rotation",
-                        "variable": "damage_totaled",
-                        "centerPoint": null,
-                        "axis": [
-                            0.8544802502213429,
-                            -1.8501626042066377,
-                            -2.1228708322192213
-                        ]
                     }
                 ]
             },
@@ -134,16 +124,6 @@
                     {
                         "animationType": "visibility",
                         "variable": "part_ismirrored"
-                    },
-                    {
-                        "animationType": "rotation",
-                        "variable": "damage_totaled",
-                        "centerPoint": null,
-                        "axis": [
-                            -6.213139625310107,
-                            6.082819503958611,
-                            -8.005364334468457
-                        ]
                     }
                 ]
             }

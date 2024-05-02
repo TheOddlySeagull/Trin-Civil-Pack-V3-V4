@@ -1612,16 +1612,6 @@
                     {
                         "animationType": "rotation",
                         "variable": "damage_totaled",
-                        "centerPoint": null,
-                        "axis": [
-                            -6.378463439523996,
-                            -5.818671002694127,
-                            8.932032751239564
-                        ]
-                    },
-                    {
-                        "animationType": "rotation",
-                        "variable": "damage_totaled",
                         "centerPoint": [
                             0.0,
                             0.28125,
@@ -1937,16 +1927,6 @@
                         "variable": "damage_totaled",
                         "centerPoint": null,
                         "axis": [
-                            -0.5740328785649922,
-                            -4.461458391469593,
-                            2.7372808336224725
-                        ]
-                    },
-                    {
-                        "animationType": "rotation",
-                        "variable": "damage_totaled",
-                        "centerPoint": null,
-                        "axis": [
                             9.289796823609905,
                             5.676295202612717,
                             -9.057300980198592
@@ -1984,16 +1964,6 @@
                         "reverseDelay": 20,
                         "forwardsStartSound": "iv_tpp:dooropen",
                         "reverseEndSound": "iv_tpp:doorclose"
-                    },
-                    {
-                        "animationType": "rotation",
-                        "variable": "damage_totaled",
-                        "centerPoint": null,
-                        "axis": [
-                            -7.278445199502079,
-                            9.863569830334626,
-                            1.4708285300735842
-                        ]
                     },
                     {
                         "animationType": "rotation",

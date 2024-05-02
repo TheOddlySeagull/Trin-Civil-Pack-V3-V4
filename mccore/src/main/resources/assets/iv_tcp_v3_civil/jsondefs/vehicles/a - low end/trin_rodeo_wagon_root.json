@@ -1320,16 +1320,6 @@
                     {
                         "animationType": "rotation",
                         "variable": "damage_totaled",
-                        "centerPoint": null,
-                        "axis": [
-                            8.043957487174847,
-                            -4.163294490891247,
-                            9.691939722971018
-                        ]
-                    },
-                    {
-                        "animationType": "rotation",
-                        "variable": "damage_totaled",
                         "centerPoint": [
                             0.6875,
                             0.375,
