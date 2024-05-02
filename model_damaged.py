@@ -23,41 +23,46 @@ def add_damaged_animation(json_file):
         # if this animation has not already been added
         if not any(anim.get("variable", None) == "damage_totaled" for anim in obj.get("animations", []) ):
             print("damage_totaled animation does not exist")
+            # Iterate through each animation in the object
+            for anim in obj.get("animations", []):
+                # If animation not of "variable" "damage_totaled"
+                if anim.get("variable", None) != "damage_totaled":
+                    print(f"inside an animation: type {anim['animationType']}, variable {anim['variable']}")
+                    # inside the animation, get the "centerPoint" key
+                    center_point = anim.get("centerPoint", None)
+                    print(f"center point: {center_point}")
+
+                    # Now, in animations, we need to add a new animation for the total damage
+                    '''
+                    expected:
+
+                    {
+                        "animationType": "rotation",
+                        "variable": "damage_totaled",
+                        "centerPoint": {centerPoint},
+                        "axis": [x, y, z]
+                    }
+                    '''
+                    # Create a new animation
+                    new_anim = {
+                        "animationType": "rotation",
+                        "variable": "damage_totaled",
+                        "centerPoint": center_point,
+                        "axis": [random.uniform(-10, 10), random.uniform(-10, 10), random.uniform(-10, 10)]
+                    }
+                    print(f"new animation: {new_anim}")
+
+                    # Add the new animation to the object
+                    obj["animations"].append(new_anim)
         else:
             print("damage_totaled animation already exists")
-            continue
+            # for all the animation, if of type "damage_totaled", but "centerPoint": null, then delete the animation
+            for anim in obj.get("animations", []):
+                if anim.get("variable", None) == "damage_totaled" and anim.get("centerPoint", None) == None:
+                    obj["animations"].remove(anim)
+                    print("removed damage_totaled animation due to null centerPoint")
             
-        # Iterate through each animation in the object
-        for anim in obj.get("animations", []):
-            # If animation not of "variable" "damage_totaled"
-            if anim.get("variable", None) != "damage_totaled":
-                print(f"inside an animation: type {anim['animationType']}, variable {anim['variable']}")
-                # inside the animation, get the "centerPoint" key
-                center_point = anim.get("centerPoint", None)
-                print(f"center point: {center_point}")
-
-                # Now, in animations, we need to add a new animation for the total damage
-                '''
-                expected:
-
-                {
-                    "animationType": "rotation",
-                    "variable": "damage_totaled",
-                    "centerPoint": {centerPoint},
-                    "axis": [x, y, z]
-                }
-                '''
-                # Create a new animation
-                new_anim = {
-                    "animationType": "rotation",
-                    "variable": "damage_totaled",
-                    "centerPoint": center_point,
-                    "axis": [random.uniform(-10, 10), random.uniform(-10, 10), random.uniform(-10, 10)]
-                }
-                print(f"new animation: {new_anim}")
-
-                # Add the new animation to the object
-                obj["animations"].append(new_anim)
+        
 
     # Save the modified JSON file
     with open(json_file, 'w') as f:
