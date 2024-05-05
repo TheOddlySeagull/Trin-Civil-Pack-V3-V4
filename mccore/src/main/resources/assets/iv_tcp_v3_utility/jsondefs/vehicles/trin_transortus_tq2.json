@@ -1685,16 +1685,6 @@
                         "reverseEasing": "easeinoutsine",
                         "reverseDelay": 25,
                         "forwardsStartSound": "iv_tpp:busdooropen"
-                    },
-                    {
-                        "animationType": "rotation",
-                        "variable": "damage_totaled",
-                        "centerPoint": null,
-                        "axis": [
-                            1.0875981038725122,
-                            5.083247594313818,
-                            -4.126586787717996
-                        ]
                     }
                 ]
             },
@@ -1753,16 +1743,6 @@
                         "reverseEasing": "easeinoutsine",
                         "reverseDelay": 25,
                         "forwardsStartSound": "iv_tpp:busdooropen"
-                    },
-                    {
-                        "animationType": "rotation",
-                        "variable": "damage_totaled",
-                        "centerPoint": null,
-                        "axis": [
-                            -0.07811225313084158,
-                            5.340831097045665,
-                            -9.403917537194628
-                        ]
                     }
                 ]
             },
@@ -1796,16 +1776,6 @@
                         "reverseEasing": "easeinoutsine",
                         "reverseDelay": 25,
                         "forwardsStartSound": "iv_tpp:busdooropen"
-                    },
-                    {
-                        "animationType": "rotation",
-                        "variable": "damage_totaled",
-                        "centerPoint": null,
-                        "axis": [
-                            -0.36762259096629,
-                            0.4531956817760978,
-                            2.4101031014615337
-                        ]
                     }
                 ]
             },
