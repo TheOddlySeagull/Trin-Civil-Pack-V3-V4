@@ -23,6 +23,7 @@
             ],
             "minValue": 0.7,
             "maxValue": 0.875,
+            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
             "types": [
                 "ground_wheel"
             ],
@@ -57,6 +58,7 @@
             "isMirrored": true,
             "minValue": 0.7,
             "maxValue": 0.875,
+            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
             "types": [
                 "ground_wheel"
             ],
@@ -86,6 +88,7 @@
             "turnsWithSteer": true,
             "minValue": 0.7,
             "maxValue": 0.875,
+            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
             "types": [
                 "ground_wheel"
             ],
@@ -135,6 +138,7 @@
             "isMirrored": true,
             "minValue": 0.7,
             "maxValue": 0.875,
+            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
             "types": [
                 "ground_wheel"
             ],
@@ -175,6 +179,7 @@
                 0.375,
                 2.0
             ],
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "rot": [
                 0.0,
                 0.0,
@@ -201,6 +206,7 @@
                 0.375,
                 2.0
             ],
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "rot": [
                 0.0,
                 0.0,
@@ -250,6 +256,7 @@
                 0.375,
                 1.0
             ],
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "rot": [
                 0.0,
                 0.0,
@@ -299,6 +306,7 @@
                 0.375,
                 1.0
             ],
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "rot": [
                 0.0,
                 0.0,
