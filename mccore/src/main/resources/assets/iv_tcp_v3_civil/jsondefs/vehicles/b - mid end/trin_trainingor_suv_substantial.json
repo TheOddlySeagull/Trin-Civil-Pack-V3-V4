@@ -1481,6 +1481,7 @@
         },
         {
             "variable": "axleRatio",
+            "maxValue": 8.0,
             "animations": [
                 {
                     "animationType": "visibility",
