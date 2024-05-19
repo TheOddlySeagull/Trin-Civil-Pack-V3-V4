@@ -1294,12 +1294,32 @@
                     "variable": "engine_isautomatic_1"
                 },
                 {
+                    "animationType": "visibility",
+                    "variable": "engine_isdualclutch_1"
+                },
+                {
+                    "animationType": "visibility",
+                    "variable": "!engine_gear_1",
+                    "reverseDelay": 6
+                },
+                {
                     "animationType": "translation",
-                    "variable": "!engine_clutching_1",
+                    "variable": "!engine_clutch_downshift_1",
                     "axis": [
-                        1,
-                        0,
-                        0
+                        0.5,
+                        0.0,
+                        0.0
+                    ],
+                    "offset": 0.5,
+                    "duration": 3
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "!engine_clutch_upshift_1",
+                    "axis": [
+                        1.0,
+                        0.0,
+                        0.0
                     ],
                     "duration": 3
                 }
@@ -1309,19 +1329,18 @@
             "variable": "brakingFactor",
             "animations": [
                 {
-                    "animationType": "inhibitor",
-                    "variable": "p_brake",
-                    "clampMin": 1.0,
-                    "clampMax": 1.0
+                    "animationType": "visibility",
+                    "variable": "p_brake"
                 },
                 {
                     "animationType": "translation",
                     "variable": "brake",
                     "axis": [
-                        1.0,
+                        0.5,
                         0.0,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.5
                 }
             ]
         },
