@@ -1406,9 +1406,9 @@
             "name": "Trin Foragon Panel Van TQ1 Trim - Gallifrey Repairs Livery, Gray Interior",
             "extraMaterialLists": [
                 [
-                    "minecraft:blue_dye:0:5",
-                    "minecraft:red_dye:0:4",
-                    "minecraft:black_dye:0:1",
+                    "minecraft:dye:4:5",
+                    "minecraft:dye:1:4",
+                    "minecraft:dye:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
