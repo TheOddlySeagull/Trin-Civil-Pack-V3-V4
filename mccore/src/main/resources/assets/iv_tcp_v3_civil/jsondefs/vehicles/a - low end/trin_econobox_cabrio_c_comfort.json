@@ -367,6 +367,7 @@
             "types": [
                 "engine_car"
             ],
+            "defaultPart": "iv_tpp:engine_i4_gasoline_normal_aut",
             "interactableVariables": [
                 [
                     "door_hood"
