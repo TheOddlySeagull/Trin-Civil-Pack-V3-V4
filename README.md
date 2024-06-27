@@ -1,16 +1,20 @@
 # Trin Civil Pack Changelogs
 
-## Trin Civil Pack 3.22.0 (4.2) changelog: (WIP)
+## Trin Civil Pack 3.22.0 (4.2) changelog:
 
 ### Main Additions:
 
-- Reintroduced Trin Urlon V4, a mid-size sedan
+- Preintroduced a Trin Urlon V4 rework, a mid-size sedan, in dev skin
+
+- Added body panel crubling to 0 health cars
+- Added default parts to Trin Econobox
 
 ### Fixes:
 
 - Fixed all vehicles that had overly-high health values
 - Fixed wheel symmetry on Trin Juggernaut
 - Fixed Trin Foragon duplicated sounds on rear right doors
+- Fixed Foragon Panel Van and Half Window Van texture problems
 
 ---
 
