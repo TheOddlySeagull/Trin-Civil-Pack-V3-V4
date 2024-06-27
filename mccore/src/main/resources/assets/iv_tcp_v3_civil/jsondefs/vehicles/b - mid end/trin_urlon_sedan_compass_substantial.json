@@ -1164,7 +1164,7 @@
             "name": "Trin Urlon Sedan Compass Substantial Trim - Golden Ghosts Livery, White Interior",
             "extraMaterialLists": [
                 [
-                    "minecraft:dye:1:10",
+                    "minecraft:red_dye:0:10",
                     "minecraft:gold_ingot:0:8",
                     "minecraft:wool:8:2",
                     "minecraft:wool:0:3"
