@@ -196,7 +196,8 @@
                 [
                     "door_fl"
                 ]
-            ]
+            ],
+            "toneIndex": 1
         },
         {
             "pos": [
@@ -221,7 +222,8 @@
                 [
                     "door_fr"
                 ]
-            ]
+            ],
+            "toneIndex": 1
         },
         {
             "pos": [
@@ -851,6 +853,9 @@
     "definitions": [
         {
             "subName": "_redandblack_g",
+			"partTones": [
+				"_gray"
+			],
             "name": "Trin Flugoral substantial trim - red & black paint, gray interior",
             "extraMaterialLists": [
                 [
@@ -863,6 +868,9 @@
         {
             "subName": "_redandblack_w",
             "name": "Trin Flugoral substantial trim - red & black paint, white interior",
+			"partTones": [
+				"_white"
+			],
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
@@ -874,6 +882,9 @@
         {
             "subName": "_redandblack_r",
             "name": "Trin Flugoral substantial trim - red & black paint, red interior",
+			"partTones": [
+				"_red"
+			],
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
@@ -884,6 +895,9 @@
         },
         {
             "subName": "_redandblack_t",
+			"partTones": [
+				"_beige"
+			],
             "name": "Trin Flugoral substantial trim - red & black paint, tan interior",
             "extraMaterialLists": [
                 [
@@ -895,6 +909,9 @@
         },
         {
             "subName": "_steelblueandteel_g",
+			"partTones": [
+				"_gray"
+			],
             "name": "Trin Flugoral substantial trim - steel blue & teel paint, gray interior",
             "extraMaterialLists": [
                 [
@@ -906,6 +923,9 @@
         },
         {
             "subName": "_steelblueandteel_w",
+			"partTones": [
+				"_white"
+			],
             "name": "Trin Flugoral substantial trim - steel blue & teel paint, white interior",
             "extraMaterialLists": [
                 [
@@ -917,6 +937,9 @@
         },
         {
             "subName": "_steelblueandteel_r",
+			"partTones": [
+				"_red"
+			],
             "name": "Trin Flugoral substantial trim - steel blue & teel paint, red interior",
             "extraMaterialLists": [
                 [
@@ -928,6 +951,9 @@
         },
         {
             "subName": "_steelblueandteel_t",
+			"partTones": [
+				"_beige"
+			],
             "name": "Trin Flugoral substantial trim - steel blue & teel paint, tan interior",
             "extraMaterialLists": [
                 [
@@ -939,6 +965,9 @@
         },
         {
             "subName": "_sunshineyellow_g",
+			"partTones": [
+				"_gray"
+			],
             "name": "Trin Flugoral substantial trim - sunshine yellow paint, gray interior",
             "extraMaterialLists": [
                 [
@@ -950,6 +979,9 @@
         },
         {
             "subName": "_sunshineyellow_w",
+            "partTones": [
+                "_white"
+            ],
             "name": "Trin Flugoral substantial trim - sunshine yellow paint, white interior",
             "extraMaterialLists": [
                 [
@@ -961,6 +993,9 @@
         },
         {
             "subName": "_sunshineyellow_r",
+            "partTones": [
+                "_red"
+            ],
             "name": "Trin Flugoral substantial trim - sunshine yellow paint, red interior",
             "extraMaterialLists": [
                 [
@@ -972,6 +1007,9 @@
         },
         {
             "subName": "_sunshineyellow_t",
+            "partTones": [
+                "_beige"
+            ],
             "name": "Trin Flugoral substantial trim - sunshine yellow paint, tan interior",
             "extraMaterialLists": [
                 [
