@@ -1236,6 +1236,15 @@
                         0.625,
                         -5.9375
                     ],
+                    "distance": 3.0
+                },
+                {
+                    "type": "tow_bumper",
+                    "pos": [
+                        0.0,
+                        0.625,
+                        -5.9375
+                    ],
                     "distance": 2.0
                 }
             ]
@@ -1354,7 +1363,7 @@
             "subName": "_customlivery2_w",
             "name": "Trin Utility Tormador Tow Master TQ3 - MakeShift Gang Livery, White Interior",
             "partTones": [
-                "_gray"
+                "_white"
             ],
             "extraMaterialLists": [
                 [
@@ -2104,7 +2113,7 @@
                 "animations": [
                     {
                         "animationType": "rotation",
-                        "variable": "trailer",
+                        "variable": "connection_0_connected",
                         "centerPoint": [
                             0.0,
                             0.5625,
