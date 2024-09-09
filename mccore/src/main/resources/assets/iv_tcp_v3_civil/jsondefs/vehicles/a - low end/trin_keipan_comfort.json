@@ -41,7 +41,8 @@
                         7.0
                     ]
                 }
-            ]
+            ],
+            "defaultPart": "iv_tpp:wheel_classic_4d14_1_chromic"
         },
         {
             "pos": [
@@ -74,7 +75,8 @@
                         7.0
                     ]
                 }
-            ]
+            ],
+            "defaultPart": "iv_tpp:wheel_classic_4d14_1_chromic"
         },
         {
             "pos": [
@@ -116,7 +118,8 @@
                         0.0
                     ]
                 }
-            ]
+            ],
+            "defaultPart": "iv_tpp:wheel_classic_4d14_1_chromic"
         },
         {
             "pos": [
@@ -164,7 +167,8 @@
                         0.0
                     ]
                 }
-            ]
+            ],
+            "defaultPart": "iv_tpp:wheel_classic_4d14_1_chromic"
         },
         {
             "pos": [
@@ -190,7 +194,8 @@
                 [
                     "door_fl"
                 ]
-            ]
+            ],
+            "defaultPart": "iv_tpp:trin_seat_3_gray"
         },
         {
             "pos": [
@@ -215,7 +220,8 @@
                 [
                     "door_fr"
                 ]
-            ]
+            ],
+            "defaultPart": "iv_tpp:trin_seat_3_gray"
         },
         {
             "pos": [
@@ -274,7 +280,8 @@
                 16,
                 21,
                 22
-            ]
+            ],
+            "defaultPart": "iv_tpp:engine_i4_gasoline_normal_aut"
         },
         {
             "pos": [
@@ -304,7 +311,8 @@
             ],
             "types": [
                 "seat_invisible"
-            ]
+            ],
+            "defaultPart": "iv_tpp:trin_invisiseat"
         },
         {
             "pos": [
@@ -319,7 +327,8 @@
             ],
             "types": [
                 "seat_invisible"
-            ]
+            ],
+            "defaultPart": "iv_tpp:trin_invisiseat"
         },
         {
             "pos": [
@@ -334,7 +343,8 @@
             ],
             "types": [
                 "seat_invisible"
-            ]
+            ],
+            "defaultPart": "iv_tpp:trin_invisiseat"
         },
         {
             "pos": [
