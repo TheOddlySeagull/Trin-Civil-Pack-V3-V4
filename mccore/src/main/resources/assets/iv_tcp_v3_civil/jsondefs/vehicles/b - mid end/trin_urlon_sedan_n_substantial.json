@@ -28,7 +28,7 @@
             "types": [
                 "ground_wheel"
             ],
-            "defaultPart": "iv_tpp:wheel_classic_4d16_1_chromic",
+            "defaultPart": "iv_tpp:wheel_classic_4d14_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -63,7 +63,7 @@
             "types": [
                 "ground_wheel"
             ],
-            "defaultPart": "iv_tpp:wheel_classic_4d16_1_chromic",
+            "defaultPart": "iv_tpp:wheel_classic_4d14_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -93,7 +93,7 @@
             "types": [
                 "ground_wheel"
             ],
-            "defaultPart": "iv_tpp:wheel_classic_4d16_1_chromic",
+            "defaultPart": "iv_tpp:wheel_classic_4d14_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -143,7 +143,7 @@
             "types": [
                 "ground_wheel"
             ],
-            "defaultPart": "iv_tpp:wheel_classic_4d16_1_chromic",
+            "defaultPart": "iv_tpp:wheel_classic_4d14_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
