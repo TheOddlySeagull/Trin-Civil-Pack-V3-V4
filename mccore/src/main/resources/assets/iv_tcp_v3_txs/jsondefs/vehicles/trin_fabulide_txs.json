@@ -34,6 +34,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "roofdoor"
@@ -532,6 +534,9 @@
                 [
                     "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1"
                 ]
+            ],
+            "partTones": [
+                "_gray"
             ]
         },
         {
@@ -541,6 +546,9 @@
                 [
                     "mts:iv_tpp.paint_bucket_midnightpurple:0:1"
                 ]
+            ],
+            "partTones": [
+                "_gray"
             ]
         },
         {
@@ -550,6 +558,9 @@
                 [
                     "mts:iv_tpp.paint_bucket_coldspruce:0:1"
                 ]
+            ],
+            "partTones": [
+                "_gray"
             ]
         },
         {
@@ -559,6 +570,9 @@
                 [
                     "mts:iv_tpp.paint_double_bucket_tungstenandelectricblue:0:1"
                 ]
+            ],
+            "partTones": [
+                "_gray"
             ]
         },
         {
@@ -568,6 +582,9 @@
                 [
                     "mts:iv_tpp.paint_bucket_firered:0:1"
                 ]
+            ],
+            "partTones": [
+                "_gray"
             ]
         },
         {
@@ -577,6 +594,9 @@
                 [
                     "mts:iv_tpp.paint_bucket_pureblack:0:1"
                 ]
+            ],
+            "partTones": [
+                "_gray"
             ]
         },
         {
@@ -586,6 +606,9 @@
                 [
                     "mts:iv_tpp.paint_bucket_white:0:1"
                 ]
+            ],
+            "partTones": [
+                "_gray"
             ]
         },
         {
@@ -595,6 +618,9 @@
                 [
                     "mts:iv_tpp.paint_bucket_amber:0:1"
                 ]
+            ],
+            "partTones": [
+                "_gray"
             ]
         },
         {
@@ -604,6 +630,9 @@
                 [
                     "mts:iv_tpp.paint_bucket_sunshineyellow:0:1"
                 ]
+            ],
+            "partTones": [
+                "_gray"
             ]
         }
     ],

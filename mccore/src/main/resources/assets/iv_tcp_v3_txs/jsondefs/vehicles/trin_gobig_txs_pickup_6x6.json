@@ -28,6 +28,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -62,6 +63,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -90,6 +92,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -124,6 +127,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -152,6 +156,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -186,6 +191,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -214,6 +220,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -248,6 +255,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -277,6 +285,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -326,6 +335,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -377,6 +387,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_2_gray",
             "interactableVariables": [
                 [
                     "door_fl"
@@ -402,6 +414,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_2_gray",
             "interactableVariables": [
                 [
                     "door_fr"
@@ -451,6 +465,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_2_gray",
             "interactableVariables": [
                 [
                     "door_rl"
@@ -500,6 +516,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_2_gray",
             "interactableVariables": [
                 [
                     "door_rr"
@@ -549,6 +567,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_2_gray",
             "interactableVariables": [
                 [
                     "door_rl"
@@ -598,6 +618,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_2_gray",
             "interactableVariables": [
                 [
                     "door_rr"
@@ -643,6 +665,7 @@
             "types": [
                 "engine_car"
             ],
+            "defaultPart": "iv_tpp:trin_biturbine_engine",
             "interactableVariables": [
                 [
                     "door_hood"
@@ -723,7 +746,8 @@
             ],
             "types": [
                 "seat_invisible"
-            ]
+            ],
+            "defaultPart": "iv_tpp:trin_invisiseat"
         },
         {
             "pos": [
@@ -738,7 +762,8 @@
             ],
             "types": [
                 "seat_invisible"
-            ]
+            ],
+            "defaultPart": "iv_tpp:trin_invisiseat"
         },
         {
             "pos": [
@@ -753,7 +778,8 @@
             ],
             "types": [
                 "seat_invisible"
-            ]
+            ],
+            "defaultPart": "iv_tpp:trin_invisiseat"
         },
         {
             "pos": [
@@ -768,7 +794,8 @@
             ],
             "types": [
                 "seat_invisible"
-            ]
+            ],
+            "defaultPart": "iv_tpp:trin_invisiseat"
         },
         {
             "pos": [
@@ -783,7 +810,8 @@
             ],
             "types": [
                 "seat_invisible"
-            ]
+            ],
+            "defaultPart": "iv_tpp:trin_invisiseat"
         },
         {
             "pos": [
@@ -798,7 +826,8 @@
             ],
             "types": [
                 "seat_invisible"
-            ]
+            ],
+            "defaultPart": "iv_tpp:trin_invisiseat"
         },
         {
             "pos": [
@@ -1501,6 +1530,9 @@
     "definitions": [
         {
             "subName": "_redandblack_g",
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Red & Black Paint, Gray Interior",
             "extraMaterialLists": [
                 [
@@ -1512,6 +1544,9 @@
         },
         {
             "subName": "_redandblack_w",
+            "partTones": [
+                "_white"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Red & Black Paint, White Interior",
             "extraMaterialLists": [
                 [
@@ -1523,6 +1558,9 @@
         },
         {
             "subName": "_redandblack_r",
+            "partTones": [
+                "_red"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Red & Black Paint, Red Interior",
             "extraMaterialLists": [
                 [
@@ -1534,6 +1572,9 @@
         },
         {
             "subName": "_redandblack_t",
+            "partTones": [
+                "_beige"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Red & Black Paint, Tan Interior",
             "extraMaterialLists": [
                 [
@@ -1545,6 +1586,9 @@
         },
         {
             "subName": "_steelblueandteal_g",
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Steel Blue & Teal Paint, Gray Interior",
             "extraMaterialLists": [
                 [
@@ -1556,6 +1600,9 @@
         },
         {
             "subName": "_steelblueandteal_w",
+            "partTones": [
+                "_white"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Steel Blue & Teal Paint, White Interior",
             "extraMaterialLists": [
                 [
@@ -1567,6 +1614,9 @@
         },
         {
             "subName": "_steelblueandteal_r",
+            "partTones": [
+                "_red"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Steel Blue & Teal Paint, Red Interior",
             "extraMaterialLists": [
                 [
@@ -1578,6 +1628,9 @@
         },
         {
             "subName": "_steelblueandteal_t",
+            "partTones": [
+                "_beige"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Steel Blue & Teal Paint, Tan Interior",
             "extraMaterialLists": [
                 [
@@ -1589,6 +1642,9 @@
         },
         {
             "subName": "_bubblegum_g",
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Bubblegum Paint, Gray Interior",
             "extraMaterialLists": [
                 [
@@ -1600,6 +1656,9 @@
         },
         {
             "subName": "_bubblegum_w",
+            "partTones": [
+                "_white"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Bubblegum Paint, White Interior",
             "extraMaterialLists": [
                 [
@@ -1611,6 +1670,9 @@
         },
         {
             "subName": "_bubblegum_r",
+            "partTones": [
+                "_red"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Bubblegum Paint, Red Interior",
             "extraMaterialLists": [
                 [
@@ -1622,6 +1684,9 @@
         },
         {
             "subName": "_bubblegum_t",
+            "partTones": [
+                "_beige"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Bubblegum Paint, Tan Interior",
             "extraMaterialLists": [
                 [
@@ -1633,6 +1698,9 @@
         },
         {
             "subName": "_pureblack_g",
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Pure Black Paint, Gray Interior",
             "extraMaterialLists": [
                 [
@@ -1644,6 +1712,9 @@
         },
         {
             "subName": "_pureblack_w",
+            "partTones": [
+                "_white"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Pure Black Paint, White Interior",
             "extraMaterialLists": [
                 [
@@ -1655,6 +1726,9 @@
         },
         {
             "subName": "_pureblack_r",
+            "partTones": [
+                "_red"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Pure Black Paint, Red Interior",
             "extraMaterialLists": [
                 [
@@ -1666,6 +1740,9 @@
         },
         {
             "subName": "_pureblack_t",
+            "partTones": [
+                "_beige"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Pure Black Paint, Tan Interior",
             "extraMaterialLists": [
                 [
@@ -1677,6 +1754,9 @@
         },
         {
             "subName": "_softgreen_g",
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Soft Green Paint, Gray Interior",
             "extraMaterialLists": [
                 [
@@ -1688,6 +1768,9 @@
         },
         {
             "subName": "_softgreen_w",
+            "partTones": [
+                "_white"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Soft Green Paint, White Interior",
             "extraMaterialLists": [
                 [
@@ -1699,6 +1782,9 @@
         },
         {
             "subName": "_softgreen_r",
+            "partTones": [
+                "_red"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Soft Green Paint, Red Interior",
             "extraMaterialLists": [
                 [
@@ -1710,6 +1796,9 @@
         },
         {
             "subName": "_softgreen_t",
+            "partTones": [
+                "_beige"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Soft Green Paint, Tan Interior",
             "extraMaterialLists": [
                 [
@@ -1721,6 +1810,9 @@
         },
         {
             "subName": "_irongray_g",
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Iron Gray Paint, Gray Interior",
             "extraMaterialLists": [
                 [
@@ -1732,6 +1824,9 @@
         },
         {
             "subName": "_irongray_w",
+            "partTones": [
+                "_white"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Iron Gray Paint, White Interior",
             "extraMaterialLists": [
                 [
@@ -1743,6 +1838,9 @@
         },
         {
             "subName": "_irongray_r",
+            "partTones": [
+                "_red"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Iron Gray Paint, Red Interior",
             "extraMaterialLists": [
                 [
@@ -1754,6 +1852,9 @@
         },
         {
             "subName": "_irongray_t",
+            "partTones": [
+                "_beige"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Iron Gray Paint, Tan Interior",
             "extraMaterialLists": [
                 [
@@ -1765,6 +1866,9 @@
         },
         {
             "subName": "_purewhite_g",
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Pure White Paint, Gray Interior",
             "extraMaterialLists": [
                 [
@@ -1776,6 +1880,9 @@
         },
         {
             "subName": "_purewhite_w",
+            "partTones": [
+                "_white"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Pure White Paint, White Interior",
             "extraMaterialLists": [
                 [
@@ -1787,6 +1894,9 @@
         },
         {
             "subName": "_purewhite_r",
+            "partTones": [
+                "_red"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Pure White Paint, Red Interior",
             "extraMaterialLists": [
                 [
@@ -1798,6 +1908,9 @@
         },
         {
             "subName": "_purewhite_t",
+            "partTones": [
+                "_beige"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Pure White Paint, Tan Interior",
             "extraMaterialLists": [
                 [
@@ -1809,6 +1922,9 @@
         },
         {
             "subName": "_sunshineyellow_g",
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Sunshine Yellow Paint, Gray Interior",
             "extraMaterialLists": [
                 [
@@ -1820,6 +1936,9 @@
         },
         {
             "subName": "_sunshineyellow_w",
+            "partTones": [
+                "_white"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Sunshine Yellow Paint, White Interior",
             "extraMaterialLists": [
                 [
@@ -1831,6 +1950,9 @@
         },
         {
             "subName": "_sunshineyellow_r",
+            "partTones": [
+                "_red"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Sunshine Yellow Paint, Red Interior",
             "extraMaterialLists": [
                 [
@@ -1842,6 +1964,9 @@
         },
         {
             "subName": "_sunshineyellow_t",
+            "partTones": [
+                "_beige"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Sunshine Yellow Paint, Tan Interior",
             "extraMaterialLists": [
                 [
@@ -1853,6 +1978,9 @@
         },
         {
             "subName": "_bloodred_g",
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Blood Red Paint, Gray Interior",
             "extraMaterialLists": [
                 [
@@ -1864,6 +1992,9 @@
         },
         {
             "subName": "_bloodred_w",
+            "partTones": [
+                "_white"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Blood Red Paint, White Interior",
             "extraMaterialLists": [
                 [
@@ -1875,6 +2006,9 @@
         },
         {
             "subName": "_bloodred_r",
+            "partTones": [
+                "_red"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Blood Red Paint, Red Interior",
             "extraMaterialLists": [
                 [
@@ -1886,6 +2020,9 @@
         },
         {
             "subName": "_bloodred_t",
+            "partTones": [
+                "_beige"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Blood Red Paint, Tan Interior",
             "extraMaterialLists": [
                 [
@@ -1897,6 +2034,9 @@
         },
         {
             "subName": "_harlequin_g",
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Gobig TXS Pickup 6x6 - Harlequin Livery, Gray Interior",
             "extraMaterialLists": [
                 [
@@ -4099,7 +4239,7 @@
         "modelType": "obj"
     },
     "general": {
-        "description": "High End TXS 6*6 Pickup\n4 Doors, 6 Seats\n\nRecommended parts:\nGiant Sized Wheels (*10)\nHeavy V10 Engine\nModel 2 Seats",
+        "description": "High End TXS 6*6 Pickup\n4 Doors, 6 Seats\n\nRecommended parts:\nGiant Sized Wheels (*10)\nUltimate Biturbine Engine\nModel 2 Seats",
         "health": 350,
         "materialLists": [
             [

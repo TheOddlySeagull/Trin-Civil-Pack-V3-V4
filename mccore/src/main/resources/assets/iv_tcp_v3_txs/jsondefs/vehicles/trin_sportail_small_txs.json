@@ -26,6 +26,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_offroad_4d16_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -60,6 +61,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_offroad_4d16_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -89,6 +91,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_offroad_4d16_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -138,6 +141,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_offroad_4d16_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -189,6 +193,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_fl"
@@ -214,6 +220,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_fr"
@@ -259,6 +267,7 @@
             "types": [
                 "engine_car"
             ],
+            "defaultPart": "iv_tpp:engine_v8_gasoline_turbo_aut",
             "interactableVariables": [
                 [
                     "door_hood"
@@ -655,6 +664,9 @@
                 [
                     "mts:iv_tpp.paint_double_bucket_redandblack:0:1"
                 ]
+            ],
+            "partTones": [
+                "_gray"
             ]
         },
         {
@@ -664,6 +676,9 @@
                 [
                     "mts:iv_tpp.paint_double_bucket_tungstenandelectricblue:0:1"
                 ]
+            ],
+            "partTones": [
+                "_gray"
             ]
         },
         {
@@ -673,6 +688,9 @@
                 [
                     "mts:iv_tpp.paint_bucket_sand:0:1"
                 ]
+            ],
+            "partTones": [
+                "_gray"
             ]
         },
         {
@@ -682,6 +700,9 @@
                 [
                     "mts:iv_tpp.paint_bucket_fireorange:0:1"
                 ]
+            ],
+            "partTones": [
+                "_gray"
             ]
         },
         {
@@ -691,6 +712,9 @@
                 [
                     "mts:iv_tpp.paint_bucket_plum:0:1"
                 ]
+            ],
+            "partTones": [
+                "_gray"
             ]
         },
         {
@@ -700,6 +724,9 @@
                 [
                     "mts:iv_tpp.paint_bucket_pureblack:0:1"
                 ]
+            ],
+            "partTones": [
+                "_gray"
             ]
         },
         {
@@ -709,6 +736,9 @@
                 [
                     "mts:iv_tpp.paint_bucket_electricblue:0:1"
                 ]
+            ],
+            "partTones": [
+                "_gray"
             ]
         },
         {
@@ -718,6 +748,9 @@
                 [
                     "mts:iv_tpp.paint_bucket_spruce:0:1"
                 ]
+            ],
+            "partTones": [
+                "_gray"
             ]
         },
         {
@@ -727,6 +760,9 @@
                 [
                     "mts:iv_tpp.paint_bucket_white:0:1"
                 ]
+            ],
+            "partTones": [
+                "_gray"
             ]
         }
     ],
@@ -2561,7 +2597,7 @@
         "modelType": "obj"
     },
     "general": {
-        "description": "This Trin Extreme Sport is a highly modified amazing rallye car\nready to take over the track!\n\nRecommended parts:\nHuge Sized Wheels\nV8 Engine\nModel 1 Seats",
+        "description": "This Trin Extreme Sport is a highly modified amazing rallye car\nready to take over the track!\n\nRecommended parts:\nHuge Sized Wheels\nTurbo Charged V8 Engine\nModel 1 Seats",
         "health": 130,
         "materialLists": [
             [
