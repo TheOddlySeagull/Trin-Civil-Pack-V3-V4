@@ -28,6 +28,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_classic_4d16_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -61,6 +62,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_classic_4d16_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -89,6 +91,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_classic_4d16_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -137,6 +140,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_classic_4d16_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -183,6 +187,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_fl"
@@ -203,6 +209,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_fr"
@@ -223,6 +231,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_rl"
@@ -243,6 +253,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_rr"
@@ -259,6 +271,7 @@
             "types": [
                 "engine_car"
             ],
+            "defaultPart": "iv_tpp:engine_v8_gasoline_normal_aut",
             "interactableVariables": [
                 [
                     "door_hood"
@@ -1172,7 +1185,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         },
         {
             "subName": "_steelblueandteal_w",
@@ -1185,7 +1201,10 @@
                     "minecraft:wool:8:2",
                     "minecraft:wool:0:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_white"
+			]
         },
         {
             "subName": "_steelblueandteal_r",
@@ -1198,7 +1217,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:14:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_red"
+			]
         },
         {
             "subName": "_shagbark_g",
@@ -1211,7 +1233,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         },
         {
             "subName": "_shagbark_w",
@@ -1224,7 +1249,10 @@
                     "minecraft:wool:8:2",
                     "minecraft:wool:0:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_white"
+			]
         },
         {
             "subName": "_shagbark_r",
@@ -1237,7 +1265,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:14:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_red"
+			]
         },
         {
             "subName": "_oakgreen_g",
@@ -1250,7 +1281,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         },
         {
             "subName": "_oakgreen_w",
@@ -1263,7 +1297,10 @@
                     "minecraft:wool:8:2",
                     "minecraft:wool:0:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_white"
+			]
         },
         {
             "subName": "_oakgreen_r",
@@ -1276,7 +1313,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:14:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_red"
+			]
         }
     ],
     "initialVariables": [
