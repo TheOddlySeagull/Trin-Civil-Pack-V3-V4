@@ -27,6 +27,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -61,6 +62,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -89,6 +91,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -123,6 +126,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -151,6 +155,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -185,6 +190,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -213,6 +219,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -247,6 +254,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -275,6 +283,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -309,6 +318,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -338,6 +348,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -387,6 +398,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -438,6 +450,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_2_gray",
             "interactableVariables": [
                 [
                     "door_fl"
@@ -463,6 +477,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_2_gray",
             "interactableVariables": [
                 [
                     "door_fr"
@@ -508,6 +524,7 @@
             "types": [
                 "engine_car"
             ],
+            "defaultPart": "iv_tpp:trin_v10_fat_diesel",
             "interactableVariables": [
                 [
                     "door_hood"
@@ -1228,6 +1245,9 @@
         {
             "subName": "_pureblack_g",
             "name": "Trin Utility Tormador Tow Master TQ2 - pure black paint, Gray Interior",
+            "partTones": [
+                "_gray"
+            ],
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_pureblack:0:1",
@@ -1239,6 +1259,9 @@
         {
             "subName": "_electricblue_g",
             "name": "Trin Utility Tormador Tow Master TQ2 - electric blue paint, Gray Interior",
+            "partTones": [
+                "_gray"
+            ],
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_electricblue:0:1",
@@ -1250,6 +1273,9 @@
         {
             "subName": "_honey_g",
             "name": "Trin Utility Tormador Tow Master TQ2 - honey paint, Gray Interior",
+            "partTones": [
+                "_gray"
+            ],
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_honey:0:1",
@@ -1261,6 +1287,9 @@
         {
             "subName": "_customlivery1_g",
             "name": "Trin Utility Tormador Tow Master TQ2 - Gallifrey Repairs Livery, Gray Interior",
+            "partTones": [
+                "_gray"
+            ],
             "extraMaterialLists": [
                 [
                     "minecraft:blue_dye:0:5",

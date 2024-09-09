@@ -27,6 +27,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -55,6 +56,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -89,6 +91,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -123,6 +126,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -152,6 +156,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -201,6 +206,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -252,6 +258,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_2_gray",
             "interactableVariables": [
                 [
                     "door_fl"
@@ -277,6 +285,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_2_gray",
             "interactableVariables": [
                 [
                     "door_fr"
@@ -322,6 +332,7 @@
             "types": [
                 "engine_car"
             ],
+            "defaultPart": "iv_tpp:trin_v8_fat_diesel",
             "interactableVariables": [
                 [
                     "door_hood"
@@ -855,6 +866,9 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
+            ],
+            "partTones": [
+                "_gray"
             ]
         },
         {
@@ -866,6 +880,9 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
+            ],
+            "partTones": [
+                "_gray"
             ]
         },
         {
@@ -877,6 +894,9 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
+            ],
+            "partTones": [
+                "_gray"
             ]
         }
     ],

@@ -31,6 +31,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -63,6 +64,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -96,6 +98,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -143,6 +146,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -194,6 +198,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_fl"
@@ -219,6 +225,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_fr"
@@ -264,6 +272,7 @@
             "types": [
                 "engine_car"
             ],
+            "defaultPart": "iv_tpp:engine_i4_gasoline_turbo_aut",
             "interactableVariables": [
                 [
                     "door_hood"
@@ -1367,6 +1376,9 @@
             "modelName": "trin_foragon_nrml_halfwindow",
             "name": "Trin Foragon Half Window Van TQ3 Trim - Forest paint, gray interior",
             "description": "Utility Half Window Van\n\nRecommended parts:\nAverage Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
+            "partTones": [
+                "_gray"
+            ],
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_forest:0:1",
@@ -1380,6 +1392,9 @@
             "modelName": "trin_foragon_nrml_halfwindow",
             "name": "Trin Foragon Half Window Van TQ3 Trim - Shagbark paint, gray interior",
             "description": "Utility Half Window Van\n\nRecommended parts:\nAverage Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
+            "partTones": [
+                "_gray"
+            ],
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_shagbark:0:1",
@@ -1393,6 +1408,9 @@
             "modelName": "trin_foragon_nrml_halfwindow",
             "name": "Trin Foragon Half Window Van TQ3 Trim - Plum paint, gray interior",
             "description": "Utility Half Window Van\n\nRecommended parts:\nAverage Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
+            "partTones": [
+                "_gray"
+            ],
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_plum:0:1",

@@ -27,6 +27,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_classic_4d16_0_steel",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -61,6 +62,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_classic_4d16_0_steel",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -90,6 +92,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_classic_4d16_0_steel",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -139,6 +142,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_classic_4d16_0_steel",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -190,6 +194,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_2_gray",
             "interactableVariables": [
                 [
                     "door_f"
@@ -571,6 +577,7 @@
             "types": [
                 "engine_car"
             ],
+            "defaultPart": "iv_tpp:trin_v8_fat_diesel",
             "interactableVariables": [
                 [
                     "door_hood"
@@ -1189,6 +1196,9 @@
         {
             "subName": "_purewhite_g",
             "name": "Trin Transortus TQ1 - pure white paint, gray interior",
+            "partTones": [
+                "_gray"
+            ],
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_purewhite:0:1",
@@ -1200,6 +1210,9 @@
         {
             "subName": "_silver_g",
             "name": "Trin Transortus TQ1 - silver paint, gray interior",
+            "partTones": [
+                "_gray"
+            ],
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_silver:0:1",
@@ -1211,6 +1224,9 @@
         {
             "subName": "_coldspruce_g",
             "name": "Trin Transortus TQ1 - cold spruce paint, gray interior",
+            "partTones": [
+                "_gray"
+            ],
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_coldspruce:0:1",
@@ -1222,6 +1238,9 @@
         {
             "subName": "_sunshineyellow_g",
             "name": "Trin Transortus TQ1 - Sunshine Yellow paint, gray interior",
+            "partTones": [
+                "_gray"
+            ],
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_sunshineyellow:0:1",

@@ -30,6 +30,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -62,6 +63,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -95,6 +97,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -142,6 +145,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -193,6 +197,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_fl"
@@ -218,6 +224,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_fr"
@@ -267,6 +275,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_rl"
@@ -316,6 +326,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_rr"
@@ -365,6 +377,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_rl"
@@ -414,6 +428,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_rr"
@@ -459,6 +475,7 @@
             "types": [
                 "engine_car"
             ],
+            "defaultPart": "iv_tpp:engine_i4_gasoline_turbo_aut",
             "interactableVariables": [
                 [
                     "door_hood"
@@ -1250,6 +1267,9 @@
             "modelName": "trin_foragon_nrml_minibus",
             "name": "Trin Foragon Minibus TQ1 Trim - Pure White paint, gray interior",
             "description": "Utility Minibus\n\nRecommended parts:\nAverage Sized Wheels (x4)\nI3 Engine\nModel 1 Seats",
+            "partTones": [
+                "_gray"
+            ],
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_purewhite:0:1",
@@ -1263,6 +1283,9 @@
             "modelName": "trin_foragon_nrml_minibus",
             "name": "Trin Foragon Minibus TQ1 Trim - Tungsten paint, gray interior",
             "description": "Utility Minibus\n\nRecommended parts:\nAverage Sized Wheels (x4)\nI3 Engine\nModel 1 Seats",
+            "partTones": [
+                "_gray"
+            ],
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_tungsten:0:1",
@@ -1276,6 +1299,9 @@
             "modelName": "trin_foragon_nrml_minibus",
             "name": "Trin Foragon Minibus TQ1 Trim - Sand paint, gray interior",
             "description": "Utility Minibus\n\nRecommended parts:\nAverage Sized Wheels (x4)\nI3 Engine\nModel 1 Seats",
+            "partTones": [
+                "_gray"
+            ],
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_sand:0:1",

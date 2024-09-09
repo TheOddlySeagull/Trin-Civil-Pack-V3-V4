@@ -32,6 +32,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -66,6 +67,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -99,6 +101,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -133,6 +136,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -166,6 +170,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -200,6 +205,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -233,6 +239,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -267,6 +274,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -301,6 +309,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -350,6 +359,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -401,6 +411,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_2_gray",
             "interactableVariables": [
                 [
                     "door_fl"
@@ -426,6 +438,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_2_gray",
             "interactableVariables": [
                 [
                     "door_fr"
@@ -471,6 +485,7 @@
             "types": [
                 "engine_car"
             ],
+            "defaultPart": "iv_tpp:trin_v10_fat_diesel",
             "interactableVariables": [
                 [
                     "door_hood"
@@ -1144,6 +1159,9 @@
             "modelName": "trin_juggernaut_mod_truck",
             "name": "Trin Juggernaut TQ3 Trim - Shagbark paint, Gray interior",
             "description": "Utility Modular Truck Platform\n\nRecommended parts:\nGiant Wheels (x10)\nHeavy V10 Engine\nModel 2 Seats",
+            "partTones": [
+                "_gray"
+            ],
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_shagbark:0:1",
@@ -1157,6 +1175,9 @@
             "modelName": "trin_juggernaut_mod_truck",
             "name": "Trin Juggernaut TQ3 Trim - Red & Black paint, Gray interior",
             "description": "Utility Modular Truck Platform\n\nRecommended parts:\nGiant Wheels (x10)\nHeavy V10 Engine\nModel 2 Seats",
+            "partTones": [
+                "_gray"
+            ],
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
@@ -1170,6 +1191,9 @@
             "modelName": "trin_juggernaut_mod_truck",
             "name": "Trin Juggernaut TQ3 Trim - Blood Red paint, Gray interior",
             "description": "Utility Modular Truck Platform\n\nRecommended parts:\nGiant Wheels (x10)\nHeavy V10 Engine\nModel 2 Seats",
+            "partTones": [
+                "_gray"
+            ],
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_bloodred:0:1",
