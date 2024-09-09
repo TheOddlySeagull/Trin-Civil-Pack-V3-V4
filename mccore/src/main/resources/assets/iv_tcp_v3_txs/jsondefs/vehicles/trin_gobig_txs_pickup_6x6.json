@@ -747,7 +747,7 @@
             "types": [
                 "seat_invisible"
             ],
-            "defaultPart": "iv_tpp:trin_invisiseat"
+            "defaultPart": "iv_tpp:trin_accessory_invisiseat_sitting"
         },
         {
             "pos": [
@@ -763,7 +763,7 @@
             "types": [
                 "seat_invisible"
             ],
-            "defaultPart": "iv_tpp:trin_invisiseat"
+            "defaultPart": "iv_tpp:trin_accessory_invisiseat_sitting"
         },
         {
             "pos": [
@@ -779,7 +779,7 @@
             "types": [
                 "seat_invisible"
             ],
-            "defaultPart": "iv_tpp:trin_invisiseat"
+            "defaultPart": "iv_tpp:trin_accessory_invisiseat_sitting"
         },
         {
             "pos": [
@@ -795,7 +795,7 @@
             "types": [
                 "seat_invisible"
             ],
-            "defaultPart": "iv_tpp:trin_invisiseat"
+            "defaultPart": "iv_tpp:trin_accessory_invisiseat_sitting"
         },
         {
             "pos": [
@@ -811,7 +811,7 @@
             "types": [
                 "seat_invisible"
             ],
-            "defaultPart": "iv_tpp:trin_invisiseat"
+            "defaultPart": "iv_tpp:trin_accessory_invisiseat_sitting"
         },
         {
             "pos": [
@@ -827,7 +827,7 @@
             "types": [
                 "seat_invisible"
             ],
-            "defaultPart": "iv_tpp:trin_invisiseat"
+            "defaultPart": "iv_tpp:trin_accessory_invisiseat_sitting"
         },
         {
             "pos": [
