@@ -26,7 +26,7 @@
             "types": [
                 "ground_wheel"
             ],
-            "defaultPart": "iv_tpp:wheel_offroad_4d16_1_chromic",
+            "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -61,7 +61,7 @@
             "types": [
                 "ground_wheel"
             ],
-            "defaultPart": "iv_tpp:wheel_offroad_4d16_1_chromic",
+            "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -91,7 +91,7 @@
             "types": [
                 "ground_wheel"
             ],
-            "defaultPart": "iv_tpp:wheel_offroad_4d16_1_chromic",
+            "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -141,7 +141,7 @@
             "types": [
                 "ground_wheel"
             ],
-            "defaultPart": "iv_tpp:wheel_offroad_4d16_1_chromic",
+            "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or",
             "animations": [
                 {
                     "animationType": "rotation",

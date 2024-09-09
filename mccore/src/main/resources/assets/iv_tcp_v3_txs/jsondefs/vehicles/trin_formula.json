@@ -191,7 +191,9 @@
             "isController": true,
             "types": [
                 "seat"
-            ]
+            ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray"
         },
         {
             "pos": [

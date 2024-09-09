@@ -460,7 +460,7 @@
             "types": [
                 "engine_car"
             ],
-            "defaultPart": "iv_tpp:trin_v10_fat_diesel",
+            "defaultPart": "iv_tpp:trin_v8_fat_diesel",
             "interactableVariables": [
                 [
                     "door_hood"
