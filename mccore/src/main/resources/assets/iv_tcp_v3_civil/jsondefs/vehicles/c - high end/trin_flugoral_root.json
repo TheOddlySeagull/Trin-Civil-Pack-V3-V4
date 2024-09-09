@@ -29,6 +29,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_sport_4d14_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -63,6 +64,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_sport_4d14_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -92,6 +94,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_sport_4d14_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -141,6 +144,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_sport_4d14_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -192,6 +196,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_fl"
@@ -217,6 +223,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_fr"
@@ -262,6 +270,7 @@
             "types": [
                 "engine_car"
             ],
+            "defaultPart": "iv_tpp:engine_v8_gasoline_turbo_aut",
             "interactableVariables": [
                 [
                     "door_hood"
@@ -851,6 +860,9 @@
     "definitions": [
         {
             "subName": "_purewhite_g",
+            "partTones": [
+				"_gray"
+			],
             "name": "Trin Flugoral root trim - pure white paint, gray interior",
             "extraMaterialLists": [
                 [
@@ -862,6 +874,9 @@
         },
         {
             "subName": "_purewhite_w",
+            "partTones": [
+				"_white"
+			],
             "name": "Trin Flugoral root trim - pure white paint, white interior",
             "extraMaterialLists": [
                 [
@@ -873,6 +888,9 @@
         },
         {
             "subName": "_coldspruce_g",
+            "partTones": [
+				"_gray"
+			],
             "name": "Trin Flugoral root trim - cold spruce paint, gray interior",
             "extraMaterialLists": [
                 [
@@ -884,6 +902,9 @@
         },
         {
             "subName": "_coldspruce_w",
+            "partTones": [
+				"_white"
+			],
             "name": "Trin Flugoral root trim - cold spruce paint, white interior",
             "extraMaterialLists": [
                 [
@@ -895,6 +916,9 @@
         },
         {
             "subName": "_sage_g",
+            "partTones": [
+				"_gray"
+			],
             "name": "Trin Flugoral root trim - sage paint, gray interior",
             "extraMaterialLists": [
                 [
@@ -906,6 +930,9 @@
         },
         {
             "subName": "_sage_w",
+            "partTones": [
+				"_white"
+			],
             "name": "Trin Flugoral root trim - sage paint, white interior",
             "extraMaterialLists": [
                 [

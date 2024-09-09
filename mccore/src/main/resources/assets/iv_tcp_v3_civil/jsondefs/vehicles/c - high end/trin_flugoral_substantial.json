@@ -29,6 +29,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_sport_4d14_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -63,6 +64,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_sport_4d14_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -92,6 +94,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_sport_4d14_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -141,6 +144,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_sport_4d14_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -192,6 +196,7 @@
             "types": [
                 "seat"
             ],
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_fl"
@@ -218,6 +223,7 @@
             "types": [
                 "seat"
             ],
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_fr"
@@ -264,6 +270,7 @@
             "types": [
                 "engine_car"
             ],
+            "defaultPart": "iv_tpp:engine_v12_gasoline_normal_aut",
             "interactableVariables": [
                 [
                     "door_hood"
@@ -853,7 +860,7 @@
     "definitions": [
         {
             "subName": "_redandblack_g",
-			"partTones": [
+            "partTones": [
 				"_gray"
 			],
             "name": "Trin Flugoral substantial trim - red & black paint, gray interior",
@@ -867,10 +874,10 @@
         },
         {
             "subName": "_redandblack_w",
-            "name": "Trin Flugoral substantial trim - red & black paint, white interior",
-			"partTones": [
+            "partTones": [
 				"_white"
 			],
+            "name": "Trin Flugoral substantial trim - red & black paint, white interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
