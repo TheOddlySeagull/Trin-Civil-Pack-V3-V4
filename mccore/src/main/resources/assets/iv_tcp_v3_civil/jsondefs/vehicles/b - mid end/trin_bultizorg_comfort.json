@@ -28,6 +28,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -62,6 +63,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -90,6 +92,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -124,6 +127,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -153,6 +157,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -202,6 +207,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -253,6 +259,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_2_gray",
             "interactableVariables": [
                 [
                     "door_fl"
@@ -278,6 +286,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_2_gray",
             "interactableVariables": [
                 [
                     "door_fr"
@@ -327,6 +337,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_2_gray",
             "interactableVariables": [
                 [
                     "door_rl"
@@ -376,6 +388,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_2_gray",
             "interactableVariables": [
                 [
                     "door_rr"
@@ -421,6 +435,7 @@
             "types": [
                 "engine_car"
             ],
+            "defaultPart": "iv_tpp:trin_v8_fat_diesel",
             "interactableVariables": [
                 [
                     "door_hood"
@@ -458,7 +473,8 @@
             ],
             "types": [
                 "seat_invisible"
-            ]
+            ],
+            "defaultPart": "iv_tpp:trin_invisiseat"
         },
         {
             "pos": [
@@ -473,7 +489,8 @@
             ],
             "types": [
                 "seat_invisible"
-            ]
+            ],
+            "defaultPart": "iv_tpp:trin_invisiseat"
         },
         {
             "pos": [
@@ -488,7 +505,8 @@
             ],
             "types": [
                 "seat_invisible"
-            ]
+            ],
+            "defaultPart": "iv_tpp:trin_invisiseat"
         },
         {
             "pos": [
@@ -503,7 +521,8 @@
             ],
             "types": [
                 "seat_invisible"
-            ]
+            ],
+            "defaultPart": "iv_tpp:trin_invisiseat"
         },
         {
             "pos": [
@@ -1165,7 +1184,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         },
         {
             "subName": "_pureblack_w",
@@ -1176,7 +1198,10 @@
                     "minecraft:wool:0:6",
                     "minecraft:wool:8:4"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_white"
+			]
         },
         {
             "subName": "_firered_g",
@@ -1187,7 +1212,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         },
         {
             "subName": "_firered_w",
@@ -1198,7 +1226,10 @@
                     "minecraft:wool:0:6",
                     "minecraft:wool:8:4"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_white"
+			]
         },
         {
             "subName": "_electricblue_g",
@@ -1209,7 +1240,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         },
         {
             "subName": "_electricblue_w",
@@ -1220,7 +1254,10 @@
                     "minecraft:wool:0:6",
                     "minecraft:wool:8:4"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_white"
+			]
         }
     ],
     "initialVariables": [
