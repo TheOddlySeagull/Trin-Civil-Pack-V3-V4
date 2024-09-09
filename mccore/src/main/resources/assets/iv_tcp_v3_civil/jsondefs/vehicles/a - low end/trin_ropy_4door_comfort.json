@@ -199,6 +199,7 @@
                 "seat"
             ],
             "defaultPart": "iv_tpp:trin_seat_3_gray",
+            "toneIndex": 1,
             "interactableVariables": [
                 [
                     "door_fl"
@@ -226,6 +227,7 @@
                 "seat"
             ],
             "defaultPart": "iv_tpp:trin_seat_3_gray",
+            "toneIndex": 1,
             "interactableVariables": [
                 [
                     "door_fr"
@@ -253,6 +255,7 @@
                 "seat"
             ],
             "defaultPart": "iv_tpp:trin_seat_3_gray",
+            "toneIndex": 1,
             "interactableVariables": [
                 [
                     "door_rl"
@@ -283,6 +286,7 @@
                 "seat"
             ],
             "defaultPart": "iv_tpp:trin_seat_3_gray",
+            "toneIndex": 1,
             "interactableVariables": [
                 [
                     "door_rr"
@@ -1186,118 +1190,145 @@
             "_comment": "Glacier White",
             "modelName": "trin_ropy_4door",
             "subName": "_glacierwhite_g",
-            "name": "Trin Ropy 4 Door Comfort Trim - Glacier White Paint, Gray Interior",
+            "name": "Trin Ropy Nova - Glacier White Paint, Gray Interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_glacierwhite:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_gray"
+			]
         },
         {
             "_comment": "Ivory",
             "modelName": "trin_ropy_4door",
             "subName": "_ivory_g",
-            "name": "Trin Ropy 4 Door Comfort Trim - Ivory Paint, Gray Interior",
+            "name": "Trin Ropy Nova - Ivory Paint, Gray Interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_ivory:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_gray"
+			]
         },
         {
             "_comment": "Silver",
             "modelName": "trin_ropy_4door",
             "subName": "_silver_g",
-            "name": "Trin Ropy 4 Door Comfort Trim - Silver Paint, Gray Interior",
+            "name": "Trin Ropy Nova - Silver Paint, Gray Interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_silver:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_gray"
+			]
         },
         {
             "_comment": "Deep Black ",
             "modelName": "trin_ropy_4door",
             "subName": "_deepblack_g",
-            "name": "Trin Ropy 4 Door Comfort Trim - Deep Black Paint, Gray Interior",
+            "name": "Trin Ropy Nova - Deep Black Paint, Gray Interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_deepblack:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_gray"
+			]
         },
         {
             "_comment": "sapphire",
             "modelName": "trin_ropy_4door",
             "subName": "_sapphire_g",
-            "name": "Trin Ropy 4 Door Comfort Trim - Sapphire Paint, Gray Interior",
+            "name": "Trin Ropy Nova - Sapphire Paint, Gray Interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_sapphire:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_gray"
+			]
         },
         {
             "_comment": "oakgreen",
             "modelName": "trin_ropy_4door",
             "subName": "_oakgreen_g",
-            "name": "Trin Ropy 4 Door Comfort Trim - Oak Green Paint, Gray Interior",
+            "name": "Trin Ropy Nova - Oak Green Paint, Gray Interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_oakgreen:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_gray"
+			]
         },
         {
             "_comment": "buttercup",
             "modelName": "trin_ropy_4door",
             "subName": "_buttercup_g",
-            "name": "Trin Ropy 4 Door Comfort Trim - Buttercup Paint, Gray Interior",
+            "name": "Trin Ropy Nova - Buttercup Paint, Gray Interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_buttercup:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_gray"
+			]
         },
         {
             "_comment": "ruby",
             "modelName": "trin_ropy_4door",
             "subName": "_ruby_g",
-            "name": "Trin Ropy 4 Door Comfort Trim - Ruby Paint, Gray Interior",
+            "name": "Trin Ropy Nova - Ruby Paint, Gray Interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_ruby:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_gray"
+			]
         },
         {
             "_comment": "grape",
             "modelName": "trin_ropy_4door",
             "subName": "_grape_g",
-            "name": "Trin Ropy 4 Door Comfort Trim - Grape Paint, Gray Interior",
+            "name": "Trin Ropy Nova - Grape Paint, Gray Interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_grape:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_gray"
+			]
         }
     ],
     "variableModifiers": [
