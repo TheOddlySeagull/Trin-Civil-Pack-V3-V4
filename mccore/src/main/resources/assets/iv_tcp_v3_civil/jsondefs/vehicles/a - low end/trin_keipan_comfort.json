@@ -195,7 +195,8 @@
                     "door_fl"
                 ]
             ],
-            "defaultPart": "iv_tpp:trin_seat_3_gray"
+            "defaultPart": "iv_tpp:trin_seat_3_gray",
+            "toneIndex": 1
         },
         {
             "pos": [
@@ -221,7 +222,8 @@
                     "door_fr"
                 ]
             ],
-            "defaultPart": "iv_tpp:trin_seat_3_gray"
+            "defaultPart": "iv_tpp:trin_seat_3_gray",
+            "toneIndex": 1
         },
         {
             "pos": [
@@ -826,7 +828,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         },
         {
             "subName": "_tungsten",
@@ -837,7 +842,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         },
         {
             "subName": "_pourpre",
@@ -848,7 +856,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         }
     ],
     "initialVariables": [

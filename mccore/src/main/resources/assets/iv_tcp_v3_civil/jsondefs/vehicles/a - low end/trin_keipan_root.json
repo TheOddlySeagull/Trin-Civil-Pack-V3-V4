@@ -222,7 +222,8 @@
                     "door_fr"
                 ]
             ],
-            "toneIndex": 1
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_3_gray"
         },
         {
             "pos": [
