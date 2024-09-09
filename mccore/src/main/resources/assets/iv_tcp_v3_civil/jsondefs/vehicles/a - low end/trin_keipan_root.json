@@ -195,7 +195,8 @@
                     "door_fl"
                 ]
             ],
-            "toneIndex": 1
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_3_gray"
         },
         {
             "pos": [
@@ -280,7 +281,8 @@
                 16,
                 21,
                 22
-            ]
+            ],
+            "defaultPart": "iv_tpp:engine_i3_gasoline_normal_aut"
         },
         {
             "pos": [
@@ -295,7 +297,8 @@
             ],
             "types": [
                 "seat_invisible"
-            ]
+            ],
+            "defaultPart": "iv_tpp:trin_invisiseat"
         },
         {
             "pos": [
@@ -310,7 +313,8 @@
             ],
             "types": [
                 "seat_invisible"
-            ]
+            ],
+            "defaultPart": "iv_tpp:trin_invisiseat"
         },
         {
             "pos": [
@@ -325,7 +329,8 @@
             ],
             "types": [
                 "seat_invisible"
-            ]
+            ],
+            "defaultPart": "iv_tpp:trin_invisiseat"
         },
         {
             "pos": [
@@ -340,7 +345,8 @@
             ],
             "types": [
                 "seat_invisible"
-            ]
+            ],
+            "defaultPart": "iv_tpp:trin_invisiseat"
         },
         {
             "pos": [
@@ -814,7 +820,7 @@
     "definitions": [
         {
             "subName": "_white",
-            "name": "Trin Keipan root trim - white paint, gray interior",
+            "name": "Trin Keipan - white paint, gray interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_white:0:1",
@@ -828,7 +834,7 @@
         },
         {
             "subName": "_sky_blue",
-            "name": "Trin Keipan root trim - sky blue paint, gray interior",
+            "name": "Trin Keipan - sky blue paint, gray interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_skyblue:0:1",
@@ -842,7 +848,7 @@
         },
         {
             "subName": "_silver",
-            "name": "Trin Keipan root trim - silver paint, gray interior",
+            "name": "Trin Keipan - silver paint, gray interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_silver:0:1",
