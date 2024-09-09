@@ -1,5 +1,19 @@
 # Trin Civil Pack Changelogs
 
+## Trin Civil Pack 4.2.3 changelog:
+
+### Additions:
+
+- All Trin vehicles now come pre-assembled with all recommended parts
+- All Trin vehicles now have part tone support
+- Trin Tormador tow truck can now also tow light vehicles (cars)
+
+### Fixes:
+
+- All skins are now based on Trin Paint Buckets for recipies
+
+---
+
 ## Trin Civil Pack 3.22.0 (4.2) changelog:
 
 ### Main Additions:
