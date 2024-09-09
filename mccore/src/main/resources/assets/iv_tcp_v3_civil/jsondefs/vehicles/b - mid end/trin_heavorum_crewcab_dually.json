@@ -261,6 +261,7 @@
                 "seat"
             ],
             "defaultPart": "iv_tpp:trin_seat_3_gray",
+            "toneIndex": 1,
             "dismountPos": [
                 1.625,
                 0.6875,
@@ -289,6 +290,7 @@
                 "seat"
             ],
             "defaultPart": "iv_tpp:trin_seat_3_gray",
+            "toneIndex": 1,
             "dismountPos": [
                 -1.625,
                 0.6875,
@@ -319,6 +321,7 @@
                 "interactable_barrel"
             ],
             "defaultPart": "iv_tpp:trin_seat_3_gray",
+            "toneIndex": 1,
             "dismountPos": [
                 1.5625,
                 0.6875,
@@ -349,6 +352,7 @@
                 "interactable_barrel"
             ],
             "defaultPart": "iv_tpp:trin_seat_3_gray",
+            "toneIndex": 1,
             "dismountPos": [
                 -1.5625,
                 0.6875,
@@ -371,6 +375,7 @@
             "types": [
                 "seat_invisible"
             ],
+            "defaultPart": "iv_tpp:trin_invisiseat",
             "dismountPos": [
                 2,
                 1,
@@ -392,6 +397,7 @@
             "types": [
                 "seat_invisible"
             ],
+            "defaultPart": "iv_tpp:trin_invisiseat",
             "dismountPos": [
                 -2,
                 1,
@@ -413,6 +419,7 @@
             "types": [
                 "seat_invisible"
             ],
+            "defaultPart": "iv_tpp:trin_invisiseat",
             "dismountPos": [
                 2,
                 1,
@@ -434,6 +441,7 @@
             "types": [
                 "seat_invisible"
             ],
+            "defaultPart": "iv_tpp:trin_invisiseat",
             "dismountPos": [
                 -2,
                 1,
@@ -1865,7 +1873,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         },
         {
             "_comment": "Deep Black",
@@ -1878,7 +1889,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         },
         {
             "_comment": "Tomato & wood",
@@ -1892,7 +1906,10 @@
                     "minecraft:wool:8:3",
                     "minecraft:planks:0:2"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         },
         {
             "_comment": "Spruce & wood",
@@ -1906,7 +1923,10 @@
                     "minecraft:wool:8:3",
                     "minecraft:planks:0:2"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         },
         {
             "_comment": "Red & Black",
@@ -1919,7 +1939,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         },
         {
             "_comment": "Military Green",
@@ -1932,7 +1955,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         },
         {
             "_comment": "Sapphire",
@@ -1945,7 +1971,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         },
         {
             "_comment": "Brown",
@@ -1958,7 +1987,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         },
         {
             "_comment": "Steel Blue",
@@ -1971,7 +2003,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         }
     ],
     "rendering": {
