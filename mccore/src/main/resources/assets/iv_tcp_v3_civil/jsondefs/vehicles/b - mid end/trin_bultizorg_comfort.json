@@ -28,7 +28,7 @@
             "types": [
                 "ground_wheel"
             ],
-            "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or",
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -63,7 +63,7 @@
             "types": [
                 "ground_wheel"
             ],
-            "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or",
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -92,7 +92,7 @@
             "types": [
                 "ground_wheel"
             ],
-            "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or",
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -127,7 +127,7 @@
             "types": [
                 "ground_wheel"
             ],
-            "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or",
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -157,7 +157,7 @@
             "types": [
                 "ground_wheel"
             ],
-            "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or",
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -207,7 +207,7 @@
             "types": [
                 "ground_wheel"
             ],
-            "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or",
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
