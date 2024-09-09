@@ -28,6 +28,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -62,6 +63,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -91,6 +93,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -140,6 +143,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -191,6 +195,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_fl"
@@ -216,6 +222,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_fr"
@@ -265,6 +273,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_rl"
@@ -314,6 +324,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_rr"
@@ -359,6 +371,7 @@
             "types": [
                 "engine_car"
             ],
+            "defaultPart": "iv_tpp:engine_i4_gasoline_normal_aut",
             "interactableVariables": [
                 [
                     "door_hood"
@@ -1053,6 +1066,9 @@
     "definitions": [
         {
             "subName": "_sage_g",
+			"partTones": [
+				"_gray"
+			],
             "name": "Trin Urlon Sedan Compass Root Trim - Sage Paint, Gray Interior",
             "extraMaterialLists": [
                 [
@@ -1064,6 +1080,9 @@
         },
         {
             "subName": "_purewhite_g",
+			"partTones": [
+				"_gray"
+			],
             "name": "Trin Urlon Sedan Compass Root Trim - Pure White Paint, Gray Interior",
             "extraMaterialLists": [
                 [
@@ -1075,6 +1094,9 @@
         },
         {
             "subName": "_oakgreen_g",
+			"partTones": [
+				"_gray"
+			],
             "name": "Trin Urlon Sedan Compass Root Trim - Oak Green Paint, Gray Interior",
             "extraMaterialLists": [
                 [

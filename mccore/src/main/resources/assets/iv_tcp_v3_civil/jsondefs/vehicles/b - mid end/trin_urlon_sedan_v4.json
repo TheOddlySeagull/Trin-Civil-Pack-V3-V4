@@ -196,6 +196,7 @@
                 0.25,
                 2.3125
             ],
+            "toneIndex": 1,
             "defaultPart": "iv_tpp:trin_seat_1_gray",
             "isController": true,
             "types": [
@@ -224,6 +225,7 @@
                 0.25,
                 2.3125
             ],
+            "toneIndex": 1,
             "defaultPart": "iv_tpp:trin_seat_1_gray",
             "types": [
                 "seat"
@@ -251,6 +253,7 @@
                 0.25,
                 1.0
             ],
+            "toneIndex": 1,
             "defaultPart": "iv_tpp:trin_seat_1_gray",
             "types": [
                 "seat"
@@ -278,6 +281,7 @@
                 0.25,
                 1.0
             ],
+            "toneIndex": 1,
             "defaultPart": "iv_tpp:trin_seat_1_gray",
             "types": [
                 "seat"
@@ -300,6 +304,7 @@
                 0.0,
                 0.0
             ],
+            "toneIndex": 1,
             "defaultPart": "iv_tpp:engine_i4_gasoline_normal_aut",
             "maxValue": 0.65,
             "types": [
@@ -1245,7 +1250,10 @@
                     "minecraft:wool:8:2",
                     "minecraft:wool:0:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_gray"
+			]
         }
     ],
     "initialVariables": [

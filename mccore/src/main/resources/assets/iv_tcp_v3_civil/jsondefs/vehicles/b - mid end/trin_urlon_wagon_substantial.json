@@ -28,6 +28,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_classic_4d14_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -62,6 +63,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_classic_4d14_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -91,6 +93,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_classic_4d14_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -140,6 +143,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_classic_4d14_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -191,6 +195,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_fl"
@@ -216,6 +222,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_fr"
@@ -265,6 +273,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_rl"
@@ -314,6 +324,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_rr"
@@ -359,6 +371,7 @@
             "types": [
                 "engine_car"
             ],
+            "defaultPart": "iv_tpp:engine_i4_gasoline_normal_aut",
             "interactableVariables": [
                 [
                     "door_hood"
@@ -1101,6 +1114,9 @@
     "definitions": [
         {
             "subName": "_steelblueandteal_g",
+			"partTones": [
+				"_gray"
+			],
             "name": "Trin Urlon Wagon Substantial Trim - Steel Blue & Teal Paint, Gray Interior",
             "extraMaterialLists": [
                 [
@@ -1112,6 +1128,9 @@
         },
         {
             "subName": "_steelblueandteal_w",
+			"partTones": [
+				"_white"
+			],
             "name": "Trin Urlon Wagon Substantial Trim - Steel Blue & Teal Paint, White Interior",
             "extraMaterialLists": [
                 [
@@ -1123,6 +1142,9 @@
         },
         {
             "subName": "_steelblueandteal_r",
+			"partTones": [
+				"_red"
+			],
             "name": "Trin Urlon Wagon Substantial Trim - Steel Blue & Teal Paint, Red Interior",
             "extraMaterialLists": [
                 [
@@ -1134,6 +1156,9 @@
         },
         {
             "subName": "_shagbark_g",
+			"partTones": [
+				"_gray"
+			],
             "name": "Trin Urlon Wagon Substantial Trim - Shagbark Paint, Gray Interior",
             "extraMaterialLists": [
                 [
@@ -1145,6 +1170,9 @@
         },
         {
             "subName": "_shagbark_w",
+			"partTones": [
+				"_white"
+			],
             "name": "Trin Urlon Wagon Substantial Trim - Shagbark Paint, White Interior",
             "extraMaterialLists": [
                 [
@@ -1156,6 +1184,9 @@
         },
         {
             "subName": "_shagbark_r",
+			"partTones": [
+				"_red"
+			],
             "name": "Trin Urlon Wagon Substantial Trim - Shagbark Paint, Red Interior",
             "extraMaterialLists": [
                 [
@@ -1167,6 +1198,9 @@
         },
         {
             "subName": "_plum_g",
+			"partTones": [
+				"_gray"
+			],
             "name": "Trin Urlon Wagon Substantial Trim - Plum Paint, Gray Interior",
             "extraMaterialLists": [
                 [
@@ -1178,6 +1212,9 @@
         },
         {
             "subName": "_plum_w",
+			"partTones": [
+				"_white"
+			],
             "name": "Trin Urlon Wagon Substantial Trim - Plum Paint, White Interior",
             "extraMaterialLists": [
                 [
@@ -1189,6 +1226,9 @@
         },
         {
             "subName": "_plum_r",
+			"partTones": [
+				"_red"
+			],
             "name": "Trin Urlon Wagon Substantial Trim - Plum Paint, Red Interior",
             "extraMaterialLists": [
                 [
@@ -1200,6 +1240,9 @@
         },
         {
             "subName": "_sandstone_w",
+            "partTones": [
+				"_white"
+			],
             "name": "Trin Urlon Wagon Substantial Trim - Sandstone Paint, White Interior",
             "extraMaterialLists": [
                 [
