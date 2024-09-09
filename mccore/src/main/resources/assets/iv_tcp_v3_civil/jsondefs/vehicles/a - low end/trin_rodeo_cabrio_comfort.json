@@ -252,9 +252,7 @@
                 [
                     "door_fr"
                 ]
-            ],
-            "toneIndex": 1,
-            "defaultPart": "iv_tpp:trin_seat_1_gray"
+            ]
         },
         {
             "pos": [
@@ -280,8 +278,7 @@
                     "doorR"
                 ]
             ],
-            "toneIndex": 1,
-            "defaultPart": "iv_tpp:trin_seat_1_gray"
+            "toneIndex": 1
         },
         {
             "pos": [
