@@ -1136,6 +1136,9 @@
     "definitions": [
         {
             "subName": "_tungstenandelectricblue_g",
+            "parttones": [
+				"_gray"
+			],
             "name": "Trin Large Sportail substantial trim - tungsten & electric blue paint, gray interior",
             "extraMaterialLists": [
                 [
@@ -1147,6 +1150,9 @@
         },
         {
             "subName": "_tungstenandelectricblue_w",
+            "parttones": [
+				"_white"
+			],
             "name": "Trin Large Sportail substantial trim - tungsten & electric blue paint, white interior",
             "extraMaterialLists": [
                 [
@@ -1158,6 +1164,9 @@
         },
         {
             "subName": "_tungstenandelectricblue_r",
+            "parttones": [
+				"_red"
+			],
             "name": "Trin Large Sportail substantial trim - tungsten & electric blue paint, red interior",
             "extraMaterialLists": [
                 [
@@ -1169,6 +1178,9 @@
         },
         {
             "subName": "_tungstenandelectricblue_t",
+            "parttones": [
+				"_beige"
+			],
             "name": "Trin Large Sportail substantial trim - tungsten & electric blue paint, tan interior",
             "extraMaterialLists": [
                 [
@@ -1180,6 +1192,9 @@
         },
         {
             "subName": "_redandblack_g",
+            "parttones": [
+				"_gray"
+			],
             "name": "Trin Large Sportail substantial trim - red & black paint, gray interior",
             "extraMaterialLists": [
                 [
@@ -1191,6 +1206,9 @@
         },
         {
             "subName": "_redandblack_w",
+            "parttones": [
+				"_white"
+			],
             "name": "Trin Large Sportail substantial trim - red & black paint, white interior",
             "extraMaterialLists": [
                 [
@@ -1202,6 +1220,9 @@
         },
         {
             "subName": "_redandblack_r",
+            "parttones": [
+				"_red"
+			],
             "name": "Trin Large Sportail substantial trim - red & black paint, red interior",
             "extraMaterialLists": [
                 [
@@ -1213,6 +1234,9 @@
         },
         {
             "subName": "_redandblack_t",
+            "parttones": [
+				"_beige"
+			],
             "name": "Trin Large Sportail substantial trim - red & black paint, tan interior",
             "extraMaterialLists": [
                 [
@@ -1224,6 +1248,9 @@
         },
         {
             "subName": "_bloodred_g",
+            "parttones": [
+				"_gray"
+			],
             "name": "Trin Large Sportail substantial trim - blood red paint, gray interior",
             "extraMaterialLists": [
                 [
@@ -1235,6 +1262,9 @@
         },
         {
             "subName": "_bloodred_w",
+            "parttones": [
+				"_white"
+			],
             "name": "Trin Large Sportail substantial trim - blood red paint, white interior",
             "extraMaterialLists": [
                 [
@@ -1246,6 +1276,9 @@
         },
         {
             "subName": "_bloodred_r",
+            "parttones": [
+				"_red"
+			],
             "name": "Trin Large Sportail substantial trim - blood red paint, red interior",
             "extraMaterialLists": [
                 [
@@ -1257,6 +1290,9 @@
         },
         {
             "subName": "_bloodred_t",
+            "parttones": [
+				"_beige"
+			],
             "name": "Trin Large Sportail substantial trim - blood red paint, tan interior",
             "extraMaterialLists": [
                 [

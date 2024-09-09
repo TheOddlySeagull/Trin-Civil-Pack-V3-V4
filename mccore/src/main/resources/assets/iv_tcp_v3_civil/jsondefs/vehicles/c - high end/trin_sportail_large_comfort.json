@@ -1162,6 +1162,9 @@
     "definitions": [
         {
             "subName": "_coldspruce_g",
+            "parttones": [
+				"_gray"
+			],
             "name": "Trin Large Sportail comfort trim - cold spruce paint, gray interior",
             "extraMaterialLists": [
                 [
@@ -1173,6 +1176,9 @@
         },
         {
             "subName": "_coldspruce_w",
+            "parttones": [
+				"_white"
+			],
             "name": "Trin Large Sportail comfort trim - cold spruce paint, white interior",
             "extraMaterialLists": [
                 [
@@ -1184,6 +1190,9 @@
         },
         {
             "subName": "_coldspruce_r",
+            "parttones": [
+				"_red"
+			],
             "name": "Trin Large Sportail comfort trim - cold spruce paint, red interior",
             "extraMaterialLists": [
                 [
@@ -1195,6 +1204,9 @@
         },
         {
             "subName": "_irongray_g",
+            "parttones": [
+				"_gray"
+			],
             "name": "Trin Large Sportail comfort trim - iron gray paint, gray interior",
             "extraMaterialLists": [
                 [
@@ -1206,6 +1218,9 @@
         },
         {
             "subName": "_irongray_w",
+            "parttones": [
+				"_white"
+			],
             "name": "Trin Large Sportail comfort trim - iron gray paint, white interior",
             "extraMaterialLists": [
                 [
@@ -1217,6 +1232,9 @@
         },
         {
             "subName": "_irongray_r",
+            "parttones": [
+				"_red"
+			],
             "name": "Trin Large Sportail comfort trim - iron gray paint, red interior",
             "extraMaterialLists": [
                 [
@@ -1228,6 +1246,9 @@
         },
         {
             "subName": "_pureblack_g",
+            "parttones": [
+				"_gray"
+			],
             "name": "Trin Large Sportail comfort trim - pure black paint, gray interior",
             "extraMaterialLists": [
                 [
@@ -1239,6 +1260,9 @@
         },
         {
             "subName": "_pureblack_w",
+            "parttones": [
+				"_white"
+			],
             "name": "Trin Large Sportail comfort trim - pure black paint, white interior",
             "extraMaterialLists": [
                 [
@@ -1250,6 +1274,9 @@
         },
         {
             "subName": "_pureblack_r",
+            "parttones": [
+				"_red"
+			],
             "name": "Trin Large Sportail comfort trim - pure black paint, red interior",
             "extraMaterialLists": [
                 [

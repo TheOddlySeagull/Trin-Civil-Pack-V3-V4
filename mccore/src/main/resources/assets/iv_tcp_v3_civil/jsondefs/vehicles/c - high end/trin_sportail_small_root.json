@@ -910,6 +910,9 @@
     "definitions": [
         {
             "subName": "_white_g",
+            "parttones": [
+				"_gray"
+			],
             "name": "Trin Small Sportail root trim - white paint, gray interior",
             "extraMaterialLists": [
                 [
@@ -921,6 +924,9 @@
         },
         {
             "subName": "_white_w",
+            "parttones": [
+				"_white"
+			],
             "name": "Trin Small Sportail root trim - white paint, white interior",
             "extraMaterialLists": [
                 [
@@ -932,6 +938,9 @@
         },
         {
             "subName": "_slimelime_g",
+            "parttones": [
+				"_gray"
+			],
             "name": "Trin Small Sportail root trim - slimelime paint, gray interior",
             "extraMaterialLists": [
                 [
@@ -943,6 +952,9 @@
         },
         {
             "subName": "_slimelime_w",
+            "parttones": [
+				"_white"
+			],
             "name": "Trin Small Sportail root trim - slimelime paint, white interior",
             "extraMaterialLists": [
                 [
@@ -954,6 +966,9 @@
         },
         {
             "subName": "_amber_g",
+            "parttones": [
+				"_gray"
+			],
             "name": "Trin Small Sportail root trim - amber paint, gray interior",
             "extraMaterialLists": [
                 [
@@ -965,6 +980,9 @@
         },
         {
             "subName": "_amber_w",
+            "parttones": [
+				"_white"
+			],
             "name": "Trin Small Sportail root trim - amber paint, white interior",
             "extraMaterialLists": [
                 [
