@@ -43,7 +43,8 @@
                         2.5
                     ]
                 }
-            ]
+            ],
+            "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or"
         },
         {
             "pos": [
@@ -77,7 +78,8 @@
                         2.5
                     ]
                 }
-            ]
+            ],
+            "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or"
         },
         {
             "pos": [
@@ -120,7 +122,8 @@
                         0.0
                     ]
                 }
-            ]
+            ],
+            "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or"
         },
         {
             "pos": [
@@ -169,7 +172,8 @@
                         0.0
                     ]
                 }
-            ]
+            ],
+            "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or"
         },
         {
             "pos": [
@@ -195,7 +199,9 @@
                 [
                     "door_fl"
                 ]
-            ]
+            ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray"
         },
         {
             "pos": [
@@ -220,7 +226,9 @@
                 [
                     "door_fr"
                 ]
-            ]
+            ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray"
         },
         {
             "pos": [
@@ -244,7 +252,9 @@
                 [
                     "door_fr"
                 ]
-            ]
+            ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray"
         },
         {
             "pos": [
@@ -269,7 +279,9 @@
                 [
                     "doorR"
                 ]
-            ]
+            ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray"
         },
         {
             "pos": [
@@ -751,7 +763,10 @@
                     "minecraft:wool:8:3",
                     "mts:iv_tpp.paint_bucket_jetblack:0:1"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         },
         {
             "subName": "_tungsten_g",
@@ -762,7 +777,10 @@
                     "minecraft:wool:8:3",
                     "mts:iv_tpp.paint_bucket_tungsten:0:1"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         },
         {
             "subName": "_fireorange_g",
@@ -773,7 +791,10 @@
                     "minecraft:wool:8:3",
                     "mts:iv_tpp.paint_bucket_fireorange:0:1"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         }
     ],
     "initialVariables": [

@@ -27,6 +27,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -61,6 +62,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -90,6 +92,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -139,6 +142,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -190,6 +194,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_fl"
@@ -215,6 +221,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_fr"
@@ -317,7 +325,8 @@
             ],
             "types": [
                 "seat_invisible"
-            ]
+            ],
+            "defaultPart": "iv_tpp:trin_invisiseat"
         },
         {
             "pos": [
@@ -332,7 +341,8 @@
             ],
             "types": [
                 "seat_invisible"
-            ]
+            ],
+            "defaultPart": "iv_tpp:trin_invisiseat"
         },
         {
             "pos": [
