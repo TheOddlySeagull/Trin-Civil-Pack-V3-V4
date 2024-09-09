@@ -32,6 +32,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -65,6 +66,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -98,6 +100,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -146,6 +149,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -197,6 +201,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_fl"
@@ -222,6 +228,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_fr"
@@ -270,7 +278,9 @@
             ],
             "types": [
                 "seat"
-            ]
+            ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_2_gray"
         },
         {
             "pos": [
@@ -308,6 +318,7 @@
             "types": [
                 "engine_car"
             ],
+            "defaultPart": "iv_tpp:engine_i4_gasoline_normal_aut",
             "interactableVariables": [
                 [
                     "door_hood"
