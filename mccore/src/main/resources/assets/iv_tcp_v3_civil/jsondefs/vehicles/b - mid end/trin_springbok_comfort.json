@@ -28,6 +28,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_sport_4d14_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -62,6 +63,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_sport_4d14_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -91,6 +93,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_sport_4d14_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -140,6 +143,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_sport_4d14_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -191,6 +195,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_fl"
@@ -216,6 +222,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_fr"
@@ -261,6 +269,7 @@
             "types": [
                 "engine_car"
             ],
+            "defaultPart": "iv_tpp:engine_v8_gasoline_normal_aut",
             "interactableVariables": [
                 [
                     "door_hood"
