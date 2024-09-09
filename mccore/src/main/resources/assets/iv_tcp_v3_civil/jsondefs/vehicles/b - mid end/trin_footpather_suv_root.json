@@ -2022,7 +2022,7 @@
                 "brightnessAnimations": [
                     {
                         "animationType": "visibility",
-                        "variable": "left_turn_signal",
+                        "variable": "right_turn_signal",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     },
