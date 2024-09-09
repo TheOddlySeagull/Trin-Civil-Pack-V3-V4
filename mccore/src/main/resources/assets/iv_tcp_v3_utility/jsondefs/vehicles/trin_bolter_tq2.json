@@ -918,9 +918,9 @@
             ],
             "extraMaterialLists": [
                 [
-                    "minecraft:dye:4:5",
-                    "minecraft:dye:1:4",
-                    "minecraft:dye:0:1",
+                    "mts:iv_tpp.paint_bucket_bloodred:0:1",
+                    "mts:iv_tpp.paint_bucket_electricblue:0:1",
+                    "mts:iv_tpp.paint_bucket_pureblack:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
