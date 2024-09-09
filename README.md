@@ -11,6 +11,7 @@
 ### Fixes:
 
 - All skins are now based on Trin Paint Buckets for recipies
+- Fixed Trin Footpather trun signal lights
 
 ---
 
