@@ -29,6 +29,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_offroad_4d16_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -63,6 +64,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_offroad_4d16_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -92,6 +94,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_offroad_4d16_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -141,6 +144,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_offroad_4d16_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -192,6 +196,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_fl"
@@ -217,6 +223,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_fr"
@@ -266,6 +274,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_rl"
@@ -315,6 +325,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_rr"
@@ -364,6 +376,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_rl"
@@ -413,6 +427,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_rr"
@@ -458,6 +474,7 @@
             "types": [
                 "engine_car"
             ],
+            "defaultPart": "iv_tpp:engine_v8_gasoline_normal_aut",
             "interactableVariables": [
                 [
                     "door_hood"
@@ -3746,7 +3763,7 @@
         "modelType": "obj"
     },
     "general": {
-        "description": "High End Full Size SUV\n4 doors, 6 seats\n\nRecommended Parts:\nLarge Sized Wheels\nV6 Engine\nModel 1 Seats",
+        "description": "High End Full Size SUV\n4 doors, 6 seats\n\nRecommended Parts:\nLarge Sized Wheels\nV8 Engine\nModel 1 Seats",
         "health": 250,
         "materialLists": [
             [
