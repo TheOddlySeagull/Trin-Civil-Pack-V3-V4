@@ -30,6 +30,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -64,6 +65,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -93,6 +95,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -142,6 +145,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_20h_6w_rim2_or",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -193,6 +197,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_2_gray",
             "interactableVariables": [
                 [
                     "door_fl"
@@ -218,6 +224,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_2_gray",
             "interactableVariables": [
                 [
                     "door_fr"
@@ -302,7 +310,8 @@
             ],
             "types": [
                 "seat_invisible"
-            ]
+            ],
+            "defaultPart": "iv_tpp:trin_invisiseat"
         },
         {
             "pos": [
@@ -317,7 +326,8 @@
             ],
             "types": [
                 "seat_invisible"
-            ]
+            ],
+            "defaultPart": "iv_tpp:trin_invisiseat"
         },
         {
             "pos": [
@@ -334,6 +344,7 @@
             "types": [
                 "engine_car"
             ],
+            "defaultPart": "iv_tpp:trin_v10_fat_diesel",
             "interactableVariables": [
                 [
                     "door_hood"
@@ -865,6 +876,9 @@
     "definitions": [
         {
             "subName": "_root_purewhite_g",
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Gobig SUV 2 Door Cabriolet Root Trim - Pure White Paint, Gray Interior",
             "extraMaterialLists": [
                 [
@@ -876,6 +890,9 @@
         },
         {
             "subName": "_root_purewhite_w",
+            "partTones": [
+                "_white"
+            ],
             "name": "Trin Gobig SUV 2 Door Cabriolet Root Trim - Pure White Paint, White Interior",
             "extraMaterialLists": [
                 [
@@ -887,6 +904,9 @@
         },
         {
             "subName": "_root_tungsten_g",
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Gobig SUV 2 Door Cabriolet Root Trim - Tungsten Paint, Gray Interior",
             "extraMaterialLists": [
                 [
@@ -898,6 +918,9 @@
         },
         {
             "subName": "_root_tungsten_w",
+            "partTones": [
+                "_white"
+            ],
             "name": "Trin Gobig SUV 2 Door Cabriolet Root Trim - Tungsten Paint, White Interior",
             "extraMaterialLists": [
                 [
@@ -909,6 +932,9 @@
         },
         {
             "subName": "_root_firered_g",
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Gobig SUV 2 Door Cabriolet Root Trim - Fire Red Paint, Gray Interior",
             "extraMaterialLists": [
                 [
@@ -920,6 +946,9 @@
         },
         {
             "subName": "_root_firered_w",
+            "partTones": [
+                "_white"
+            ],
             "name": "Trin Gobig SUV 2 Door Cabriolet Root Trim - Fire Red Paint, White Interior",
             "extraMaterialLists": [
                 [
@@ -931,6 +960,9 @@
         },
         {
             "subName": "_comfort_jetblack_g",
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Gobig SUV 2 Door Cabriolet Comfort Trim - Jet Black Paint, Gray Interior",
             "extraMaterialLists": [
                 [
@@ -942,6 +974,9 @@
         },
         {
             "subName": "_comfort_jetblack_w",
+            "partTones": [
+                "_white"
+            ],
             "name": "Trin Gobig SUV 2 Door Cabriolet Comfort Trim - Jet Black Paint, White Interior",
             "extraMaterialLists": [
                 [
@@ -953,6 +988,9 @@
         },
         {
             "subName": "_comfort_jetblack_r",
+            "partTones": [
+                "_red"
+            ],
             "name": "Trin Gobig SUV 2 Door Cabriolet Comfort Trim - Jet Black Paint, Red Interior",
             "extraMaterialLists": [
                 [
@@ -964,6 +1002,9 @@
         },
         {
             "subName": "_comfort_oceanblue_g",
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Gobig SUV 2 Door Cabriolet Comfort Trim - Ocean Blue Paint, Gray Interior",
             "extraMaterialLists": [
                 [
@@ -975,6 +1016,9 @@
         },
         {
             "subName": "_comfort_oceanblue_w",
+            "partTones": [
+                "_white"
+            ],
             "name": "Trin Gobig SUV 2 Door Cabriolet Comfort Trim - Ocean Blue Paint, White Interior",
             "extraMaterialLists": [
                 [
@@ -986,6 +1030,9 @@
         },
         {
             "subName": "_comfort_oceanblue_r",
+            "partTones": [
+                "_red"
+            ],
             "name": "Trin Gobig SUV 2 Door Cabriolet Comfort Trim - Ocean Blue Paint, Red Interior",
             "extraMaterialLists": [
                 [
@@ -997,6 +1044,9 @@
         },
         {
             "subName": "_comfort_chocolate_g",
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Gobig SUV 2 Door Cabriolet Comfort Trim - Chocolate Paint, Gray Interior",
             "extraMaterialLists": [
                 [
@@ -1008,6 +1058,9 @@
         },
         {
             "subName": "_comfort_chocolate_w",
+            "partTones": [
+                "_white"
+            ],
             "name": "Trin Gobig SUV 2 Door Cabriolet Comfort Trim - Chocolate Paint, White Interior",
             "extraMaterialLists": [
                 [
@@ -1019,6 +1072,9 @@
         },
         {
             "subName": "_comfort_chocolate_r",
+            "partTones": [
+                "_red"
+            ],
             "name": "Trin Gobig SUV 2 Door Cabriolet Comfort Trim - Chocolate Paint, Red Interior",
             "extraMaterialLists": [
                 [
@@ -1030,6 +1086,9 @@
         },
         {
             "subName": "_substantial_tungstenandelectricblue_g",
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Gobig SUV 2 Door Cabriolet Substantial Trim - Tungsten & Electric Blue Paint, Gray Interior",
             "extraMaterialLists": [
                 [
@@ -1041,6 +1100,9 @@
         },
         {
             "subName": "_substantial_tungstenandelectricblue_w",
+            "partTones": [
+                "_white"
+            ],
             "name": "Trin Gobig SUV 2 Door Cabriolet Substantial Trim - Tungsten & Electric Blue Paint, White Interior",
             "extraMaterialLists": [
                 [
@@ -1052,6 +1114,9 @@
         },
         {
             "subName": "_substantial_tungstenandelectricblue_r",
+            "partTones": [
+                "_red"
+            ],
             "name": "Trin Gobig SUV 2 Door Cabriolet Substantial Trim - Tungsten & Electric Blue Paint, Red Interior",
             "extraMaterialLists": [
                 [
@@ -1063,6 +1128,9 @@
         },
         {
             "subName": "_substantial_tungstenandelectricblue_t",
+            "partTones": [
+                "_beige"
+            ],
             "name": "Trin Gobig SUV 2 Door Cabriolet Substantial Trim - Tungsten & Electric Blue Paint, Tan Interior",
             "extraMaterialLists": [
                 [
@@ -1074,6 +1142,9 @@
         },
         {
             "subName": "_substantial_redandblack_g",
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Gobig SUV 2 Door Cabriolet Substantial Trim - Red & Black Paint, Gray Interior",
             "extraMaterialLists": [
                 [
@@ -1085,6 +1156,9 @@
         },
         {
             "subName": "_substantial_redandblack_w",
+            "partTones": [
+                "_white"
+            ],
             "name": "Trin Gobig SUV 2 Door Cabriolet Substantial Trim - Red & Black Paint, White Interior",
             "extraMaterialLists": [
                 [
@@ -1096,6 +1170,9 @@
         },
         {
             "subName": "_substantial_redandblack_r",
+            "partTones": [
+                "_red"
+            ],
             "name": "Trin Gobig SUV 2 Door Cabriolet Substantial Trim - Red & Black Paint, Red Interior",
             "extraMaterialLists": [
                 [
@@ -1107,6 +1184,9 @@
         },
         {
             "subName": "_substantial_redandblack_t",
+            "partTones": [
+                "_beige"
+            ],
             "name": "Trin Gobig SUV 2 Door Cabriolet Substantial Trim - Red & Black Paint, Tan Interior",
             "extraMaterialLists": [
                 [
@@ -1118,6 +1198,9 @@
         },
         {
             "subName": "_substantial_midnightpurple_g",
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Gobig SUV 2 Door Cabriolet Substantial Trim - Midnight Purple Paint, Gray Interior",
             "extraMaterialLists": [
                 [
@@ -1129,6 +1212,9 @@
         },
         {
             "subName": "_substantial_midnightpurple_w",
+            "partTones": [
+                "_white"
+            ],
             "name": "Trin Gobig SUV 2 Door Cabriolet Substantial Trim - Midnight Purple Paint, White Interior",
             "extraMaterialLists": [
                 [
@@ -1140,6 +1226,9 @@
         },
         {
             "subName": "_substantial_midnightpurple_r",
+            "partTones": [
+                "_red"
+            ],
             "name": "Trin Gobig SUV 2 Door Cabriolet Substantial Trim - Midnight Purple Paint, Red Interior",
             "extraMaterialLists": [
                 [
@@ -1151,6 +1240,9 @@
         },
         {
             "subName": "_substantial_midnightpurple_t",
+            "partTones": [
+                "_beige"
+            ],
             "name": "Trin Gobig SUV 2 Door Cabriolet Substantial Trim - Midnight Purple Paint, Tan Interior",
             "extraMaterialLists": [
                 [
