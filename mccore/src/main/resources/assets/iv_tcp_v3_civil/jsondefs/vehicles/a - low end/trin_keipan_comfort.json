@@ -296,7 +296,8 @@
             ],
             "types": [
                 "seat_invisible"
-            ]
+            ],
+            "defaultPart": "iv_tpp:trin_invisiseat"
         },
         {
             "pos": [
@@ -818,7 +819,7 @@
     "definitions": [
         {
             "subName": "_spruce",
-            "name": "Trin Keipan comfort trim - Spruce paint, gray interior",
+            "name": "Trin Keipan Cross - Spruce paint, gray interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_spruce:0:1",
@@ -829,7 +830,7 @@
         },
         {
             "subName": "_tungsten",
-            "name": "Trin Keipan comfort trim - Tungsten paint, gray interior",
+            "name": "Trin Keipan Cross - Tungsten paint, gray interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_tungsten:0:1",
@@ -840,7 +841,7 @@
         },
         {
             "subName": "_pourpre",
-            "name": "Trin Keipan comfort trim - Carmin Red paint, gray interior",
+            "name": "Trin Keipan Cross - Carmin Red paint, gray interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_carminred:0:1",
