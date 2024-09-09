@@ -28,6 +28,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_sport_4d14_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -62,6 +63,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_sport_4d14_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -91,6 +93,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_sport_4d14_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -140,6 +143,7 @@
             "types": [
                 "ground_wheel"
             ],
+            "defaultPart": "iv_tpp:wheel_sport_4d14_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -191,6 +195,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_fl"
@@ -216,6 +222,8 @@
             "types": [
                 "seat"
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_fr"
@@ -363,6 +371,7 @@
             "types": [
                 "engine_car"
             ],
+            "defaultPart": "iv_tpp:engine_i5_gasoline_turbo_aut",
             "interactableVariables": [
                 [
                     "door_hood"
@@ -873,7 +882,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         },
         {
             "subName": "_firered_w",
@@ -884,7 +896,10 @@
                     "minecraft:wool:8:2",
                     "minecraft:wool:0:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_white"
+			]
         },
         {
             "subName": "_firered_r",
@@ -895,7 +910,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:14:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_red"
+			]
         },
         {
             "subName": "_redandblack_g",
@@ -906,7 +924,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         },
         {
             "subName": "_redandblack_w",
@@ -917,7 +938,10 @@
                     "minecraft:wool:8:2",
                     "minecraft:wool:0:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_white"
+			]
         },
         {
             "subName": "_redandblack_r",
@@ -928,7 +952,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:14:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_red"
+			]
         },
         {
             "subName": "_steelblueandteel_g",
@@ -939,7 +966,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         },
         {
             "subName": "_steelblueandteel_w",
@@ -950,7 +980,10 @@
                     "minecraft:wool:8:2",
                     "minecraft:wool:0:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_white"
+			]
         },
         {
             "subName": "_steelblueandteel_r",
@@ -961,7 +994,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:14:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_red"
+			]
         },
         {
             "subName": "_customlivery1_g",
@@ -973,7 +1009,10 @@
                     "minecraft:wool:8:3",
                     "minecraft:dirt:0:5"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         }
     ],
     "initialVariables": [
