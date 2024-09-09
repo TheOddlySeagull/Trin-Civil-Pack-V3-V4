@@ -1089,6 +1089,15 @@
                         0.625,
                         -5.9375
                     ],
+                    "distance": 3.0
+                },
+                {
+                    "type": "tow_bumper",
+                    "pos": [
+                        0.0,
+                        0.625,
+                        -5.9375
+                    ],
                     "distance": 2.0
                 }
             ]
@@ -1932,7 +1941,7 @@
                 "animations": [
                     {
                         "animationType": "rotation",
-                        "variable": "trailer",
+                        "variable": "connection_1_connected",
                         "centerPoint": [
                             0.0,
                             0.5625,
