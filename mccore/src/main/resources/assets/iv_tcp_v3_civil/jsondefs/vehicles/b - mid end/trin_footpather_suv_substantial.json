@@ -1004,124 +1004,151 @@
             "subName": "_redandblack_g",
             "modelName": "trin_footpather",
             "name": "Trin Footpather Substantial Trim - Red & Black Paint, Gray Interior",
-            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\n?I4 Engine\nModel 1 Seats",
+            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_gray"
+			]
         },
         {
             "subName": "_redandblack_w",
             "modelName": "trin_footpather",
             "name": "Trin Footpather Substantial Trim - Red & Black Paint, White Interior",
-            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\n?I4 Engine\nModel 1 Seats",
+            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
                     "minecraft:wool:8:2",
                     "minecraft:wool:0:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_white"
+			]
         },
         {
             "subName": "_redandblack_r",
             "modelName": "trin_footpather",
             "name": "Trin Footpather Substantial Trim - Red & Black Paint, Red Interior",
-            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\n?I4 Engine\nModel 1 Seats",
+            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:14:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_red"
+			]
         },
         {
             "subName": "_tungstenandelectricblue_g",
             "modelName": "trin_footpather",
             "name": "Trin Footpather Substantial Trim - Tungsten & Electric Blue Paint, Gray Interior",
-            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\n?I4 Engine\nModel 1 Seats",
+            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_tungstenandelectricblue:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_gray"
+			]
         },
         {
             "subName": "_tungstenandelectricblue_w",
             "modelName": "trin_footpather",
             "name": "Trin Footpather Substantial Trim - Tungsten & Electric Blue Paint, White Interior",
-            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\n?I4 Engine\nModel 1 Seats",
+            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_tungstenandelectricblue:0:1",
                     "minecraft:wool:8:2",
                     "minecraft:wool:0:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_white"
+			]
         },
         {
             "subName": "_tungstenandelectricblue_r",
             "modelName": "trin_footpather",
             "name": "Trin Footpather Substantial Trim - Tungsten & Electric Blue Paint, Red Interior",
-            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\n?I4 Engine\nModel 1 Seats",
+            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_tungstenandelectricblue:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:14:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_red"
+			]
         },
         {
             "subName": "_fireorange_g",
             "modelName": "trin_footpather",
             "name": "Trin Footpather Substantial Trim - Fire Orange Paint, Gray Interior",
-            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\n?I4 Engine\nModel 1 Seats",
+            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_fireorange:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_gray"
+			]
         },
         {
             "subName": "_fireorange_w",
             "modelName": "trin_footpather",
             "name": "Trin Footpather Substantial Trim - Fire Orange Paint, White Interior",
-            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\n?I4 Engine\nModel 1 Seats",
+            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_fireorange:0:1",
                     "minecraft:wool:8:2",
                     "minecraft:wool:0:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_white"
+			]
         },
         {
             "subName": "_fireorange_r",
             "modelName": "trin_footpather",
             "name": "Trin Footpather Substantial Trim - Fire Orange Paint, Red Interior",
-            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\n?I4 Engine\nModel 1 Seats",
+            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_fireorange:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:14:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_red"
+			]
         },
         {
             "subName": "_customlivery1_r",
             "modelName": "trin_footpather",
             "name": "Trin Footpather Substantial Trim - Northern Gem Livery, Red Interior",
-            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\n?I4 Engine\nModel 1 Seats",
+            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
                     "minecraft:dye:15:3",
@@ -1129,7 +1156,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:14:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_red"
+			]
         }
     ],
     "initialVariables": [

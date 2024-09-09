@@ -1004,79 +1004,97 @@
             "subName": "_pureblack_g",
             "modelName": "trin_footpather",
             "name": "Trin Footpather Comfort Trim - Pure Black Paint, Gray Interior",
-            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\n?I4 Engine\nModel 1 Seats",
+            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_pureblack:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_gray"
+			]
         },
         {
             "subName": "_pureblack_w",
             "modelName": "trin_footpather",
             "name": "Trin Footpather Comfort Trim - Pure Black Paint, White Interior",
-            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\n?I4 Engine\nModel 1 Seats",
+            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_pureblack:0:1",
                     "minecraft:wool:8:2",
                     "minecraft:wool:0:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_white"
+			]
         },
         {
             "subName": "_firered_g",
             "modelName": "trin_footpather",
             "name": "Trin Footpather Comfort Trim - Fire Red Paint, Gray Interior",
-            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\n?I4 Engine\nModel 1 Seats",
+            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_firered:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_gray"
+			]
         },
         {
             "subName": "_firered_w",
             "modelName": "trin_footpather",
             "name": "Trin Footpather Comfort Trim - Fire Red Paint, White Interior",
-            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\n?I4 Engine\nModel 1 Seats",
+            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_firered:0:1",
                     "minecraft:wool:8:2",
                     "minecraft:wool:0:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_white"
+			]
         },
         {
             "subName": "_lapenderblue_g",
             "modelName": "trin_footpather",
             "name": "Trin Footpather Comfort Trim - Lapender Blue Paint, Gray Interior",
-            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\n?I4 Engine\nModel 1 Seats",
+            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_lapenderblue:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_gray"
+			]
         },
         {
             "subName": "_lapenderblue_w",
             "modelName": "trin_footpather",
             "name": "Trin Footpather Comfort Trim - Lapender Blue Paint, White Interior",
-            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\n?I4 Engine\nModel 1 Seats",
+            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_lapenderblue:0:1",
                     "minecraft:wool:8:2",
                     "minecraft:wool:0:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_white"
+			]
         }
     ],
     "initialVariables": [

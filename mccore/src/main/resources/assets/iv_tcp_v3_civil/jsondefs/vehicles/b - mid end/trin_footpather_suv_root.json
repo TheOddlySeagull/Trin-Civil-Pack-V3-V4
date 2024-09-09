@@ -991,40 +991,49 @@
             "subName": "_white_g",
             "modelName": "trin_footpather",
             "name": "Trin Footpather Root Trim - White Paint, Gray Interior",
-            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\n?I4 Engine\nModel 1 Seats",
+            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_white:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_gray"
+			]
         },
         {
             "subName": "_softgreen_g",
             "modelName": "trin_footpather",
             "name": "Trin Footpather Root Trim - Soft Green Paint, Gray Interior",
-            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\n?I4 Engine\nModel 1 Seats",
+            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_softgreen:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_gray"
+			]
         },
         {
             "subName": "_amber_g",
             "modelName": "trin_footpather",
             "name": "Trin Footpather Root Trim - Amber Paint, Gray Interior",
-            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\n?I4 Engine\nModel 1 Seats",
+            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_amber:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_gray"
+			]
         }
     ],
     "initialVariables": [
