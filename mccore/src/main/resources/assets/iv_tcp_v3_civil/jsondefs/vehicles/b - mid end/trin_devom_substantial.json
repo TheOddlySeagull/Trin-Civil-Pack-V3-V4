@@ -275,7 +275,7 @@
                 "seat",
                 "interactable_crate"
             ],
-            "toneindex": 1,
+            "toneIndex": 1,
             "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
@@ -328,7 +328,7 @@
                 "seat",
                 "interactable_crate"
             ],
-            "toneindex": 1,
+            "toneIndex": 1,
             "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
