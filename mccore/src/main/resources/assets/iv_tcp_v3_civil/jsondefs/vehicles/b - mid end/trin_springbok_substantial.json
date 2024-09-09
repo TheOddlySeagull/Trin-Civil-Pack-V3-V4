@@ -710,7 +710,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         },
         {
             "subName": "_oceanblue_w",
@@ -721,7 +724,10 @@
                     "minecraft:wool:8:2",
                     "minecraft:wool:0:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_white"
+			]
         },
         {
             "subName": "_oceanblue_r",
@@ -732,7 +738,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:14:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_red"
+			]
         },
         {
             "subName": "_midnightpurple_g",
@@ -743,7 +752,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         },
         {
             "subName": "_midnightpurple_w",
@@ -754,7 +766,10 @@
                     "minecraft:wool:8:2",
                     "minecraft:wool:0:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_white"
+			]
         },
         {
             "subName": "_midnightpurple_r",
@@ -765,7 +780,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:14:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_red"
+			]
         },
         {
             "subName": "_redandblack_g",
@@ -776,7 +794,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         },
         {
             "subName": "_redandblack_w",
@@ -787,7 +808,10 @@
                     "minecraft:wool:8:2",
                     "minecraft:wool:0:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_white"
+			]
         },
         {
             "subName": "_redandblack_r",
@@ -798,7 +822,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:14:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_gray"
+			]
         },
         {
             "subName": "_bubblegum_w",
@@ -809,7 +836,10 @@
                     "minecraft:wool:8:2",
                     "minecraft:wool:0:3"
                 ]
-            ]
+            ],
+			"partTones": [
+				"_white"
+			]
         }
     ],
     "initialVariables": [
