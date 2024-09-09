@@ -41,7 +41,8 @@
                         7.0
                     ]
                 }
-            ]
+            ],
+            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel"
         },
         {
             "pos": [
@@ -74,7 +75,8 @@
                         7.0
                     ]
                 }
-            ]
+            ],
+            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel"
         },
         {
             "pos": [
@@ -116,7 +118,8 @@
                         0.0
                     ]
                 }
-            ]
+            ],
+            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel"
         },
         {
             "pos": [
@@ -164,7 +167,8 @@
                         0.0
                     ]
                 }
-            ]
+            ],
+            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel"
         },
         {
             "pos": [
@@ -190,7 +194,8 @@
                 [
                     "door_fl"
                 ]
-            ]
+            ],
+            "toneIndex": 1
         },
         {
             "pos": [
@@ -215,7 +220,8 @@
                 [
                     "door_fr"
                 ]
-            ]
+            ],
+            "toneIndex": 1
         },
         {
             "pos": [
@@ -815,7 +821,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_gray"
+			]
         },
         {
             "subName": "_sky_blue",
@@ -826,7 +835,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_gray"
+			]
         },
         {
             "subName": "_silver",
@@ -837,7 +849,10 @@
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
-            ]
+            ],
+            "partTones": [
+				"_gray"
+			]
         }
     ],
     "initialVariables": [
