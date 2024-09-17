@@ -10,8 +10,14 @@
 
 ### Fixes:
 
-- All skins are now based on Trin Paint Buckets for recipies
+- Fixed all skins recipies to use Trin Paint Buckets 
 - Fixed Trin Footpather trun signal lights
+- Fixed crate offset on all vehicles
+- Fixed roof crate part type and placement on Trin Sportail
+
+### Tweaks:
+
+- Tweaked the number of crates that fit in the Trin Rodeo Van
 
 ---
 
