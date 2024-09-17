@@ -645,7 +645,7 @@
         {
             "pos": [
                 0.0,
-                0.8125,
+                0.4375,
                 -1.125
             ],
             "rot": [
@@ -661,7 +661,7 @@
         {
             "pos": [
                 0.0,
-                0.8125,
+                0.4375,
                 0.0
             ],
             "rot": [
@@ -677,7 +677,7 @@
         {
             "pos": [
                 0.0,
-                0.8125,
+                0.4375,
                 1.125
             ],
             "rot": [
@@ -1185,9 +1185,9 @@
                     "minecraft:wool:8:3"
                 ]
             ],
-			"partTones": [
-				"_gray"
-			]
+            "partTones": [
+                "_gray"
+            ]
         },
         {
             "subName": "_pureblack_w",
@@ -1199,9 +1199,9 @@
                     "minecraft:wool:8:4"
                 ]
             ],
-			"partTones": [
-				"_white"
-			]
+            "partTones": [
+                "_white"
+            ]
         },
         {
             "subName": "_firered_g",
@@ -1213,9 +1213,9 @@
                     "minecraft:wool:8:3"
                 ]
             ],
-			"partTones": [
-				"_gray"
-			]
+            "partTones": [
+                "_gray"
+            ]
         },
         {
             "subName": "_firered_w",
@@ -1227,9 +1227,9 @@
                     "minecraft:wool:8:4"
                 ]
             ],
-			"partTones": [
-				"_white"
-			]
+            "partTones": [
+                "_white"
+            ]
         },
         {
             "subName": "_electricblue_g",
@@ -1241,9 +1241,9 @@
                     "minecraft:wool:8:3"
                 ]
             ],
-			"partTones": [
-				"_gray"
-			]
+            "partTones": [
+                "_gray"
+            ]
         },
         {
             "subName": "_electricblue_w",
@@ -1255,9 +1255,9 @@
                     "minecraft:wool:8:4"
                 ]
             ],
-			"partTones": [
-				"_white"
-			]
+            "partTones": [
+                "_white"
+            ]
         }
     ],
     "initialVariables": [

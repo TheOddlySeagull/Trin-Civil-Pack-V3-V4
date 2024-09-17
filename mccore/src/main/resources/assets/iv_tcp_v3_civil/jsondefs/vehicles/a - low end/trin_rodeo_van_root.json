@@ -395,13 +395,34 @@
         },
         {
             "pos": [
-                0.0,
-                0.6875,
-                0.0
+                0.1875,
+                0.3125,
+                0.3125
             ],
             "rot": [
+                -2.0,
                 0.0,
-                0.0,
+                -1.0
+            ],
+            "maxValue": 3.0,
+            "types": [
+                "interactable_crate"
+            ],
+            "interactableVariables": [
+                [
+                    "doorR"
+                ]
+            ]
+        },
+        {
+            "pos": [
+                0.1875,
+                0.3125,
+                -0.5
+            ],
+            "rot": [
+                1.0,
+                2.0,
                 0.0
             ],
             "maxValue": 3.0,
@@ -409,6 +430,56 @@
                 "interactable_crate"
             ],
             "interactableVariables": [
+                [
+                    "doorR"
+                ]
+            ]
+        },
+        {
+            "pos": [
+                -0.625,
+                0.6875,
+                0.0625
+            ],
+            "rot": [
+                -8.0,
+                2.0,
+                3.0
+            ],
+            "maxValue": 3.0,
+            "types": [
+                "interactable_crate"
+            ],
+            "interactableVariables": [
+                [
+                    "part_present_16",
+                    "part_present_17"
+                ],
+                [
+                    "doorR"
+                ]
+            ]
+        },
+        {
+            "pos": [
+                0.25,
+                1.0625,
+                -0.125
+            ],
+            "rot": [
+                4.0,
+                1.0,
+                -3.0
+            ],
+            "maxValue": 3.0,
+            "types": [
+                "interactable_crate"
+            ],
+            "interactableVariables": [
+                [
+                    "part_present_16",
+                    "part_present_17"
+                ],
                 [
                     "doorR"
                 ]

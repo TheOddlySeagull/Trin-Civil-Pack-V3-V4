@@ -645,7 +645,7 @@
         {
             "pos": [
                 0.0,
-                0.8125,
+                0.4375,
                 -1.125
             ],
             "rot": [
@@ -661,7 +661,7 @@
         {
             "pos": [
                 0.0,
-                0.8125,
+                0.4375,
                 0.0
             ],
             "rot": [
@@ -677,7 +677,7 @@
         {
             "pos": [
                 0.0,
-                0.8125,
+                0.4375,
                 1.125
             ],
             "rot": [
@@ -1185,9 +1185,9 @@
                     "minecraft:wool:8:3"
                 ]
             ],
-			"partTones": [
-				"_gray"
-			]
+            "partTones": [
+                "_gray"
+            ]
         },
         {
             "subName": "_redblack_w",
@@ -1199,9 +1199,9 @@
                     "minecraft:wool:8:4"
                 ]
             ],
-			"partTones": [
-				"_white"
-			]
+            "partTones": [
+                "_white"
+            ]
         },
         {
             "subName": "_redblack_r",
@@ -1213,9 +1213,9 @@
                     "minecraft:wool:15:4"
                 ]
             ],
-			"partTones": [
-				"_red"
-			]
+            "partTones": [
+                "_red"
+            ]
         },
         {
             "subName": "_gold_g",
@@ -1227,9 +1227,9 @@
                     "minecraft:wool:8:3"
                 ]
             ],
-			"partTones": [
-				"_gray"
-			]
+            "partTones": [
+                "_gray"
+            ]
         },
         {
             "subName": "_gold_w",
@@ -1241,9 +1241,9 @@
                     "minecraft:wool:8:4"
                 ]
             ],
-			"partTones": [
-				"_white"
-			]
+            "partTones": [
+                "_white"
+            ]
         },
         {
             "subName": "_gold_r",
@@ -1255,9 +1255,9 @@
                     "minecraft:wool:15:4"
                 ]
             ],
-			"partTones": [
-				"_red"
-			]
+            "partTones": [
+                "_red"
+            ]
         },
         {
             "subName": "_forest_g",
@@ -1269,9 +1269,9 @@
                     "minecraft:wool:8:3"
                 ]
             ],
-			"partTones": [
-				"_gray"
-			]
+            "partTones": [
+                "_gray"
+            ]
         },
         {
             "subName": "_forest_w",
@@ -1283,9 +1283,9 @@
                     "minecraft:wool:8:4"
                 ]
             ],
-			"partTones": [
-				"_white"
-			]
+            "partTones": [
+                "_white"
+            ]
         },
         {
             "subName": "_forest_r",
@@ -1297,9 +1297,9 @@
                     "minecraft:wool:15:4"
                 ]
             ],
-			"partTones": [
-				"_red"
-			]
+            "partTones": [
+                "_red"
+            ]
         }
     ],
     "initialVariables": [
