@@ -233,30 +233,6 @@
         },
         {
             "pos": [
-                -0.625,
-                0.44,
-                2.8125
-            ],
-            "rot": [
-                0.0,
-                90.0,
-                0.0
-            ],
-            "maxValue": 2.0,
-            "types": [
-                "interactable_luggage"
-            ],
-            "interactableVariables": [
-                [
-                    "part_present_6"
-                ],
-                [
-                    "door_fr"
-                ]
-            ]
-        },
-        {
-            "pos": [
                 0.625,
                 0.4375,
                 1.4375
@@ -277,30 +253,6 @@
             "toneIndex": 1,
             "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
-                [
-                    "door_rl"
-                ]
-            ]
-        },
-        {
-            "pos": [
-                0.625,
-                0.44,
-                1.4375
-            ],
-            "rot": [
-                0.0,
-                90.0,
-                0.0
-            ],
-            "maxValue": 2.0,
-            "types": [
-                "interactable_luggage"
-            ],
-            "interactableVariables": [
-                [
-                    "part_present_8"
-                ],
                 [
                     "door_rl"
                 ]
@@ -335,30 +287,6 @@
         },
         {
             "pos": [
-                -0.625,
-                0.44,
-                1.4375
-            ],
-            "rot": [
-                0.0,
-                90.0,
-                0.0
-            ],
-            "maxValue": 2.0,
-            "types": [
-                "interactable_luggage"
-            ],
-            "interactableVariables": [
-                [
-                    "part_present_10"
-                ],
-                [
-                    "door_rr"
-                ]
-            ]
-        },
-        {
-            "pos": [
                 0.4375,
                 0.5625,
                 0.125
@@ -386,30 +314,6 @@
         },
         {
             "pos": [
-                0.4375,
-                0.57,
-                0.125
-            ],
-            "rot": [
-                0.0,
-                90.0,
-                0.0
-            ],
-            "maxValue": 2.0,
-            "types": [
-                "interactable_luggage"
-            ],
-            "interactableVariables": [
-                [
-                    "part_present_12"
-                ],
-                [
-                    "door_rl"
-                ]
-            ]
-        },
-        {
-            "pos": [
                 -0.4375,
                 0.5625,
                 0.125
@@ -430,30 +334,6 @@
             "toneIndex": 1,
             "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
-                [
-                    "door_rr"
-                ]
-            ]
-        },
-        {
-            "pos": [
-                -0.4375,
-                0.57,
-                0.125
-            ],
-            "rot": [
-                0.0,
-                90.0,
-                0.0
-            ],
-            "maxValue": 2.0,
-            "types": [
-                "interactable_luggage"
-            ],
-            "interactableVariables": [
-                [
-                    "part_present_14"
-                ],
                 [
                     "door_rr"
                 ]
@@ -538,11 +418,40 @@
                 -1.0,
                 0.0
             ],
-            "maxValue": 1.0,
+            "maxValue": 2.0,
             "types": [
-                "interactable_crate"
+                "interactable_luggage"
+            ]
+        },
+        {
+            "pos": [
+                0.625,
+                0.3125,
+                -1.125
             ],
-            "customTypes": [
+            "rot": [
+                -2.0,
+                -5.0,
+                1.0
+            ],
+            "maxValue": 2.0,
+            "types": [
+                "interactable_luggage"
+            ]
+        },
+        {
+            "pos": [
+                0.0,
+                0.3125,
+                -1.125
+            ],
+            "rot": [
+                0.0,
+                5.0,
+                -1.0
+            ],
+            "maxValue": 2.0,
+            "types": [
                 "interactable_luggage"
             ]
         },
@@ -557,36 +466,16 @@
                 0.0,
                 5.0
             ],
-            "maxValue": 1.0,
+            "maxValue": 2.0,
             "types": [
-                "interactable_crate"
-            ],
-            "customTypes": [
                 "interactable_luggage"
             ],
             "interactableVariables": [
                 [
-                    "part_present_20"
+                    "part_present_14",
+                    "part_present_15",
+                    "part_present_16"
                 ]
-            ]
-        },
-        {
-            "pos": [
-                0.625,
-                0.3125,
-                -1.125
-            ],
-            "rot": [
-                -2.0,
-                -5.0,
-                1.0
-            ],
-            "maxValue": 1.0,
-            "types": [
-                "interactable_crate"
-            ],
-            "customTypes": [
-                "interactable_luggage"
             ]
         },
         {
@@ -600,36 +489,16 @@
                 1.0,
                 0.0
             ],
-            "maxValue": 1.0,
+            "maxValue": 2.0,
             "types": [
-                "interactable_crate"
-            ],
-            "customTypes": [
                 "interactable_luggage"
             ],
             "interactableVariables": [
                 [
-                    "part_present_22"
+                    "part_present_14",
+                    "part_present_15",
+                    "part_present_16"
                 ]
-            ]
-        },
-        {
-            "pos": [
-                0.0,
-                0.3125,
-                -1.125
-            ],
-            "rot": [
-                0.0,
-                5.0,
-                -1.0
-            ],
-            "maxValue": 1.0,
-            "types": [
-                "interactable_crate"
-            ],
-            "customTypes": [
-                "interactable_luggage"
             ]
         },
         {
@@ -670,9 +539,9 @@
                 1.9375,
                 -0.125
             ],
-            "maxValue": 1.0,
+            "maxValue": 30.0,
             "types": [
-                "interactable_crate"
+                "interactable_crate_roof"
             ]
         },
         {
