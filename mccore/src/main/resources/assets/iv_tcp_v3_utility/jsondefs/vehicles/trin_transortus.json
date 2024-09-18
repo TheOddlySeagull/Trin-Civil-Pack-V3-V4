@@ -1322,7 +1322,7 @@
         },
         {
             "subName": "_redandblack_g",
-            "name": "Trin Transortus - Fire Red & Jet Black Paint, Gray Interior",
+            "name": "Trin Transortus - Fire Red & Deep Black Paint, Gray Interior",
             "partTones": [
                 "_gray",
                 "_2"
@@ -1330,7 +1330,7 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_firered:0:1",
-                    "mts:iv_tpp.paint_bucket_jetblack:0:1",
+                    "mts:iv_tpp.paint_bucket_deepblack:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
