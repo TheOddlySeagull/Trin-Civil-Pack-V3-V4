@@ -7,6 +7,7 @@
 - All Trin vehicles now come pre-assembled with all recommended parts
 - All Trin vehicles now have part tone support
 - Trin Tormador tow truck can now also tow light vehicles (cars)
+- Fully reworked Trin Transortus, using 2 body types instead of trims, and new skins
 
 ### Fixes:
 
