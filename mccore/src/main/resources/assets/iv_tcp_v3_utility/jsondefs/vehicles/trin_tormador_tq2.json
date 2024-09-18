@@ -715,69 +715,69 @@
             ]
         },
         {
-            "pos": [
-                -1.125,
-                1.375,
-                1.84375
-            ],
-            "rot": [
-                0.0,
-                0.0,
-                0.0
-            ],
-            "maxValue": 3.0,
-            "types": [
-                "interactable_crate"
-            ]
-        },
-        {
-            "pos": [
-                1.125,
-                1.375,
-                1.84375
-            ],
-            "rot": [
-                0.0,
-                0.0,
-                0.0
-            ],
-            "maxValue": 3.0,
-            "types": [
-                "interactable_crate"
-            ]
-        },
-        {
-            "pos": [
-                -1.125,
-                1.375,
-                3.26563
-            ],
-            "rot": [
-                0.0,
-                0.0,
-                0.0
-            ],
-            "maxValue": 3.0,
-            "types": [
-                "interactable_crate"
-            ]
-        },
-        {
-            "pos": [
-                1.125,
-                1.375,
-                3.26563
-            ],
-            "rot": [
-                0.0,
-                0.0,
-                0.0
-            ],
-            "maxValue": 3.0,
-            "types": [
-                "interactable_crate"
-            ]
-        },
+    "pos": [
+        -1.125,
+        1.0,
+        1.84375
+    ],
+    "rot": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "maxValue": 3.0,
+    "types": [
+        "interactable_crate"
+    ]
+},
+{
+    "pos": [
+        1.125,
+        1.0,
+        1.84375
+    ],
+    "rot": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "maxValue": 3.0,
+    "types": [
+        "interactable_crate"
+    ]
+},
+{
+    "pos": [
+        -1.125,
+        1.0,
+        3.26563
+    ],
+    "rot": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "maxValue": 3.0,
+    "types": [
+        "interactable_crate"
+    ]
+},
+{
+    "pos": [
+        1.125,
+        1.0,
+        3.26563
+    ],
+    "rot": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "maxValue": 3.0,
+    "types": [
+        "interactable_crate"
+    ]
+},
         {
             "pos": [
                 -1.09375,

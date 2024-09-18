@@ -414,259 +414,259 @@
             ]
         },
         {
-            "pos": [
-                0.4375,
-                0.4375,
-                2.53125
-            ],
-            "rot": [
-                -2.0,
-                5.0,
-                0.0
-            ],
-            "maxValue": 3.0,
-            "types": [
-                "interactable_crate"
-            ]
-        },
-        {
-            "pos": [
-                0.4375,
-                1.1875,
-                2.53125
-            ],
-            "rot": [
-                4.0,
-                -2.0,
-                3.0
-            ],
-            "maxValue": 3.0,
-            "types": [
-                "interactable_crate"
-            ],
-            "interactableVariables": [
-                [
-                    "part_present_17"
-                ]
-            ]
-        },
-        {
-            "pos": [
-                -0.4375,
-                0.4375,
-                2.53125
-            ],
-            "rot": [
-                -6.0,
-                2.0,
-                1.0
-            ],
-            "maxValue": 3.0,
-            "types": [
-                "interactable_crate"
-            ]
-        },
-        {
-            "pos": [
-                -0.4375,
-                1.1875,
-                2.53125
-            ],
-            "rot": [
-                1.0,
-                0.0,
-                3.0
-            ],
-            "maxValue": 3.0,
-            "types": [
-                "interactable_crate"
-            ],
-            "interactableVariables": [
-                [
-                    "part_present_19"
-                ]
-            ]
-        },
-        {
-            "pos": [
-                0.4375,
-                0.4375,
-                1.75
-            ],
-            "rot": [
-                -2.0,
-                -3.0,
-                1.0
-            ],
-            "maxValue": 3.0,
-            "types": [
-                "interactable_crate"
-            ]
-        },
-        {
-            "pos": [
-                0.4375,
-                1.1875,
-                1.75
-            ],
-            "rot": [
-                1.0,
-                3.0,
-                0.0
-            ],
-            "maxValue": 3.0,
-            "types": [
-                "interactable_crate"
-            ],
-            "interactableVariables": [
-                [
-                    "part_present_21"
-                ]
-            ]
-        },
-        {
-            "pos": [
-                -0.4375,
-                0.4375,
-                1.75
-            ],
-            "rot": [
-                -4.0,
-                4.0,
-                2.0
-            ],
-            "maxValue": 3.0,
-            "types": [
-                "interactable_crate"
-            ]
-        },
-        {
-            "pos": [
-                -0.4375,
-                1.1875,
-                1.75
-            ],
-            "rot": [
-                1.0,
-                -3.0,
-                0.0
-            ],
-            "maxValue": 3.0,
-            "types": [
-                "interactable_crate"
-            ],
-            "interactableVariables": [
-                [
-                    "part_present_23"
-                ]
-            ]
-        },
-        {
-            "pos": [
-                0.4375,
-                0.4375,
-                0.96875
-            ],
-            "rot": [
-                -4.0,
-                3.0,
-                0.0
-            ],
-            "maxValue": 3.0,
-            "types": [
-                "interactable_crate"
-            ]
-        },
-        {
-            "pos": [
-                0.4375,
-                1.1875,
-                0.96875
-            ],
-            "rot": [
-                -3.0,
-                -1.0,
-                3.0
-            ],
-            "maxValue": 3.0,
-            "types": [
-                "interactable_crate"
-            ],
-            "interactableVariables": [
-                [
-                    "part_present_25"
-                ]
-            ]
-        },
-        {
-            "pos": [
-                -0.4375,
-                0.4375,
-                0.96875
-            ],
-            "rot": [
-                2.0,
-                -5.0,
-                0.0
-            ],
-            "maxValue": 3.0,
-            "types": [
-                "interactable_crate"
-            ]
-        },
-        {
-            "pos": [
-                -0.4375,
-                1.1875,
-                0.96875
-            ],
-            "rot": [
-                1.0,
-                0.0,
-                3.0
-            ],
-            "maxValue": 3.0,
-            "types": [
-                "interactable_crate"
-            ],
-            "interactableVariables": [
-                [
-                    "part_present_27"
-                ]
-            ]
-        },
-        {
-            "pos": [
-                0.4375,
-                0.9375,
-                -0.15625
-            ],
-            "rot": [
-                6.0,
-                2.0,
-                -1.0
-            ],
-            "maxValue": 3.0,
-            "types": [
-                "interactable_crate"
-            ]
-        },
-        {
-            "pos": [
-                -0.4375,
-                0.9375,
-                -0.15625
-            ],
-            "rot": [
-                1.0,
-                0.0,
-                -2.0
-            ],
-            "maxValue": 3.0,
-            "types": [
-                "interactable_crate"
-            ]
-        },
+    "pos": [
+        0.4375,
+        0.0625,
+        2.53125
+    ],
+    "rot": [
+        -2.0,
+        5.0,
+        0.0
+    ],
+    "maxValue": 3.0,
+    "types": [
+        "interactable_crate"
+    ]
+},
+{
+    "pos": [
+        0.4375,
+        0.8125,
+        2.53125
+    ],
+    "rot": [
+        4.0,
+        -2.0,
+        3.0
+    ],
+    "maxValue": 3.0,
+    "types": [
+        "interactable_crate"
+    ],
+    "interactableVariables": [
+        [
+            "part_present_17"
+        ]
+    ]
+},
+{
+    "pos": [
+        -0.4375,
+        0.0625,
+        2.53125
+    ],
+    "rot": [
+        -6.0,
+        2.0,
+        1.0
+    ],
+    "maxValue": 3.0,
+    "types": [
+        "interactable_crate"
+    ]
+},
+{
+    "pos": [
+        -0.4375,
+        0.8125,
+        2.53125
+    ],
+    "rot": [
+        1.0,
+        0.0,
+        3.0
+    ],
+    "maxValue": 3.0,
+    "types": [
+        "interactable_crate"
+    ],
+    "interactableVariables": [
+        [
+            "part_present_19"
+        ]
+    ]
+},
+{
+    "pos": [
+        0.4375,
+        0.0625,
+        1.75
+    ],
+    "rot": [
+        -2.0,
+        -3.0,
+        1.0
+    ],
+    "maxValue": 3.0,
+    "types": [
+        "interactable_crate"
+    ]
+},
+{
+    "pos": [
+        0.4375,
+        0.8125,
+        1.75
+    ],
+    "rot": [
+        1.0,
+        3.0,
+        0.0
+    ],
+    "maxValue": 3.0,
+    "types": [
+        "interactable_crate"
+    ],
+    "interactableVariables": [
+        [
+            "part_present_21"
+        ]
+    ]
+},
+{
+    "pos": [
+        -0.4375,
+        0.0625,
+        1.75
+    ],
+    "rot": [
+        -4.0,
+        4.0,
+        2.0
+    ],
+    "maxValue": 3.0,
+    "types": [
+        "interactable_crate"
+    ]
+},
+{
+    "pos": [
+        -0.4375,
+        0.8125,
+        1.75
+    ],
+    "rot": [
+        1.0,
+        -3.0,
+        0.0
+    ],
+    "maxValue": 3.0,
+    "types": [
+        "interactable_crate"
+    ],
+    "interactableVariables": [
+        [
+            "part_present_23"
+        ]
+    ]
+},
+{
+    "pos": [
+        0.4375,
+        0.0625,
+        0.96875
+    ],
+    "rot": [
+        -4.0,
+        3.0,
+        0.0
+    ],
+    "maxValue": 3.0,
+    "types": [
+        "interactable_crate"
+    ]
+},
+{
+    "pos": [
+        0.4375,
+        0.8125,
+        0.96875
+    ],
+    "rot": [
+        -3.0,
+        -1.0,
+        3.0
+    ],
+    "maxValue": 3.0,
+    "types": [
+        "interactable_crate"
+    ],
+    "interactableVariables": [
+        [
+            "part_present_25"
+        ]
+    ]
+},
+{
+    "pos": [
+        -0.4375,
+        0.0625,
+        0.96875
+    ],
+    "rot": [
+        2.0,
+        -5.0,
+        0.0
+    ],
+    "maxValue": 3.0,
+    "types": [
+        "interactable_crate"
+    ]
+},
+{
+    "pos": [
+        -0.4375,
+        0.8125,
+        0.96875
+    ],
+    "rot": [
+        1.0,
+        0.0,
+        3.0
+    ],
+    "maxValue": 3.0,
+    "types": [
+        "interactable_crate"
+    ],
+    "interactableVariables": [
+        [
+            "part_present_27"
+        ]
+    ]
+},
+{
+    "pos": [
+        0.4375,
+        0.5625,
+        -0.15625
+    ],
+    "rot": [
+        6.0,
+        2.0,
+        -1.0
+    ],
+    "maxValue": 3.0,
+    "types": [
+        "interactable_crate"
+    ]
+},
+{
+    "pos": [
+        -0.4375,
+        0.5625,
+        -0.15625
+    ],
+    "rot": [
+        1.0,
+        0.0,
+        -2.0
+    ],
+    "maxValue": 3.0,
+    "types": [
+        "interactable_crate"
+    ]
+},
         {
             "pos": [
                 -1.03125,
