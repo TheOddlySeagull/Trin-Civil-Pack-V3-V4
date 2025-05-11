@@ -1,15 +1,16 @@
 {
     "motorized": {
         "hasOpenTop": true,
+        "hasAutopilot": true,
         "hasRunningLights": true,
         "hasHeadlights": true,
         "hasTurnSignals": true,
-        "emptyMass": 1521,
-        "fuelCapacity": 35000,
-        "downForce": 0.5,
-        "overSteer": 3.0,
-        "underSteer": 0.375,
-        "overSteerAccel": 6.0,
+        "emptyMass": 1556,
+        "fuelCapacity": 40000,
+        "downForce": 0.45,
+        "overSteer": 2.5,
+        "underSteer": 0.5,
+        "overSteerAccel": 5.0,
         "axleRatio": 3.5,
         "brakingFactor": 2.2,
         "dragCoefficient": 0.65,
@@ -32,7 +33,7 @@
             "types": [
                 "ground_wheel"
             ],
-            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
+            "defaultPart": "iv_tpp:wheel_offroad_4d16_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -66,7 +67,7 @@
             "types": [
                 "ground_wheel"
             ],
-            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
+            "defaultPart": "iv_tpp:wheel_offroad_4d16_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -100,7 +101,7 @@
             "types": [
                 "ground_wheel"
             ],
-            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
+            "defaultPart": "iv_tpp:wheel_offroad_4d16_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -149,7 +150,7 @@
             "types": [
                 "ground_wheel"
             ],
-            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
+            "defaultPart": "iv_tpp:wheel_offroad_4d16_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -542,7 +543,7 @@
             "types": [
                 "generic_dashboard_console"
             ],
-            "defaultPart": "iv_tpp_v4_tests:dashboard_console_main_lowend_nr_g",
+            "defaultPart": "iv_tpp_v4_tests:dashboard_console_main_midend_r1_g",
             "toneIndex": 2
         },
         {
@@ -567,7 +568,8 @@
             "maxValue": 0.6875,
             "types": [
                 "generic_antenna"
-            ]
+            ],
+            "defaultPart": "iv_tpp:radio_antenna_chrome"
         },
         {
             "pos": [
@@ -595,6 +597,7 @@
             "types": [
                 "generic_acvent"
             ],
+            "defaultPart": "iv_tpp:ac_vent_gray",
             "toneIndex": 1
         },
         {
@@ -612,6 +615,7 @@
             "types": [
                 "generic_acvent"
             ],
+            "defaultPart": "iv_tpp:ac_vent_gray",
             "toneIndex": 1
         },
         {
@@ -629,6 +633,7 @@
             "types": [
                 "generic_acvent"
             ],
+            "defaultPart": "iv_tpp:ac_vent_gray",
             "toneIndex": 1
         },
         {
@@ -646,6 +651,7 @@
             "types": [
                 "generic_acvent"
             ],
+            "defaultPart": "iv_tpp:ac_vent_gray",
             "toneIndex": 1
         }
     ],
@@ -1103,92 +1109,128 @@
     ],
     "definitions": [
         {
-            "subName": "_lemonyellow_g",
+            "subName": "_ivory_g",
             "modelName": "trin_footpather",
-            "name": "Trin Footpather Phase 1 - Lemon Yellow Paint, Gray Interior",
-            "description": "Iconic Gramados leisure classic - rugged, cheerful, and ready for beachside chaos.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
+            "name": "Trin Footpather Phase 2 - Ivory Paint, Gray Interior",
+            "description": "Improved comfort and style - the beloved Gramados icon evolves with chrome and charm.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_bucket_lemonyellow:0:1",
+                    "mts:iv_tpp.paint_bucket_ivory:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
             ],
             "partTones": [
 				"_gray",
-                "_lowend_nr_g",
+                "_midend_r1_g",
                 "_lowend_g"
 			]
         },
         {
-            "subName": "_orangered_g",
+            "subName": "_oceanblue_g",
             "modelName": "trin_footpather",
-            "name": "Trin Footpather Phase 1 - Orange Red Paint, Gray Interior",
-            "description": "Iconic Gramados leisure classic - rugged, cheerful, and ready for beachside chaos.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
+            "name": "Trin Footpather Phase 2 - Ocean Blue Paint, Gray Interior",
+            "description": "Improved comfort and style - the beloved Gramados icon evolves with chrome and charm.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_bucket_orangered:0:1",
+                    "mts:iv_tpp.paint_bucket_oceanblue:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
             ],
             "partTones": [
 				"_gray",
-                "_lowend_nr_g",
+                "_midend_r1_g",
                 "_lowend_g"
 			]
         },
         {
-            "subName": "_sand_g",
+            "subName": "_ruby_g",
             "modelName": "trin_footpather",
-            "name": "Trin Footpather Phase 1 - Sand Paint, Gray Interior",
-            "description": "Iconic Gramados leisure classic - rugged, cheerful, and ready for beachside chaos.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
+            "name": "Trin Footpather Phase 2 - Ruby Paint, Gray Interior",
+            "description": "Improved comfort and style - the beloved Gramados icon evolves with chrome and charm.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_bucket_sand:0:1",
+                    "mts:iv_tpp.paint_bucket_ruby:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
             ],
             "partTones": [
 				"_gray",
-                "_lowend_nr_g",
+                "_midend_r1_g",
                 "_lowend_g"
 			]
         },
         {
-            "subName": "_seafoam_g",
+            "subName": "_sage_g",
             "modelName": "trin_footpather",
-            "name": "Trin Footpather Phase 1 - Seafoam Paint, Gray Interior",
-            "description": "Iconic Gramados leisure classic - rugged, cheerful, and ready for beachside chaos.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
+            "name": "Trin Footpather Phase 2 - Sage Paint, Gray Interior",
+            "description": "Improved comfort and style - the beloved Gramados icon evolves with chrome and charm.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_bucket_seafoam:0:1",
+                    "mts:iv_tpp.paint_bucket_sage:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
             ],
             "partTones": [
 				"_gray",
-                "_lowend_nr_g",
+                "_midend_r1_g",
                 "_lowend_g"
 			]
         },
         {
-            "subName": "_teal_g",
+            "subName": "_sandstone_g",
             "modelName": "trin_footpather",
-            "name": "Trin Footpather Phase 1 - Teal Paint, Gray Interior",
-            "description": "Iconic Gramados leisure classic - rugged, cheerful, and ready for beachside chaos.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
+            "name": "Trin Footpather Phase 2 - Sandstone Paint, Gray Interior",
+            "description": "Improved comfort and style - the beloved Gramados icon evolves with chrome and charm.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_bucket_teal:0:1",
+                    "mts:iv_tpp.paint_bucket_sandstone:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
             ],
             "partTones": [
 				"_gray",
-                "_lowend_nr_g",
+                "_midend_r1_g",
+                "_lowend_g"
+			]
+        },
+        {
+            "subName": "_softgreen_g",
+            "modelName": "trin_footpather",
+            "name": "Trin Footpather Phase 2 - Soft Green Paint, Gray Interior",
+            "description": "Improved comfort and style - the beloved Gramados icon evolves with chrome and charm.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_bucket_softgreen:0:1",
+                    "minecraft:wool:7:2",
+                    "minecraft:wool:8:3"
+                ]
+            ],
+            "partTones": [
+				"_gray",
+                "_midend_r1_g",
+                "_lowend_g"
+			]
+        },
+        {
+            "subName": "_steelblue_g",
+            "modelName": "trin_footpather",
+            "name": "Trin Footpather Phase 2 - Steel Blue Paint, Gray Interior",
+            "description": "Improved comfort and style - the beloved Gramados icon evolves with chrome and charm.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_bucket_steelblue:0:1",
+                    "minecraft:wool:7:2",
+                    "minecraft:wool:8:3"
+                ]
+            ],
+            "partTones": [
+				"_gray",
+                "_midend_r1_g",
                 "_lowend_g"
 			]
         }

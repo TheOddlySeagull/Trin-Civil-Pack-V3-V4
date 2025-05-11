@@ -1,15 +1,16 @@
 {
     "motorized": {
         "hasOpenTop": true,
+        "hasAutopilot": true,
         "hasRunningLights": true,
         "hasHeadlights": true,
         "hasTurnSignals": true,
-        "emptyMass": 1521,
-        "fuelCapacity": 35000,
-        "downForce": 0.5,
-        "overSteer": 3.0,
-        "underSteer": 0.375,
-        "overSteerAccel": 6.0,
+        "emptyMass": 1623,
+        "fuelCapacity": 40000,
+        "downForce": 0.45,
+        "overSteer": 2.5,
+        "underSteer": 0.5,
+        "overSteerAccel": 5.0,
         "axleRatio": 3.5,
         "brakingFactor": 2.2,
         "dragCoefficient": 0.65,
@@ -32,7 +33,7 @@
             "types": [
                 "ground_wheel"
             ],
-            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
+            "defaultPart": "iv_tpp:wheel_offroad_4d16_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -66,7 +67,7 @@
             "types": [
                 "ground_wheel"
             ],
-            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
+            "defaultPart": "iv_tpp:wheel_offroad_4d16_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -100,7 +101,7 @@
             "types": [
                 "ground_wheel"
             ],
-            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
+            "defaultPart": "iv_tpp:wheel_offroad_4d16_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -149,7 +150,7 @@
             "types": [
                 "ground_wheel"
             ],
-            "defaultPart": "iv_tpp:wheel_classic_4d14_0_steel",
+            "defaultPart": "iv_tpp:wheel_offroad_4d16_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
@@ -317,7 +318,7 @@
             "types": [
                 "engine_car"
             ],
-            "defaultPart": "iv_tpp:engine_i4_gasoline_normal_aut",
+            "defaultPart": "iv_tpp:engine_v6_gasoline_normal_aut",
             "interactableVariables": [
                 [
                     "door_hood"
@@ -542,7 +543,7 @@
             "types": [
                 "generic_dashboard_console"
             ],
-            "defaultPart": "iv_tpp_v4_tests:dashboard_console_main_lowend_nr_g",
+            "defaultPart": "iv_tpp_v4_tests:dashboard_console_main_midend_r1_g",
             "toneIndex": 2
         },
         {
@@ -567,7 +568,8 @@
             "maxValue": 0.6875,
             "types": [
                 "generic_antenna"
-            ]
+            ],
+            "defaultPart": "iv_tpp:radio_antenna_chrome"
         },
         {
             "pos": [
@@ -595,6 +597,7 @@
             "types": [
                 "generic_acvent"
             ],
+            "defaultPart": "iv_tpp:ac_vent_gray",
             "toneIndex": 1
         },
         {
@@ -612,6 +615,7 @@
             "types": [
                 "generic_acvent"
             ],
+            "defaultPart": "iv_tpp:ac_vent_gray",
             "toneIndex": 1
         },
         {
@@ -629,6 +633,7 @@
             "types": [
                 "generic_acvent"
             ],
+            "defaultPart": "iv_tpp:ac_vent_gray",
             "toneIndex": 1
         },
         {
@@ -646,6 +651,7 @@
             "types": [
                 "generic_acvent"
             ],
+            "defaultPart": "iv_tpp:ac_vent_gray",
             "toneIndex": 1
         }
     ],
@@ -1103,93 +1109,111 @@
     ],
     "definitions": [
         {
-            "subName": "_lemonyellow_g",
+            "subName": "_honey_white_white",
             "modelName": "trin_footpather",
-            "name": "Trin Footpather Phase 1 - Lemon Yellow Paint, Gray Interior",
-            "description": "Iconic Gramados leisure classic - rugged, cheerful, and ready for beachside chaos.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
+            "name": "Trin Footpather Special Six - Honey & White Paint, White Interior",
+            "description": "A rare gem - refined, leather-clad, and powered by a punchy V6 hidden behind a friendly face.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_bucket_lemonyellow:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.paint_bucket_honey:0:1",
+                    "mts:iv_tpp.paint_bucket_white:0:1",
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ],
             "partTones": [
-				"_gray",
-                "_lowend_nr_g",
-                "_lowend_g"
+				"_white",
+                "_midend_r2_w",
+                "_lowend_w"
 			]
         },
         {
-            "subName": "_orangered_g",
+            "subName": "_jetblack_milkcoffee_black",
             "modelName": "trin_footpather",
-            "name": "Trin Footpather Phase 1 - Orange Red Paint, Gray Interior",
-            "description": "Iconic Gramados leisure classic - rugged, cheerful, and ready for beachside chaos.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
+            "name": "Trin Footpather Special Six - Jet Black & Milk Coffee Paint, Black Interior",
+            "description": "A rare gem - refined, leather-clad, and powered by a punchy V6 hidden behind a friendly face.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_bucket_orangered:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.paint_bucket_jetblack:0:1",
+                    "mts:iv_tpp.paint_bucket_milkcoffee:0:1",
+                    "mts:iv_tpp.upholstery_pile_black:0:3"
                 ]
             ],
             "partTones": [
-				"_gray",
-                "_lowend_nr_g",
-                "_lowend_g"
+				"_black",
+                "_midend_r2_black",
+                "_lowend_black"
 			]
         },
         {
-            "subName": "_sand_g",
+            "subName": "_plum_lavenderblue_red",
             "modelName": "trin_footpather",
-            "name": "Trin Footpather Phase 1 - Sand Paint, Gray Interior",
-            "description": "Iconic Gramados leisure classic - rugged, cheerful, and ready for beachside chaos.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
+            "name": "Trin Footpather Special Six - Plum & Lavender Blue Paint, Red Interior",
+            "description": "A rare gem - refined, leather-clad, and powered by a punchy V6 hidden behind a friendly face.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_bucket_sand:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.paint_bucket_plum:0:1",
+                    "mts:iv_tpp.paint_bucket_lavenderblue:0:1",
+                    "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ],
             "partTones": [
-				"_gray",
-                "_lowend_nr_g",
-                "_lowend_g"
+				"_red",
+                "_midend_r2_r",
+                "_lowend_r"
 			]
         },
         {
-            "subName": "_seafoam_g",
+            "subName": "_seafoam_ivory_tan",
             "modelName": "trin_footpather",
-            "name": "Trin Footpather Phase 1 - Seafoam Paint, Gray Interior",
-            "description": "Iconic Gramados leisure classic - rugged, cheerful, and ready for beachside chaos.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
+            "name": "Trin Footpather Special Six - Seafoam & Ivory Paint, Tan Interior",
+            "description": "A rare gem - refined, leather-clad, and powered by a punchy V6 hidden behind a friendly face.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_seafoam:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.paint_bucket_ivory:0:1",
+                    "mts:iv_tpp.upholstery_pile_tan:0:3"
                 ]
             ],
             "partTones": [
-				"_gray",
-                "_lowend_nr_g",
-                "_lowend_g"
+				"_tan",
+                "_midend_r2_t",
+                "_lowend_t"
 			]
         },
         {
-            "subName": "_teal_g",
+            "subName": "_teal_glacierwhite_gray_blue",
             "modelName": "trin_footpather",
-            "name": "Trin Footpather Phase 1 - Teal Paint, Gray Interior",
-            "description": "Iconic Gramados leisure classic - rugged, cheerful, and ready for beachside chaos.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
+            "name": "Trin Footpather Special Six - Teal & Glacier White Paint, Gran & Blue Interior",
+            "description": "A rare gem - refined, leather-clad, and powered by a punchy V6 hidden behind a friendly face.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_teal:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.paint_bucket_glacierwhite:0:1",
+                    "mts:iv_tpp.upholstery_pile_gray_blue:0:3"
                 ]
             ],
             "partTones": [
-				"_gray",
-                "_lowend_nr_g",
-                "_lowend_g"
+				"_gray_blue",
+                "_midend_r2_gray_blue",
+                "_lowend_gray_blue"
+			]
+        },
+        {
+            "subName": "_tomato_sand_brown",
+            "modelName": "trin_footpather",
+            "name": "Trin Footpather Special Six - Tomato & Sand Paint, Brown Interior",
+            "description": "A rare gem - refined, leather-clad, and powered by a punchy V6 hidden behind a friendly face.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_bucket_tomato:0:1",
+                    "mts:iv_tpp.paint_bucket_sand:0:1",
+                    "mts:iv_tpp.upholstery_pile_brown:0:3"
+                ]
+            ],
+            "partTones": [
+				"_brown",
+                "_midend_r2_brown",
+                "_lowend_brown"
 			]
         }
     ],
@@ -2546,6 +2570,7 @@
                 "minecraft:glass_pane:0:1",
                 "mts:iv_tpp.metal_pile_2:0:2",
                 "mts:iv_tpp.metal_pile_4:0:2",
+                "mts:iv_tpp.metal_pile_1:0:1",
                 "mts:iv_tpp.chassis_ld_4_l5m_t16_i4_footpather:0:1"
             ]
         ],
@@ -2556,7 +2581,8 @@
                 "minecraft:glowstone_dust:0:8",
                 "minecraft:glass_pane:0:1",
                 "mts:iv_tpp.metal_pile_2:0:1",
-                "mts:iv_tpp.metal_pile_4:0:1"
+                "mts:iv_tpp.metal_pile_4:0:1",
+                "mts:iv_tpp.metal_pile_1:0:1"
             ]
         ],
         "radarWidth": 0.0,
