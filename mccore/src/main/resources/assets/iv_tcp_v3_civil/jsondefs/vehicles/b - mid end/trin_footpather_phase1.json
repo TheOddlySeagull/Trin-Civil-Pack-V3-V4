@@ -279,8 +279,7 @@
             "types": [
                 "seat"
             ],
-            "toneIndex": 1,
-            "defaultPart": "iv_tpp:trin_seat_2_gray"
+            "toneIndex": 1
         },
         {
             "pos": [
@@ -532,6 +531,122 @@
             "types": [
                 "generic_ledlight"
             ]
+        },
+        {
+            "pos": [
+                0.0,
+                0.796875,
+                1.984375
+            ],
+            "maxValue": 1.5,
+            "types": [
+                "generic_dashboard_console"
+            ],
+            "defaultPart": "iv_tpp_v4_tests:dashboard_console_main_lowend_nr_g",
+            "toneIndex": 2
+        },
+        {
+            "pos": [
+                0.0,
+                0.40625,
+                2.046875
+            ],
+            "maxValue": 1.0,
+            "types": [
+                "generic_dashboard_console"
+            ],
+            "defaultPart": "iv_tpp_v4_tests:dashboard_console_bottom_lowend_g",
+            "toneIndex": 3
+        },
+        {
+            "pos": [
+                1.125,
+                1.0,
+                2.8125
+            ],
+            "maxValue": 0.6875,
+            "types": [
+                "generic_antenna"
+            ]
+        },
+        {
+            "pos": [
+                -1.125,
+                1.0,
+                2.8125
+            ],
+            "maxValue": 0.6875,
+            "types": [
+                "generic_antenna"
+            ]
+        },
+        {
+            "pos": [
+                -0.125,
+                1.0,
+                2.0625
+            ],
+            "rot": [
+                0.0,
+                10.0,
+                0.0
+            ],
+            "maxValue": 0.625,
+            "types": [
+                "generic_acvent"
+            ],
+            "toneIndex": 1
+        },
+        {
+            "pos": [
+                0.125,
+                1.0,
+                2.0625
+            ],
+            "rot": [
+                0.0,
+                -10.0,
+                0.0
+            ],
+            "maxValue": 0.625,
+            "types": [
+                "generic_acvent"
+            ],
+            "toneIndex": 1
+        },
+        {
+            "pos": [
+                1.0,
+                1.0,
+                2.0625
+            ],
+            "rot": [
+                0.0,
+                10.0,
+                0.0
+            ],
+            "maxValue": 0.625,
+            "types": [
+                "generic_acvent"
+            ],
+            "toneIndex": 1
+        },
+        {
+            "pos": [
+                -1.0,
+                1.0,
+                2.0625
+            ],
+            "rot": [
+                0.0,
+                -10.0,
+                0.0
+            ],
+            "maxValue": 0.625,
+            "types": [
+                "generic_acvent"
+            ],
+            "toneIndex": 1
         }
     ],
     "collisionGroups": [
@@ -988,51 +1103,93 @@
     ],
     "definitions": [
         {
-            "subName": "_white_g",
+            "subName": "_lemonyellow_g",
             "modelName": "trin_footpather",
-            "name": "Trin Footpather Root Trim - White Paint, Gray Interior",
-            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
+            "name": "Trin Footpather Phase 1 - Sunshine Yellow Paint, Gray Interior",
+            "description": "Iconic Gramados leisure classic - rugged, cheerful, and ready for beachside chaos.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_bucket_white:0:1",
+                    "mts:iv_tpp.paint_bucket_lemonyellow:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
             ],
             "partTones": [
-				"_gray"
+				"_gray",
+                "_lowend_nr_g",
+                "_lowend_g"
 			]
         },
         {
-            "subName": "_softgreen_g",
+            "subName": "_orangered_g",
             "modelName": "trin_footpather",
-            "name": "Trin Footpather Root Trim - Soft Green Paint, Gray Interior",
-            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
+            "name": "Trin Footpather Phase 1 - Orange Red Paint, Gray Interior",
+            "description": "Iconic Gramados leisure classic - rugged, cheerful, and ready for beachside chaos.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_bucket_softgreen:0:1",
+                    "mts:iv_tpp.paint_bucket_orangered:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
             ],
             "partTones": [
-				"_gray"
+				"_gray",
+                "_lowend_nr_g",
+                "_lowend_g"
 			]
         },
         {
-            "subName": "_amber_g",
+            "subName": "_sand_g",
             "modelName": "trin_footpather",
-            "name": "Trin Footpather Root Trim - Amber Paint, Gray Interior",
-            "description": "Mid End Leisure SUV\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
+            "name": "Trin Footpather Phase 1 - Sand Paint, Gray Interior",
+            "description": "Iconic Gramados leisure classic - rugged, cheerful, and ready for beachside chaos.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_bucket_amber:0:1",
+                    "mts:iv_tpp.paint_bucket_sand:0:1",
                     "minecraft:wool:7:2",
                     "minecraft:wool:8:3"
                 ]
             ],
             "partTones": [
-				"_gray"
+				"_gray",
+                "_lowend_nr_g",
+                "_lowend_g"
+			]
+        },
+        {
+            "subName": "_seafoam_g",
+            "modelName": "trin_footpather",
+            "name": "Trin Footpather Phase 1 - Seafoam Paint, Gray Interior",
+            "description": "Iconic Gramados leisure classic - rugged, cheerful, and ready for beachside chaos.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_bucket_seafoam:0:1",
+                    "minecraft:wool:7:2",
+                    "minecraft:wool:8:3"
+                ]
+            ],
+            "partTones": [
+				"_gray",
+                "_lowend_nr_g",
+                "_lowend_g"
+			]
+        },
+        {
+            "subName": "_teal_g",
+            "modelName": "trin_footpather",
+            "name": "Trin Footpather Phase 1 - Teal Paint, Gray Interior",
+            "description": "Iconic Gramados leisure classic - rugged, cheerful, and ready for beachside chaos.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
+            "extraMaterialLists": [
+                [
+                    "mts:iv_tpp.paint_bucket_teal:0:1",
+                    "minecraft:wool:7:2",
+                    "minecraft:wool:8:3"
+                ]
+            ],
+            "partTones": [
+				"_gray",
+                "_lowend_nr_g",
+                "_lowend_g"
 			]
         }
     ],
@@ -1159,7 +1316,7 @@
                     "variable": "turn_indicator",
                     "axis": [
                         0.0,
-                        -0.001,
+                        0.001,
                         0.0
                     ]
                 },
@@ -1220,7 +1377,7 @@
                     "variable": "turn_indicator",
                     "axis": [
                         0.0,
-                        -0.001,
+                        0.001,
                         0.0
                     ]
                 },
@@ -1281,7 +1438,7 @@
                     "variable": "turn_indicator",
                     "axis": [
                         0.0,
-                        -0.001,
+                        0.001,
                         0.0
                     ]
                 },
@@ -1342,7 +1499,7 @@
                     "variable": "turn_indicator",
                     "axis": [
                         0.0,
-                        -0.001,
+                        0.001,
                         0.0
                     ]
                 },
