@@ -16,3 +16,4 @@ build/*
 hex_scanner.py
 generate_specular_maps.py
 compile.py
+.vscode/settings.json
