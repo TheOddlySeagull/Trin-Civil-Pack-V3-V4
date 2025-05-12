@@ -12,3 +12,6 @@ my_own_readme.md
 *gradlew*
 mccore/build.gradle
 build/*
+hex_scanner.py
+generate_specular_maps.py
+compile.py
