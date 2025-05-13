@@ -781,69 +781,69 @@
             ]
         },
         {
-    "pos": [
-        -1.125,
-        1.0,
-        1.84375
-    ],
-    "rot": [
-        0.0,
-        0.0,
-        0.0
-    ],
-    "maxValue": 3.0,
-    "types": [
-        "interactable_crate"
-    ]
-},
-{
-    "pos": [
-        1.125,
-        1.0,
-        1.84375
-    ],
-    "rot": [
-        0.0,
-        0.0,
-        0.0
-    ],
-    "maxValue": 3.0,
-    "types": [
-        "interactable_crate"
-    ]
-},
-{
-    "pos": [
-        -1.125,
-        1.0,
-        3.26563
-    ],
-    "rot": [
-        0.0,
-        0.0,
-        0.0
-    ],
-    "maxValue": 3.0,
-    "types": [
-        "interactable_crate"
-    ]
-},
-{
-    "pos": [
-        1.125,
-        1.0,
-        3.26563
-    ],
-    "rot": [
-        0.0,
-        0.0,
-        0.0
-    ],
-    "maxValue": 3.0,
-    "types": [
-        "interactable_crate"
-    ]
-},
+            "pos": [
+                -1.125,
+                1.0,
+                1.84375
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "maxValue": 3.0,
+            "types": [
+                "interactable_crate"
+            ]
+        },
+        {
+            "pos": [
+                1.125,
+                1.0,
+                1.84375
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "maxValue": 3.0,
+            "types": [
+                "interactable_crate"
+            ]
+        },
+        {
+            "pos": [
+                -1.125,
+                1.0,
+                3.26563
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "maxValue": 3.0,
+            "types": [
+                "interactable_crate"
+            ]
+        },
+        {
+            "pos": [
+                1.125,
+                1.0,
+                3.26563
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "maxValue": 3.0,
+            "types": [
+                "interactable_crate"
+            ]
+        },
         {
             "pos": [
                 -1.09375,
@@ -1326,8 +1326,7 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_tungstenandelectricblue:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
@@ -1340,8 +1339,7 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
@@ -1354,8 +1352,7 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_coldspruce:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
@@ -1370,8 +1367,7 @@
                     "mts:iv_tpp.paint_bucket_bloodred:0:1",
                     "mts:iv_tpp.paint_bucket_electricblue:0:1",
                     "mts:iv_tpp.paint_bucket_pureblack:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
         }

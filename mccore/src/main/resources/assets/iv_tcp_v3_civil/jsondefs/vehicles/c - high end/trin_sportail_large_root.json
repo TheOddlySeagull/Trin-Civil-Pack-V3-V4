@@ -1032,84 +1032,78 @@
         {
             "subName": "_white_g",
             "partTones": [
-				"_gray"
-			],
+                "_gray"
+            ],
             "name": "Trin Large Sportail root trim - white paint, gray interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_white:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
         {
             "subName": "_white_w",
             "partTones": [
-				"_white"
-			],
+                "_white"
+            ],
             "name": "Trin Large Sportail root trim - white paint, white interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_white:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
         },
         {
             "subName": "_slimelime_g",
             "partTones": [
-				"_gray"
-			],
+                "_gray"
+            ],
             "name": "Trin Large Sportail root trim - slimelime paint, gray interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_slimelime:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
         {
             "subName": "_slimelime_w",
             "partTones": [
-				"_white"
-			],
+                "_white"
+            ],
             "name": "Trin Large Sportail root trim - slimelime paint, white interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_slimelime:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
         },
         {
             "subName": "_amber_g",
             "partTones": [
-				"_gray"
-			],
+                "_gray"
+            ],
             "name": "Trin Large Sportail root trim - amber paint, gray interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_amber:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
         {
             "subName": "_amber_w",
             "partTones": [
-				"_white"
-			],
+                "_white"
+            ],
             "name": "Trin Large Sportail root trim - amber paint, white interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_amber:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
         }

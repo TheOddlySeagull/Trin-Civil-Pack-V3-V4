@@ -1032,126 +1032,117 @@
         {
             "subName": "_coldspruce_g",
             "partTones": [
-				"_gray"
-			],
+                "_gray"
+            ],
             "name": "Trin Large Sportail comfort trim - cold spruce paint, gray interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_coldspruce:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
         {
             "subName": "_coldspruce_w",
             "partTones": [
-				"_white"
-			],
+                "_white"
+            ],
             "name": "Trin Large Sportail comfort trim - cold spruce paint, white interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_coldspruce:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
         },
         {
             "subName": "_coldspruce_r",
             "partTones": [
-				"_red"
-			],
+                "_red"
+            ],
             "name": "Trin Large Sportail comfort trim - cold spruce paint, red interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_coldspruce:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:14:3"
+                    "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ]
         },
         {
             "subName": "_irongray_g",
             "partTones": [
-				"_gray"
-			],
+                "_gray"
+            ],
             "name": "Trin Large Sportail comfort trim - iron gray paint, gray interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_irongray:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
         {
             "subName": "_irongray_w",
             "partTones": [
-				"_white"
-			],
+                "_white"
+            ],
             "name": "Trin Large Sportail comfort trim - iron gray paint, white interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_irongray:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
         },
         {
             "subName": "_irongray_r",
             "partTones": [
-				"_red"
-			],
+                "_red"
+            ],
             "name": "Trin Large Sportail comfort trim - iron gray paint, red interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_irongray:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:14:3"
+                    "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ]
         },
         {
             "subName": "_pureblack_g",
             "partTones": [
-				"_gray"
-			],
+                "_gray"
+            ],
             "name": "Trin Large Sportail comfort trim - pure black paint, gray interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_pureblack:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
         {
             "subName": "_pureblack_w",
             "partTones": [
-				"_white"
-			],
+                "_white"
+            ],
             "name": "Trin Large Sportail comfort trim - pure black paint, white interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_pureblack:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
         },
         {
             "subName": "_pureblack_r",
             "partTones": [
-				"_red"
-			],
+                "_red"
+            ],
             "name": "Trin Large Sportail comfort trim - pure black paint, red interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_pureblack:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:14:3"
+                    "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ]
         }

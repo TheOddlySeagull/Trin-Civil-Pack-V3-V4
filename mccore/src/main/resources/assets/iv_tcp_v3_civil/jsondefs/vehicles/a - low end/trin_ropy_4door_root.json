@@ -1194,13 +1194,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_glacierwhite:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
             "partTones": [
-				"_gray"
-			]
+                "_gray"
+            ]
         },
         {
             "_comment": "Ivory",
@@ -1210,13 +1209,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_ivory:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
             "partTones": [
-				"_gray"
-			]
+                "_gray"
+            ]
         },
         {
             "_comment": "Silver",
@@ -1226,13 +1224,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_silver:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
             "partTones": [
-				"_gray"
-			]
+                "_gray"
+            ]
         },
         {
             "_comment": "Deep Black ",
@@ -1242,13 +1239,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_deepblack:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
             "partTones": [
-				"_gray"
-			]
+                "_gray"
+            ]
         },
         {
             "_comment": "sapphire",
@@ -1258,13 +1254,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_sapphire:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
             "partTones": [
-				"_gray"
-			]
+                "_gray"
+            ]
         },
         {
             "_comment": "oakgreen",
@@ -1274,13 +1269,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_oakgreen:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
             "partTones": [
-				"_gray"
-			]
+                "_gray"
+            ]
         },
         {
             "_comment": "buttercup",
@@ -1290,13 +1284,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_buttercup:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
             "partTones": [
-				"_gray"
-			]
+                "_gray"
+            ]
         },
         {
             "_comment": "ruby",
@@ -1306,13 +1299,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_ruby:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
             "partTones": [
-				"_gray"
-			]
+                "_gray"
+            ]
         },
         {
             "_comment": "grape",
@@ -1322,13 +1314,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_grape:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
             "partTones": [
-				"_gray"
-			]
+                "_gray"
+            ]
         }
     ],
     "variableModifiers": [

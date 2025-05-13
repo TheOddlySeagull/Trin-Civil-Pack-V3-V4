@@ -900,168 +900,156 @@
         {
             "subName": "_tungstenandelectricblue_g",
             "partTones": [
-				"_gray"
-			],
+                "_gray"
+            ],
             "name": "Trin Small Sportail substantial trim - tungsten & electric blue paint, gray interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_tungstenandelectricblue:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
         {
             "subName": "_tungstenandelectricblue_w",
             "partTones": [
-				"_white"
-			],
+                "_white"
+            ],
             "name": "Trin Small Sportail substantial trim - tungsten & electric blue paint, white interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_tungstenandelectricblue:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
         },
         {
             "subName": "_tungstenandelectricblue_r",
             "partTones": [
-				"_red"
-			],
+                "_red"
+            ],
             "name": "Trin Small Sportail substantial trim - tungsten & electric blue paint, red interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_tungstenandelectricblue:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:14:3"
+                    "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ]
         },
         {
             "subName": "_tungstenandelectricblue_t",
             "partTones": [
-				"_beige"
-			],
+                "_beige"
+            ],
             "name": "Trin Small Sportail substantial trim - tungsten & electric blue paint, tan interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_tungstenandelectricblue:0:1",
-                    "minecraft:wool:4:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_tan:0:3"
                 ]
             ]
         },
         {
             "subName": "_redandblack_g",
             "partTones": [
-				"_gray"
-			],
+                "_gray"
+            ],
             "name": "Trin Small Sportail substantial trim - red & black paint, gray interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
         {
             "subName": "_redandblack_w",
             "partTones": [
-				"_white"
-			],
+                "_white"
+            ],
             "name": "Trin Small Sportail substantial trim - red & black paint, white interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
         },
         {
             "subName": "_redandblack_r",
             "partTones": [
-				"_red"
-			],
+                "_red"
+            ],
             "name": "Trin Small Sportail substantial trim - red & black paint, red interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:14:3"
+                    "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ]
         },
         {
             "subName": "_redandblack_t",
             "partTones": [
-				"_beige"
-			],
+                "_beige"
+            ],
             "name": "Trin Small Sportail substantial trim - red & black paint, tan interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
-                    "minecraft:wool:4:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_tan:0:3"
                 ]
             ]
         },
         {
             "subName": "_bloodred_g",
             "partTones": [
-				"_gray"
-			],
+                "_gray"
+            ],
             "name": "Trin Small Sportail substantial trim - blood red paint, gray interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_bloodred:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
         {
             "subName": "_bloodred_w",
             "partTones": [
-				"_white"
-			],
+                "_white"
+            ],
             "name": "Trin Small Sportail substantial trim - blood red paint, white interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_bloodred:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
         },
         {
             "subName": "_bloodred_r",
             "partTones": [
-				"_red"
-			],
+                "_red"
+            ],
             "name": "Trin Small Sportail substantial trim - blood red paint, red interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_bloodred:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:14:3"
+                    "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ]
         },
         {
             "subName": "_bloodred_t",
             "partTones": [
-				"_beige"
-			],
+                "_beige"
+            ],
             "name": "Trin Small Sportail substantial trim - blood red paint, tan interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_bloodred:0:1",
-                    "minecraft:wool:4:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_tan:0:3"
                 ]
             ]
         }

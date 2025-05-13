@@ -869,13 +869,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_firered:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
-			"partTones": [
-				"_gray"
-			]
+            "partTones": [
+                "_gray"
+            ]
         },
         {
             "subName": "_firered_w",
@@ -883,13 +882,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_firered:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ],
-			"partTones": [
-				"_white"
-			]
+            "partTones": [
+                "_white"
+            ]
         },
         {
             "subName": "_firered_r",
@@ -897,13 +895,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_firered:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:14:3"
+                    "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ],
-			"partTones": [
-				"_red"
-			]
+            "partTones": [
+                "_red"
+            ]
         },
         {
             "subName": "_redandblack_g",
@@ -911,13 +908,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
-			"partTones": [
-				"_gray"
-			]
+            "partTones": [
+                "_gray"
+            ]
         },
         {
             "subName": "_redandblack_w",
@@ -925,13 +921,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ],
-			"partTones": [
-				"_white"
-			]
+            "partTones": [
+                "_white"
+            ]
         },
         {
             "subName": "_redandblack_r",
@@ -939,13 +934,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:14:3"
+                    "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ],
-			"partTones": [
-				"_red"
-			]
+            "partTones": [
+                "_red"
+            ]
         },
         {
             "subName": "_steelblueandteel_g",
@@ -953,13 +947,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
-			"partTones": [
-				"_gray"
-			]
+            "partTones": [
+                "_gray"
+            ]
         },
         {
             "subName": "_steelblueandteel_w",
@@ -967,13 +960,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ],
-			"partTones": [
-				"_white"
-			]
+            "partTones": [
+                "_white"
+            ]
         },
         {
             "subName": "_steelblueandteel_r",
@@ -981,13 +973,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:14:3"
+                    "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ],
-			"partTones": [
-				"_red"
-			]
+            "partTones": [
+                "_red"
+            ]
         },
         {
             "subName": "_customlivery1_g",
@@ -995,14 +986,13 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3",
-                    "minecraft:dirt:0:5"
+                    "minecraft:dirt:0:5",
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
-			"partTones": [
-				"_gray"
-			]
+            "partTones": [
+                "_gray"
+            ]
         }
     ],
     "initialVariables": [

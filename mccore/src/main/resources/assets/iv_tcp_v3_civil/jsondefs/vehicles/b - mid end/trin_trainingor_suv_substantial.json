@@ -1319,13 +1319,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
-			"partTones": [
-				"_gray"
-			]
+            "partTones": [
+                "_gray"
+            ]
         },
         {
             "subName": "_steelblueandteal_w",
@@ -1335,13 +1334,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ],
-			"partTones": [
-				"_white"
-			]
+            "partTones": [
+                "_white"
+            ]
         },
         {
             "subName": "_steelblueandteal_r",
@@ -1351,13 +1349,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:14:3"
+                    "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ],
-			"partTones": [
-				"_red"
-			]
+            "partTones": [
+                "_red"
+            ]
         },
         {
             "subName": "_shagbark_g",
@@ -1367,13 +1364,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_shagbark:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
-			"partTones": [
-				"_gray"
-			]
+            "partTones": [
+                "_gray"
+            ]
         },
         {
             "subName": "_shagbark_w",
@@ -1383,13 +1379,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_shagbark:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ],
-			"partTones": [
-				"_white"
-			]
+            "partTones": [
+                "_white"
+            ]
         },
         {
             "subName": "_shagbark_r",
@@ -1399,13 +1394,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_shagbark:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:14:3"
+                    "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ],
-			"partTones": [
-				"_red"
-			]
+            "partTones": [
+                "_red"
+            ]
         },
         {
             "subName": "_oakgreen_g",
@@ -1415,8 +1409,7 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_oakgreen:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
@@ -1428,13 +1421,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_oakgreen:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ],
-			"partTones": [
-				"_white"
-			]
+            "partTones": [
+                "_white"
+            ]
         },
         {
             "subName": "_oakgreen_r",
@@ -1444,13 +1436,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_oakgreen:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:14:3"
+                    "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ],
-			"partTones": [
-				"_red"
-			]
+            "partTones": [
+                "_red"
+            ]
         }
     ],
     "initialVariables": [

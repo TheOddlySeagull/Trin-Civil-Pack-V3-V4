@@ -825,13 +825,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_spruce:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
-			"partTones": [
-				"_gray"
-			]
+            "partTones": [
+                "_gray"
+            ]
         },
         {
             "subName": "_tungsten",
@@ -839,13 +838,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_tungsten:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
-			"partTones": [
-				"_gray"
-			]
+            "partTones": [
+                "_gray"
+            ]
         },
         {
             "subName": "_pourpre",
@@ -853,13 +851,12 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_carminred:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
-			"partTones": [
-				"_gray"
-			]
+            "partTones": [
+                "_gray"
+            ]
         }
     ],
     "initialVariables": [

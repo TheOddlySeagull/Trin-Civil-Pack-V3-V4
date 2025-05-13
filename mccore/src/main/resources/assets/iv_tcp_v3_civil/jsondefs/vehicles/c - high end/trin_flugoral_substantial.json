@@ -861,126 +861,117 @@
         {
             "subName": "_redandblack_g",
             "partTones": [
-				"_gray"
-			],
+                "_gray"
+            ],
             "name": "Trin Flugoral substantial trim - red & black paint, gray interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
         {
             "subName": "_redandblack_w",
             "partTones": [
-				"_white"
-			],
+                "_white"
+            ],
             "name": "Trin Flugoral substantial trim - red & black paint, white interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
         },
         {
             "subName": "_redandblack_r",
             "name": "Trin Flugoral substantial trim - red & black paint, red interior",
-			"partTones": [
-				"_red"
-			],
+            "partTones": [
+                "_red"
+            ],
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:14:3"
+                    "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ]
         },
         {
             "subName": "_redandblack_t",
-			"partTones": [
-				"_beige"
-			],
+            "partTones": [
+                "_beige"
+            ],
             "name": "Trin Flugoral substantial trim - red & black paint, tan interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
-                    "minecraft:wool:4:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_tan:0:3"
                 ]
             ]
         },
         {
             "subName": "_steelblueandteel_g",
-			"partTones": [
-				"_gray"
-			],
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Flugoral substantial trim - steel blue & teel paint, gray interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
         {
             "subName": "_steelblueandteel_w",
-			"partTones": [
-				"_white"
-			],
+            "partTones": [
+                "_white"
+            ],
             "name": "Trin Flugoral substantial trim - steel blue & teel paint, white interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
         },
         {
             "subName": "_steelblueandteel_r",
-			"partTones": [
-				"_red"
-			],
+            "partTones": [
+                "_red"
+            ],
             "name": "Trin Flugoral substantial trim - steel blue & teel paint, red interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:14:3"
+                    "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ]
         },
         {
             "subName": "_steelblueandteel_t",
-			"partTones": [
-				"_beige"
-			],
+            "partTones": [
+                "_beige"
+            ],
             "name": "Trin Flugoral substantial trim - steel blue & teel paint, tan interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
-                    "minecraft:wool:4:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_tan:0:3"
                 ]
             ]
         },
         {
             "subName": "_sunshineyellow_g",
-			"partTones": [
-				"_gray"
-			],
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Flugoral substantial trim - sunshine yellow paint, gray interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_sunshineyellow:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
@@ -993,8 +984,7 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_sunshineyellow:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
         },
@@ -1007,8 +997,7 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_sunshineyellow:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:14:3"
+                    "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ]
         },
@@ -1021,8 +1010,7 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_sunshineyellow:0:1",
-                    "minecraft:wool:4:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_tan:0:3"
                 ]
             ]
         }

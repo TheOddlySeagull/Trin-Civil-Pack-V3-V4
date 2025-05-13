@@ -1110,15 +1110,14 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_lemonyellow:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
             "partTones": [
-				"_gray",
+                "_gray",
                 "_lowend_nr_g",
                 "_lowend_g"
-			]
+            ]
         },
         {
             "subName": "_orangered_g",
@@ -1128,15 +1127,14 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_orangered:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
             "partTones": [
-				"_gray",
+                "_gray",
                 "_lowend_nr_g",
                 "_lowend_g"
-			]
+            ]
         },
         {
             "subName": "_sand_g",
@@ -1146,15 +1144,14 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_sand:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
             "partTones": [
-				"_gray",
+                "_gray",
                 "_lowend_nr_g",
                 "_lowend_g"
-			]
+            ]
         },
         {
             "subName": "_seafoam_g",
@@ -1164,15 +1161,14 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_seafoam:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
             "partTones": [
-				"_gray",
+                "_gray",
                 "_lowend_nr_g",
                 "_lowend_g"
-			]
+            ]
         },
         {
             "subName": "_teal_g",
@@ -1182,15 +1178,14 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_teal:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
             "partTones": [
-				"_gray",
+                "_gray",
                 "_lowend_nr_g",
                 "_lowend_g"
-			]
+            ]
         }
     ],
     "initialVariables": [

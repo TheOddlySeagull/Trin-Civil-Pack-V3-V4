@@ -1247,13 +1247,12 @@
             "name": "Trin Urlon Sedan V4 - Dev Paint, Gray Interior",
             "extraMaterialLists": [
                 [
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ],
             "partTones": [
-				"_gray"
-			]
+                "_gray"
+            ]
         }
     ],
     "initialVariables": [

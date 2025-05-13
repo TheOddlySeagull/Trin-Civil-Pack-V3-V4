@@ -757,42 +757,39 @@
             "name": "Trin Rodeo Cabrio comfort trim - jet black paint, gray interior",
             "extraMaterialLists": [
                 [
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3",
-                    "mts:iv_tpp.paint_bucket_jetblack:0:1"
+                    "mts:iv_tpp.paint_bucket_jetblack:0:1",
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
-			"partTones": [
-				"_gray"
-			]
+            "partTones": [
+                "_gray"
+            ]
         },
         {
             "subName": "_tungsten_g",
             "name": "Trin Rodeo Cabrio comfort trim - tungsten paint, gray interior",
             "extraMaterialLists": [
                 [
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3",
-                    "mts:iv_tpp.paint_bucket_tungsten:0:1"
+                    "mts:iv_tpp.paint_bucket_tungsten:0:1",
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
-			"partTones": [
-				"_gray"
-			]
+            "partTones": [
+                "_gray"
+            ]
         },
         {
             "subName": "_fireorange_g",
             "name": "Trin Rodeo Cabrio comfort trim - fire orange paint, gray interior",
             "extraMaterialLists": [
                 [
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3",
-                    "mts:iv_tpp.paint_bucket_fireorange:0:1"
+                    "mts:iv_tpp.paint_bucket_fireorange:0:1",
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
-			"partTones": [
-				"_gray"
-			]
+            "partTones": [
+                "_gray"
+            ]
         }
     ],
     "initialVariables": [

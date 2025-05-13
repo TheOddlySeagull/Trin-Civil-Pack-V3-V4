@@ -1272,8 +1272,7 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_deepblack:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
@@ -1287,8 +1286,7 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_electricblue:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
@@ -1302,8 +1300,7 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_firered:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
@@ -1317,8 +1314,7 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_glacierwhite:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
@@ -1333,8 +1329,7 @@
                 [
                     "mts:iv_tpp.paint_bucket_jetblack:0:1",
                     "mts:iv_tpp.paint_bucket_ivory:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
         },
@@ -1348,8 +1343,7 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_oakgreen:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
@@ -1364,8 +1358,7 @@
                 [
                     "mts:iv_tpp.paint_bucket_firered:0:1",
                     "mts:iv_tpp.paint_bucket_deepblack:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
@@ -1379,8 +1372,7 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_silver:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
@@ -1394,8 +1386,7 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_sunshineyellow:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         }

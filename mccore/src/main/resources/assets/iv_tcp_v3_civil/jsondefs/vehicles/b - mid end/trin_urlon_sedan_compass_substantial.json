@@ -1075,142 +1075,132 @@
     "definitions": [
         {
             "subName": "_steelblueandteal_g",
-			"partTones": [
-				"_gray"
-			],
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Urlon Sedan Compass Substantial Trim - Steel Blue & Teal Paint, Gray Interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
         {
             "subName": "_steelblueandteal_w",
-			"partTones": [
-				"_white"
-			],
+            "partTones": [
+                "_white"
+            ],
             "name": "Trin Urlon Sedan Compass Substantial Trim - Steel Blue & Teal Paint, White Interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
         },
         {
             "subName": "_steelblueandteal_r",
-			"partTones": [
-				"_red"
-			],
+            "partTones": [
+                "_red"
+            ],
             "name": "Trin Urlon Sedan Compass Substantial Trim - Steel Blue & Teal Paint, Red Interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:14:3"
+                    "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ]
         },
         {
             "subName": "_shagbark_g",
-			"partTones": [
-				"_gray"
-			],
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Urlon Sedan Compass Substantial Trim - Shagbark Paint, Gray Interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_shagbark:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
         {
             "subName": "_shagbark_w",
-			"partTones": [
-				"_white"
-			],
+            "partTones": [
+                "_white"
+            ],
             "name": "Trin Urlon Sedan Compass Substantial Trim - Shagbark Paint, White Interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_shagbark:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
         },
         {
             "subName": "_shagbark_r",
-			"partTones": [
-				"_red"
-			],
+            "partTones": [
+                "_red"
+            ],
             "name": "Trin Urlon Sedan Compass Substantial Trim - Shagbark Paint, Red Interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_shagbark:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:14:3"
+                    "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ]
         },
         {
             "subName": "_plum_g",
-			"partTones": [
-				"_gray"
-			],
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Urlon Sedan Compass Substantial Trim - Plum Paint, Gray Interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_plum:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
         {
             "subName": "_plum_w",
-			"partTones": [
-				"_white"
-			],
+            "partTones": [
+                "_white"
+            ],
             "name": "Trin Urlon Sedan Compass Substantial Trim - Plum Paint, White Interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_plum:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
         },
         {
             "subName": "_plum_r",
-			"partTones": [
-				"_red"
-			],
+            "partTones": [
+                "_red"
+            ],
             "name": "Trin Urlon Sedan Compass Substantial Trim - Plum Paint, Red Interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_plum:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:14:3"
+                    "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ]
         },
         {
             "subName": "_customlivery1_w",
             "partTones": [
-				"_white"
-			],
+                "_white"
+            ],
             "name": "Trin Urlon Sedan Compass Substantial Trim - Golden Ghosts Livery, White Interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_firered:0:1",
                     "minecraft:gold_ingot:0:8",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
         }

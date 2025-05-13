@@ -1066,85 +1066,79 @@
     "definitions": [
         {
             "subName": "_firered_g",
-			"partTones": [
-				"_gray"
-			],
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Urlon Sedan Compass Comfort Trim - Fire Red Paint, Gray Interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_firered:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
         {
             "subName": "_firered_w",
-			"partTones": [
-				"_white"
-			],
+            "partTones": [
+                "_white"
+            ],
             "name": "Trin Urlon Sedan Compass Comfort Trim - Fire Red Paint, White Interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_firered:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
         },
         {
             "subName": "_jetblack_g",
-			"partTones": [
-				"_gray"
-			],
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Urlon Sedan Compass Comfort Trim - Jet Black Paint, Gray Interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_jetblack:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
         {
             "subName": "_jetblack_w",
-			"partTones": [
-				"_white"
-			],
+            "partTones": [
+                "_white"
+            ],
             "name": "Trin Urlon Sedan Compass Comfort Trim - Jet Black Paint, White Interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_jetblack:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
         },
         {
             "subName": "_lapenderblue_g",
-			"partTones": [
-				"_gray"
-			],
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Urlon Sedan Compass Comfort Trim - Lapender Blue Paint, Gray Interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_lapenderblue:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
         {
             "subName": "_lapenderblue_w",
-			"partTones": [
-				"_white"
-			],
+            "partTones": [
+                "_white"
+            ],
             "name": "Trin Urlon Sedan Compass Comfort Trim - Lapender Blue Paint, White Interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_lapenderblue:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
         }

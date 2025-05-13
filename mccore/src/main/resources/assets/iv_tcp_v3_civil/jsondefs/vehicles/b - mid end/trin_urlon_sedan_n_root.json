@@ -1066,43 +1066,40 @@
     "definitions": [
         {
             "subName": "_sage_g",
-			"partTones": [
-				"_gray"
-			],
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Urlon Sedan Root Trim - Sage Paint, Gray Interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_sage:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
         {
             "subName": "_purewhite_g",
-			"partTones": [
-				"_gray"
-			],
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Urlon Sedan Root Trim - Pure White Paint, Gray Interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_purewhite:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
         {
             "subName": "_oakgreen_g",
-			"partTones": [
-				"_gray"
-			],
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Urlon Sedan Root Trim - Oak Green Paint, Gray Interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_oakgreen:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         }

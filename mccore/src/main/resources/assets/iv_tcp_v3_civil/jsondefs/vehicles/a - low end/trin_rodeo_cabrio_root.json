@@ -751,9 +751,8 @@
             "name": "Trin Rodeo Cabrio root trim - white paint, gray interior",
             "extraMaterialLists": [
                 [
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3",
-                    "mts:iv_tpp.paint_bucket_white:0:1"
+                    "mts:iv_tpp.paint_bucket_white:0:1",
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
@@ -762,9 +761,8 @@
             "name": "Trin Rodeo Cabrio root trim - carmin red paint, gray interior",
             "extraMaterialLists": [
                 [
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3",
-                    "mts:iv_tpp.paint_bucket_carminred:0:1"
+                    "mts:iv_tpp.paint_bucket_carminred:0:1",
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
@@ -773,9 +771,8 @@
             "name": "Trin Rodeo Cabrio root trim - teal paint, gray interior",
             "extraMaterialLists": [
                 [
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3",
-                    "mts:iv_tpp.paint_bucket_teal:0:1"
+                    "mts:iv_tpp.paint_bucket_teal:0:1",
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         }

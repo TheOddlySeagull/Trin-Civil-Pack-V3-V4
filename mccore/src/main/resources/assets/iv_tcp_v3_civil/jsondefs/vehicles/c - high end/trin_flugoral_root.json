@@ -861,84 +861,78 @@
         {
             "subName": "_purewhite_g",
             "partTones": [
-				"_gray"
-			],
+                "_gray"
+            ],
             "name": "Trin Flugoral root trim - pure white paint, gray interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_purewhite:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
         {
             "subName": "_purewhite_w",
             "partTones": [
-				"_white"
-			],
+                "_white"
+            ],
             "name": "Trin Flugoral root trim - pure white paint, white interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_purewhite:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
         },
         {
             "subName": "_coldspruce_g",
             "partTones": [
-				"_gray"
-			],
+                "_gray"
+            ],
             "name": "Trin Flugoral root trim - cold spruce paint, gray interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_coldspruce:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
         {
             "subName": "_coldspruce_w",
             "partTones": [
-				"_white"
-			],
+                "_white"
+            ],
             "name": "Trin Flugoral root trim - cold spruce paint, white interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_coldspruce:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
         },
         {
             "subName": "_sage_g",
             "partTones": [
-				"_gray"
-			],
+                "_gray"
+            ],
             "name": "Trin Flugoral root trim - sage paint, gray interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_sage:0:1",
-                    "minecraft:wool:7:2",
-                    "minecraft:wool:8:3"
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
         {
             "subName": "_sage_w",
             "partTones": [
-				"_white"
-			],
+                "_white"
+            ],
             "name": "Trin Flugoral root trim - sage paint, white interior",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_sage:0:1",
-                    "minecraft:wool:8:2",
-                    "minecraft:wool:0:3"
+                    "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
         }
