@@ -972,11 +972,11 @@
             ]
         },
         {
-            "subName": "_lapenderblue_g",
+            "subName": "_lavenderblue_g",
             "name": "Trin Econobox Panel Van Comfort Trim - Lavender Blue Paint, Gray Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_bucket_lapenderblue:0:1",
+                    "mts:iv_tpp.paint_bucket_lavenderblue:0:1",
                     "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]

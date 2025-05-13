@@ -1145,14 +1145,14 @@
 			]
         },
         {
-            "subName": "_plum_lapenderblue_red",
+            "subName": "_plum_lavenderblue_red",
             "modelName": "trin_footpather",
             "name": "Trin Footpather Special Six - Plum & Lavender Blue Paint, Red Interior",
             "description": "A rare gem - refined, leather-clad, and powered by a punchy V6 hidden behind a friendly face.\n2 doors, 3 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_bucket_plum:0:1",
-                    "mts:iv_tpp.paint_bucket_lapenderblue:0:1",
+                    "mts:iv_tpp.paint_bucket_lavenderblue:0:1",
                     "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ],

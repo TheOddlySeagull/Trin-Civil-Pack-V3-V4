@@ -1207,8 +1207,7 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
-                    "minecraft:wool:14:6",
-                    "minecraft:wool:15:4"
+                    "mts:iv_tpp.upholstery_pile_red:0:5"
                 ]
             ],
             "partTones": [
@@ -1247,8 +1246,7 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.wrap_roll_gold:0:1",
-                    "minecraft:wool:14:6",
-                    "minecraft:wool:15:4"
+                    "mts:iv_tpp.upholstery_pile_red:0:5"
                 ]
             ],
             "partTones": [
@@ -1287,8 +1285,7 @@
             "extraMaterialLists": [
                 [
                     "mts:iv_tpp.paint_double_bucket_forest:0:1",
-                    "minecraft:wool:14:6",
-                    "minecraft:wool:15:4"
+                    "mts:iv_tpp.upholstery_pile_red:0:5"
                 ]
             ],
             "partTones": [

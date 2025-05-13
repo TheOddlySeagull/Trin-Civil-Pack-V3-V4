@@ -1156,27 +1156,27 @@
             ]
         },
         {
-            "subName": "_lapenderblue_g",
+            "subName": "_lavenderblue_g",
             "partTones": [
                 "_gray"
             ],
             "name": "Trin Urlon Wagon Comfort Trim - Lavender Blue Paint, Gray Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_bucket_lapenderblue:0:1",
+                    "mts:iv_tpp.paint_bucket_lavenderblue:0:1",
                     "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
         },
         {
-            "subName": "_lapenderblue_w",
+            "subName": "_lavenderblue_w",
             "partTones": [
                 "_white"
             ],
             "name": "Trin Urlon Wagon Comfort Trim - Lavender Blue Paint, White Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_bucket_lapenderblue:0:1",
+                    "mts:iv_tpp.paint_bucket_lavenderblue:0:1",
                     "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
