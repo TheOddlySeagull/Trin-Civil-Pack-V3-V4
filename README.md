@@ -15,10 +15,12 @@
 - Fixed Trin Footpather trun signal lights
 - Fixed crate offset on all vehicles
 - Fixed roof crate part type and placement on Trin Sportail
+- Fixed "lapender blue" typo to "lavender blue"
 
 ### Tweaks:
 
 - Tweaked the number of crates that fit in the Trin Rodeo Van
+- Tweaked all carfting recipes to use upholstery instead of wool
 
 ---
 
