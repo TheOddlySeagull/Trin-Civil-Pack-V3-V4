@@ -1,5 +1,19 @@
 # Trin Civil Pack Changelogs
 
+## Trin Civil Pack 4.3.1 changelog:
+
+### Main Additions:
+- Added service versions of Trin Footpather, including:
+  - Generic Police
+  - Gramados Police
+  - Sheriff
+  - Gramados Unified Energy Commission
+  - Fire Department - Red
+  - Fire Department - Yellow
+  - Gramados Taxi
+  - Generic Taxi
+  - Highway Service & Maintenance
+
 ## Trin Civil Pack 4.3.0 changelog:
 
 ### Main Additions:
