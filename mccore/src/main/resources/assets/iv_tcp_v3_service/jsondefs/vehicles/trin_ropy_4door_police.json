@@ -1402,7 +1402,11 @@
             "subName": "_generic_g",
             "name": "Trin Ropy 4 Door - Generic Police Car, Gray Interior",
             "extraMaterialLists": [
-                []
+                [
+                    "mts:iv_tpp.paint_bucket_purewhite:0:1",
+                    "mts:iv_tpp.paint_bucket_pureblack:0:1",
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
+                ]
             ],
             "partTones": [
                 "_police_generic",
@@ -1416,7 +1420,11 @@
             "subName": "_gramados_g",
             "name": "Trin Ropy 4 Door - Gramados Police Car, Gray Interior",
             "extraMaterialLists": [
-                []
+                [
+                    "mts:iv_tpp.paint_bucket_purewhite:0:1",
+                    "mts:iv_tpp.paint_bucket_patrolblue:0:1",
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
+                ]
             ],
             "partTones": [
                 "_police_gramados",
@@ -1430,7 +1438,11 @@
             "subName": "_sheriff_g",
             "name": "Trin Ropy 4 Door - Sheriff Car, Gray Interior",
             "extraMaterialLists": [
-                []
+                [
+                    "mts:iv_tpp.paint_bucket_spruce:0:1",
+                    "mts:iv_tpp.paint_bucket_gunstock:0:1",
+                    "mts:iv_tpp.upholstery_pile_gray:0:3"
+                ]
             ],
             "partTones": [
                 "_police_sheriff",
