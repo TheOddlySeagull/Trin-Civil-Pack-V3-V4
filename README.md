@@ -1,5 +1,24 @@
 # Trin Civil Pack Changelogs
 
+## Trin Civil Pack 4.3.0 changelog:
+
+### Main Additions:
+- Full support for 1.18 and 1.19 Minecraft versions
+- Fully reworked the Trin Footpather, with new trims, upgraded modularity, and lore
+- Specular maps for all Trin vehicles!
+
+### Additions:
+- Now using upholstery pile instead of wool for all crafting recipes
+
+### Fixes:
+- Renamed Lapender Blue to Lavender Blue
+- Fixed "lapender blue" typo to "lavender blue"
+
+### Tweaks:
+- Tweaked all carfting recipes to use upholstery instead of wool
+
+---
+
 ## Trin Civil Pack 4.2.3 changelog:
 
 ### Additions:
@@ -15,12 +34,10 @@
 - Fixed Trin Footpather trun signal lights
 - Fixed crate offset on all vehicles
 - Fixed roof crate part type and placement on Trin Sportail
-- Fixed "lapender blue" typo to "lavender blue"
 
 ### Tweaks:
 
 - Tweaked the number of crates that fit in the Trin Rodeo Van
-- Tweaked all carfting recipes to use upholstery instead of wool
 
 ---
 
@@ -76,7 +93,7 @@
 
 ---
 
-## Trin Civil Pack 3.20.0 (4.0) changelog:
+## Trin Civil Pack 4.2.3 (4.0) changelog:
 
 ### Main Additions:
 
