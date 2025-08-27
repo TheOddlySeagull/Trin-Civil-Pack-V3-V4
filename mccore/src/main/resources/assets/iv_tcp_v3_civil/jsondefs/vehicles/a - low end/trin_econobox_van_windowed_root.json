@@ -179,6 +179,7 @@
                 0.375,
                 2.0
             ],
+            "toneIndex": 1,
             "defaultPart": "iv_tpp:trin_seat_1_gray",
             "rot": [
                 0.0,
@@ -206,6 +207,7 @@
                 0.375,
                 2.0
             ],
+            "toneIndex": 1,
             "defaultPart": "iv_tpp:trin_seat_1_gray",
             "rot": [
                 0.0,
@@ -962,6 +964,9 @@
     "definitions": [
         {
             "subName": "_purewhite_g",
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Econobox Window Van Root Trim - Pure White Paint, Gray Interior",
             "extraMaterialLists": [
                 [
@@ -972,6 +977,9 @@
         },
         {
             "subName": "_pink_g",
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Econobox Window Van Root Trim - Pink Paint, Gray Interior",
             "extraMaterialLists": [
                 [
@@ -982,6 +990,9 @@
         },
         {
             "subName": "_oakgreen_g",
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Econobox Window Van Root Trim - Oak Green Paint, Gray Interior",
             "extraMaterialLists": [
                 [

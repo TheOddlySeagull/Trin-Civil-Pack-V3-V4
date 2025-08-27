@@ -1,5 +1,10 @@
 # Trin Civil Pack Changelogs
 
+## Trin Civil Pack 4.3.2 changelog:
+
+### Tweaks:
+- Adjusted part tones for Trin Econobox variants to include "_gray"
+
 ## Trin Civil Pack 4.3.1 changelog:
 
 ### Main Additions:

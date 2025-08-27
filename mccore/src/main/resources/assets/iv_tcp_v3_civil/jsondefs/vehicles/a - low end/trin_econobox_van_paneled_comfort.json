@@ -180,6 +180,7 @@
                 0.375,
                 2.0
             ],
+            "toneIndex": 1,
             "defaultPart": "iv_tpp:trin_seat_1_gray",
             "rot": [
                 0.0,
@@ -207,6 +208,7 @@
                 0.375,
                 2.0
             ],
+            "toneIndex": 1,
             "defaultPart": "iv_tpp:trin_seat_1_gray",
             "rot": [
                 0.0,
@@ -963,6 +965,9 @@
     "definitions": [
         {
             "subName": "_pureblack_g",
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Econobox Panel Van Comfort Trim - Pure Black Paint, Gray Interior",
             "extraMaterialLists": [
                 [
@@ -973,6 +978,9 @@
         },
         {
             "subName": "_lavenderblue_g",
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Econobox Panel Van Comfort Trim - Lavender Blue Paint, Gray Interior",
             "extraMaterialLists": [
                 [
@@ -983,6 +991,9 @@
         },
         {
             "subName": "_milkcoffee_g",
+            "partTones": [
+                "_gray"
+            ],
             "name": "Trin Econobox Panel Van Comfort Trim - Milk Coffee Paint, Gray Interior",
             "extraMaterialLists": [
                 [
