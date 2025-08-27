@@ -2,6 +2,9 @@
 
 ## Trin Civil Pack 4.3.2 changelog:
 
+### Fixes:
+- Fixed Bodyroll animation on trin Footpathers
+
 ### Tweaks:
 - Adjusted part tones for Trin Econobox variants to include "_gray"
 
