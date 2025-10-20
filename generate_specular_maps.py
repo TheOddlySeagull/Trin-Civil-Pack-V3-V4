@@ -51,7 +51,8 @@ USE_MULTITHREADING = False  # Set to True to enable multithreading
 BLACKLIST = {"vignette.png"}  # Add filenames to blacklist
 
 # === Paths ===
-BASE_PATH = os.path.abspath("E:/Documents Global/Programmation/Trin/Trin Civil Pack V3 V4")
+# Allow overriding via BASE_PATH env var, default to current working directory (CI-friendly)
+BASE_PATH = os.path.abspath(os.getenv("BASE_PATH", os.getcwd()))
 EXCLUDE_PATH = os.path.join(BASE_PATH, "mccore", "build")
 
 # === Helper Functions ===

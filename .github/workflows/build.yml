@@ -16,6 +16,8 @@ jobs:
     timeout-minutes: 60
     permissions:
       contents: read
+    env:
+      BASE_PATH: ${{ github.workspace }}
 
     steps:
       - name: Checkout
