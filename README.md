@@ -1,170 +1,77 @@
-# Trin Civil Pack Changelogs
+<div align="center">
 
-## Trin Civil Pack 4.3.2 changelog:
+# Trin Civil Pack V3 — The Trims Of Freedom
 
-### Fixes:
-- Fixed Bodyroll animation on trin Footpathers
+Immersive Vehicles (MTS/IV) content pack adding 34+ vehicle models with 10+ skins each—drivable, functional, and customizable.
 
-### Tweaks:
-- Adjusted part tones for Trin Econobox variants to include "_gray"
+![Trin Banner](https://raw.githubusercontent.com/TheOddlySeagull/Trin-Civil-Pack-V3/master/.github/banner.png)
 
-## Trin Civil Pack 4.3.1 changelog:
+</div>
 
-### Main Additions:
-- Added service versions of Trin Footpather, including:
-  - Generic Police
-  - Gramados Police
-  - Sheriff
-  - Gramados Unified Energy Commission
-  - Fire Department - Red
-  - Fire Department - Yellow
-  - Gramados Taxi
-  - Generic Taxi
-  - Highway Service & Maintenance
+## Overview
 
-## Trin Civil Pack 4.3.0 changelog:
+Trin is a fictional brand for the Immersive Vehicles mod. This pack brings a wide range of cars, utility vehicles, trucks, and more to Minecraft. It is compatible with Trin & UNU parts. This is the V3/V4 generation of the pack.
 
-### Main Additions:
-- Full support for 1.18 and 1.19 Minecraft versions
-- Fully reworked the Trin Footpather, with new trims, upgraded modularity, and lore
-- Specular maps for all Trin vehicles!
+Note: This pack does not add parts. You need the Trin Part Pack for engines, wheels, seats, etc. Without it, vehicles will not spawn.
 
-### Additions:
-- Now using upholstery pile instead of wool for all crafting recipes
+- Trin Part Pack (required): https://www.curseforge.com/minecraft/mc-mods/trin-part-pack
 
-### Fixes:
-- Renamed Lapender Blue to Lavender Blue
-- Fixed "lapender blue" typo to "lavender blue"
+## Download
 
-### Tweaks:
-- Tweaked all carfting recipes to use upholstery instead of wool
+- GitHub Actions Artifacts: Each build uploads ready-to-use JARs for 1.12.2 and 1.16.5 under the Actions run artifacts.
+- Releases: Push a tag (e.g., `v4.3.2`) to trigger a release with attached JARs.
 
----
+## Requirements
 
-## Trin Civil Pack 4.2.3 changelog:
+- Minecraft with Immersive Vehicles (MTS/IV)
+- Trin Part Pack (required for parts)
+- Supported MC versions targeted by this repo: 1.12.2 and 1.16.5
 
-### Additions:
+## Installation (Players)
 
-- All Trin vehicles now come pre-assembled with all recommended parts
-- All Trin vehicles now have part tone support
-- Trin Tormador tow truck can now also tow light vehicles (cars)
-- Fully reworked Trin Transortus, using 2 body types instead of trims, and new skins
+1. Install Immersive Vehicles (MTS/IV) in your Minecraft mod setup.
+2. Download the Trin Part Pack and this pack’s JAR.
+3. Place both JARs into your `mods` folder.
+4. Launch the game.
 
-### Fixes:
+## Building (Developers)
 
-- Fixed all skins recipies to use Trin Paint Buckets 
-- Fixed Trin Footpather trun signal lights
-- Fixed crate offset on all vehicles
-- Fixed roof crate part type and placement on Trin Sportail
+This repository includes a Gradle multi-module build that produces versioned JARs into the `out/` directory.
 
-### Tweaks:
+Prereqs:
+- JDK 8
+- Git and Gradle wrapper (included)
 
-- Tweaked the number of crates that fit in the Trin Rodeo Van
+Quick build:
+- Windows: `gradlew.bat buildForge1122 && gradlew.bat buildForge1165`
+- Linux/macOS: `./gradlew buildForge1122 && ./gradlew buildForge1165`
 
----
+Artifacts appear under `out/` as `Trin Civil Pack-<mcversion>-<packversion>.jar`.
 
-## Trin Civil Pack 3.22.0 (4.2) changelog:
+CI:
+- The GitHub Actions workflow builds on push/PR, uploads artifacts, and publishes releases on tags.
 
-### Main Additions:
+## Other Trin Packs
 
-- Preintroduced a Trin Urlon V4 rework, a mid-size sedan, in dev skin
+- Trin Emergency Pack: https://www.curseforge.com/minecraft/mc-mods/immersive-vehicles-trin-emergency-pack
+- Trin Civil Pack V2: https://www.curseforge.com/minecraft/mc-mods/immersive-vehicles-trin-civil-pack-v2
+- Trin Decor Pack: https://www.curseforge.com/minecraft/mc-mods/immersive-vehicles-trin-decor-pack
 
-- Added body panel crubling to 0 health cars
-- Added default parts to Trin Econobox
+## Online Configurator
 
-### Fixes:
+Configure and visualize your dream Trin model with the Trin online configurator. (Link placeholder—add when available.)
 
-- Fixed all vehicles that had overly-high health values
-- Fixed wheel symmetry on Trin Juggernaut
-- Fixed Trin Foragon duplicated sounds on rear right doors
-- Fixed Foragon Panel Van and Half Window Van texture problems
+## Feedback & Community
 
----
+- Discord (official): https://discord.gg/ujQR3wf
+- Issues: Use this repo’s Issues to report bugs or request features.
 
-## Trin Civil Pack 3.21.1 (4.1.1) changelog:
+## Changelog
 
-### Fixes:
+See [CHANGELOG.md](./CHANGELOG.md) for version history and changes.
 
-- Fixed right side wheels rotation on Trin Heavorum
-- Fixed exhaust particles velocity on Trin Heavorum
+## License & Credits
 
----
-
-
-## Trin Civil Pack 3.21.0 (4.1) changelog:
-
-### Main Additions:
-
-- Introduced Trin Heavorum, a heavy duty crew cab dually pickup truck
-
-### Additions:
-
-- Added a slip-based axleRatio increasing VM to most vehicles (thanks to cowboycosmic)
-
-### Fixes:
-
-- Fixed body roll rotation on Trin Ropy
-- Fixed mirroring of Trin Pilocrap wheels (thanks to cowboycosmic)
-
-### Tweaks:
-
-- Tweaked standard trin Gobig and Bultizorg so they require Heavy Duty Tow
-- Tweaked body roll system on most vehicles (thanks to cowboycosmic)
-- Tweaked manual throttle VM modified on most vehicles (thanks to cowboycosmic)
-- Tweaked door opening on Trin Transortus (thanks to cowboycosmic)
-
----
-
-## Trin Civil Pack 4.2.3 (4.0) changelog:
-
-### Main Additions:
-
-- Introduced TCP V3 for minecraft 1.16.5!
-- Introduced Trin Ropy, an economy compact car
-- Introduced Trin Ropy Emergency, a police version of the Ropy, in 3 variants (Generic Police, Gramados Police, Sheriff)
-
-### Fixes:
-
-- Fixed recipes for Trin Pilocrap body panels
-
----
-
-## Trin Civil Pack 3.19.0 changelog:
-
-### Additions:
-
-- Added suspensions physics to every single vehicles (thanks to cowboycosmic)
-- Added health to every single vehicles (thanks to cowboycosmic)
-- Added vehicle repair ressources to all vehicles (thanks to cowboycosmic)
-
-### Fixes:
-
-- Fixed Trin Springboks not taking intended engines
-- Fixed crates not fitting in the back of Trin Devom
-- Fixed Trin Gobig TXS SUV having issues with mirrored wheels
-- Fixed some horns not working
-- Fixed Trin Trainingor tailgate window not moving with the tailgate.
-- Fixed Trin Pilocrap body panels recipes
-
-### Tweaks:
-
-- Tweaked door, hoods, tailgates animations (thanks to cowboycosmic)
-
----
-
-## Trin Civil Pack 3.18.0 changelog:
-
-### Additions:
-
-- Added all Trin Pilocrap body panels (moved from TPP)
-
-### Fixes:
-
-- Fixed all rotations on Trin Pilocrap
-- Fixed mirroring of Trin Pilocrap body panels
-- Fixed crafting recipe for Trin Trainingor
-
-### Tweaks:
-
-- Tweaked the entire inventory organisation: Split the pack into 4 tabs
-- Tweaked item IDs: WARNING: all cars will despawn in your save!
+- Content and branding are © TheOddlySeagull and contributors. All rights reserved unless otherwise stated.
+- Immersive Vehicles by its respective authors.
+- Thanks to contributors like cowboycosmic for physics and tweaks.
