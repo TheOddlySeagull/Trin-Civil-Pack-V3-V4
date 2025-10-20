@@ -1,5 +1,5 @@
 {
 	"packID" : "iv_tcp_v3_utility",
-	"packName" : "TCP V3 - Trin Utility Vehicles",
+	"packName" : "TCP V4 - Trin Utility Vehicles",
 	"dependents" : ["iv_tpp"]
 }

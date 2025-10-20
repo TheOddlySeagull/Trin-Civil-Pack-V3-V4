@@ -1,5 +1,5 @@
 {
 	"packID" : "iv_tcp_v3_service",
-	"packName" : "TCP V3 - Trin Service & Emergency",
+	"packName" : "TCP V4 - Trin Service & Emergency",
 	"dependents" : ["iv_tpp"]
 }
