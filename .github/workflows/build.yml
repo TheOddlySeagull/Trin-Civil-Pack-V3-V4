@@ -31,15 +31,19 @@ jobs:
           java-version: '8'
           cache: gradle
 
-      - name: Build with Gradle
-        uses: gradle/gradle-build-action@v3
+      - name: Install Python (for helper scripts)
+        uses: actions/setup-python@v5
         with:
-          arguments: build --no-daemon
+          python-version: '3.x'
+
+      - name: Build via compile.py (both versions)
+        run: |
+          python ./compile.py
 
       - name: Upload JAR artifacts
         uses: actions/upload-artifact@v4
         with:
           name: build-artifacts
           path: |
-            **/build/libs/*.jar
+            out/*.jar
           if-no-files-found: error
