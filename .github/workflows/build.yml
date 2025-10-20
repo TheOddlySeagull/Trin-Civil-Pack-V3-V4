@@ -43,9 +43,26 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install Pillow
 
-      - name: Build via compile.py (both versions)
-        run: |
-          python ./compile.py
+      - name: Make gradlew executable (Linux runner)
+        run: chmod +x gradlew
+
+      - name: Generate specular maps
+        run: python ./generate_specular_maps.py
+
+      - name: Transform IDs for 1.12.2 (reverse)
+        run: python ./1-12-2_1-16-5_ID_transformer.py --reverse
+
+      - name: Build Forge 1.12.2
+        run: ./gradlew --no-daemon buildForge1122
+
+      - name: Transform IDs forward for 1.16.5
+        run: python ./1-12-2_1-16-5_ID_transformer.py
+
+      - name: Build Forge 1.16.5
+        run: ./gradlew --no-daemon buildForge1165
+
+      - name: Restore IDs back to 1.12.2 state
+        run: python ./1-12-2_1-16-5_ID_transformer.py --reverse
 
       - name: Upload JAR artifacts
         uses: actions/upload-artifact@v4
