@@ -4,6 +4,7 @@ on:
   push:
     branches: [ master ]
   pull_request:
+  workflow_dispatch:
 
 concurrency:
   group: build-${{ github.ref }}
@@ -15,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     permissions:
-      contents: read
+      contents: write
     env:
       BASE_PATH: ${{ github.workspace }}
 
@@ -67,7 +68,35 @@ jobs:
       - name: Upload JAR artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: build-artifacts
+          name: Trin-Civil-Pack-all
           path: |
             out/*.jar
           if-no-files-found: error
+
+      - name: Upload 1.12.2 JAR artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Trin-Civil-Pack-1.12.2
+          path: |
+            out/*1.12.2*.jar
+          if-no-files-found: warn
+
+      - name: Upload 1.16.5 JAR artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Trin-Civil-Pack-1.16.5
+          path: |
+            out/*1.16.5*.jar
+          if-no-files-found: warn
+
+      - name: Create GitHub Release (on tag)
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          name: Trin Civil Pack ${{ github.ref_name }}
+          draft: false
+          prerelease: false
+          files: |
+            out/*.jar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
