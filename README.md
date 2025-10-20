@@ -62,7 +62,8 @@ CI:
 
 ## Online Configurator
 
-Configure and visualize your dream Trin model with the Trin online configurator. (Link placeholder—add when available.)
+Configure and visualize your dream Trin model with the Trin online configurator:  
+https://trin.legends-of-gramdatis.com
 
 ## Feedback & Community
 
