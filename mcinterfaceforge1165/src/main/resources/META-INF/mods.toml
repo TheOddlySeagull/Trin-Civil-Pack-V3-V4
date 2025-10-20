@@ -1,0 +1,82 @@
+# File required to load packs as Forge mods.
+# Find more information on toml format v0.5.0 here:  https://github.com/toml-lang/toml
+
+# Forge settings, don't touch!
+modLoader="javafml"
+loaderVersion="[36,)"
+
+# The license for your pack. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
+# Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
+license="All rights reserved"
+
+[[mods]]
+modId="iv_tcp_v3"
+version="4.3.2"
+displayName="Immersive Vehicles (MTS/IV) - Trin Civil Pack"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/immersive-vehicles-trin-civil-pack-v3"
+logoFile="vingette.png"
+authors="TheOddlySeagull"
+credits=""
+description='''
+The Trims Of Freedom
+'''
+
+[[mods]]
+modId="iv_tcp_v3_civil"
+version="4.3.2"
+displayName="Immersive Vehicles (MTS/IV) - Trin Civil Pack"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/immersive-vehicles-trin-civil-pack-v3"
+logoFile="vingette.png"
+authors="TheOddlySeagull"
+credits=""
+description='''
+The Trims Of Freedom
+'''
+
+[[mods]]
+modId="iv_tcp_v3_parts"
+version="4.3.2"
+displayName="Immersive Vehicles (MTS/IV) - Trin Civil Pack"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/immersive-vehicles-trin-civil-pack-v3"
+logoFile="vingette.png"
+authors="TheOddlySeagull"
+credits=""
+description='''
+The Trims Of Freedom
+'''
+
+[[mods]]
+modId="iv_tcp_v3_service"
+version="4.3.2"
+displayName="Immersive Vehicles (MTS/IV) - Trin Civil Pack"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/immersive-vehicles-trin-civil-pack-v3"
+logoFile="vingette.png"
+authors="TheOddlySeagull"
+credits=""
+description='''
+The Trims Of Freedom
+'''
+
+[[mods]]
+modId="iv_tcp_v3_txs"
+version="4.3.2"
+displayName="Immersive Vehicles (MTS/IV) - Trin Civil Pack"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/immersive-vehicles-trin-civil-pack-v3"
+logoFile="vingette.png"
+authors="TheOddlySeagull"
+credits=""
+description='''
+The Trims Of Freedom
+'''
+
+[[mods]]
+modId="iv_tcp_v3_utility"
+version="4.3.2"
+displayName="Immersive Vehicles (MTS/IV) - Trin Civil Pack"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/immersive-vehicles-trin-civil-pack-v3"
+logoFile="vingette.png"
+authors="TheOddlySeagull"
+credits=""
+description='''
+The Trims Of Freedom
+'''

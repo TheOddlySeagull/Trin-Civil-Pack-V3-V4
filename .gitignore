@@ -1,19 +1,46 @@
-*/build/*
-*/bin/*
-*gradle/*
-*.jar
+############################################################
+# Build outputs and intermediate artifacts
+############################################################
+# Root build dir and all module build dirs
+build/
+**/build/
+
+# Common user-defined output folders
+out/
+**/out/
+
+# Common transient folders produced by the toolchain
+**/bin/
+**/tmp/
+**/run/
+**/runServer/
+**/reobfJar/
+
+############################################################
+# Gradle caches (keep wrapper, ignore local caches only)
+############################################################
+.gradle/
+**/.gradle/
+
+############################################################
+# Java/IDE artifacts
+############################################################
 *.class
 *.bin
 *.lock
+*.log
+
+############################################################
+# Keep Gradle wrapper and build scripts tracked
+############################################################
+!gradlew
+!gradlew.bat
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+############################################################
+# Assets and local-only files you still want ignored
+############################################################
 *_s.png
-mcinterfaceforge1122/*
-mcinterfaceforge1165/*
-my_own_readme.md
-*gradle.*
-*gradlew*
-mccore/build.gradle
-build/*
-hex_scanner.py
-generate_specular_maps.py
-compile.py
 .vscode/settings.json
+my_own_readme.md
