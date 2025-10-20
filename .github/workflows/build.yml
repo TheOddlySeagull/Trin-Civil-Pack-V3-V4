@@ -96,6 +96,7 @@ jobs:
           name: Trin Civil Pack ${{ github.ref_name }}
           draft: false
           prerelease: false
+          generate_release_notes: true
           files: |
             out/*.jar
         env:
