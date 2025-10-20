@@ -41,6 +41,6 @@ out/
 ############################################################
 # Assets and local-only files you still want ignored
 ############################################################
-*_s.png
+# *_s.png
 .vscode/settings.json
 my_own_readme.md
