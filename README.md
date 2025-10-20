@@ -6,6 +6,9 @@ Immersive Vehicles (MTS/IV) content pack adding 34+ vehicle models with 10+ skin
 
 ![Trin Banner](https://raw.githubusercontent.com/TheOddlySeagull/Trin-Civil-Pack-V3/master/.github/banner.png)
 
+[![Discord](https://img.shields.io/badge/Discord-join-7289DA?logo=discord&logoColor=white)](https://discord.gg/ujQR3wf)
+[![Build Status](https://github.com/TheOddlySeagull/Trin-Civil-Pack-V3/actions/workflows/build.yml/badge.svg)](https://github.com/TheOddlySeagull/Trin-Civil-Pack-V3/actions/workflows/build.yml)
+
 </div>
 
 ## Overview
