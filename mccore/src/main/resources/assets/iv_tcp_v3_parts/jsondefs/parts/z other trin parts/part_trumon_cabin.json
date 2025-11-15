@@ -1,0 +1,342 @@
+{
+  "generic": {
+    "type": "generic_trumon_cabin",
+    "mustBeRemovedByScrewdriver": true,
+    "destroyable": true,
+    "width": 1.875,
+    "height": 1.125
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "part_trumon_cabin",
+      "benchTexture": "part_trumon_cabin",
+      "useVehicleTexture": true,
+      "name": "Trin Trumon Cabin",
+      "extraMaterialLists": []
+    }
+  ],
+  "parts": [],
+  "collisionGroups": [
+    {
+      "collisionTypes": [
+        "block",
+        "attack",
+        "vehicle",
+        "entity"
+      ],
+      "collisions": [
+        {
+          "pos": [
+            -1.0,
+            2.3125,
+            4.125
+          ],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [
+            -1.0,
+            2.3125,
+            3.875
+          ],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [
+            0.5,
+            2.3125,
+            3.875
+          ],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [
+            0.25,
+            2.3125,
+            3.875
+          ],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [
+            1.0,
+            2.3125,
+            4.125
+          ],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [
+            1.0,
+            2.3125,
+            3.875
+          ],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [
+            -1.0,
+            2.3125,
+            4.375
+          ],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [
+            0.75,
+            2.3125,
+            3.875
+          ],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [
+            0.5,
+            2.375,
+            4.3125
+          ],
+          "width": 1.0,
+          "height": 0.125
+        },
+        {
+          "pos": [
+            0.4375,
+            2.375,
+            5.25
+          ],
+          "width": 0.875,
+          "height": 0.125
+        },
+        {
+          "pos": [
+            -0.5,
+            2.375,
+            4.3125
+          ],
+          "width": 1.0,
+          "height": 0.125
+        },
+        {
+          "pos": [
+            -0.75,
+            2.3125,
+            3.875
+          ],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [
+            -0.4375,
+            2.375,
+            5.25
+          ],
+          "width": 0.875,
+          "height": 0.125
+        },
+        {
+          "pos": [
+            -0.25,
+            2.3125,
+            3.875
+          ],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [
+            0.0,
+            2.3125,
+            3.875
+          ],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [
+            1.0,
+            2.3125,
+            4.375
+          ],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [
+            -0.5,
+            2.3125,
+            3.875
+          ],
+          "width": 0.125,
+          "height": 0.25
+        }
+      ]
+    },
+    {
+      "collisionTypes": [
+        "attack",
+        "vehicle",
+        "entity"
+      ],
+      "collisions": [
+        {
+          "pos": [
+            0.0,
+            1.4375,
+            3.875
+          ],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [
+            1.0,
+            1.75,
+            4.375
+          ],
+          "width": 0.125,
+          "height": 0.875
+        },
+        {
+          "pos": [
+            1.0,
+            1.75,
+            3.875
+          ],
+          "width": 0.125,
+          "height": 0.875
+        },
+        {
+          "pos": [
+            -1.0,
+            1.75,
+            4.375
+          ],
+          "width": 0.125,
+          "height": 0.875
+        },
+        {
+          "pos": [
+            -1.0,
+            1.75,
+            3.875
+          ],
+          "width": 0.125,
+          "height": 0.875
+        },
+        {
+          "pos": [
+            -0.25,
+            1.4375,
+            3.875
+          ],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [
+            0.25,
+            1.4375,
+            3.875
+          ],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [
+            0.5,
+            1.4375,
+            3.875
+          ],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [
+            -0.5,
+            1.4375,
+            3.875
+          ],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [
+            -0.75,
+            1.4375,
+            3.875
+          ],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [
+            0.75,
+            1.4375,
+            3.875
+          ],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [
+            -1.0,
+            2.15625,
+            4.125
+          ],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [
+            -1.0,
+            1.34375,
+            4.125
+          ],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [
+            1.0,
+            1.34375,
+            4.125
+          ],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [
+            1.0,
+            2.15625,
+            4.125
+          ],
+          "width": 0.125,
+          "height": 0.0625
+        }
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj",
+    "animatedObjects": []
+  },
+  "general": {
+    "health": 100,
+    "materialLists": [
+      [
+        "minecraft:iron_ingot:0:15"
+      ]
+    ]
+  }
+}
