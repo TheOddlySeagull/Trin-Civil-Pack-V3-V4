@@ -22,7 +22,8 @@
       "maxValue": 1.25,
       "types": [
         "ground_wheel"
-      ]
+      ],
+      "defaultPart": "iv_tpp:wheel_offroad_4d16_1_chromic"
     },
     {
       "pos": [
@@ -33,7 +34,8 @@
       "maxValue": 1.25,
       "types": [
         "ground_wheel"
-      ]
+      ],
+      "defaultPart": "iv_tpp:wheel_offroad_4d16_1_chromic"
     },
     {
       "pos": [
@@ -50,7 +52,8 @@
       "maxValue": 1.25,
       "types": [
         "ground_wheel"
-      ]
+      ],
+      "defaultPart": "iv_tpp:wheel_offroad_4d16_1_chromic"
     },
     {
       "pos": [
@@ -68,7 +71,8 @@
       "maxValue": 1.25,
       "types": [
         "ground_wheel"
-      ]
+      ],
+      "defaultPart": "iv_tpp:wheel_offroad_4d16_1_chromic"
     },
     {
       "pos": [
@@ -87,10 +91,10 @@
         4
       ],
       "interactableVariables": [
-          [
-              "door_hood_l",
-              "door_hood_r"
-          ]
+        [
+          "door_hood_l",
+          "door_hood_r"
+        ]
       ]
     },
     {
@@ -276,6 +280,7 @@
       "types": [
         "seat"
       ],
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
       "toneIndex": 1
     },
     {
@@ -289,29 +294,32 @@
       "types": [
         "seat"
       ],
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
       "toneIndex": 1
     },
     {
-        "pos": [
-            0.0,
-            1.0625,
-            5.5625
-        ],
-        "maxValue": 1.875,
-        "types": [
-            "generic_trumon_windshield"
-        ]
+      "pos": [
+        0.0,
+        1.0625,
+        5.5625
+      ],
+      "maxValue": 1.875,
+      "types": [
+        "generic_trumon_windshield"
+      ],
+            "defaultPart": "iv_tpp:part_trumon_windshield"
     },
     {
-        "pos": [
-            0.0,
-            1.1875,
-            4.125
-        ],
-        "maxValue": 2.125,
-        "types": [
-            "generic_trumon_cabin"
-        ]
+      "pos": [
+        0.0,
+        1.1875,
+        4.125
+      ],
+      "maxValue": 2.125,
+      "types": [
+        "generic_trumon_cabin"
+      ],
+            "defaultPart": "iv_tpp:part_trumon_cabin"
     }
   ],
   "collisionGroups": [
