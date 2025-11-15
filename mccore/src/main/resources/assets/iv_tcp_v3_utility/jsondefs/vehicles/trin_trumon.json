@@ -76,7 +76,7 @@
         0.4375,
         5.75
       ],
-      "maxValue": 1.0625,
+      "maxValue": 0.30,
       "types": [
         "engine_car"
       ],
@@ -85,6 +85,12 @@
         2,
         3,
         4
+      ],
+      "interactableVariables": [
+          [
+              "door_hood_l",
+              "door_hood_r"
+          ]
       ]
     },
     {
@@ -1147,278 +1153,278 @@
         "entity"
       ],
       "collisions": [
-            {
-                "pos": [
-                    0.125,
-                    2.21875,
-                    5.5625
-                ],
-                "width": 0.125,
-                "height": 0.0625
-            },
-            {
-                "pos": [
-                    0.625,
-                    2.21875,
-                    5.5625
-                ],
-                "width": 0.125,
-                "height": 0.0625
-            },
-            {
-                "pos": [
-                    0.375,
-                    2.21875,
-                    5.5625
-                ],
-                "width": 0.125,
-                "height": 0.0625
-            },
-            {
-                "pos": [
-                    -0.6875,
-                    1.71875,
-                    5.5625
-                ],
-                "width": 0.125,
-                "height": 0.0625
-            },
-            {
-                "pos": [
-                    -0.125,
-                    2.21875,
-                    5.5625
-                ],
-                "width": 0.125,
-                "height": 0.0625
-            },
-            {
-                "pos": [
-                    -0.375,
-                    2.21875,
-                    5.5625
-                ],
-                "width": 0.125,
-                "height": 0.0625
-            },
-            {
-                "pos": [
-                    -0.625,
-                    2.21875,
-                    5.5625
-                ],
-                "width": 0.125,
-                "height": 0.0625
-            },
-            {
-                "pos": [
-                    0.6875,
-                    1.71875,
-                    5.5625
-                ],
-                "width": 0.125,
-                "height": 0.0625
-            },
-            {
-                "pos": [
-                    -0.125,
-                    1.71875,
-                    5.5625
-                ],
-                "width": 0.125,
-                "height": 0.0625
-            },
-            {
-                "pos": [
-                    -0.5,
-                    1.71875,
-                    5.5625
-                ],
-                "width": 0.125,
-                "height": 0.0625
-            },
-            {
-                "pos": [
-                    -0.3125,
-                    1.71875,
-                    5.5625
-                ],
-                "width": 0.125,
-                "height": 0.0625
-            },
-            {
-                "pos": [
-                    0.5,
-                    1.71875,
-                    5.5625
-                ],
-                "width": 0.125,
-                "height": 0.0625
-            },
-            {
-                "pos": [
-                    0.125,
-                    1.71875,
-                    5.5625
-                ],
-                "width": 0.125,
-                "height": 0.0625
-            },
-            {
-                "pos": [
-                    0.3125,
-                    1.71875,
-                    5.5625
-                ],
-                "width": 0.125,
-                "height": 0.0625
-            }
-        ]
+        {
+          "pos": [
+            0.125,
+            2.21875,
+            5.5625
+          ],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [
+            0.625,
+            2.21875,
+            5.5625
+          ],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [
+            0.375,
+            2.21875,
+            5.5625
+          ],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [
+            -0.6875,
+            1.71875,
+            5.5625
+          ],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [
+            -0.125,
+            2.21875,
+            5.5625
+          ],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [
+            -0.375,
+            2.21875,
+            5.5625
+          ],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [
+            -0.625,
+            2.21875,
+            5.5625
+          ],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [
+            0.6875,
+            1.71875,
+            5.5625
+          ],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [
+            -0.125,
+            1.71875,
+            5.5625
+          ],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [
+            -0.5,
+            1.71875,
+            5.5625
+          ],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [
+            -0.3125,
+            1.71875,
+            5.5625
+          ],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [
+            0.5,
+            1.71875,
+            5.5625
+          ],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [
+            0.125,
+            1.71875,
+            5.5625
+          ],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [
+            0.3125,
+            1.71875,
+            5.5625
+          ],
+          "width": 0.125,
+          "height": 0.0625
+        }
+      ]
     },
     {
       "_comment": "Back Wall",
-        "collisionTypes": [
-            "attack",
-            "vehicle",
-            "entity"
-        ],
-        "collisions": [
-            {
-                "pos": [
-                    0.0,
-                    1.4375,
-                    3.875
-                ],
-                "width": 0.125,
-                "height": 0.25
-            },
-            {
-                "pos": [
-                    1.0,
-                    1.75,
-                    4.375
-                ],
-                "width": 0.125,
-                "height": 0.875
-            },
-            {
-                "pos": [
-                    1.0,
-                    1.75,
-                    3.875
-                ],
-                "width": 0.125,
-                "height": 0.875
-            },
-            {
-                "pos": [
-                    -1.0,
-                    1.75,
-                    4.375
-                ],
-                "width": 0.125,
-                "height": 0.875
-            },
-            {
-                "pos": [
-                    -1.0,
-                    1.75,
-                    3.875
-                ],
-                "width": 0.125,
-                "height": 0.875
-            },
-            {
-                "pos": [
-                    -0.25,
-                    1.4375,
-                    3.875
-                ],
-                "width": 0.125,
-                "height": 0.25
-            },
-            {
-                "pos": [
-                    0.25,
-                    1.4375,
-                    3.875
-                ],
-                "width": 0.125,
-                "height": 0.25
-            },
-            {
-                "pos": [
-                    0.5,
-                    1.4375,
-                    3.875
-                ],
-                "width": 0.125,
-                "height": 0.25
-            },
-            {
-                "pos": [
-                    -0.5,
-                    1.4375,
-                    3.875
-                ],
-                "width": 0.125,
-                "height": 0.25
-            },
-            {
-                "pos": [
-                    -0.75,
-                    1.4375,
-                    3.875
-                ],
-                "width": 0.125,
-                "height": 0.25
-            },
-            {
-                "pos": [
-                    0.75,
-                    1.4375,
-                    3.875
-                ],
-                "width": 0.125,
-                "height": 0.25
-            },
-            {
-                "pos": [
-                    -1.0,
-                    2.15625,
-                    4.125
-                ],
-                "width": 0.125,
-                "height": 0.0625
-            },
-            {
-                "pos": [
-                    -1.0,
-                    1.34375,
-                    4.125
-                ],
-                "width": 0.125,
-                "height": 0.0625
-            },
-            {
-                "pos": [
-                    1.0,
-                    1.34375,
-                    4.125
-                ],
-                "width": 0.125,
-                "height": 0.0625
-            },
-            {
-                "pos": [
-                    1.0,
-                    2.15625,
-                    4.125
-                ],
-                "width": 0.125,
-                "height": 0.0625
-            }
-        ]
+      "collisionTypes": [
+        "attack",
+        "vehicle",
+        "entity"
+      ],
+      "collisions": [
+        {
+          "pos": [
+            0.0,
+            1.4375,
+            3.875
+          ],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [
+            1.0,
+            1.75,
+            4.375
+          ],
+          "width": 0.125,
+          "height": 0.875
+        },
+        {
+          "pos": [
+            1.0,
+            1.75,
+            3.875
+          ],
+          "width": 0.125,
+          "height": 0.875
+        },
+        {
+          "pos": [
+            -1.0,
+            1.75,
+            4.375
+          ],
+          "width": 0.125,
+          "height": 0.875
+        },
+        {
+          "pos": [
+            -1.0,
+            1.75,
+            3.875
+          ],
+          "width": 0.125,
+          "height": 0.875
+        },
+        {
+          "pos": [
+            -0.25,
+            1.4375,
+            3.875
+          ],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [
+            0.25,
+            1.4375,
+            3.875
+          ],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [
+            0.5,
+            1.4375,
+            3.875
+          ],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [
+            -0.5,
+            1.4375,
+            3.875
+          ],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [
+            -0.75,
+            1.4375,
+            3.875
+          ],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [
+            0.75,
+            1.4375,
+            3.875
+          ],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [
+            -1.0,
+            2.15625,
+            4.125
+          ],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [
+            -1.0,
+            1.34375,
+            4.125
+          ],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [
+            1.0,
+            1.34375,
+            4.125
+          ],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [
+            1.0,
+            2.15625,
+            4.125
+          ],
+          "width": 0.125,
+          "height": 0.0625
+        }
+      ]
     },
     {
       "collisionTypes": [
@@ -1545,6 +1551,156 @@
           "height": 0.125
         }
       ]
+    },
+    {
+      "collisionTypes": [
+        "entity",
+        "click"
+      ],
+      "collisions": [
+        {
+          "pos": [
+            0.4375,
+            0.5625,
+            5.9375
+          ],
+          "width": 0.3125,
+          "height": 0.125,
+          "variableName": "door_hood_l",
+          "variableType": "toggle"
+        },
+        {
+          "pos": [
+            0.4375,
+            0.5625,
+            6.6875
+          ],
+          "width": 0.3125,
+          "height": 0.125,
+          "variableName": "door_hood_l",
+          "variableType": "toggle"
+        },
+        {
+          "pos": [
+            0.4375,
+            0.5625,
+            6.3125
+          ],
+          "width": 0.3125,
+          "height": 0.125,
+          "variableName": "door_hood_l",
+          "variableType": "toggle"
+        },
+        {
+          "pos": [
+            0.3125,
+            1.0625,
+            6.6875
+          ],
+          "width": 0.1875,
+          "height": 0.125,
+          "variableName": "door_hood_l",
+          "variableType": "toggle"
+        },
+        {
+          "pos": [
+            0.3125,
+            1.0625,
+            6.3125
+          ],
+          "width": 0.1875,
+          "height": 0.125,
+          "variableName": "door_hood_l",
+          "variableType": "toggle"
+        },
+        {
+          "pos": [
+            0.3125,
+            1.0625,
+            5.9375
+          ],
+          "width": 0.1875,
+          "height": 0.125,
+          "variableName": "door_hood_l",
+          "variableType": "toggle"
+        }
+      ],
+      "applyAfter": "door_hood_l"
+    },
+    {
+      "collisionTypes": [
+        "entity",
+        "click"
+      ],
+      "collisions": [
+        {
+          "pos": [
+            -0.4375,
+            0.5625,
+            6.6875
+          ],
+          "width": 0.3125,
+          "height": 0.125,
+          "variableName": "door_hood_r",
+          "variableType": "toggle"
+        },
+        {
+          "pos": [
+            -0.4375,
+            0.5625,
+            6.3125
+          ],
+          "width": 0.3125,
+          "height": 0.125,
+          "variableName": "door_hood_r",
+          "variableType": "toggle"
+        },
+        {
+          "pos": [
+            -0.4375,
+            0.5625,
+            5.9375
+          ],
+          "width": 0.3125,
+          "height": 0.125,
+          "variableName": "door_hood_r",
+          "variableType": "toggle"
+        },
+        {
+          "pos": [
+            -0.3125,
+            1.0625,
+            6.6875
+          ],
+          "width": 0.1875,
+          "height": 0.125,
+          "variableName": "door_hood_r",
+          "variableType": "toggle"
+        },
+        {
+          "pos": [
+            -0.3125,
+            1.0625,
+            6.3125
+          ],
+          "width": 0.1875,
+          "height": 0.125,
+          "variableName": "door_hood_r",
+          "variableType": "toggle"
+        },
+        {
+          "pos": [
+            -0.3125,
+            1.0625,
+            5.9375
+          ],
+          "width": 0.1875,
+          "height": 0.125,
+          "variableName": "door_hood_r",
+          "variableType": "toggle"
+        }
+      ],
+      "applyAfter": "door_hood_r"
     }
   ],
   "instruments": [
@@ -1784,6 +1940,54 @@
             "duration": 5,
             "forwardsEasing": "easeOutSine",
             "reverseEasing": "easeInSine"
+          }
+        ]
+      },
+      {
+        "objectName": "door_hood_l",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "door_hood_l",
+            "centerPoint": [
+              0.0625,
+              1.125,
+              5.75
+            ],
+            "axis": [
+              0.0,
+              0.0,
+              100.0
+            ],
+            "duration": 25,
+            "forwardsEasing": "easeoutquint",
+            "reverseEasing": "easeincubic",
+            "forwardsStartSound": "iv_tpp:hoodopen",
+            "reverseStartSound": "iv_tpp:hoodclose"
+          }
+        ]
+      },
+      {
+        "objectName": "door_hood_r",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "door_hood_r",
+            "centerPoint": [
+              -0.0625,
+              1.125,
+              5.75
+            ],
+            "axis": [
+              0.0,
+              0.0,
+              -100.0
+            ],
+            "duration": 25,
+            "forwardsEasing": "easeoutquint",
+            "reverseEasing": "easeincubic",
+            "forwardsStartSound": "iv_tpp:hoodopen",
+            "reverseStartSound": "iv_tpp:hoodclose"
           }
         ]
       }
