@@ -2,16 +2,239 @@
   "generic": {
     "type": "generic_trumon_windshield",
     "mustBeRemovedByScrewdriver": true,
+    "forwardsDamageMultiplier": 0.0,
     "destroyable": true,
     "width": 0.1,
     "height": 0.1
   },
+  "parts": [],
+  "collisionGroups": [
+    {
+      "applyAfter": "body_windshield_rotatable",
+      "collisionTypes": [
+        "entity",
+        "click"
+      ],
+      "collisions": [
+        {
+          "pos": [-0.46875,0.65625,0.0],
+          "width": 0.25,
+          "height": 0.1875,
+          "variableName": "door_windshield",
+          "variableType": "toggle"
+        },
+        {
+          "pos": [0.46875,0.65625,0.0],
+          "width": 0.25,
+          "height": 0.1875,
+          "variableName": "door_windshield",
+          "variableType": "toggle"
+        },
+        {
+          "pos": [0.0,0.65625,0.0],
+          "width": 0.25,
+          "height": 0.1875,
+          "variableName": "door_windshield",
+          "variableType": "toggle"
+        }
+      ]
+    },
+    {
+      "applyAfter": "body_windshield_rotatable",
+      "collisionTypes": [
+        "attack",
+        "vehicle",
+        "entity",
+        "click"
+      ],
+      "collisions": [
+        {
+          "pos": [0.125,1.15625,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [0.625,1.15625,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [0.375,1.15625,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [-0.6875,0.65625,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [-0.125,1.15625,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [-0.375,1.15625,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [-0.625,1.15625,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [0.6875,0.65625,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [-0.125,0.65625,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [-0.5,0.65625,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [-0.3125,0.65625,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [0.5,0.65625,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [0.125,0.65625,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [0.3125,0.65625,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        }
+      ]
+    },
+    {
+      "collisionTypes": [
+        "attack",
+        "vehicle",
+        "entity"
+      ],
+      "collisions": [
+        {
+          "pos": [-0.125,0.09375,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [0.625,0.09375,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [-0.375,0.09375,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [-0.625,0.09375,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [0.125,0.09375,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [0.125,0.59375,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [-0.375,0.59375,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [-0.125,0.59375,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [-0.625,0.59375,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [0.625,0.59375,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [0.375,0.59375,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [0.625,1.21875,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [0.125,1.21875,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [0.375,0.09375,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [-0.625,1.21875,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [-0.375,1.21875,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [-0.875,0.65625,0.0],
+          "width": 0.125,
+          "height": 1.1875
+        },
+        {
+          "pos": [-0.125,1.21875,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [0.375,1.21875,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [0.875,0.65625,0.0],
+          "width": 0.125,
+          "height": 1.1875
+        }
+      ]
+    }
+  ],
   "definitions": [
     {
       "subName": "",
-      "modelName": "part_trumon_windshield",
-      "benchTexture": "trin_trumon_part_windshield",
       "useVehicleTexture": true,
+      "modelName": "part_trumon_windshield",
       "name": "Trin Trumon Windshield",
       "extraMaterialLists": [
         [
@@ -20,379 +243,7 @@
       ]
     }
   ],
-  "parts": [],
-  "collisionGroups": [
-    {
-      "collisionTypes": [
-        "entity",
-        "click"
-      ],
-      "collisions": [
-        {
-          "pos": [
-            -0.46875,
-            0.65625,
-            0.0
-          ],
-          "width": 0.25,
-          "height": 0.1875,
-          "variableName": "door_windshield",
-          "variableType": "toggle"
-        },
-        {
-          "pos": [
-            0.46875,
-            0.65625,
-            0.0
-          ],
-          "width": 0.25,
-          "height": 0.1875,
-          "variableName": "door_windshield",
-          "variableType": "toggle"
-        },
-        {
-          "pos": [
-            0.0,
-            0.65625,
-            0.0
-          ],
-          "width": 0.25,
-          "height": 0.1875,
-          "variableName": "door_windshield",
-          "variableType": "toggle"
-        }
-      ],
-      "applyAfter": "body_windshield_rotatable"
-    },
-    {
-      "collisionTypes": [
-        "attack",
-        "vehicle",
-        "entity"
-      ],
-      "collisions": [
-        {
-          "pos": [
-            0.125,
-            1.15625,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            0.625,
-            1.15625,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            0.375,
-            1.15625,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            -0.6875,
-            0.65625,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            -0.125,
-            1.15625,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            -0.375,
-            1.15625,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            -0.625,
-            1.15625,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            0.6875,
-            0.65625,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            -0.125,
-            0.65625,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            -0.5,
-            0.65625,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            -0.3125,
-            0.65625,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            0.5,
-            0.65625,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            0.125,
-            0.65625,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            0.3125,
-            0.65625,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        }
-      ],
-      "applyAfter": "body_windshield_rotatable"
-    },
-    {
-      "collisionTypes": [
-        "attack",
-        "vehicle",
-        "entity"
-      ],
-      "collisions": [
-        {
-          "pos": [
-            -0.125,
-            0.09375,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            0.625,
-            0.09375,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            -0.375,
-            0.09375,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            -0.625,
-            0.09375,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            0.125,
-            0.09375,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            0.125,
-            0.59375,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            -0.375,
-            0.59375,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            -0.125,
-            0.59375,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            -0.625,
-            0.59375,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            0.625,
-            0.59375,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            0.375,
-            0.59375,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            0.625,
-            1.21875,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            0.125,
-            1.21875,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            0.375,
-            0.09375,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            -0.625,
-            1.21875,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            -0.375,
-            1.21875,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            -0.875,
-            0.65625,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 1.1875
-        },
-        {
-          "pos": [
-            -0.125,
-            1.21875,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            0.375,
-            1.21875,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 0.0625
-        },
-        {
-          "pos": [
-            0.875,
-            0.65625,
-            0.0
-          ],
-          "width": 0.125,
-          "height": 1.1875
-        }
-      ]
-    }
-  ],
   "rendering": {
-    "lightObjects": [],
-    "modelType": "obj",
     "animatedObjects": [
       {
         "objectName": "body_windshield_rotatable",
@@ -400,16 +251,8 @@
           {
             "animationType": "rotation",
             "variable": "door_windshield",
-            "centerPoint": [
-              0.0,
-              1.09375,
-              0.0
-            ],
-            "axis": [
-              0.0,
-              -60.0,
-              0.0
-            ],
+            "centerPoint": [0.0,1.09375,0.0],
+            "axis": [25.0,0.0,0.0],
             "duration": 15,
             "forwardsEasing": "easeoutback",
             "reverseEasing": "easeincubic",
@@ -423,7 +266,10 @@
         "applyAfter": "body_windshield_rotatable",
         "animations": []
       }
-    ]
+    ],
+    "lightObjects": [],
+    "particles": [],
+    "modelType": "obj"
   },
   "general": {
     "health": 100,
@@ -431,6 +277,8 @@
       [
         "minecraft:iron_ingot:0:15"
       ]
-    ]
+    ],
+    "radarWidth": 0.0,
+    "radarRange": 0.0
   }
 }
