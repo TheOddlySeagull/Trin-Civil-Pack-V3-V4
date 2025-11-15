@@ -3,8 +3,8 @@
     "type": "generic_trumon_cabin",
     "mustBeRemovedByScrewdriver": true,
     "destroyable": true,
-    "width": 1.875,
-    "height": 1.125
+    "width": 0.1,
+    "height": 0.1
   },
   "definitions": [
     {
