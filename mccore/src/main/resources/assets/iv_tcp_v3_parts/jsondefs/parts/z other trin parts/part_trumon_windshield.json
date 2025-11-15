@@ -62,7 +62,7 @@
           "variableType": "toggle"
         }
       ],
-      "applyAfter": "door_windshield"
+      "applyAfter": "body_windshield_rotatable"
     },
     {
       "collisionTypes": [
@@ -198,7 +198,7 @@
           "height": 0.0625
         }
       ],
-      "applyAfter": "door_windshield"
+      "applyAfter": "body_windshield_rotatable"
     },
     {
       "collisionTypes": [
