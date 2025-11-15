@@ -113,7 +113,8 @@
       "types": [
         "generic_ledlight"
       ],
-      "defaultPart": "iv_tpp:retro_light_large_oil_red_gray"
+      "defaultPart": "iv_tpp:retro_light_large_oil_red_gray",
+      "toneIndex": 2
     },
     {
       "pos": [
@@ -125,7 +126,8 @@
       "types": [
         "generic_ledlight"
       ],
-      "defaultPart": "iv_tpp:retro_light_large_electric_yellow_chrome"
+      "defaultPart": "iv_tpp:retro_light_large_electric_yellow_chrome",
+      "toneIndex": 3
     },
     {
       "pos": [
@@ -137,7 +139,8 @@
       "types": [
         "generic_ledlight"
       ],
-      "defaultPart": "iv_tpp:retro_light_smallturnsignal_r_orange_chrome"
+      "defaultPart": "iv_tpp:retro_light_smallturnsignal_r_orange_chrome",
+      "toneIndex": 3
     },
     {
       "pos": [
@@ -171,7 +174,8 @@
       "types": [
         "generic_ledlight"
       ],
-      "defaultPart": "iv_tpp:retro_light_smallturnsignal_l_orange_chrome"
+      "defaultPart": "iv_tpp:retro_light_smallturnsignal_l_orange_gray",
+      "toneIndex": 2
     },
     {
       "pos": [
@@ -188,7 +192,8 @@
       "types": [
         "generic_ledlight"
       ],
-      "defaultPart": "iv_tpp:retro_light_smallturnsignal_r_orange_chrome"
+      "defaultPart": "iv_tpp:retro_light_smallturnsignal_r_orange_gray",
+      "toneIndex": 2
     },
     {
       "pos": [
@@ -200,7 +205,8 @@
       "types": [
         "generic_ledlight"
       ],
-      "defaultPart": "iv_tpp:retro_light_large_electric_yellow_chrome"
+      "defaultPart": "iv_tpp:retro_light_large_electric_yellow_chrome",
+      "toneIndex": 3
     },
     {
       "pos": [
@@ -212,7 +218,8 @@
       "types": [
         "generic_ledlight"
       ],
-      "defaultPart": "iv_tpp:retro_light_smallturnsignal_l_orange_chrome"
+      "defaultPart": "iv_tpp:retro_light_smallturnsignal_l_orange_chrome",
+      "toneIndex": 3
     },
     {
       "pos": [
@@ -263,9 +270,9 @@
         5.5625
       ],
       "rot": [
-        -90.0,
         0.0,
-        0.0
+        -90.0,
+        90.0
       ],
       "maxValue": 1.0,
       "types": [
@@ -278,7 +285,7 @@
         0.21875,
         7.0
       ],
-      "maxValue": 0.3125,
+      "maxValue": 100.0,
       "types": [
         "propeller_handcrank"
       ]
@@ -1119,11 +1126,96 @@
   ],
   "definitions": [
     {
-      "subName": "_dev",
-      "name": "Trin Trumon - Dev paint, Gray Interior",
+      "subName": "_glacierwhiteclassic",
+      "name": "Trin Trumon - Glacier White Classic paint, Gray Interior",
       "extraMaterialLists": [
         [
-          "mts:iv_tpp.paint_bucket_deepblack:0:1",
+          "mts:iv_tpp.paint_bucket_glacierwhite:0:1",
+          "mts:iv_tpp.paint_bucket_silver:0:1",
+          "mts:iv_tpp.paint_bucket_sand:0:1",
+          "mts:iv_tpp.upholstery_pile_gray:0:3"
+        ]
+      ]
+    },
+    {
+      "subName": "_irongrayfreightline",
+      "name": "Trin Trumon - Iron Gray Freightline paint, Gray Interior",
+      "extraMaterialLists": [
+        [
+          "mts:iv_tpp.paint_bucket_irongray:0:1",
+          "mts:iv_tpp.paint_bucket_silver:0:1",
+          "mts:iv_tpp.paint_bucket_jetblack:0:1",
+          "mts:iv_tpp.upholstery_pile_gray:0:3"
+        ]
+      ]
+    },
+    {
+      "subName": "_oakgreenharvest",
+      "name": "Trin Trumon - Oak Green Harvest paint, Gray Interior",
+      "extraMaterialLists": [
+        [
+          "mts:iv_tpp.paint_bucket_oakgreen:0:1",
+          "mts:iv_tpp.paint_bucket_coldspruce:0:1",
+          "mts:iv_tpp.paint_bucket_caramel:0:1",
+          "mts:iv_tpp.upholstery_pile_gray:0:3"
+        ]
+      ]
+    },
+    {
+      "subName": "_patrolbluemunicipal",
+      "name": "Trin Trumon - Patrol Blue Municipal paint, Gray Interior",
+      "extraMaterialLists": [
+        [
+          "mts:iv_tpp.paint_bucket_patrolblue:0:1",
+          "mts:iv_tpp.paint_bucket_tungsten:0:1",
+          "mts:iv_tpp.paint_bucket_jetblack:0:1",
+          "mts:iv_tpp.upholstery_pile_gray:0:3"
+        ]
+      ]
+    },
+    {
+      "subName": "_rubyheritage",
+      "name": "Trin Trumon - Ruby Heritage paint, Gray Interior",
+      "extraMaterialLists": [
+        [
+          "mts:iv_tpp.paint_bucket_ruby:0:1",
+          "mts:iv_tpp.paint_bucket_irongray:0:1",
+          "mts:iv_tpp.paint_bucket_brown:0:1",
+          "mts:iv_tpp.upholstery_pile_gray:0:3"
+        ]
+      ]
+    },
+    {
+      "subName": "_sagecountryhauler",
+      "name": "Trin Trumon - Sage Country Hauler paint, Gray Interior",
+      "extraMaterialLists": [
+        [
+          "mts:iv_tpp.paint_bucket_sage:0:1",
+          "mts:iv_tpp.paint_bucket_glacierwhite:0:1",
+          "mts:iv_tpp.paint_bucket_milkcoffee:0:1",
+          "mts:iv_tpp.upholstery_pile_gray:0:3"
+        ]
+      ]
+    },
+    {
+      "subName": "_sandandchocolate",
+      "name": "Trin Trumon - Sand and Chocolate paint, Gray Interior",
+      "extraMaterialLists": [
+        [
+          "mts:iv_tpp.paint_bucket_sand:0:1",
+          "mts:iv_tpp.paint_bucket_chocolate:0:1",
+          "mts:iv_tpp.upholstery_pile_gray:0:3"
+        ]
+      ]
+    },
+    {
+      "subName": "_sandstoneutility",
+      "name": "Trin Trumon - Sandstone Utility paint, Gray Interior",
+      "extraMaterialLists": [
+        [
+          "mts:iv_tpp.paint_bucket_sandstone:0:1",
+          "mts:iv_tpp.paint_bucket_tungsten:0:1",
+          "mts:iv_tpp.paint_bucket_chocolate:0:1",
           "mts:iv_tpp.upholstery_pile_gray:0:3"
         ]
       ]
@@ -1341,11 +1433,73 @@
         ]
       },
       {
-        "objectName": "chassis_bumper",
+        "objectName": "trim_headlight_r",
         "animations": [
           {
             "animationType": "visibility",
-            "variable": "!part_present_15"
+            "variable": "!part_present_7"
+          }
+        ]
+      },
+      {
+        "objectName": "trim_headlight_l",
+        "animations": [
+          {
+            "animationType": "visibility",
+            "variable": "!part_present_12"
+          }
+        ]
+      },
+      {
+        "objectName": "trim_blinker_r",
+        "animations": [
+          {
+            "animationType": "visibility",
+            "variable": "!part_present_8"
+          }
+        ]
+      },
+      {
+        "objectName": "trim_blinker_l",
+        "animations": [
+          {
+            "animationType": "visibility",
+            "variable": "!part_present_13"
+          }
+        ]
+      },
+      {
+        "objectName": "chassis_bumper",
+        "animations": [
+          {
+            "animationType": "inhibitor",
+            "variable": "part_present_15",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
+          {
+            "animationType": "inhibitor",
+            "variable": "part_present_6",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
+          {
+            "animationType": "inhibitor",
+            "variable": "part_present_9",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
+          {
+            "animationType": "inhibitor",
+            "variable": "part_present_10",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
+          {
+            "animationType": "visibility",
+            "variable": "part_present_11",
+            "clampMin": 1.0,
+            "clampMax": 1.0
           }
         ]
       }
