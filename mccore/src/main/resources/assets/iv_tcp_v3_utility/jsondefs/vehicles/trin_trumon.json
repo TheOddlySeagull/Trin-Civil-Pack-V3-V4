@@ -23,7 +23,7 @@
       "types": [
         "ground_wheel"
       ],
-      "defaultPart": "iv_tpp:wheel_offroad_4d16_1_chromic"
+      "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or"
     },
     {
       "pos": [
@@ -35,7 +35,7 @@
       "types": [
         "ground_wheel"
       ],
-      "defaultPart": "iv_tpp:wheel_offroad_4d16_1_chromic"
+      "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or"
     },
     {
       "pos": [
@@ -53,7 +53,7 @@
       "types": [
         "ground_wheel"
       ],
-      "defaultPart": "iv_tpp:wheel_offroad_4d16_1_chromic"
+      "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or"
     },
     {
       "pos": [
@@ -72,7 +72,7 @@
       "types": [
         "ground_wheel"
       ],
-      "defaultPart": "iv_tpp:wheel_offroad_4d16_1_chromic"
+      "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or"
     },
     {
       "pos": [
@@ -95,7 +95,8 @@
           "door_hood_l",
           "door_hood_r"
         ]
-      ]
+      ],
+      "defaultPart": "iv_tpp:engine_i4_gasoline_normal_aut"
     },
     {
       "pos": [
@@ -111,7 +112,8 @@
       "maxValue": 0.5,
       "types": [
         "generic_ledlight"
-      ]
+      ],
+      "defaultPart": "iv_tpp:retro_light_large_oil_red_gray"
     },
     {
       "pos": [
@@ -122,7 +124,8 @@
       "maxValue": 0.5,
       "types": [
         "generic_ledlight"
-      ]
+      ],
+      "defaultPart": "iv_tpp:retro_light_large_electric_yellow_chrome"
     },
     {
       "pos": [
@@ -133,7 +136,8 @@
       "maxValue": 0.5,
       "types": [
         "generic_ledlight"
-      ]
+      ],
+      "defaultPart": "iv_tpp:retro_light_smallturnsignal_r_orange_chrome"
     },
     {
       "pos": [
@@ -149,7 +153,8 @@
       "maxValue": 0.5,
       "types": [
         "generic_ledlight"
-      ]
+      ],
+      "defaultPart": "iv_tpp:retro_light_large_oil_red_gray"
     },
     {
       "pos": [
@@ -165,7 +170,8 @@
       "maxValue": 0.5,
       "types": [
         "generic_ledlight"
-      ]
+      ],
+      "defaultPart": "iv_tpp:retro_light_smallturnsignal_l_orange_chrome"
     },
     {
       "pos": [
@@ -181,7 +187,8 @@
       "maxValue": 0.5,
       "types": [
         "generic_ledlight"
-      ]
+      ],
+      "defaultPart": "iv_tpp:retro_light_smallturnsignal_r_orange_chrome"
     },
     {
       "pos": [
@@ -192,7 +199,8 @@
       "maxValue": 0.5,
       "types": [
         "generic_ledlight"
-      ]
+      ],
+      "defaultPart": "iv_tpp:retro_light_large_electric_yellow_chrome"
     },
     {
       "pos": [
@@ -203,7 +211,8 @@
       "maxValue": 0.5,
       "types": [
         "generic_ledlight"
-      ]
+      ],
+      "defaultPart": "iv_tpp:retro_light_smallturnsignal_l_orange_chrome"
     },
     {
       "pos": [
@@ -212,7 +221,9 @@
         7.03125
       ],
       "maxValue": 0.5625,
+      "defaultPart": "iv_tpp:plate_gramados",
       "types": [
+        "generic_licenseplate_us",
         "generic_licenseplate_euro"
       ]
     },
@@ -228,7 +239,9 @@
         0.0
       ],
       "maxValue": 0.5625,
+      "defaultPart": "iv_tpp:plate_gramados",
       "types": [
+        "generic_licenseplate_us",
         "generic_licenseplate_euro"
       ]
     },
@@ -280,7 +293,7 @@
       "types": [
         "seat"
       ],
-            "defaultPart": "iv_tpp:trin_seat_1_gray",
+      "defaultPart": "iv_tpp:trin_seat_1_gray",
       "toneIndex": 1
     },
     {
@@ -294,20 +307,20 @@
       "types": [
         "seat"
       ],
-            "defaultPart": "iv_tpp:trin_seat_1_gray",
+      "defaultPart": "iv_tpp:trin_seat_1_gray",
       "toneIndex": 1
     },
     {
       "pos": [
         0.0,
-        1.0625,
+        1.125,
         5.5625
       ],
       "maxValue": 1.875,
       "types": [
         "generic_trumon_windshield"
       ],
-            "defaultPart": "iv_tpp:part_trumon_windshield"
+      "defaultPart": "iv_tcp_v3_parts:part_trumon_windshield"
     },
     {
       "pos": [
@@ -319,7 +332,7 @@
       "types": [
         "generic_trumon_cabin"
       ],
-            "defaultPart": "iv_tpp:part_trumon_cabin"
+      "defaultPart": "iv_tcp_v3_parts:part_trumon_cabin"
     }
   ],
   "collisionGroups": [
@@ -1315,6 +1328,24 @@
             "reverseEasing": "easeincubic",
             "forwardsStartSound": "iv_tpp:hoodopen",
             "reverseStartSound": "iv_tpp:hoodclose"
+          }
+        ]
+      },
+      {
+        "objectName": "trim_plate",
+        "animations": [
+          {
+            "animationType": "visibility",
+            "variable": "!part_present_14"
+          }
+        ]
+      },
+      {
+        "objectName": "chassis_bumper",
+        "animations": [
+          {
+            "animationType": "visibility",
+            "variable": "!part_present_15"
           }
         ]
       }
