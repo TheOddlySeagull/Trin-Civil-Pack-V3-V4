@@ -1129,6 +1129,7 @@
     {
       "subName": "_deepblackmonochrome",
       "name": "Trin Trumon - Deep Black Monochrome paint, Gray Interior",
+      "description": "The very first Trin automobile. Built in the old Roche Brune ceramics workshop, the Trumon was slow, stubborn, and famously unbreakable - the origin of the Trin legacy.\n2 doors, 2 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
       "extraMaterialLists": [
         [
           "mts:iv_tpp.paint_bucket_deepblack:0:1",
@@ -1146,6 +1147,7 @@
     {
       "subName": "_glacierwhiteclassic",
       "name": "Trin Trumon - Glacier White Classic paint, Gray Interior",
+      "description": "The very first Trin automobile. Built in the old Roche Brune ceramics workshop, the Trumon was slow, stubborn, and famously unbreakable - the origin of the Trin legacy.\n2 doors, 2 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
       "extraMaterialLists": [
         [
           "mts:iv_tpp.paint_bucket_glacierwhite:0:1",
@@ -1163,6 +1165,7 @@
     {
       "subName": "_irongrayfreightline",
       "name": "Trin Trumon - Iron Gray Freightline paint, Gray Interior",
+      "description": "The very first Trin automobile. Built in the old Roche Brune ceramics workshop, the Trumon was slow, stubborn, and famously unbreakable - the origin of the Trin legacy.\n2 doors, 2 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
       "extraMaterialLists": [
         [
           "mts:iv_tpp.paint_bucket_irongray:0:1",
@@ -1180,6 +1183,7 @@
     {
       "subName": "_oakgreenharvest",
       "name": "Trin Trumon - Oak Green Harvest paint, Gray Interior",
+      "description": "The very first Trin automobile. Built in the old Roche Brune ceramics workshop, the Trumon was slow, stubborn, and famously unbreakable - the origin of the Trin legacy.\n2 doors, 2 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
       "extraMaterialLists": [
         [
           "mts:iv_tpp.paint_bucket_oakgreen:0:1",
@@ -1197,6 +1201,7 @@
     {
       "subName": "_patrolbluemunicipal",
       "name": "Trin Trumon - Patrol Blue Municipal paint, Gray Interior",
+      "description": "The very first Trin automobile. Built in the old Roche Brune ceramics workshop, the Trumon was slow, stubborn, and famously unbreakable - the origin of the Trin legacy.\n2 doors, 2 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
       "extraMaterialLists": [
         [
           "mts:iv_tpp.paint_bucket_patrolblue:0:1",
@@ -1214,6 +1219,7 @@
     {
       "subName": "_rubyheritage",
       "name": "Trin Trumon - Ruby Heritage paint, Gray Interior",
+      "description": "The very first Trin automobile. Built in the old Roche Brune ceramics workshop, the Trumon was slow, stubborn, and famously unbreakable - the origin of the Trin legacy.\n2 doors, 2 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
       "extraMaterialLists": [
         [
           "mts:iv_tpp.paint_bucket_ruby:0:1",
@@ -1231,6 +1237,7 @@
     {
       "subName": "_sagecountryhauler",
       "name": "Trin Trumon - Sage Country Hauler paint, Gray Interior",
+      "description": "The very first Trin automobile. Built in the old Roche Brune ceramics workshop, the Trumon was slow, stubborn, and famously unbreakable - the origin of the Trin legacy.\n2 doors, 2 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
       "extraMaterialLists": [
         [
           "mts:iv_tpp.paint_bucket_sage:0:1",
@@ -1248,6 +1255,7 @@
     {
       "subName": "_sandandchocolate",
       "name": "Trin Trumon - Sand and Chocolate paint, Gray Interior",
+      "description": "The very first Trin automobile. Built in the old Roche Brune ceramics workshop, the Trumon was slow, stubborn, and famously unbreakable - the origin of the Trin legacy.\n2 doors, 2 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
       "extraMaterialLists": [
         [
           "mts:iv_tpp.paint_bucket_sand:0:1",
@@ -1264,6 +1272,7 @@
     {
       "subName": "_sandstoneutility",
       "name": "Trin Trumon - Sandstone Utility paint, Gray Interior",
+      "description": "The very first Trin automobile. Built in the old Roche Brune ceramics workshop, the Trumon was slow, stubborn, and famously unbreakable - the origin of the Trin legacy.\n2 doors, 2 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
       "extraMaterialLists": [
         [
           "mts:iv_tpp.paint_bucket_sandstone:0:1",
@@ -1564,8 +1573,73 @@
     ],
     "lightObjects": [],
     "customVariables": [],
-    "sounds": [],
-    "particles": [],
+    "sounds": [
+      {
+        "name": "iv_tpp:horn_2",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "horn",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "looping": true
+      }
+    ],
+    "particles": [
+      {
+        "type": "smoke",
+        "spawningOrientation": "entity",
+        "renderingOrientation": "player",
+        "quantity": 1,
+        "transparency": 0.25,
+        "toTransparency": 0.25,
+        "scale": 0.2,
+        "hitboxSize": 0.2,
+        "color": "D9D9D9",
+        "pos": [
+          -0.21875,
+          0.1875,
+          0.3125
+        ],
+        "initialVelocity": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_piston_1_2_cam_1",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      },
+      {
+        "type": "smoke",
+        "spawningOrientation": "entity",
+        "renderingOrientation": "player",
+        "quantity": 5,
+        "scale": 0.5,
+        "hitboxSize": 0.2,
+        "color": "000000",
+        "initialVelocity": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_backfired_1",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      }
+    ],
     "modelType": "obj"
   },
   "general": {
