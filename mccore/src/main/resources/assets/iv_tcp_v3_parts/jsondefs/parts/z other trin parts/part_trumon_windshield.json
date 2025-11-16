@@ -235,6 +235,7 @@
       "subName": "",
       "useVehicleTexture": true,
       "modelName": "part_trumon_windshield",
+      "benchTexture": "part_trumon_windshield",
       "name": "Trin Trumon Windshield",
       "extraMaterialLists": [
         [
@@ -277,8 +278,6 @@
       [
         "minecraft:iron_ingot:0:15"
       ]
-    ],
-    "radarWidth": 0.0,
-    "radarRange": 0.0
+    ]
   }
 }

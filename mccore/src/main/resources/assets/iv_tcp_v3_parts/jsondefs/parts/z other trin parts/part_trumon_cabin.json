@@ -196,6 +196,7 @@
       "subName": "",
       "useVehicleTexture": true,
       "modelName": "part_trumon_cabin",
+      "benchTexture": "part_trumon_cabin",
       "name": "Trin Trumon Cabin",
       "extraMaterialLists": []
     }
