@@ -1126,6 +1126,18 @@
   ],
   "definitions": [
     {
+      "subName": "_deepblackmonochrome",
+      "name": "Trin Trumon - Glacier White Classic paint, Gray Interior",
+      "extraMaterialLists": [
+        [
+          "mts:iv_tpp.paint_bucket_deepblack:0:1",
+          "mts:iv_tpp.paint_bucket_jetblack:0:1",
+          "mts:iv_tpp.paint_bucket_gunstock:0:1",
+          "mts:iv_tpp.upholstery_pile_gray:0:3"
+        ]
+      ]
+    },
+    {
       "subName": "_glacierwhiteclassic",
       "name": "Trin Trumon - Glacier White Classic paint, Gray Interior",
       "extraMaterialLists": [
