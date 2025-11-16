@@ -15,7 +15,7 @@
     {
       "pos": [
         1.0625,
-        -0.0,
+        0.0,
         6.5625
       ],
       "turnsWithSteer": true,
@@ -27,10 +27,24 @@
       "animations": [
         {
           "animationType": "rotation",
+          "variable": "flBodyroll",
+          "centerPoint": [
+            -0.005,
+            0.0,
+            6.5625
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            -7.0
+          ]
+        },
+        {
+          "animationType": "rotation",
           "variable": "rudder",
           "centerPoint": [
             1.0625,
-            -0.0,
+            0.0,
             6.5625
           ],
           "axis": [
@@ -44,19 +58,35 @@
     {
       "pos": [
         1.0625,
-        -0.0,
+        0.0,
         0.0
       ],
       "maxValue": 1.25,
       "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or",
       "types": [
         "ground_wheel"
+      ],
+      "animations": [
+        {
+          "animationType": "rotation",
+          "variable": "rlBodyroll",
+          "centerPoint": [
+            -0.005,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            -7.0
+          ]
+        }
       ]
     },
     {
       "pos": [
         -1.0625,
-        -0.0,
+        0.0,
         0.0
       ],
       "rot": [
@@ -69,12 +99,28 @@
       "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or",
       "types": [
         "ground_wheel"
+      ],
+      "animations": [
+        {
+          "animationType": "rotation",
+          "variable": "rrBodyroll",
+          "centerPoint": [
+            -0.005,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            -7.0
+          ]
+        }
       ]
     },
     {
       "pos": [
         -1.0625,
-        -0.0,
+        0.0,
         6.5625
       ],
       "rot": [
@@ -92,10 +138,24 @@
       "animations": [
         {
           "animationType": "rotation",
+          "variable": "frBodyroll",
+          "centerPoint": [
+            -0.005,
+            0.0,
+            6.5625
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            -7.0
+          ]
+        },
+        {
+          "animationType": "rotation",
           "variable": "rudder",
           "centerPoint": [
             -1.0625,
-            -0.0,
+            0.0,
             6.5625
           ],
           "axis": [
@@ -137,7 +197,7 @@
         -2.15625
       ],
       "rot": [
-        -0.0,
+        0.0,
         180.0,
         0.0
       ],
@@ -181,7 +241,7 @@
         -2.15625
       ],
       "rot": [
-        -0.0,
+        0.0,
         180.0,
         0.0
       ],
@@ -199,7 +259,7 @@
         -2.09375
       ],
       "rot": [
-        -0.0,
+        0.0,
         180.0,
         0.0
       ],
@@ -217,7 +277,7 @@
         -2.09375
       ],
       "rot": [
-        -0.0,
+        0.0,
         180.0,
         0.0
       ],
@@ -274,7 +334,7 @@
         -2.09375
       ],
       "rot": [
-        -0.0,
+        0.0,
         180.0,
         0.0
       ],
@@ -1317,6 +1377,144 @@
           "mts:iv_tpp.paint_bucket_chocolate:0:1",
           "mts:iv_tpp.upholstery_pile_gray:0:3"
         ]
+      ]
+    }
+  ],
+  "variableModifiers": [
+    {
+      "variable": "rlBodyroll",
+      "minValue": -1.0,
+      "maxValue": 0.5,
+      "animations": [
+        {
+          "animationType": "translation",
+          "variable": "turn_indicator",
+          "axis": [
+            0.0,
+            0.001,
+            0.0
+          ]
+        },
+        {
+          "animationType": "translation",
+          "variable": "acceleration",
+          "axis": [
+            0.0,
+            2.0,
+            0.0
+          ]
+        },
+        {
+          "animationType": "translation",
+          "variable": "rlBodyroll",
+          "axis": [
+            0.0,
+            -0.25,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "variable": "rrBodyroll",
+      "minValue": -0.5,
+      "maxValue": 1.0,
+      "animations": [
+        {
+          "animationType": "translation",
+          "variable": "turn_indicator",
+          "axis": [
+            0.0,
+            0.001,
+            0.0
+          ]
+        },
+        {
+          "animationType": "translation",
+          "variable": "acceleration",
+          "axis": [
+            0.0,
+            -2.0,
+            0.0
+          ]
+        },
+        {
+          "animationType": "translation",
+          "variable": "rrBodyroll",
+          "axis": [
+            0.0,
+            -0.25,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "variable": "flBodyroll",
+      "minValue": -1.0,
+      "maxValue": 0.5,
+      "animations": [
+        {
+          "animationType": "translation",
+          "variable": "turn_indicator",
+          "axis": [
+            0.0,
+            0.001,
+            0.0
+          ]
+        },
+        {
+          "animationType": "translation",
+          "variable": "acceleration",
+          "axis": [
+            0.0,
+            -2.0,
+            0.0
+          ]
+        },
+        {
+          "animationType": "translation",
+          "variable": "flBodyroll",
+          "axis": [
+            0.0,
+            -0.25,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "variable": "frBodyroll",
+      "minValue": -0.5,
+      "maxValue": 1.0,
+      "animations": [
+        {
+          "animationType": "translation",
+          "variable": "turn_indicator",
+          "axis": [
+            0.0,
+            0.001,
+            0.0
+          ]
+        },
+        {
+          "animationType": "translation",
+          "variable": "acceleration",
+          "axis": [
+            0.0,
+            2.0,
+            0.0
+          ]
+        },
+        {
+          "animationType": "translation",
+          "variable": "frBodyroll",
+          "axis": [
+            0.0,
+            -0.25,
+            0.0
+          ]
+        }
       ]
     }
   ],
