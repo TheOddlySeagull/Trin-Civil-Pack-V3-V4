@@ -20,10 +20,26 @@
       ],
       "turnsWithSteer": true,
       "maxValue": 1.25,
+      "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or",
       "types": [
         "ground_wheel"
       ],
-      "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or"
+      "animations": [
+        {
+          "animationType": "rotation",
+          "variable": "rudder",
+          "centerPoint": [
+            1.0625,
+            -0.0,
+            6.5625
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        }
+      ]
     },
     {
       "pos": [
@@ -32,10 +48,10 @@
         0.0
       ],
       "maxValue": 1.25,
+      "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or",
       "types": [
         "ground_wheel"
-      ],
-      "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or"
+      ]
     },
     {
       "pos": [
@@ -50,10 +66,10 @@
       ],
       "isMirrored": true,
       "maxValue": 1.25,
+      "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or",
       "types": [
         "ground_wheel"
-      ],
-      "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or"
+      ]
     },
     {
       "pos": [
@@ -69,10 +85,26 @@
       "turnsWithSteer": true,
       "isMirrored": true,
       "maxValue": 1.25,
+      "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or",
       "types": [
         "ground_wheel"
       ],
-      "defaultPart": "iv_tpp:wheel_18h_6w_rim1_or"
+      "animations": [
+        {
+          "animationType": "rotation",
+          "variable": "rudder",
+          "centerPoint": [
+            -1.0625,
+            -0.0,
+            6.5625
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        }
+      ]
     },
     {
       "pos": [
@@ -80,15 +112,10 @@
         0.4375,
         5.75
       ],
-      "maxValue": 0.30,
+      "maxValue": 0.3,
+      "defaultPart": "iv_tpp:engine_i4_gasoline_normal_aut",
       "types": [
         "engine_car"
-      ],
-      "linkedParts": [
-        1,
-        2,
-        3,
-        4
       ],
       "interactableVariables": [
         [
@@ -96,7 +123,12 @@
           "door_hood_r"
         ]
       ],
-      "defaultPart": "iv_tpp:engine_i4_gasoline_normal_aut"
+      "linkedParts": [
+        1,
+        2,
+        3,
+        4
+      ]
     },
     {
       "pos": [
@@ -109,12 +141,12 @@
         180.0,
         0.0
       ],
+      "toneIndex": 2,
       "maxValue": 0.5,
+      "defaultPart": "iv_tpp:retro_light_large_oil_red_gray",
       "types": [
         "generic_ledlight"
-      ],
-      "defaultPart": "iv_tpp:retro_light_large_oil_red_gray",
-      "toneIndex": 2
+      ]
     },
     {
       "pos": [
@@ -122,12 +154,12 @@
         0.625,
         6.96875
       ],
+      "toneIndex": 3,
       "maxValue": 0.5,
+      "defaultPart": "iv_tpp:retro_light_large_electric_yellow_chrome",
       "types": [
         "generic_ledlight"
-      ],
-      "defaultPart": "iv_tpp:retro_light_large_electric_yellow_chrome",
-      "toneIndex": 3
+      ]
     },
     {
       "pos": [
@@ -135,12 +167,12 @@
         0.375,
         6.953125
       ],
+      "toneIndex": 3,
       "maxValue": 0.5,
+      "defaultPart": "iv_tpp:retro_light_smallturnsignal_r_orange_chrome",
       "types": [
         "generic_ledlight"
-      ],
-      "defaultPart": "iv_tpp:retro_light_smallturnsignal_r_orange_chrome",
-      "toneIndex": 3
+      ]
     },
     {
       "pos": [
@@ -153,12 +185,12 @@
         180.0,
         0.0
       ],
+      "toneIndex": 2,
       "maxValue": 0.5,
+      "defaultPart": "iv_tpp:retro_light_large_oil_red_gray",
       "types": [
         "generic_ledlight"
-      ],
-      "defaultPart": "iv_tpp:retro_light_large_oil_red_gray",
-      "toneIndex": 2
+      ]
     },
     {
       "pos": [
@@ -171,12 +203,12 @@
         180.0,
         0.0
       ],
+      "toneIndex": 2,
       "maxValue": 0.5,
+      "defaultPart": "iv_tpp:retro_light_smallturnsignal_l_orange_gray",
       "types": [
         "generic_ledlight"
-      ],
-      "defaultPart": "iv_tpp:retro_light_smallturnsignal_l_orange_gray",
-      "toneIndex": 2
+      ]
     },
     {
       "pos": [
@@ -189,12 +221,12 @@
         180.0,
         0.0
       ],
+      "toneIndex": 2,
       "maxValue": 0.5,
+      "defaultPart": "iv_tpp:retro_light_smallturnsignal_r_orange_gray",
       "types": [
         "generic_ledlight"
-      ],
-      "defaultPart": "iv_tpp:retro_light_smallturnsignal_r_orange_gray",
-      "toneIndex": 2
+      ]
     },
     {
       "pos": [
@@ -202,12 +234,12 @@
         0.625,
         6.96875
       ],
+      "toneIndex": 3,
       "maxValue": 0.5,
+      "defaultPart": "iv_tpp:retro_light_large_electric_yellow_chrome",
       "types": [
         "generic_ledlight"
-      ],
-      "defaultPart": "iv_tpp:retro_light_large_electric_yellow_chrome",
-      "toneIndex": 3
+      ]
     },
     {
       "pos": [
@@ -215,12 +247,12 @@
         0.375,
         6.953125
       ],
+      "toneIndex": 3,
       "maxValue": 0.5,
+      "defaultPart": "iv_tpp:retro_light_smallturnsignal_l_orange_chrome",
       "types": [
         "generic_ledlight"
-      ],
-      "defaultPart": "iv_tpp:retro_light_smallturnsignal_l_orange_chrome",
-      "toneIndex": 3
+      ]
     },
     {
       "pos": [
@@ -297,12 +329,12 @@
         0.6875,
         4.40625
       ],
+      "toneIndex": 1,
       "maxValue": 1.125,
+      "defaultPart": "iv_tpp:trin_seat_1_gray",
       "types": [
         "seat"
-      ],
-      "defaultPart": "iv_tpp:trin_seat_1_gray",
-      "toneIndex": 1
+      ]
     },
     {
       "pos": [
@@ -311,12 +343,12 @@
         4.40625
       ],
       "isController": true,
+      "toneIndex": 1,
       "maxValue": 1.125,
+      "defaultPart": "iv_tpp:trin_seat_1_gray",
       "types": [
         "seat"
-      ],
-      "defaultPart": "iv_tpp:trin_seat_1_gray",
-      "toneIndex": 1
+      ]
     },
     {
       "pos": [
@@ -325,10 +357,10 @@
         5.5625
       ],
       "maxValue": 1.875,
+      "defaultPart": "iv_tcp_v3_parts:part_trumon_windshield",
       "types": [
         "generic_trumon_windshield"
-      ],
-      "defaultPart": "iv_tcp_v3_parts:part_trumon_windshield"
+      ]
     },
     {
       "pos": [
@@ -337,10 +369,10 @@
         4.125
       ],
       "maxValue": 2.125,
+      "defaultPart": "iv_tcp_v3_parts:part_trumon_cabin",
       "types": [
         "generic_trumon_cabin"
-      ],
-      "defaultPart": "iv_tcp_v3_parts:part_trumon_cabin"
+      ]
     }
   ],
   "collisionGroups": [
@@ -929,6 +961,7 @@
       ]
     },
     {
+      "applyAfter": "door_hood_l",
       "collisionTypes": [
         "entity",
         "click"
@@ -1000,10 +1033,10 @@
           "variableName": "door_hood_l",
           "variableType": "toggle"
         }
-      ],
-      "applyAfter": "door_hood_l"
+      ]
     },
     {
+      "applyAfter": "door_hood_r",
       "collisionTypes": [
         "entity",
         "click"
@@ -1075,8 +1108,7 @@
           "variableName": "door_hood_r",
           "variableType": "toggle"
         }
-      ],
-      "applyAfter": "door_hood_r"
+      ]
     }
   ],
   "instruments": [
@@ -1128,6 +1160,11 @@
   "definitions": [
     {
       "subName": "_deepblackmonochrome",
+      "partTones": [
+        "_gray",
+        "_gray",
+        "_chrome"
+      ],
       "name": "Trin Trumon - Deep Black Monochrome paint, Gray Interior",
       "description": "The very first Trin automobile. Built in the old Roche Brune ceramics workshop, the Trumon was slow, stubborn, and famously unbreakable - the origin of the Trin legacy.\n2 doors, 2 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
       "extraMaterialLists": [
@@ -1137,15 +1174,15 @@
           "mts:iv_tpp.paint_bucket_gunstock:0:1",
           "mts:iv_tpp.upholstery_pile_gray:0:3"
         ]
-      ],
-      "partTones": [
-        "_gray",
-        "_gray",
-        "_chrome"
       ]
     },
     {
       "subName": "_glacierwhiteclassic",
+      "partTones": [
+        "_gray",
+        "_white",
+        "_white"
+      ],
       "name": "Trin Trumon - Glacier White Classic paint, Gray Interior",
       "description": "The very first Trin automobile. Built in the old Roche Brune ceramics workshop, the Trumon was slow, stubborn, and famously unbreakable - the origin of the Trin legacy.\n2 doors, 2 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
       "extraMaterialLists": [
@@ -1155,15 +1192,15 @@
           "mts:iv_tpp.paint_bucket_sand:0:1",
           "mts:iv_tpp.upholstery_pile_gray:0:3"
         ]
-      ],
-      "partTones": [
-        "_gray",
-        "_white",
-        "_white"
       ]
     },
     {
       "subName": "_irongrayfreightline",
+      "partTones": [
+        "_gray",
+        "_gray",
+        "_chrome"
+      ],
       "name": "Trin Trumon - Iron Gray Freightline paint, Gray Interior",
       "description": "The very first Trin automobile. Built in the old Roche Brune ceramics workshop, the Trumon was slow, stubborn, and famously unbreakable - the origin of the Trin legacy.\n2 doors, 2 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
       "extraMaterialLists": [
@@ -1173,15 +1210,15 @@
           "mts:iv_tpp.paint_bucket_jetblack:0:1",
           "mts:iv_tpp.upholstery_pile_gray:0:3"
         ]
-      ],
-      "partTones": [
-        "_gray",
-        "_gray",
-        "_chrome"
       ]
     },
     {
       "subName": "_oakgreenharvest",
+      "partTones": [
+        "_gray",
+        "_green",
+        "_copper"
+      ],
       "name": "Trin Trumon - Oak Green Harvest paint, Gray Interior",
       "description": "The very first Trin automobile. Built in the old Roche Brune ceramics workshop, the Trumon was slow, stubborn, and famously unbreakable - the origin of the Trin legacy.\n2 doors, 2 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
       "extraMaterialLists": [
@@ -1191,15 +1228,15 @@
           "mts:iv_tpp.paint_bucket_caramel:0:1",
           "mts:iv_tpp.upholstery_pile_gray:0:3"
         ]
-      ],
-      "partTones": [
-        "_gray",
-        "_green",
-        "_copper"
       ]
     },
     {
       "subName": "_patrolbluemunicipal",
+      "partTones": [
+        "_gray",
+        "_white",
+        "_white"
+      ],
       "name": "Trin Trumon - Patrol Blue Municipal paint, Gray Interior",
       "description": "The very first Trin automobile. Built in the old Roche Brune ceramics workshop, the Trumon was slow, stubborn, and famously unbreakable - the origin of the Trin legacy.\n2 doors, 2 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
       "extraMaterialLists": [
@@ -1209,15 +1246,15 @@
           "mts:iv_tpp.paint_bucket_jetblack:0:1",
           "mts:iv_tpp.upholstery_pile_gray:0:3"
         ]
-      ],
-      "partTones": [
-        "_gray",
-        "_white",
-        "_white"
       ]
     },
     {
       "subName": "_rubyheritage",
+      "partTones": [
+        "_gray",
+        "_gray",
+        "_chrome"
+      ],
       "name": "Trin Trumon - Ruby Heritage paint, Gray Interior",
       "description": "The very first Trin automobile. Built in the old Roche Brune ceramics workshop, the Trumon was slow, stubborn, and famously unbreakable - the origin of the Trin legacy.\n2 doors, 2 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
       "extraMaterialLists": [
@@ -1227,15 +1264,15 @@
           "mts:iv_tpp.paint_bucket_brown:0:1",
           "mts:iv_tpp.upholstery_pile_gray:0:3"
         ]
-      ],
-      "partTones": [
-        "_gray",
-        "_gray",
-        "_chrome"
       ]
     },
     {
       "subName": "_sagecountryhauler",
+      "partTones": [
+        "_gray",
+        "_gray",
+        "_white"
+      ],
       "name": "Trin Trumon - Sage Country Hauler paint, Gray Interior",
       "description": "The very first Trin automobile. Built in the old Roche Brune ceramics workshop, the Trumon was slow, stubborn, and famously unbreakable - the origin of the Trin legacy.\n2 doors, 2 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
       "extraMaterialLists": [
@@ -1245,15 +1282,15 @@
           "mts:iv_tpp.paint_bucket_milkcoffee:0:1",
           "mts:iv_tpp.upholstery_pile_gray:0:3"
         ]
-      ],
-      "partTones": [
-        "_gray",
-        "_gray",
-        "_white"
       ]
     },
     {
       "subName": "_sandandchocolate",
+      "partTones": [
+        "_gray",
+        "_gray",
+        "_chrome"
+      ],
       "name": "Trin Trumon - Sand and Chocolate paint, Gray Interior",
       "description": "The very first Trin automobile. Built in the old Roche Brune ceramics workshop, the Trumon was slow, stubborn, and famously unbreakable - the origin of the Trin legacy.\n2 doors, 2 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
       "extraMaterialLists": [
@@ -1262,15 +1299,15 @@
           "mts:iv_tpp.paint_bucket_chocolate:0:1",
           "mts:iv_tpp.upholstery_pile_gray:0:3"
         ]
-      ],
-      "partTones": [
-        "_gray",
-        "_gray",
-        "_chrome"
       ]
     },
     {
       "subName": "_sandstoneutility",
+      "partTones": [
+        "_gray",
+        "_gray",
+        "_chrome"
+      ],
       "name": "Trin Trumon - Sandstone Utility paint, Gray Interior",
       "description": "The very first Trin automobile. Built in the old Roche Brune ceramics workshop, the Trumon was slow, stubborn, and famously unbreakable - the origin of the Trin legacy.\n2 doors, 2 seats\n\nRecommended parts:\nLarge Sized Wheels (x4)\nI4 Engine\nModel 1 Seats",
       "extraMaterialLists": [
@@ -1280,11 +1317,6 @@
           "mts:iv_tpp.paint_bucket_chocolate:0:1",
           "mts:iv_tpp.upholstery_pile_gray:0:3"
         ]
-      ],
-      "partTones": [
-        "_gray",
-        "_gray",
-        "_chrome"
       ]
     }
   ],
@@ -1307,9 +1339,7 @@
               0.0,
               0.0
             ],
-            "duration": 20,
-            "forwardsEasing": "easeOutSine",
-            "reverseEasing": "easeInSine"
+            "duration": 20
           }
         ]
       },
@@ -1329,9 +1359,7 @@
               0.0,
               0.0
             ],
-            "duration": 5,
-            "forwardsEasing": "easeOutSine",
-            "reverseEasing": "easeInSine"
+            "duration": 5
           }
         ]
       },
@@ -1351,9 +1379,7 @@
               0.0,
               0.0
             ],
-            "duration": 5,
-            "forwardsEasing": "easeOutSine",
-            "reverseEasing": "easeInSine"
+            "duration": 5
           }
         ]
       },
@@ -1373,9 +1399,7 @@
               0.0,
               0.0
             ],
-            "duration": 5,
-            "forwardsEasing": "easeOutSine",
-            "reverseEasing": "easeInSine"
+            "duration": 5
           }
         ]
       },
@@ -1414,9 +1438,7 @@
               0.0,
               -40.0
             ],
-            "duration": 5,
-            "forwardsEasing": "easeOutSine",
-            "reverseEasing": "easeInSine"
+            "duration": 5
           }
         ]
       },
@@ -1436,9 +1458,7 @@
               0.0,
               40.0
             ],
-            "duration": 5,
-            "forwardsEasing": "easeOutSine",
-            "reverseEasing": "easeInSine"
+            "duration": 5
           }
         ]
       },
@@ -1584,7 +1604,14 @@
             "clampMax": 1.0
           }
         ],
-        "looping": true
+        "looping": true,
+        "minDistance": 0.0,
+        "minDistanceVolume": 0.0,
+        "middleDistance": 0.0,
+        "middleDistanceVolume": 0.0,
+        "maxDistance": 0.0,
+        "maxDistanceVolume": 0.0,
+        "conicalAngle": 0.0
       }
     ],
     "particles": [
