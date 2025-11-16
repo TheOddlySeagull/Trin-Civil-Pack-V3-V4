@@ -157,7 +157,8 @@
       "types": [
         "generic_ledlight"
       ],
-      "defaultPart": "iv_tpp:retro_light_large_oil_red_gray"
+      "defaultPart": "iv_tpp:retro_light_large_oil_red_gray",
+      "toneIndex": 2
     },
     {
       "pos": [
@@ -1127,7 +1128,7 @@
   "definitions": [
     {
       "subName": "_deepblackmonochrome",
-      "name": "Trin Trumon - Glacier White Classic paint, Gray Interior",
+      "name": "Trin Trumon - Deep Black Monochrome paint, Gray Interior",
       "extraMaterialLists": [
         [
           "mts:iv_tpp.paint_bucket_deepblack:0:1",
@@ -1135,6 +1136,11 @@
           "mts:iv_tpp.paint_bucket_gunstock:0:1",
           "mts:iv_tpp.upholstery_pile_gray:0:3"
         ]
+      ],
+      "partTones": [
+        "_gray",
+        "_gray",
+        "_chrome"
       ]
     },
     {
@@ -1147,6 +1153,11 @@
           "mts:iv_tpp.paint_bucket_sand:0:1",
           "mts:iv_tpp.upholstery_pile_gray:0:3"
         ]
+      ],
+      "partTones": [
+        "_gray",
+        "_white",
+        "_white"
       ]
     },
     {
@@ -1159,6 +1170,11 @@
           "mts:iv_tpp.paint_bucket_jetblack:0:1",
           "mts:iv_tpp.upholstery_pile_gray:0:3"
         ]
+      ],
+      "partTones": [
+        "_gray",
+        "_gray",
+        "_chrome"
       ]
     },
     {
@@ -1171,6 +1187,11 @@
           "mts:iv_tpp.paint_bucket_caramel:0:1",
           "mts:iv_tpp.upholstery_pile_gray:0:3"
         ]
+      ],
+      "partTones": [
+        "_gray",
+        "_green",
+        "_copper"
       ]
     },
     {
@@ -1183,6 +1204,11 @@
           "mts:iv_tpp.paint_bucket_jetblack:0:1",
           "mts:iv_tpp.upholstery_pile_gray:0:3"
         ]
+      ],
+      "partTones": [
+        "_gray",
+        "_white",
+        "_white"
       ]
     },
     {
@@ -1195,6 +1221,11 @@
           "mts:iv_tpp.paint_bucket_brown:0:1",
           "mts:iv_tpp.upholstery_pile_gray:0:3"
         ]
+      ],
+      "partTones": [
+        "_gray",
+        "_gray",
+        "_chrome"
       ]
     },
     {
@@ -1207,6 +1238,11 @@
           "mts:iv_tpp.paint_bucket_milkcoffee:0:1",
           "mts:iv_tpp.upholstery_pile_gray:0:3"
         ]
+      ],
+      "partTones": [
+        "_gray",
+        "_gray",
+        "_white"
       ]
     },
     {
@@ -1218,6 +1254,11 @@
           "mts:iv_tpp.paint_bucket_chocolate:0:1",
           "mts:iv_tpp.upholstery_pile_gray:0:3"
         ]
+      ],
+      "partTones": [
+        "_gray",
+        "_gray",
+        "_chrome"
       ]
     },
     {
@@ -1230,6 +1271,11 @@
           "mts:iv_tpp.paint_bucket_chocolate:0:1",
           "mts:iv_tpp.upholstery_pile_gray:0:3"
         ]
+      ],
+      "partTones": [
+        "_gray",
+        "_gray",
+        "_chrome"
       ]
     }
   ],
