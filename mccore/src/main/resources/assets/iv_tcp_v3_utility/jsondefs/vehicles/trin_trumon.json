@@ -1171,6 +1171,66 @@
       ]
     }
   ],
+  "connectionGroups": [
+    {
+      "groupName": "HOOKUP",
+      "isHookup": true,
+      "connections": [
+        {
+          "type": "tow_bumper",
+          "pos": [
+            0.0,
+            0.125,
+            6.9375
+          ],
+          "distance": 2.0
+        },
+        {
+          "type": "tow_bumper",
+          "pos": [
+            0.0,
+            0.3125,
+            -1.0
+          ],
+          "distance": 2.0
+        },
+        {
+          "type": "tow_wheel_heavy",
+          "pos": [
+            0.0,
+            -0.5,
+            6.5625
+          ],
+          "distance": 2.0
+        },
+        {
+          "type": "tow_flatbed_heavy",
+          "pos": [
+            0.0,
+            -0.5,
+            6.9375
+        ],
+          "distance": 2.0
+        }
+      ]
+    },
+    {
+      "groupName": "TRAILER",
+      "canInitiateConnections": true,
+      "isHitch": true,
+      "connections": [
+        {
+          "type": "trailer_standard",
+          "pos": [
+            0.0,
+            0.4375,
+            -2.125
+          ],
+          "distance": 2.0
+        }
+      ]
+    }
+  ],
   "instruments": [
     {
       "pos": [
