@@ -1,0 +1,220 @@
+{
+  "generic": {
+    "type": "generic_trumon_cabin",
+    "mustBeRemovedByScrewdriver": true,
+    "forwardsDamageMultiplier": 0.0,
+    "destroyable": true,
+    "width": 0.1,
+    "height": 0.1
+  },
+  "parts": [],
+  "collisionGroups": [
+    {
+      "collisionTypes": [
+        "block",
+        "attack",
+        "vehicle",
+        "entity",
+        "click"
+      ],
+      "collisions": [
+        {
+          "pos": [-1.0,1.125,0.0],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [-1.0,1.125,-0.25],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [0.5,1.125,-0.25],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [0.25,1.125,-0.25],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [1.0,1.125,0.0],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [1.0,1.125,-0.25],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [-1.0,1.125,0.25],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [0.75,1.125,-0.25],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [0.5,1.1875,0.1875],
+          "width": 1.0,
+          "height": 0.125
+        },
+        {
+          "pos": [0.4375,1.1875,1.125],
+          "width": 0.875,
+          "height": 0.125
+        },
+        {
+          "pos": [-0.5,1.1875,0.1875],
+          "width": 1.0,
+          "height": 0.125
+        },
+        {
+          "pos": [-0.75,1.125,-0.25],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [-0.4375,1.1875,1.125],
+          "width": 0.875,
+          "height": 0.125
+        },
+        {
+          "pos": [-0.25,1.125,-0.25],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [0.0,1.125,-0.25],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [1.0,1.125,0.25],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [-0.5,1.125,-0.25],
+          "width": 0.125,
+          "height": 0.25
+        }
+      ]
+    },
+    {
+      "collisionTypes": [
+        "attack",
+        "vehicle",
+        "entity",
+        "click"
+      ],
+      "collisions": [
+        {
+          "pos": [0.0,0.25,-0.25],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [1.0,0.5625,0.25],
+          "width": 0.125,
+          "height": 0.875
+        },
+        {
+          "pos": [1.0,0.5625,-0.25],
+          "width": 0.125,
+          "height": 0.875
+        },
+        {
+          "pos": [-1.0,0.5625,0.25],
+          "width": 0.125,
+          "height": 0.875
+        },
+        {
+          "pos": [-1.0,0.5625,-0.25],
+          "width": 0.125,
+          "height": 0.875
+        },
+        {
+          "pos": [-0.25,0.25,-0.25],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [0.25,0.25,-0.25],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [0.5,0.25,-0.25],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [-0.5,0.25,-0.25],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [-0.75,0.25,-0.25],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [0.75,0.25,-0.25],
+          "width": 0.125,
+          "height": 0.25
+        },
+        {
+          "pos": [-1.0,0.96875,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [-1.0,0.15625,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [1.0,0.15625,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        },
+        {
+          "pos": [1.0,0.96875,0.0],
+          "width": 0.125,
+          "height": 0.0625
+        }
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "subName": "",
+      "useVehicleTexture": true,
+      "modelName": "part_trumon_cabin",
+      "benchTexture": "part_trumon_cabin",
+      "name": "Trin Trumon Cabin",
+      "extraMaterialLists": []
+    }
+  ],
+  "rendering": {
+    "animatedObjects": [],
+    "lightObjects": [],
+    "particles": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "health": 100,
+    "materialLists": [
+      [
+        "minecraft:iron_ingot:0:15"
+      ]
+    ],
+    "radarWidth": 0.0,
+    "radarRange": 0.0
+  }
+}
