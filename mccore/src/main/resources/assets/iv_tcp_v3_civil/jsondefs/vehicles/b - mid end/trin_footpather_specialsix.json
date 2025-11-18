@@ -1021,6 +1021,15 @@
                         2.875
                     ],
                     "distance": 2.0
+                },
+                {
+                    "type": "tow_flatbed",
+                    "pos": [
+                        0.0,
+                        -0.5,
+                        3.6875
+                    ],
+                    "distance": 2.0
                 }
             ]
         },
@@ -1121,10 +1130,10 @@
                 ]
             ],
             "partTones": [
-				"_white",
+                "_white",
                 "_midend_r2_w",
                 "_lowend_w"
-			]
+            ]
         },
         {
             "subName": "_jetblack_milkcoffee_black",
@@ -1139,10 +1148,10 @@
                 ]
             ],
             "partTones": [
-				"_black",
+                "_black",
                 "_midend_r2_black",
                 "_lowend_black"
-			]
+            ]
         },
         {
             "subName": "_plum_lavenderblue_red",
@@ -1157,10 +1166,10 @@
                 ]
             ],
             "partTones": [
-				"_red",
+                "_red",
                 "_midend_r2_r",
                 "_lowend_r"
-			]
+            ]
         },
         {
             "subName": "_seafoam_ivory_tan",
@@ -1175,10 +1184,10 @@
                 ]
             ],
             "partTones": [
-				"_beige",
+                "_beige",
                 "_midend_r2_t",
                 "_lowend_t"
-			]
+            ]
         },
         {
             "subName": "_teal_glacierwhite_gray_blue",
@@ -1193,10 +1202,10 @@
                 ]
             ],
             "partTones": [
-				"_gray_blue",
+                "_gray_blue",
                 "_midend_r2_gray_blue",
                 "_lowend_gray_blue"
-			]
+            ]
         },
         {
             "subName": "_tomato_sand_brown",
@@ -1211,10 +1220,10 @@
                 ]
             ],
             "partTones": [
-				"_brown",
+                "_brown",
                 "_midend_r2_brown",
                 "_lowend_brown"
-			]
+            ]
         }
     ],
     "initialVariables": [

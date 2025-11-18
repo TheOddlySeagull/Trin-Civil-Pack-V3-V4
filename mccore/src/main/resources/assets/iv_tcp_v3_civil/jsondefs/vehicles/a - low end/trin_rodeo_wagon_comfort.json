@@ -23,7 +23,7 @@
                 0.0
             ],
             "minValue": 0.75,
-            "maxValue": 1.20,
+            "maxValue": 1.2,
             "types": [
                 "ground_wheel"
             ],
@@ -58,7 +58,7 @@
             ],
             "isMirrored": true,
             "minValue": 0.75,
-            "maxValue": 1.20,
+            "maxValue": 1.2,
             "types": [
                 "ground_wheel"
             ],
@@ -88,7 +88,7 @@
             ],
             "turnsWithSteer": true,
             "minValue": 0.75,
-            "maxValue": 1.20,
+            "maxValue": 1.2,
             "types": [
                 "ground_wheel"
             ],
@@ -138,7 +138,7 @@
             "turnsWithSteer": true,
             "isMirrored": true,
             "minValue": 0.75,
-            "maxValue": 1.20,
+            "maxValue": 1.2,
             "types": [
                 "ground_wheel"
             ],
@@ -716,6 +716,15 @@
                         0.0,
                         -0.5625,
                         3.125
+                    ],
+                    "distance": 2.0
+                },
+                {
+                    "type": "tow_flatbed",
+                    "pos": [
+                        0.0,
+                        -0.5625,
+                        4.125
                     ],
                     "distance": 2.0
                 }
