@@ -44,3 +44,4 @@ out/
 # *_s.png
 .vscode/settings.json
 my_own_readme.md
+*.json.bak
