@@ -1058,7 +1058,7 @@
             "isHookup": true,
             "connections": [
                 {
-                    "type": "tow_bumper",
+                    "type": "tow_bumper_heavy",
                     "pos": [
                         0.0,
                         -0.25,
@@ -1067,7 +1067,7 @@
                     "distance": 2.0
                 },
                 {
-                    "type": "tow_bumper",
+                    "type": "tow_bumper_heavy",
                     "pos": [
                         0.0,
                         0.125,
@@ -1076,7 +1076,7 @@
                     "distance": 2.0
                 },
                 {
-                    "type": "tow_wheel",
+                    "type": "tow_wheel_heavy",
                     "pos": [
                         0.0,
                         -0.625,
