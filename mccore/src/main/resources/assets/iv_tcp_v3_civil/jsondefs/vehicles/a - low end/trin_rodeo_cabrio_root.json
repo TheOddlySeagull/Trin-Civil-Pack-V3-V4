@@ -23,8 +23,8 @@
                 0.0,
                 0.0
             ],
-            "minValue": 1.05,
-            "maxValue": 1.13,
+            "minValue": 0.75,
+            "maxValue": 1.20,
             "types": [
                 "ground_wheel"
             ],
@@ -54,12 +54,12 @@
             ],
             "rot": [
                 0.0,
-                0.0,
+                180.0,
                 0.0
             ],
             "isMirrored": true,
-            "minValue": 1.05,
-            "maxValue": 1.13,
+            "minValue": 0.75,
+            "maxValue": 1.20,
             "types": [
                 "ground_wheel"
             ],
@@ -88,8 +88,8 @@
                 3.125
             ],
             "turnsWithSteer": true,
-            "minValue": 1.05,
-            "maxValue": 1.13,
+            "minValue": 0.75,
+            "maxValue": 1.20,
             "types": [
                 "ground_wheel"
             ],
@@ -133,13 +133,13 @@
             ],
             "rot": [
                 0.0,
-                0.0,
+                180.0,
                 0.0
             ],
             "turnsWithSteer": true,
             "isMirrored": true,
-            "minValue": 1.05,
-            "maxValue": 1.13,
+            "minValue": 0.75,
+            "maxValue": 1.20,
             "types": [
                 "ground_wheel"
             ],
