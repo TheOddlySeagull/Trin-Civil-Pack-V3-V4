@@ -1974,7 +1974,7 @@
                 "animations": [
                     {
                         "animationType": "rotation",
-                        "variable": "connection_1_connected",
+                        "variable": "connection_2_connected",
                         "centerPoint": [
                             0.0,
                             0.5625,
