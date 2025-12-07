@@ -1426,6 +1426,12 @@
                         -0.375,
                         0.0
                     ]
+                },
+                {
+                    "animationType": "visibility",
+                    "variable": "engine_running_1",
+                    "clampMin": 1.0,
+                    "clampMax": 1.0
                 }
             ]
         },
@@ -1487,6 +1493,12 @@
                         -0.375,
                         0.0
                     ]
+                },
+                {
+                    "animationType": "visibility",
+                    "variable": "engine_running_1",
+                    "clampMin": 1.0,
+                    "clampMax": 1.0
                 }
             ]
         },
@@ -1548,6 +1560,12 @@
                         -0.375,
                         0.0
                     ]
+                },
+                {
+                    "animationType": "visibility",
+                    "variable": "engine_running_1",
+                    "clampMin": 1.0,
+                    "clampMax": 1.0
                 }
             ]
         },
@@ -1609,6 +1627,12 @@
                         -0.375,
                         0.0
                     ]
+                },
+                {
+                    "animationType": "visibility",
+                    "variable": "engine_running_1",
+                    "clampMin": 1.0,
+                    "clampMax": 1.0
                 }
             ]
         }
