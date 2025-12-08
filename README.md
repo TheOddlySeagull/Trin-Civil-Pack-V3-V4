@@ -22,7 +22,7 @@ Note: This pack does not add parts. You need the Trin Part Pack for engines, whe
 ## Download
 
 - GitHub Actions Artifacts: Each build uploads ready-to-use JARs for 1.12.2 and 1.16.5 under the Actions run artifacts.
-- Releases: Push a tag (e.g., `v4.3.2`) to trigger a release with attached JARs.
+- Releases: Push a tag (e.g., `v4.4.0`) to trigger a release with attached JARs.
 
 ## Requirements
 
