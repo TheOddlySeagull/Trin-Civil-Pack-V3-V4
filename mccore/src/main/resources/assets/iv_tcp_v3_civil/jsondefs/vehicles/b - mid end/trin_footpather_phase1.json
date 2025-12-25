@@ -647,6 +647,61 @@
                 "generic_acvent"
             ],
             "toneIndex": 1
+        },
+        {
+            "pos": [
+                0.1875,
+                0.3125,
+                -0.375
+            ],
+            "maxValue": 30,
+            "types": [
+                "interactable_crate"
+            ],
+            "interactableVariables": [
+                [
+                    "!part_present_8"
+                ]
+            ]
+        },
+        {
+            "pos": [
+                -0.125,
+                0.3125,
+                0.375
+            ],
+            "maxValue": 30,
+            "types": [
+                "interactable_crate"
+            ],
+            "rot": [
+                -0.0,
+                15.0,
+                0.0
+            ],
+            "interactableVariables": [
+                [
+                    "!part_present_8"
+                ]
+            ]
+        },
+        {
+            "pos": [
+                -0.6875,
+                0.6875,
+                -0.40625
+            ],
+            "maxValue": 30,
+            "types": [
+                "interactable_crate"
+            ],
+            "interactableVariables": [
+                [
+                    "!part_present_8",
+                    "!part_present_34",
+                    "!part_present_35"
+                ]
+            ]
         }
     ],
     "collisionGroups": [
