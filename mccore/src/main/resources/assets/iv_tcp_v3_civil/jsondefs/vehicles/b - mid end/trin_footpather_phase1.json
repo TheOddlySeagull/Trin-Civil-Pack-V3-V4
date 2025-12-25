@@ -279,7 +279,18 @@
             "types": [
                 "seat"
             ],
-            "toneIndex": 1
+            "toneIndex": 1,
+            "interactableVariables": [
+                [
+                    "!part_present_34"
+                ],
+                [
+                    "!part_present_35"
+                ],
+                [
+                    "!part_present_36"
+                ]
+            ]
         },
         {
             "pos": [
@@ -697,8 +708,12 @@
             ],
             "interactableVariables": [
                 [
-                    "!part_present_8",
-                    "!part_present_34",
+                    "!part_present_8"
+                ],
+                [
+                    "!part_present_34"
+                ],
+                [
                     "!part_present_35"
                 ]
             ]
