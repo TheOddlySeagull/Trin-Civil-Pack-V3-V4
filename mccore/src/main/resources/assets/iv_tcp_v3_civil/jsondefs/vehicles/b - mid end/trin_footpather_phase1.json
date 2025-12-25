@@ -282,13 +282,13 @@
             "toneIndex": 1,
             "interactableVariables": [
                 [
-                    "part_present_34"
+                    "!part_present_34"
                 ],
                 [
-                    "part_present_35"
+                    "!part_present_35"
                 ],
                 [
-                    "part_present_36"
+                    "!part_present_36"
                 ]
             ]
         },
