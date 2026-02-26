@@ -14,7 +14,9 @@ out/
 **/tmp/
 **/run/
 **/runServer/
+**/runData/
 **/reobfJar/
+**/logs/
 
 ############################################################
 # Gradle caches (keep wrapper, ignore local caches only)
