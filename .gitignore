@@ -45,3 +45,4 @@ out/
 .vscode/settings.json
 my_own_readme.md
 *.json.bak
+__pycache__/*
