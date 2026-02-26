@@ -38,5 +38,12 @@ py_exec("1-12-2_1-16-5_ID_transformer.py")
 if not args.skip_1165:
     gradle_exec("buildForge1165")
 
-# 6) Restore IDs back to 1.12.2 state for a clean repo
+# 6) Prepare item model assets for 1.20.1
+py_exec("generate_item_models.py", "--mode", "generate-json")
+py_exec("generate_item_models.py", "--mode", "move-png")
+
+# 7) Build Forge 1.20.1
+gradle_exec("buildForge1201")
+
+# 8) Restore IDs back to 1.12.2 state for a clean repo
 py_exec("1-12-2_1-16-5_ID_transformer.py", "--reverse")
