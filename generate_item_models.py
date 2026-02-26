@@ -45,6 +45,24 @@ def collect_pngs(directory: Path) -> list[Path]:
     )
 
 
+def get_revert_destination_root(pack_dir: Path, textures_dir: Path) -> Path:
+    items_dir = textures_dir / "items"
+    parts_dir = items_dir / "parts"
+    vehicles_dir = items_dir / "vehicles"
+
+    parts_exists = parts_dir.exists() and parts_dir.is_dir()
+    vehicles_exists = vehicles_dir.exists() and vehicles_dir.is_dir()
+
+    if parts_exists and not vehicles_exists:
+        return parts_dir
+    if vehicles_exists and not parts_exists:
+        return vehicles_dir
+    if pack_dir.name.endswith("_parts"):
+        return parts_dir
+
+    return vehicles_dir
+
+
 def generate_models(base_path: Path) -> tuple[int, int]:
     assets_dir = base_path / "mccore" / "src" / "main" / "resources" / "assets"
     output_dir = assets_dir / "mts" / "models" / "item"
@@ -92,25 +110,44 @@ def move_item_pngs(base_path: Path, revert: bool) -> tuple[int, int, int]:
 
         if revert:
             source_root = textures_dir / "item"
-            destination_root = textures_dir / "items" / "vehicles"
+            destination_root = get_revert_destination_root(pack_dir, textures_dir)
+
+            source_files = collect_pngs(source_root)
+            scanned_count += len(source_files)
+
+            for source_file in source_files:
+                relative_path = source_file.relative_to(source_root)
+                destination_file = destination_root / relative_path
+                destination_file.parent.mkdir(parents=True, exist_ok=True)
+
+                if destination_file.exists():
+                    destination_file.unlink()
+                    replaced_count += 1
+
+                shutil.move(str(source_file), str(destination_file))
+                moved_count += 1
         else:
-            source_root = textures_dir / "items" / "vehicles"
             destination_root = textures_dir / "item"
+            source_roots = [
+                textures_dir / "items" / "vehicles",
+                textures_dir / "items" / "parts",
+            ]
 
-        source_files = collect_pngs(source_root)
-        scanned_count += len(source_files)
+            for source_root in source_roots:
+                source_files = collect_pngs(source_root)
+                scanned_count += len(source_files)
 
-        for source_file in source_files:
-            relative_path = source_file.relative_to(source_root)
-            destination_file = destination_root / relative_path
-            destination_file.parent.mkdir(parents=True, exist_ok=True)
+                for source_file in source_files:
+                    relative_path = source_file.relative_to(source_root)
+                    destination_file = destination_root / relative_path
+                    destination_file.parent.mkdir(parents=True, exist_ok=True)
 
-            if destination_file.exists():
-                destination_file.unlink()
-                replaced_count += 1
+                    if destination_file.exists():
+                        destination_file.unlink()
+                        replaced_count += 1
 
-            shutil.move(str(source_file), str(destination_file))
-            moved_count += 1
+                    shutil.move(str(source_file), str(destination_file))
+                    moved_count += 1
 
     return scanned_count, moved_count, replaced_count
 
