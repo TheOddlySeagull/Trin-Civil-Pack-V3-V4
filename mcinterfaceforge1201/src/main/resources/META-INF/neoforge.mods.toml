@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All rights reserved"
+
+[[mods]]
+# The ID of your pack.
+modId="mtsofficialpack"
+# Version number.  Can be whatever format you'd like. NUMBERS ONLY!
+version="29"
+ # Display name for the pack in the in-game mods list.
+displayName="Immersive Vehicles (MTS/IV) - Official Content Pack"
+# A URL for the "homepage" for this pack, displayed in the mod UI.
+displayURL="https://www.curseforge.com/minecraft/mc-mods/minecraft-transport-simulator"
+# Pack logo.
+logoFile="vingette.png"
+# The description text for the pack (multi line!)
+description='''
+Whatever this pack is for neoforge now googoo gaga
+'''
+
+[[dependencies.mtsofficialpack]]
+    modId="mts"
+    type="required"
+    versionRange="[22.6.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.mtsofficialpack]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1,)"
+    ordering="NONE"
+    side="BOTH"
