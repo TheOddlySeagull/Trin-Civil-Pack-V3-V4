@@ -3,29 +3,85 @@ loaderVersion="[4,)"
 license="All rights reserved"
 
 [[mods]]
-# The ID of your pack.
-modId="mtsofficialpack"
-# Version number.  Can be whatever format you'd like. NUMBERS ONLY!
-version="29"
- # Display name for the pack in the in-game mods list.
-displayName="Immersive Vehicles (MTS/IV) - Official Content Pack"
-# A URL for the "homepage" for this pack, displayed in the mod UI.
-displayURL="https://www.curseforge.com/minecraft/mc-mods/minecraft-transport-simulator"
-# Pack logo.
+modId="iv_tcp_v3"
+version="4.4.0"
+displayName="Immersive Vehicles (MTS/IV) - Trin Civil Pack"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/immersive-vehicles-trin-civil-pack"
 logoFile="vingette.png"
-# The description text for the pack (multi line!)
+authors="TheOddlySeagull"
+credits=""
 description='''
-Whatever this pack is for neoforge now googoo gaga
+The Trims Of Freedom
 '''
 
-[[dependencies.mtsofficialpack]]
+[[mods]]
+modId="iv_tcp_v3_civil"
+version="4.4.0"
+displayName="Immersive Vehicles (MTS/IV) - Trin Civil Pack"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/immersive-vehicles-trin-civil-pack"
+logoFile="vingette.png"
+authors="TheOddlySeagull"
+credits=""
+description='''
+The Trims Of Freedom
+'''
+
+[[mods]]
+modId="iv_tcp_v3_parts"
+version="4.4.0"
+displayName="Immersive Vehicles (MTS/IV) - Trin Civil Pack"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/immersive-vehicles-trin-civil-pack"
+logoFile="vingette.png"
+authors="TheOddlySeagull"
+credits=""
+description='''
+The Trims Of Freedom
+'''
+
+[[mods]]
+modId="iv_tcp_v3_service"
+version="4.4.0"
+displayName="Immersive Vehicles (MTS/IV) - Trin Civil Pack"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/immersive-vehicles-trin-civil-pack"
+logoFile="vingette.png"
+authors="TheOddlySeagull"
+credits=""
+description='''
+The Trims Of Freedom
+'''
+
+[[mods]]
+modId="iv_tcp_v3_txs"
+version="4.4.0"
+displayName="Immersive Vehicles (MTS/IV) - Trin Civil Pack"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/immersive-vehicles-trin-civil-pack"
+logoFile="vingette.png"
+authors="TheOddlySeagull"
+credits=""
+description='''
+The Trims Of Freedom
+'''
+
+[[mods]]
+modId="iv_tcp_v3_utility"
+version="4.4.0"
+displayName="Immersive Vehicles (MTS/IV) - Trin Civil Pack"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/immersive-vehicles-trin-civil-pack"
+logoFile="vingette.png"
+authors="TheOddlySeagull"
+credits=""
+description='''
+The Trims Of Freedom
+'''
+
+[[dependencies.iv_tcp_v3]]
     modId="mts"
     type="required"
     versionRange="[22.6.0,)"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.mtsofficialpack]]
+[[dependencies.iv_tcp_v3]]
     modId="neoforge"
     type="required"
     versionRange="[21.1,)"
