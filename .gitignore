@@ -14,7 +14,9 @@ out/
 **/tmp/
 **/run/
 **/runServer/
+**/runData/
 **/reobfJar/
+**/logs/
 
 ############################################################
 # Gradle caches (keep wrapper, ignore local caches only)
@@ -45,3 +47,4 @@ out/
 .vscode/settings.json
 my_own_readme.md
 *.json.bak
+__pycache__/*

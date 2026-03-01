@@ -67,7 +67,7 @@ def is_valid_image_path(path):
     parts = pathlib.Path(path).parts
     if "assets" in parts:
         idx = parts.index("assets")
-        if "items" in parts[idx:]:
+        if "items" in parts[idx:] or "item" in parts[idx:]:
             return False
     if pathlib.Path(path).name in BLACKLIST:  # Check if file is in blacklist
         return False

@@ -1,0 +1,89 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All rights reserved"
+
+[[mods]]
+modId="iv_tcp_v3"
+version="4.4.0"
+displayName="Immersive Vehicles (MTS/IV) - Trin Civil Pack"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/immersive-vehicles-trin-civil-pack"
+logoFile="vingette.png"
+authors="TheOddlySeagull"
+credits=""
+description='''
+The Trims Of Freedom
+'''
+
+[[mods]]
+modId="iv_tcp_v3_civil"
+version="4.4.0"
+displayName="Immersive Vehicles (MTS/IV) - Trin Civil Pack"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/immersive-vehicles-trin-civil-pack"
+logoFile="vingette.png"
+authors="TheOddlySeagull"
+credits=""
+description='''
+The Trims Of Freedom
+'''
+
+[[mods]]
+modId="iv_tcp_v3_parts"
+version="4.4.0"
+displayName="Immersive Vehicles (MTS/IV) - Trin Civil Pack"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/immersive-vehicles-trin-civil-pack"
+logoFile="vingette.png"
+authors="TheOddlySeagull"
+credits=""
+description='''
+The Trims Of Freedom
+'''
+
+[[mods]]
+modId="iv_tcp_v3_service"
+version="4.4.0"
+displayName="Immersive Vehicles (MTS/IV) - Trin Civil Pack"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/immersive-vehicles-trin-civil-pack"
+logoFile="vingette.png"
+authors="TheOddlySeagull"
+credits=""
+description='''
+The Trims Of Freedom
+'''
+
+[[mods]]
+modId="iv_tcp_v3_txs"
+version="4.4.0"
+displayName="Immersive Vehicles (MTS/IV) - Trin Civil Pack"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/immersive-vehicles-trin-civil-pack"
+logoFile="vingette.png"
+authors="TheOddlySeagull"
+credits=""
+description='''
+The Trims Of Freedom
+'''
+
+[[mods]]
+modId="iv_tcp_v3_utility"
+version="4.4.0"
+displayName="Immersive Vehicles (MTS/IV) - Trin Civil Pack"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/immersive-vehicles-trin-civil-pack"
+logoFile="vingette.png"
+authors="TheOddlySeagull"
+credits=""
+description='''
+The Trims Of Freedom
+'''
+
+[[dependencies.iv_tcp_v3]]
+    modId="mts"
+    type="required"
+    versionRange="[22.6.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.iv_tcp_v3]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1,)"
+    ordering="NONE"
+    side="BOTH"

@@ -13,7 +13,7 @@ concurrency:
 
 jobs:
   gradle-build:
-    name: Gradle build (JDK 8)
+    name: Gradle build (JDK 8 + 17)
     runs-on: ubuntu-latest
     timeout-minutes: 60
     permissions:
@@ -63,6 +63,22 @@ jobs:
       - name: Build Forge 1.16.5
         run: ./gradlew --no-daemon buildForge1165
 
+      - name: Generate item model JSON (for 1.20.1)
+        run: python ./generate_item_models.py --mode generate-json
+
+      - name: Move item PNGs (for 1.20.1)
+        run: python ./generate_item_models.py --mode move-png
+
+      - name: Set up JDK 17 (for 1.20.1)
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+          cache: gradle
+
+      - name: Build Forge 1.20.1
+        run: ./gradlew --no-daemon buildForge1201
+
       - name: Restore IDs back to 1.12.2 state
         run: python ./1-12-2_1-16-5_ID_transformer.py --reverse
 
@@ -88,6 +104,14 @@ jobs:
           name: Trin-Civil-Pack-1.16.5
           path: |
             out/*1.16.5*.jar
+          if-no-files-found: warn
+
+      - name: Upload 1.20.1 JAR artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Trin-Civil-Pack-1.20.1
+          path: |
+            out/*1.20.1*.jar
           if-no-files-found: warn
 
       - name: Create GitHub Release (on tag)
