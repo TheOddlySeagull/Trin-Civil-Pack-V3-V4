@@ -152,6 +152,22 @@ def move_item_pngs(base_path: Path, revert: bool) -> tuple[int, int, int]:
     return scanned_count, moved_count, replaced_count
 
 
+def cleanup_models(base_path: Path) -> int:
+    """Remove generated item model JSON files."""
+    output_dir = base_path / "mccore" / "src" / "main" / "resources" / "assets" / "mts" / "models" / "item"
+
+    if not output_dir.exists():
+        return 0
+
+    deleted_count = 0
+    for model_file in output_dir.glob("*.json"):
+        if model_file.is_file():
+            model_file.unlink()
+            deleted_count += 1
+
+    return deleted_count
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(
         description=(
@@ -167,9 +183,9 @@ def main() -> None:
     )
     parser.add_argument(
         "--mode",
-        choices=("generate-json", "move-png"),
+        choices=("generate-json", "move-png", "cleanup"),
         default="generate-json",
-        help="Operation mode: generate JSON files or move PNG files.",
+        help="Operation mode: generate JSON files, move PNG files, or cleanup generated JSON files.",
     )
     parser.add_argument(
         "--revert",
@@ -184,6 +200,14 @@ def main() -> None:
 
         scanned, written = generate_models(args.base_path.resolve())
         print(f"Scanned {scanned} PNG texture(s), wrote {written} model JSON file(s).")
+        return
+
+    if args.mode == "cleanup":
+        if args.revert:
+            parser.error("--revert can only be used with --mode move-png")
+
+        deleted = cleanup_models(args.base_path.resolve())
+        print(f"Deleted {deleted} model JSON file(s).")
         return
 
     scanned, moved, replaced = move_item_pngs(args.base_path.resolve(), args.revert)
