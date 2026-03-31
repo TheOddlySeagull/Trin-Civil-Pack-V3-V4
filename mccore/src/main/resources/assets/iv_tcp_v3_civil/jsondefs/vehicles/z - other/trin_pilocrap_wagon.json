@@ -1,5 +1,6 @@
 {
     "motorized": {
+        "defaultFuelQty": 3000,
         "hasOpenTop": true,
         "hasRunningLights": true,
         "hasTurnSignals": true,

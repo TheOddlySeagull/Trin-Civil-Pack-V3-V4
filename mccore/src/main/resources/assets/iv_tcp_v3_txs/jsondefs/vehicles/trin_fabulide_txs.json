@@ -1,5 +1,6 @@
 {
     "motorized": {
+        "defaultFuelQty": 3000,
         "hasAutopilot": true,
         "emptyMass": 1500,
         "fuelCapacity": 10000,
