@@ -875,7 +875,8 @@
             "name": "Trin Flugoral substantial trim - red & black paint, gray interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
+                    "mts:iv_tpp.paint_bucket_firered:0:1",
+                    "mts:iv_tpp.paint_bucket_jetblack:0:1",
                     "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
@@ -888,7 +889,8 @@
             "name": "Trin Flugoral substantial trim - red & black paint, white interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
+                    "mts:iv_tpp.paint_bucket_firered:0:1",
+                    "mts:iv_tpp.paint_bucket_jetblack:0:1",
                     "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
@@ -901,7 +903,8 @@
             ],
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
+                    "mts:iv_tpp.paint_bucket_firered:0:1",
+                    "mts:iv_tpp.paint_bucket_jetblack:0:1",
                     "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ]
@@ -914,7 +917,8 @@
             "name": "Trin Flugoral substantial trim - red & black paint, tan interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
+                    "mts:iv_tpp.paint_bucket_firered:0:1",
+                    "mts:iv_tpp.paint_bucket_jetblack:0:1",
                     "mts:iv_tpp.upholstery_pile_tan:0:3"
                 ]
             ]
@@ -927,7 +931,8 @@
             "name": "Trin Flugoral substantial trim - steel blue & teel paint, gray interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
+                    "mts:iv_tpp.paint_bucket_steelblue:0:1",
+                    "mts:iv_tpp.paint_bucket_teal:0:1",
                     "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
@@ -940,7 +945,8 @@
             "name": "Trin Flugoral substantial trim - steel blue & teel paint, white interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
+                    "mts:iv_tpp.paint_bucket_steelblue:0:1",
+                    "mts:iv_tpp.paint_bucket_teal:0:1",
                     "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
@@ -953,7 +959,8 @@
             "name": "Trin Flugoral substantial trim - steel blue & teel paint, red interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
+                    "mts:iv_tpp.paint_bucket_steelblue:0:1",
+                    "mts:iv_tpp.paint_bucket_teal:0:1",
                     "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ]
@@ -966,7 +973,8 @@
             "name": "Trin Flugoral substantial trim - steel blue & teel paint, tan interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
+                    "mts:iv_tpp.paint_bucket_steelblue:0:1",
+                    "mts:iv_tpp.paint_bucket_teal:0:1",
                     "mts:iv_tpp.upholstery_pile_tan:0:3"
                 ]
             ]

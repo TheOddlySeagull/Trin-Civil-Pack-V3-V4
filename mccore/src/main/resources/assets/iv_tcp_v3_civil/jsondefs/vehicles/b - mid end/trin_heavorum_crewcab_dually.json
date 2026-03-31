@@ -1964,7 +1964,8 @@
             "name": "Trin Heavorum Crew Cab Dually - Red & Black Paint, Gray Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
+                    "mts:iv_tpp.paint_bucket_firered:0:1",
+                    "mts:iv_tpp.paint_bucket_jetblack:0:1",
                     "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],

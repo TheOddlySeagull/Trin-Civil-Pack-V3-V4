@@ -1,13 +1,7 @@
 import subprocess
 import os
 import sys
-import argparse
 from pathlib import Path
-
-# Parse arguments
-parser = argparse.ArgumentParser(description="Compile Trin Civil Pack")
-parser.add_argument("--skip-1165", action="store_true", help="Skip compiling for 1.16.5")
-args = parser.parse_args()
 
 ROOT = Path(__file__).resolve().parent
 
@@ -23,7 +17,7 @@ def gradle_exec(*gradle_args: str):
     subprocess.run([gradle_cmd] + list(gradle_args), check=True)
 
 # 1) Generate specular maps
-py_exec("generate_specular_maps.py")
+# py_exec("generate_specular_maps.py")
 
 # 2) Transform IDs for 1.12.2 build (reverse)
 py_exec("1-12-2_1-16-5_ID_transformer.py", "--reverse")
@@ -34,9 +28,8 @@ gradle_exec("buildForge1122")
 # 4) Transform IDs forward for 1.16.5
 py_exec("1-12-2_1-16-5_ID_transformer.py")
 
-# 5) Build Forge 1.16.5 (unless skipped)
-if not args.skip_1165:
-    gradle_exec("buildForge1165")
+# 5) Build Forge 1.16.5
+gradle_exec("buildForge1165")
 
 # 6) Prepare item model assets for 1.20.1
 py_exec("generate_item_models.py", "--mode", "generate-json")
@@ -47,3 +40,9 @@ gradle_exec("buildForge1201")
 
 # 8) Restore IDs back to 1.12.2 state for a clean repo
 py_exec("1-12-2_1-16-5_ID_transformer.py", "--reverse")
+
+# 9) Move item model PNGs back to 1.12.2 assets for a clean repo
+py_exec("generate_item_models.py", "--mode", "move-png", "--revert")
+
+# 10) Clean up generated item model JSON files
+py_exec("generate_item_models.py", "--mode", "cleanup")

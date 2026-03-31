@@ -916,7 +916,8 @@
             "name": "Trin Devom substantial trim - Red & Black paint, Gray interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
+                    "mts:iv_tpp.paint_bucket_firered:0:1",
+                    "mts:iv_tpp.paint_bucket_jetblack:0:1",
                     "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
@@ -929,7 +930,8 @@
             "name": "Trin Devom substantial trim - Red & Black paint, White interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
+                    "mts:iv_tpp.paint_bucket_firered:0:1",
+                    "mts:iv_tpp.paint_bucket_jetblack:0:1",
                     "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ],
@@ -942,7 +944,8 @@
             "name": "Trin Devom substantial trim - Red & Black paint, Red interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
+                    "mts:iv_tpp.paint_bucket_firered:0:1",
+                    "mts:iv_tpp.paint_bucket_jetblack:0:1",
                     "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ],
@@ -955,7 +958,8 @@
             "name": "Trin Devom substantial trim - Steel Blue & Teel paint, Gray interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
+                    "mts:iv_tpp.paint_bucket_steelblue:0:1",
+                    "mts:iv_tpp.paint_bucket_teal:0:1",
                     "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
@@ -968,7 +972,8 @@
             "name": "Trin Devom substantial trim - Steel Blue & Teel paint, White interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
+                    "mts:iv_tpp.paint_bucket_steelblue:0:1",
+                    "mts:iv_tpp.paint_bucket_teal:0:1",
                     "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ],
@@ -981,7 +986,8 @@
             "name": "Trin Devom substantial trim - Steel Blue & Teel paint, Red interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
+                    "mts:iv_tpp.paint_bucket_steelblue:0:1",
+                    "mts:iv_tpp.paint_bucket_teal:0:1",
                     "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ],
@@ -994,7 +1000,8 @@
             "name": "Trin Devom substantial trim - Very Dirty Steel Blue & Teel Livery, Gray interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
+                    "mts:iv_tpp.paint_bucket_steelblue:0:1",
+                    "mts:iv_tpp.paint_bucket_teal:0:1",
                     "minecraft:dirt:0:5",
                     "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
