@@ -1,5 +1,6 @@
 {
     "motorized": {
+        "defaultFuelQty": 3000,
         "hasOpenTop": true,
         "emptyMass": 660,
         "fuelCapacity": 20000,

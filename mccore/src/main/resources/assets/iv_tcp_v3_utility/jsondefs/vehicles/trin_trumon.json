@@ -1,5 +1,6 @@
 {
     "motorized": {
+        "defaultFuelQty": 3000,
         "hasRunningLights": true,
         "hasHeadlights": true,
         "hasTurnSignals": true,
@@ -2173,7 +2174,8 @@
                 "minecraft:glowstone_dust:0:16",
                 "minecraft:glass_pane:0:5",
                 "mts:iv_tpp.metal_pile_2:0:1",
-                "mts:iv_tpp.metal_pile_1:0:2"
+                "mts:iv_tpp.metal_pile_1:0:2",
+                "mts:iv_tpp.chassis_hd4_l9m_i4_trumon:0:1"
             ]
         ],
         "radarWidth": 0.0,
