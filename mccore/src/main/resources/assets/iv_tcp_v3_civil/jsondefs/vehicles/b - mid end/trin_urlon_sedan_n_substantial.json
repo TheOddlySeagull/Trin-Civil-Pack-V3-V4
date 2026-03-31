@@ -1087,7 +1087,8 @@
             "name": "Trin Urlon Sedan Substantial Trim - Steel Blue & Teal Paint, Gray Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
+                    "mts:iv_tpp.paint_bucket_steelblue:0:1",
+                    "mts:iv_tpp.paint_bucket_teal:0:1",
                     "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
@@ -1100,7 +1101,8 @@
             "name": "Trin Urlon Sedan Substantial Trim - Steel Blue & Teal Paint, White Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
+                    "mts:iv_tpp.paint_bucket_steelblue:0:1",
+                    "mts:iv_tpp.paint_bucket_teal:0:1",
                     "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ],
@@ -1113,7 +1115,8 @@
             "name": "Trin Urlon Sedan Substantial Trim - Steel Blue & Teal Paint, Red Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
+                    "mts:iv_tpp.paint_bucket_steelblue:0:1",
+                    "mts:iv_tpp.paint_bucket_teal:0:1",
                     "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ],
@@ -1126,7 +1129,8 @@
             "name": "Trin Urlon Sedan Substantial Trim - Shagbark Paint, Gray Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_shagbark:0:1",
+                    "mts:iv_tpp.paint_bucket_brown:0:1",
+                    "mts:iv_tpp.paint_bucket_milkcoffee:0:1",
                     "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
@@ -1139,7 +1143,8 @@
             "name": "Trin Urlon Sedan Substantial Trim - Shagbark Paint, White Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_shagbark:0:1",
+                    "mts:iv_tpp.paint_bucket_brown:0:1",
+                    "mts:iv_tpp.paint_bucket_milkcoffee:0:1",
                     "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ],
@@ -1152,7 +1157,8 @@
             "name": "Trin Urlon Sedan Substantial Trim - Shagbark Paint, Red Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_shagbark:0:1",
+                    "mts:iv_tpp.paint_bucket_brown:0:1",
+                    "mts:iv_tpp.paint_bucket_milkcoffee:0:1",
                     "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ],
@@ -1204,7 +1210,8 @@
             "name": "Trin Urlon Sedan Substantial Trim - Bubble Gum Paint, White Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_bubblegum:0:1",
+                    "mts:iv_tpp.paint_bucket_pinkcandy:0:1",
+                    "mts:iv_tpp.paint_bucket_darkpinkcandy:0:1",
                     "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ],

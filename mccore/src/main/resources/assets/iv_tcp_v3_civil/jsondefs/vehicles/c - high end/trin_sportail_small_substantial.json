@@ -914,7 +914,8 @@
             "name": "Trin Small Sportail substantial trim - tungsten & electric blue paint, gray interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_tungstenandelectricblue:0:1",
+                    "mts:iv_tpp.paint_bucket_tungsten:0:1",
+                    "mts:iv_tpp.paint_bucket_electricblue:0:1",
                     "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
@@ -927,7 +928,8 @@
             "name": "Trin Small Sportail substantial trim - tungsten & electric blue paint, white interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_tungstenandelectricblue:0:1",
+                    "mts:iv_tpp.paint_bucket_tungsten:0:1",
+                    "mts:iv_tpp.paint_bucket_electricblue:0:1",
                     "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
@@ -940,7 +942,8 @@
             "name": "Trin Small Sportail substantial trim - tungsten & electric blue paint, red interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_tungstenandelectricblue:0:1",
+                    "mts:iv_tpp.paint_bucket_tungsten:0:1",
+                    "mts:iv_tpp.paint_bucket_electricblue:0:1",
                     "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ]
@@ -953,7 +956,8 @@
             "name": "Trin Small Sportail substantial trim - tungsten & electric blue paint, tan interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_tungstenandelectricblue:0:1",
+                    "mts:iv_tpp.paint_bucket_tungsten:0:1",
+                    "mts:iv_tpp.paint_bucket_electricblue:0:1",
                     "mts:iv_tpp.upholstery_pile_tan:0:3"
                 ]
             ]
@@ -966,7 +970,8 @@
             "name": "Trin Small Sportail substantial trim - red & black paint, gray interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
+                    "mts:iv_tpp.paint_bucket_firered:0:1",
+                    "mts:iv_tpp.paint_bucket_jetblack:0:1",
                     "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
@@ -979,7 +984,8 @@
             "name": "Trin Small Sportail substantial trim - red & black paint, white interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
+                    "mts:iv_tpp.paint_bucket_firered:0:1",
+                    "mts:iv_tpp.paint_bucket_jetblack:0:1",
                     "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
@@ -992,7 +998,8 @@
             "name": "Trin Small Sportail substantial trim - red & black paint, red interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
+                    "mts:iv_tpp.paint_bucket_firered:0:1",
+                    "mts:iv_tpp.paint_bucket_jetblack:0:1",
                     "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ]
@@ -1005,7 +1012,8 @@
             "name": "Trin Small Sportail substantial trim - red & black paint, tan interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
+                    "mts:iv_tpp.paint_bucket_firered:0:1",
+                    "mts:iv_tpp.paint_bucket_jetblack:0:1",
                     "mts:iv_tpp.upholstery_pile_tan:0:3"
                 ]
             ]

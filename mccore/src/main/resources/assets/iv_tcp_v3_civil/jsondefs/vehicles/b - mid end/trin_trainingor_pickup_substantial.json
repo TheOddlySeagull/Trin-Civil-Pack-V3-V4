@@ -1190,7 +1190,8 @@
             "description": "Mid End Pick-Up\n4 Doors, 4 Seats\n\nRecommended parts:\nLarge Sized Wheels (*4)\nV8 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
+                    "mts:iv_tpp.paint_bucket_steelblue:0:1",
+                    "mts:iv_tpp.paint_bucket_teal:0:1",
                     "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
@@ -1205,7 +1206,8 @@
             "description": "Mid End Pick-Up\n4 Doors, 4 Seats\n\nRecommended parts:\nLarge Sized Wheels (*4)\nV8 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
+                    "mts:iv_tpp.paint_bucket_steelblue:0:1",
+                    "mts:iv_tpp.paint_bucket_teal:0:1",
                     "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ],
@@ -1220,7 +1222,8 @@
             "description": "Mid End Pick-Up\n4 Doors, 4 Seats\n\nRecommended parts:\nLarge Sized Wheels (*4)\nV8 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
+                    "mts:iv_tpp.paint_bucket_steelblue:0:1",
+                    "mts:iv_tpp.paint_bucket_teal:0:1",
                     "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ],
@@ -1235,7 +1238,8 @@
             "description": "Mid End Pick-Up\n4 Doors, 4 Seats\n\nRecommended parts:\nLarge Sized Wheels (*4)\nV8 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_shagbark:0:1",
+                    "mts:iv_tpp.paint_bucket_brown:0:1",
+                    "mts:iv_tpp.paint_bucket_milkcoffee:0:1",
                     "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ],
@@ -1250,7 +1254,8 @@
             "description": "Mid End Pick-Up\n4 Doors, 4 Seats\n\nRecommended parts:\nLarge Sized Wheels (*4)\nV8 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_shagbark:0:1",
+                    "mts:iv_tpp.paint_bucket_brown:0:1",
+                    "mts:iv_tpp.paint_bucket_milkcoffee:0:1",
                     "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ],
@@ -1265,7 +1270,8 @@
             "description": "Mid End Pick-Up\n4 Doors, 4 Seats\n\nRecommended parts:\nLarge Sized Wheels (*4)\nV8 Engine\nModel 1 Seats",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_shagbark:0:1",
+                    "mts:iv_tpp.paint_bucket_brown:0:1",
+                    "mts:iv_tpp.paint_bucket_milkcoffee:0:1",
                     "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ],

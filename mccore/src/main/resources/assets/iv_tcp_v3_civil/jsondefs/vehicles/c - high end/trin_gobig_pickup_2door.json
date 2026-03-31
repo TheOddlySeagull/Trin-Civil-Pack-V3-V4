@@ -1072,7 +1072,8 @@
             "name": "Trin Gobig pickup 2 Door Substantial Trim - Tungsten & Electric Blue Paint, Gray Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_tungstenandelectricblue:0:1",
+                    "mts:iv_tpp.paint_bucket_tungsten:0:1",
+                    "mts:iv_tpp.paint_bucket_electricblue:0:1",
                     "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
@@ -1085,7 +1086,8 @@
             "name": "Trin Gobig pickup 2 Door Substantial Trim - Tungsten & Electric Blue Paint, White Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_tungstenandelectricblue:0:1",
+                    "mts:iv_tpp.paint_bucket_tungsten:0:1",
+                    "mts:iv_tpp.paint_bucket_electricblue:0:1",
                     "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
@@ -1098,7 +1100,8 @@
             "name": "Trin Gobig pickup 2 Door Substantial Trim - Tungsten & Electric Blue Paint, Red Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_tungstenandelectricblue:0:1",
+                    "mts:iv_tpp.paint_bucket_tungsten:0:1",
+                    "mts:iv_tpp.paint_bucket_electricblue:0:1",
                     "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ]
@@ -1111,7 +1114,8 @@
             "name": "Trin Gobig pickup 2 Door Substantial Trim - Tungsten & Electric Blue Paint, Tan Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_tungstenandelectricblue:0:1",
+                    "mts:iv_tpp.paint_bucket_tungsten:0:1",
+                    "mts:iv_tpp.paint_bucket_electricblue:0:1",
                     "mts:iv_tpp.upholstery_pile_tan:0:3"
                 ]
             ]
@@ -1124,7 +1128,8 @@
             "name": "Trin Gobig pickup 2 Door Substantial Trim - Red & Black Paint, Gray Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
+                    "mts:iv_tpp.paint_bucket_firered:0:1",
+                    "mts:iv_tpp.paint_bucket_jetblack:0:1",
                     "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
@@ -1137,7 +1142,8 @@
             "name": "Trin Gobig pickup 2 Door Substantial Trim - Red & Black Paint, White Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
+                    "mts:iv_tpp.paint_bucket_firered:0:1",
+                    "mts:iv_tpp.paint_bucket_jetblack:0:1",
                     "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
@@ -1150,7 +1156,8 @@
             "name": "Trin Gobig pickup 2 Door Substantial Trim - Red & Black Paint, Red Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
+                    "mts:iv_tpp.paint_bucket_firered:0:1",
+                    "mts:iv_tpp.paint_bucket_jetblack:0:1",
                     "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ]
@@ -1163,7 +1170,8 @@
             "name": "Trin Gobig pickup 2 Door Substantial Trim - Red & Black Paint, Tan Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
+                    "mts:iv_tpp.paint_bucket_firered:0:1",
+                    "mts:iv_tpp.paint_bucket_jetblack:0:1",
                     "mts:iv_tpp.upholstery_pile_tan:0:3"
                 ]
             ]
