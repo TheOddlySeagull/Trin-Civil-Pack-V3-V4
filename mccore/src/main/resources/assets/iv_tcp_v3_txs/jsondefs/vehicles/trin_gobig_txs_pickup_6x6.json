@@ -1536,7 +1536,8 @@
             "name": "Trin Gobig TXS Pickup 6x6 - Red & Black Paint, Gray Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
+                    "mts:iv_tpp.paint_bucket_firered:0:1",
+                    "mts:iv_tpp.paint_bucket_jetblack:0:1",
                     "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
@@ -1549,7 +1550,8 @@
             "name": "Trin Gobig TXS Pickup 6x6 - Red & Black Paint, White Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
+                    "mts:iv_tpp.paint_bucket_firered:0:1",
+                    "mts:iv_tpp.paint_bucket_jetblack:0:1",
                     "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
@@ -1562,7 +1564,8 @@
             "name": "Trin Gobig TXS Pickup 6x6 - Red & Black Paint, Red Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
+                    "mts:iv_tpp.paint_bucket_firered:0:1",
+                    "mts:iv_tpp.paint_bucket_jetblack:0:1",
                     "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ]
@@ -1575,7 +1578,8 @@
             "name": "Trin Gobig TXS Pickup 6x6 - Red & Black Paint, Tan Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_redandblack:0:1",
+                    "mts:iv_tpp.paint_bucket_firered:0:1",
+                    "mts:iv_tpp.paint_bucket_jetblack:0:1",
                     "mts:iv_tpp.upholstery_pile_tan:0:3"
                 ]
             ]
@@ -1588,7 +1592,8 @@
             "name": "Trin Gobig TXS Pickup 6x6 - Steel Blue & Teal Paint, Gray Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
+                    "mts:iv_tpp.paint_bucket_steelblue:0:1",
+                    "mts:iv_tpp.paint_bucket_teal:0:1",
                     "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
@@ -1601,7 +1606,8 @@
             "name": "Trin Gobig TXS Pickup 6x6 - Steel Blue & Teal Paint, White Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
+                    "mts:iv_tpp.paint_bucket_steelblue:0:1",
+                    "mts:iv_tpp.paint_bucket_teal:0:1",
                     "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
@@ -1614,7 +1620,8 @@
             "name": "Trin Gobig TXS Pickup 6x6 - Steel Blue & Teal Paint, Red Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
+                    "mts:iv_tpp.paint_bucket_steelblue:0:1",
+                    "mts:iv_tpp.paint_bucket_teal:0:1",
                     "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ]
@@ -1627,7 +1634,8 @@
             "name": "Trin Gobig TXS Pickup 6x6 - Steel Blue & Teal Paint, Tan Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_steelblueandteal:0:1",
+                    "mts:iv_tpp.paint_bucket_steelblue:0:1",
+                    "mts:iv_tpp.paint_bucket_teal:0:1",
                     "mts:iv_tpp.upholstery_pile_tan:0:3"
                 ]
             ]
@@ -1640,7 +1648,8 @@
             "name": "Trin Gobig TXS Pickup 6x6 - Bubblegum Paint, Gray Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_bubblegum:0:1",
+                    "mts:iv_tpp.paint_bucket_pinkcandy:0:1",
+                    "mts:iv_tpp.paint_bucket_darkpinkcandy:0:1",
                     "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
@@ -1653,7 +1662,8 @@
             "name": "Trin Gobig TXS Pickup 6x6 - Bubblegum Paint, White Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_bubblegum:0:1",
+                    "mts:iv_tpp.paint_bucket_pinkcandy:0:1",
+                    "mts:iv_tpp.paint_bucket_darkpinkcandy:0:1",
                     "mts:iv_tpp.upholstery_pile_white:0:3"
                 ]
             ]
@@ -1666,7 +1676,8 @@
             "name": "Trin Gobig TXS Pickup 6x6 - Bubblegum Paint, Red Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_bubblegum:0:1",
+                    "mts:iv_tpp.paint_bucket_pinkcandy:0:1",
+                    "mts:iv_tpp.paint_bucket_darkpinkcandy:0:1",
                     "mts:iv_tpp.upholstery_pile_red:0:3"
                 ]
             ]
@@ -1679,7 +1690,8 @@
             "name": "Trin Gobig TXS Pickup 6x6 - Bubblegum Paint, Tan Interior",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_bubblegum:0:1",
+                    "mts:iv_tpp.paint_bucket_pinkcandy:0:1",
+                    "mts:iv_tpp.paint_bucket_darkpinkcandy:0:1",
                     "mts:iv_tpp.upholstery_pile_tan:0:3"
                 ]
             ]

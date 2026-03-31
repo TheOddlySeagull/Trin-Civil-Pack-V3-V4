@@ -445,7 +445,8 @@
             "name": "Trin TXS Formula number 1 - Red & Black paint",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_redandblack:0:1"
+                    "mts:iv_tpp.paint_bucket_firered:0:1",
+                    "mts:iv_tpp.paint_bucket_jetblack:0:1"
                 ]
             ],
             "partTones": [
@@ -457,7 +458,8 @@
             "name": "Trin TXS Formula number 2 - Tungsten & Electric Blue paint",
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_tungstenandelectricblue:0:1"
+                    "mts:iv_tpp.paint_bucket_tungsten:0:1",
+                    "mts:iv_tpp.paint_bucket_electricblue:0:1"
                 ]
             ],
             "partTones": [

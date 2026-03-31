@@ -1390,7 +1390,8 @@
             ],
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_forest:0:1",
+                    "mts:iv_tpp.paint_bucket_oakgreen:0:1",
+                    "mts:iv_tpp.paint_bucket_softgreen:0:1",
                     "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
@@ -1405,7 +1406,8 @@
             ],
             "extraMaterialLists": [
                 [
-                    "mts:iv_tpp.paint_double_bucket_shagbark:0:1",
+                    "mts:iv_tpp.paint_bucket_brown:0:1",
+                    "mts:iv_tpp.paint_bucket_milkcoffee:0:1",
                     "mts:iv_tpp.upholstery_pile_gray:0:3"
                 ]
             ]
