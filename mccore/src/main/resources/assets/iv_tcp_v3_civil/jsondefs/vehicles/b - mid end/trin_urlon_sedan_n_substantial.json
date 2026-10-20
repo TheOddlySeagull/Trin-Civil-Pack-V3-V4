@@ -1732,7 +1732,8 @@
                             -30.0,
                             0.0,
                             0.0
-                        ]
+                        ],
+                        "duration": 5
                     },
                     {
                         "animationType": "rotation",
@@ -1746,7 +1747,8 @@
                             -30.0,
                             0.0,
                             0.0
-                        ]
+                        ],
+                        "duration": 5
                     },
                     {
                         "animationType": "rotation",
@@ -1827,7 +1829,8 @@
                             1.0,
                             0.0,
                             0.0
-                        ]
+                        ],
+                        "duration": 5
                     },
                     {
                         "animationType": "rotation",

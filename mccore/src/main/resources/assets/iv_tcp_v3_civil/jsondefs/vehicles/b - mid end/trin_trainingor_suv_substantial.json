@@ -2035,7 +2035,8 @@
                             1.0,
                             0.0,
                             0.0
-                        ]
+                        ],
+                        "duration": 5
                     },
                     {
                         "animationType": "rotation",
