@@ -1495,7 +1495,7 @@
                 ]
             },
             {
-                "objectName": "gas",
+                "objectName": "accel",
                 "animations": [
                     {
                         "animationType": "rotation",
