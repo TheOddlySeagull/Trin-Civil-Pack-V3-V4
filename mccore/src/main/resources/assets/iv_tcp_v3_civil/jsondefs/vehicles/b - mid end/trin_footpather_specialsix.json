@@ -1940,6 +1940,7 @@
               0.0,
               0.0
             ],
+            "duration": 5,
             "offset": 0.0,
             "clampMin": 0.0,
             "clampMax": 0.0
@@ -1979,6 +1980,7 @@
               0.0,
               0.0
             ],
+            "duration": 5,
             "offset": 0.0,
             "clampMin": 0.0,
             "clampMax": 0.0
@@ -2025,6 +2027,7 @@
               0.0,
               0.0
             ],
+            "duration": 5,
             "offset": 0.0,
             "clampMin": 0.0,
             "clampMax": 0.0
@@ -2064,6 +2067,7 @@
               0.0,
               0.0
             ],
+            "duration": 5,
             "offset": 0.0,
             "clampMin": 0.0,
             "clampMax": 0.0
