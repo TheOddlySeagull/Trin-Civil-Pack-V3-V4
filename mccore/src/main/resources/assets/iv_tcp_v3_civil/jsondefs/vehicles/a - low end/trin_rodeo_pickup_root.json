@@ -1230,7 +1230,8 @@
                             -30.0,
                             0.0,
                             0.0
-                        ]
+                        ],
+                        "duration": 5
                     },
                     {
                         "animationType": "rotation",
@@ -1249,7 +1250,7 @@
                 ]
             },
             {
-                "objectName": "brake",
+                "objectName": "brake_brake",
                 "animations": [
                     {
                         "animationType": "rotation",
@@ -1263,7 +1264,8 @@
                             -30.0,
                             0.0,
                             0.0
-                        ]
+                        ],
+                        "duration": 5
                     },
                     {
                         "animationType": "rotation",
@@ -1300,7 +1302,8 @@
                             -30.0,
                             0.0,
                             0.0
-                        ]
+                        ],
+                        "duration": 5
                     },
                     {
                         "animationType": "rotation",
@@ -1314,7 +1317,8 @@
                             -30.0,
                             0.0,
                             0.0
-                        ]
+                        ],
+                        "duration": 5
                     },
                     {
                         "animationType": "rotation",
@@ -1361,7 +1365,8 @@
                             -30.0,
                             0.0,
                             0.0
-                        ]
+                        ],
+                        "duration": 5
                     },
                     {
                         "animationType": "rotation",
@@ -1394,7 +1399,8 @@
                             1.0,
                             0.0,
                             0.0
-                        ]
+                        ],
+                        "duration": 5
                     },
                     {
                         "animationType": "rotation",
