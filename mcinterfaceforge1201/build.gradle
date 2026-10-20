@@ -18,13 +18,23 @@ apply plugin: "org.parchmentmc.librarian.forgegradle"
 //apply plugin: "org.spongepowered.mixin"
 //apply plugin: "eclipse"
 
+// Tags pass -PreleaseVersion to Gradle. Other builds use the latest valid release version.
+def packVersion = rootProject.findProperty("releaseVersion") ?: rootProject.property("global_version")
+
 //Set file name.
-version = "${project.mc_version}-${project.mod_version}"
+version = "${project.mc_version}-${packVersion}"
 group = project.mod_group
 archivesBaseName = project.archive_name
 
 //Options for Java version to compile to.
 sourceCompatibility = targetCompatibility = "17"
+processResources {
+    inputs.property "packVersion", packVersion
+    filesMatching(["META-INF/mods.toml", "META-INF/neoforge.mods.toml"]) {
+        expand(MOD_VERSION: packVersion)
+    }
+}
+
 compileJava {
     options.compilerArgs << "-Xlint:deprecation" << "-Xlint:unchecked"
 }
