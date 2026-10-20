@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - '*'
+    tags:
+      - '*.*.*'
   pull_request:
   workflow_dispatch:
 
@@ -48,6 +50,14 @@ jobs:
       - name: Make gradlew executable (Linux runner)
         run: chmod +x gradlew
 
+      - name: Set release version from tag
+        run: |
+          if [[ "$GITHUB_REF_TYPE" == "tag" ]]; then
+            echo "RELEASE_VERSION_ARG=-PreleaseVersion=$GITHUB_REF_NAME" >> "$GITHUB_ENV"
+          else
+            echo "RELEASE_VERSION_ARG=" >> "$GITHUB_ENV"
+          fi
+
       - name: Generate specular maps
         run: python ./generate_specular_maps.py
 
@@ -55,13 +65,13 @@ jobs:
         run: python ./1-12-2_1-16-5_ID_transformer.py --reverse
 
       - name: Build Forge 1.12.2
-        run: ./gradlew --no-daemon buildForge1122
+        run: ./gradlew --no-daemon $RELEASE_VERSION_ARG buildForge1122
 
       - name: Transform IDs forward for 1.16.5
         run: python ./1-12-2_1-16-5_ID_transformer.py
 
       - name: Build Forge 1.16.5
-        run: ./gradlew --no-daemon buildForge1165
+        run: ./gradlew --no-daemon $RELEASE_VERSION_ARG buildForge1165
 
       - name: Generate item model JSON (for 1.20.1)
         run: python ./generate_item_models.py --mode generate-json
@@ -77,7 +87,7 @@ jobs:
           cache: gradle
 
       - name: Build Forge 1.20.1
-        run: ./gradlew --no-daemon buildForge1201
+        run: ./gradlew --no-daemon $RELEASE_VERSION_ARG buildForge1201
 
       - name: Restore IDs back to 1.12.2 state
         run: python ./1-12-2_1-16-5_ID_transformer.py --reverse

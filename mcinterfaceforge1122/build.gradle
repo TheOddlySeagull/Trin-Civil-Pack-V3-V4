@@ -13,13 +13,27 @@ buildscript {
 apply plugin: "net.minecraftforge.gradle"
 apply plugin: "eclipse"
 
+// Tags pass -PreleaseVersion to Gradle. Other builds use the latest valid release version.
+def packVersion = rootProject.findProperty("releaseVersion") ?: rootProject.property("global_version")
+
 //Set file name.
-version = "${project.mc_version}-${project.mod_version}"
+version = "${project.mc_version}-${packVersion}"
 group = project.mod_group
 archivesBaseName = project.archive_name
 
 //Options for Java version to compile to.
 sourceCompatibility = targetCompatibility = "1.8"
+// Compile a generated copy so the Forge loader metadata always matches this build.
+def generatedSourcesDir = file("$buildDir/generated/sources/versioned/java")
+task generateVersionedSources(type: Copy) {
+    from "src/main/java"
+    into generatedSourcesDir
+    filteringCharset = "UTF-8"
+    filter(org.apache.tools.ant.filters.ReplaceTokens, tokens: [MOD_VERSION: packVersion.toString()])
+}
+sourceSets.main.java.setSrcDirs([generatedSourcesDir])
+compileJava.dependsOn generateVersionedSources
+
 compileJava {
     options.compilerArgs << "-Xlint:deprecation" << "-Xlint:unchecked"
 }

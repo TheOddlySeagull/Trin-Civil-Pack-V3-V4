@@ -21,14 +21,14 @@ Note: This pack does not add parts. You need the Trin Part Pack for engines, whe
 
 ## Download
 
-- GitHub Actions Artifacts: Each build uploads ready-to-use JARs for 1.12.2 and 1.16.5 under the Actions run artifacts.
-- Releases: Push a tag (e.g., `v4.5.0`) to trigger a release with attached JARs.
+- GitHub Actions Artifacts: Each build uploads ready-to-use JARs for 1.12.2, 1.16.5, and 1.20.1 under the Actions run artifacts.
+- Releases: Push a numeric version tag (for example, `4.5.1`) to trigger a release with attached JARs. The tag is the release version source of truth.
 
 ## Requirements
 
 - Minecraft with Immersive Vehicles (MTS/IV)
 - Trin Part Pack (required for parts)
-- Supported MC versions targeted by this repo: 1.12.2 and 1.16.5
+- Supported MC versions targeted by this repo: 1.12.2, 1.16.5, and 1.20.1
 
 ## Installation (Players)
 
@@ -42,17 +42,18 @@ Note: This pack does not add parts. You need the Trin Part Pack for engines, whe
 This repository includes a Gradle multi-module build that produces versioned JARs into the `out/` directory.
 
 Prereqs:
-- JDK 8
+- JDK 8 and JDK 17
 - Git and Gradle wrapper (included)
 
 Quick build:
-- Windows: `gradlew.bat buildForge1122 && gradlew.bat buildForge1165`
-- Linux/macOS: `./gradlew buildForge1122 && ./gradlew buildForge1165`
+- Windows: `gradlew.bat buildForge1122 && gradlew.bat buildForge1165 && gradlew.bat buildForge1201`
+- Linux/macOS: `./gradlew buildForge1122 && ./gradlew buildForge1165 && ./gradlew buildForge1201`
 
 Artifacts appear under `out/` as `Trin Civil Pack-<mcversion>-<packversion>.jar`.
 
 CI:
-- The GitHub Actions workflow builds on push/PR, uploads artifacts, and publishes releases on tags.
+- The GitHub Actions workflow builds on push/PR, uploads artifacts, and publishes releases on numeric version tags.
+- Tagged builds embed the tag version in all Forge and NeoForge metadata. Other builds use the latest valid release version from `global_version`, unless `-PreleaseVersion=<version>` is supplied.
 
 ## Other Trin Packs
 
