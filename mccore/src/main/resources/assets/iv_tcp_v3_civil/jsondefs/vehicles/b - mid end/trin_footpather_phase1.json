@@ -1372,19 +1372,6 @@
           "mts:iv_tpp.upholstery_pile_gray:0:3"
         ]
       ]
-    },
-    {
-      "subName": "_rustypatchwork",
-      "partTones": [
-        "_junk"
-      ],
-      "modelName": "trin_footpather",
-      "name": "Trin Footpather Phase 1 - Rusty Patchwork",
-      "extraMaterialLists": [
-        [
-          "mts:iv_tpp.oil_can_agedparticleslurry:0:1"
-        ]
-      ]
     }
   ],
   "initialVariables": [
