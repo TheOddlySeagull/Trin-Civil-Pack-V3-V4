@@ -1775,7 +1775,7 @@
                 "animations": [
                     {
                         "animationType": "rotation",
-                        "variable": "engine_gearshift_1",
+                        "variable": "engine_gearshift_hvertical_16",
                         "centerPoint": [
                             0.0,
                             0.28125,
@@ -1785,8 +1785,21 @@
                             1.0,
                             0.0,
                             0.0
+                        ]
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "engine_gearshift_hhorizontal_16",
+                        "centerPoint": [
+                            0.0,
+                            0.28125,
+                            4.03125
                         ],
-                        "duration": 5
+                        "axis": [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
                     },
                     {
                         "animationType": "rotation",
