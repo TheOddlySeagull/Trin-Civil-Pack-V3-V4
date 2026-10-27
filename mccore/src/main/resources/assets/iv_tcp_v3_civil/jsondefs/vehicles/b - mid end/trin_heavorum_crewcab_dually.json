@@ -2250,7 +2250,7 @@
             },
             {
                 "_comment": "Shifter",
-                "objectName": "shift",
+                "objectName": "Shifter",
                 "animations": [
                     {
                         "animationType": "rotation",
