@@ -179,6 +179,39 @@
             ]
         },
         {
+            "_comment": "part 9: Engine (i4), powering front wheels",
+            "pos": [
+                0,
+                0.03125,
+                3.3125
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "partScale": [
+                1,
+                1,
+                0.85
+            ],
+            "maxValue": 0.33,
+            "types": [
+                "engine_car",
+                "engine_car_electric"
+            ],
+            "defaultPart": "iv_tpp:engine_i4_gasoline_normal_aut",
+            "interactableVariables": [
+                [
+                    "door_hood"
+                ]
+            ],
+            "linkedParts": [
+                3,
+                4
+            ]
+        },
+        {
             "_comment": "part 5: Front left seat (Driver)",
             "pos": [
                 0.5,
@@ -295,39 +328,6 @@
                 [
                     "!part_present_18"
                 ]
-            ]
-        },
-        {
-            "_comment": "part 9: Engine (i4), powering front wheels",
-            "pos": [
-                0,
-                0.03125,
-                3.3125
-            ],
-            "rot": [
-                0.0,
-                0.0,
-                0.0
-            ],
-            "partScale": [
-                1,
-                1,
-                0.85
-            ],
-            "maxValue": 0.33,
-            "types": [
-                "engine_car",
-                "engine_car_electric"
-            ],
-            "defaultPart": "iv_tpp:engine_i4_gasoline_normal_aut",
-            "interactableVariables": [
-                [
-                    "door_hood"
-                ]
-            ],
-            "linkedParts": [
-                3,
-                4
             ]
         },
         {
@@ -1339,11 +1339,11 @@
             "animations": [
                 {
                     "animationType": "visibility",
-                    "variable": "engine_isautomatic_1"
+                    "variable": "engine_isautomatic_5"
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_isdualclutch_1"
+                    "variable": "engine_isdualclutch_5"
                 },
                 {
                     "animationType": "visibility",
@@ -1412,7 +1412,7 @@
                 {
                     "_comment": "Tries to prevent engine from overrevving too hard, not perfect but it helps",
                     "animationType": "translation",
-                    "variable": "engine_rpm_percent_revlimit_1",
+                    "variable": "engine_rpm_percent_revlimit_5",
                     "axis": [
                         -8.0,
                         0.0,
@@ -1492,7 +1492,7 @@
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_running_1",
+                    "variable": "engine_running_5",
                     "clampMin": 1.0,
                     "clampMax": 1.0
                 }
@@ -1566,7 +1566,7 @@
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_running_1",
+                    "variable": "engine_running_5",
                     "clampMin": 1.0,
                     "clampMax": 1.0
                 }
@@ -1640,7 +1640,7 @@
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_running_1",
+                    "variable": "engine_running_5",
                     "clampMin": 1.0,
                     "clampMax": 1.0
                 }
@@ -1714,7 +1714,7 @@
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_running_1",
+                    "variable": "engine_running_5",
                     "clampMin": 1.0,
                     "clampMax": 1.0
                 }
@@ -1834,7 +1834,9 @@
                 "animations": [
                     {
                         "animationType": "visibility",
-                        "variable": "engine_isautomatic_1"
+                        "variable": "isAutomatic_5",
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
                     },
                     {
                         "animationType": "rotation",
@@ -1908,7 +1910,7 @@
                 "animations": [
                     {
                         "animationType": "rotation",
-                        "variable": "engine_gearshift_1",
+                        "variable": "engine_gearshift_5",
                         "centerPoint": [
                             0,
                             0.10938,
@@ -2683,13 +2685,13 @@
                 "brightnessAnimations": [
                     {
                         "animationType": "visibility",
-                        "variable": "engine_reversed_1",
+                        "variable": "engine_reversed_5",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     },
                     {
                         "animationType": "visibility",
-                        "variable": "engine_running_1",
+                        "variable": "engine_running_5",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -3337,7 +3339,7 @@
                     },
                     {
                         "animationType": "visibility",
-                        "variable": "engine_running_1",
+                        "variable": "engine_running_5",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -3464,7 +3466,7 @@
                 "activeAnimations": [
                     {
                         "animationType": "visibility",
-                        "variable": "engine_piston_1_1_cam_1",
+                        "variable": "engine_piston_1_1_cam_5",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -3489,7 +3491,7 @@
                 "activeAnimations": [
                     {
                         "animationType": "visibility",
-                        "variable": "engine_backfired_1",
+                        "variable": "engine_backfired_5",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }

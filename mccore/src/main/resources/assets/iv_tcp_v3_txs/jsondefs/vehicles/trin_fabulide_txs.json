@@ -17,34 +17,6 @@
     "parts": [
         {
             "pos": [
-                0.0,
-                -0.4375,
-                0.0
-            ],
-            "rot": [
-                0.0,
-                0.0,
-                0.0
-            ],
-            "dismountPos": [
-                1.0,
-                1.0,
-                0.0
-            ],
-            "isController": true,
-            "types": [
-                "seat"
-            ],
-            "toneIndex": 1,
-            "defaultPart": "iv_tpp:trin_seat_1_gray",
-            "interactableVariables": [
-                [
-                    "roofdoor"
-                ]
-            ]
-        },
-        {
-            "pos": [
                 1.5,
                 -0.0625,
                 -4.125
@@ -109,6 +81,34 @@
                         0.0
                     ]
                 }
+            ]
+        },
+        {
+            "pos": [
+                0.0,
+                -0.4375,
+                0.0
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "dismountPos": [
+                1.0,
+                1.0,
+                0.0
+            ],
+            "isController": true,
+            "types": [
+                "seat"
+            ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
+            "interactableVariables": [
+                [
+                    "roofdoor"
+                ]
             ]
         },
         {

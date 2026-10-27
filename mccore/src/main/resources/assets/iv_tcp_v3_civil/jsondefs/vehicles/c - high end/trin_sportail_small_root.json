@@ -179,6 +179,41 @@
         },
         {
             "pos": [
+                0.0,
+                0.25,
+                2.75
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "maxValue": 0.4,
+            "types": [
+                "engine_car"
+            ],
+            "defaultPart": "iv_tpp:engine_v6_gasoline_normal_aut",
+            "interactableVariables": [
+                [
+                    "door_hood"
+                ]
+            ],
+            "linkedParts": [
+                1,
+                2,
+                3,
+                4,
+                10,
+                11,
+                12,
+                16,
+                17,
+                19,
+                20
+            ]
+        },
+        {
+            "pos": [
                 0.625,
                 0.4375,
                 1.6875
@@ -356,41 +391,6 @@
                 [
                     "door_fr"
                 ]
-            ]
-        },
-        {
-            "pos": [
-                0.0,
-                0.25,
-                2.75
-            ],
-            "rot": [
-                0.0,
-                0.0,
-                0.0
-            ],
-            "maxValue": 0.4,
-            "types": [
-                "engine_car"
-            ],
-            "defaultPart": "iv_tpp:engine_v6_gasoline_normal_aut",
-            "interactableVariables": [
-                [
-                    "door_hood"
-                ]
-            ],
-            "linkedParts": [
-                1,
-                2,
-                3,
-                4,
-                10,
-                11,
-                12,
-                16,
-                17,
-                19,
-                20
             ]
         },
         {
@@ -1010,11 +1010,11 @@
             "animations": [
                 {
                     "animationType": "visibility",
-                    "variable": "engine_isautomatic_1"
+                    "variable": "engine_isautomatic_5"
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_isdualclutch_1"
+                    "variable": "engine_isdualclutch_5"
                 },
                 {
                     "animationType": "visibility",
@@ -1100,7 +1100,7 @@
                 },
                 {
                     "animationType": "translation",
-                    "variable": "engine_rpm_percent_revlimit_1",
+                    "variable": "engine_rpm_percent_revlimit_5",
                     "axis": [
                         -8.0,
                         0.0,
@@ -1173,7 +1173,7 @@
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_running_1",
+                    "variable": "engine_running_5",
                     "clampMin": 1.0,
                     "clampMax": 1.0
                 }
@@ -1240,7 +1240,7 @@
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_running_1",
+                    "variable": "engine_running_5",
                     "clampMin": 1.0,
                     "clampMax": 1.0
                 }
@@ -1307,7 +1307,7 @@
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_running_1",
+                    "variable": "engine_running_5",
                     "clampMin": 1.0,
                     "clampMax": 1.0
                 }
@@ -1374,7 +1374,7 @@
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_running_1",
+                    "variable": "engine_running_5",
                     "clampMin": 1.0,
                     "clampMax": 1.0
                 }
@@ -1524,7 +1524,7 @@
                 "animations": [
                     {
                         "animationType": "rotation",
-                        "variable": "engine_gearshift_1",
+                        "variable": "engine_gearshift_5",
                         "centerPoint": [
                             0.0,
                             0.39063,
@@ -2402,7 +2402,7 @@
                 "brightnessAnimations": [
                     {
                         "animationType": "visibility",
-                        "variable": "engine_reversed_1",
+                        "variable": "engine_reversed_5",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -3221,7 +3221,7 @@
                 "activeAnimations": [
                     {
                         "animationType": "visibility",
-                        "variable": "engine_piston_1_2_cam_1",
+                        "variable": "engine_piston_1_2_cam_5",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -3248,7 +3248,7 @@
                 "activeAnimations": [
                     {
                         "animationType": "visibility",
-                        "variable": "engine_backfired_1",
+                        "variable": "engine_backfired_5",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -3277,7 +3277,7 @@
                 "activeAnimations": [
                     {
                         "animationType": "visibility",
-                        "variable": "engine_piston_2_2_cam_1",
+                        "variable": "engine_piston_2_2_cam_5",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -3304,7 +3304,7 @@
                 "activeAnimations": [
                     {
                         "animationType": "visibility",
-                        "variable": "engine_backfired_1",
+                        "variable": "engine_backfired_5",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
