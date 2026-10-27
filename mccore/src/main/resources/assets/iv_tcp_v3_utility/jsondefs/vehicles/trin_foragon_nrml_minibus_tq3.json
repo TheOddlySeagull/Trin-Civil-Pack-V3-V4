@@ -1674,7 +1674,9 @@
                 "animations": [
                     {
                         "animationType": "visibility",
-                        "variable": "engine_isautomatic_1"
+                        "variable": "isAutomatic_16",
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
                     },
                     {
                         "animationType": "rotation",
