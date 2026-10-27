@@ -1421,7 +1421,8 @@
                             -30.0,
                             0.0,
                             0.0
-                        ]
+                        ],
+                        "duration": 5
                     },
                     {
                         "animationType": "rotation",
@@ -1454,7 +1455,8 @@
                             -30.0,
                             0.0,
                             0.0
-                        ]
+                        ],
+                        "duration": 5
                     },
                     {
                         "animationType": "rotation",
@@ -1487,7 +1489,8 @@
                             -30.0,
                             0.0,
                             0.0
-                        ]
+                        ],
+                        "duration": 5
                     },
                     {
                         "animationType": "rotation",
@@ -1510,7 +1513,7 @@
                 "animations": [
                     {
                         "animationType": "rotation",
-                        "variable": "engine_gearshift_1",
+                        "variable": "engine_gearshift_hvertical_11",
                         "centerPoint": [
                             0.0,
                             0.25,
@@ -1520,6 +1523,20 @@
                             1.0,
                             0.0,
                             0.0
+                        ]
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "engine_gearshift_hhorizontal_11",
+                        "centerPoint": [
+                            0.0,
+                            0.25,
+                            2.40625
+                        ],
+                        "axis": [
+                            0.0,
+                            0.0,
+                            1.0
                         ]
                     },
                     {

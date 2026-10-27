@@ -1723,7 +1723,7 @@
                 ]
             },
             {
-                "objectName": "gas",
+                "objectName": "accel",
                 "animations": [
                     {
                         "animationType": "rotation",
@@ -1737,7 +1737,8 @@
                             -20.0,
                             0.0,
                             0.0
-                        ]
+                        ],
+                        "duration": 5
                     },
                     {
                         "animationType": "rotation",
@@ -1770,7 +1771,8 @@
                             -20.0,
                             0.0,
                             0.0
-                        ]
+                        ],
+                        "duration": 5
                     },
                     {
                         "animationType": "rotation",
@@ -1793,7 +1795,9 @@
                 "animations": [
                     {
                         "animationType": "visibility",
-                        "variable": "engine_isautomatic_1"
+                        "variable": "isAutomatic_8",
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
                     },
                     {
                         "animationType": "rotation",
@@ -1807,7 +1811,38 @@
                             -30.0,
                             0.0,
                             0.0
-                        ]
+                        ],
+                        "duration": 5
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "engine_clutch_upshift_8",
+                        "centerPoint": [
+                            0.0,
+                            0.28125,
+                            4.625
+                        ],
+                        "axis": [
+                            -30.0,
+                            0.0,
+                            0.0
+                        ],
+                        "duration": 2
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "engine_clutch_downshift_8",
+                        "centerPoint": [
+                            0.0,
+                            0.28125,
+                            4.625
+                        ],
+                        "axis": [
+                            -30.0,
+                            0.0,
+                            0.0
+                        ],
+                        "duration": 2
                     },
                     {
                         "animationType": "rotation",
@@ -1840,7 +1875,8 @@
                             -30.0,
                             0.0,
                             0.0
-                        ]
+                        ],
+                        "duration": 5
                     },
                     {
                         "animationType": "rotation",
@@ -1863,7 +1899,7 @@
                 "animations": [
                     {
                         "animationType": "rotation",
-                        "variable": "engine_gearshift_1",
+                        "variable": "engine_gearshift_hvertical_8",
                         "centerPoint": [
                             0.0,
                             0.28125,
@@ -1873,6 +1909,20 @@
                             1.0,
                             0.0,
                             0.0
+                        ]
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "engine_gearshift_hhorizontal_8",
+                        "centerPoint": [
+                            0.0,
+                            0.28125,
+                            4.03125
+                        ],
+                        "axis": [
+                            0.0,
+                            0.0,
+                            1.0
                         ]
                     },
                     {

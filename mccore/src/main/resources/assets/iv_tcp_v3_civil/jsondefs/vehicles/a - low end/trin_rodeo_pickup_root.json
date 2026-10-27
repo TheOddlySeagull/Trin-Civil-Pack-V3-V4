@@ -1230,7 +1230,8 @@
                             -30.0,
                             0.0,
                             0.0
-                        ]
+                        ],
+                        "duration": 5
                     },
                     {
                         "animationType": "rotation",
@@ -1249,7 +1250,7 @@
                 ]
             },
             {
-                "objectName": "brake",
+                "objectName": "brake_brake",
                 "animations": [
                     {
                         "animationType": "rotation",
@@ -1263,7 +1264,8 @@
                             -30.0,
                             0.0,
                             0.0
-                        ]
+                        ],
+                        "duration": 5
                     },
                     {
                         "animationType": "rotation",
@@ -1286,7 +1288,9 @@
                 "animations": [
                     {
                         "animationType": "visibility",
-                        "variable": "engine_isautomatic_1"
+                        "variable": "isAutomatic_8",
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
                     },
                     {
                         "animationType": "rotation",
@@ -1300,7 +1304,8 @@
                             -30.0,
                             0.0,
                             0.0
-                        ]
+                        ],
+                        "duration": 5
                     },
                     {
                         "animationType": "rotation",
@@ -1314,7 +1319,8 @@
                             -30.0,
                             0.0,
                             0.0
-                        ]
+                        ],
+                        "duration": 5
                     },
                     {
                         "animationType": "rotation",
@@ -1361,7 +1367,8 @@
                             -30.0,
                             0.0,
                             0.0
-                        ]
+                        ],
+                        "duration": 5
                     },
                     {
                         "animationType": "rotation",
@@ -1384,7 +1391,7 @@
                 "animations": [
                     {
                         "animationType": "rotation",
-                        "variable": "engine_gearshift_1",
+                        "variable": "engine_gearshift_hvertical_8",
                         "centerPoint": [
                             0.0,
                             0.21875,
@@ -1394,6 +1401,20 @@
                             1.0,
                             0.0,
                             0.0
+                        ]
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "engine_gearshift_hhorizontal_8",
+                        "centerPoint": [
+                            0.0,
+                            0.21875,
+                            1.90625
+                        ],
+                        "axis": [
+                            0.0,
+                            0.0,
+                            1.0
                         ]
                     },
                     {
