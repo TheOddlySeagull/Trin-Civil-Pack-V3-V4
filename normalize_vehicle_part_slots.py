@@ -31,6 +31,7 @@ INDEXED_VARIABLE = re.compile(r"^(.*_)(\d+)$")
 # ending in "Variables" are handled too (interactableVariables, linkedVariables,
 # visibilityVariables, etc.).
 VARIABLE_FIELD_NAMES = {"variable", "litVariable"}
+PART_INDEX_COLLECTION_FIELDS = {"linkedParts"}
 MODERN_ENGINE_VARIABLES = {
     "isAutomatic",
     "maxRPM",
@@ -133,6 +134,22 @@ def remap_variable(
     return f"{match.group(1)}{new_index}", True
 
 
+def remap_part_indexes(value: Any, old_to_new: dict[int, int]) -> tuple[Any, int]:
+    """Remap literal one-based slot indexes, such as a part's linkedParts."""
+    if isinstance(value, list):
+        changes = 0
+        updated = []
+        for item in value:
+            remapped, item_changes = remap_part_indexes(item, old_to_new)
+            updated.append(remapped)
+            changes += item_changes
+        return updated, changes
+    if isinstance(value, int) and not isinstance(value, bool):
+        remapped = old_to_new.get(value, value)
+        return remapped, int(remapped != value)
+    return value, 0
+
+
 def remap_variables(
     value: Any, old_to_new: dict[int, int], engine_slots: list[int], variable_context: bool = False
 ) -> tuple[Any, int]:
@@ -159,8 +176,11 @@ def remap_variables(
             # Lists such as interactableVariables and linkedVariables contain
             # variable expressions.  Individual variable/litVariable fields do
             # too.  Deliberately do not treat names, objectName, or IDs as vars.
-            is_variable_value = key in VARIABLE_FIELD_NAMES or key.endswith("Variables")
-            updated, item_changes = remap_variables(item, old_to_new, engine_slots, is_variable_value)
+            if key in PART_INDEX_COLLECTION_FIELDS:
+                updated, item_changes = remap_part_indexes(item, old_to_new)
+            else:
+                is_variable_value = key in VARIABLE_FIELD_NAMES or key.endswith("Variables")
+                updated, item_changes = remap_variables(item, old_to_new, engine_slots, is_variable_value)
             updated_dict[key] = updated
             changes += item_changes
         return updated_dict, changes
