@@ -1743,6 +1743,36 @@
                     },
                     {
                         "animationType": "rotation",
+                        "variable": "engine_clutch_upshift_10",
+                        "centerPoint": [
+                            0.0,
+                            0.71875,
+                            3.25
+                        ],
+                        "axis": [
+                            -20.0,
+                            0.0,
+                            0.0
+                        ],
+                        "duration": 2
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "engine_clutch_downshift_10",
+                        "centerPoint": [
+                            0.0,
+                            0.71875,
+                            3.25
+                        ],
+                        "axis": [
+                            -20.0,
+                            0.0,
+                            0.0
+                        ],
+                        "duration": 2
+                    },
+                    {
+                        "animationType": "rotation",
                         "variable": "damage_totaled",
                         "centerPoint": [
                             0.0,
