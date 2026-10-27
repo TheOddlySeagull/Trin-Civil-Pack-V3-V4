@@ -176,6 +176,29 @@
         {
             "pos": [
                 0.0,
+                0.0,
+                1.75
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "dismountPos": [
+                1.0,
+                0.0,
+                1.75
+            ],
+            "isController": true,
+            "types": [
+                "seat"
+            ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray"
+        },
+        {
+            "pos": [
+                0.0,
                 -0.125,
                 -0.4375
             ],
@@ -200,29 +223,6 @@
                 3,
                 4
             ]
-        },
-        {
-            "pos": [
-                0.0,
-                0.0,
-                1.75
-            ],
-            "rot": [
-                0.0,
-                0.0,
-                0.0
-            ],
-            "dismountPos": [
-                1.0,
-                0.0,
-                1.75
-            ],
-            "isController": true,
-            "types": [
-                "seat"
-            ],
-            "toneIndex": 1,
-            "defaultPart": "iv_tpp:trin_seat_1_gray"
         }
     ],
     "collisionGroups": [
@@ -558,11 +558,11 @@
             "animations": [
                 {
                     "animationType": "visibility",
-                    "variable": "engine_isautomatic_5"
+                    "variable": "engine_isautomatic_1"
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_isdualclutch_5"
+                    "variable": "engine_isdualclutch_1"
                 },
                 {
                     "animationType": "visibility",
@@ -651,7 +651,7 @@
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_running_5",
+                    "variable": "engine_running_1",
                     "clampMin": 1.0,
                     "clampMax": 1.0
                 }
@@ -697,7 +697,7 @@
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_running_5",
+                    "variable": "engine_running_1",
                     "clampMin": 1.0,
                     "clampMax": 1.0
                 }
@@ -743,7 +743,7 @@
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_running_5",
+                    "variable": "engine_running_1",
                     "clampMin": 1.0,
                     "clampMax": 1.0
                 }
@@ -789,7 +789,7 @@
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_running_5",
+                    "variable": "engine_running_1",
                     "clampMin": 1.0,
                     "clampMax": 1.0
                 }
@@ -1078,7 +1078,7 @@
                 "activeAnimations": [
                     {
                         "animationType": "visibility",
-                        "variable": "engine_piston_1_2_cam_5",
+                        "variable": "engine_piston_1_2_cam_1",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -1102,7 +1102,7 @@
                 "activeAnimations": [
                     {
                         "animationType": "visibility",
-                        "variable": "engine_backfired_5",
+                        "variable": "engine_backfired_1",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -1128,7 +1128,7 @@
                 "activeAnimations": [
                     {
                         "animationType": "visibility",
-                        "variable": "engine_piston_2_2_cam_5",
+                        "variable": "engine_piston_2_2_cam_1",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -1152,7 +1152,7 @@
                 "activeAnimations": [
                     {
                         "animationType": "visibility",
-                        "variable": "engine_backfired_5",
+                        "variable": "engine_backfired_1",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }

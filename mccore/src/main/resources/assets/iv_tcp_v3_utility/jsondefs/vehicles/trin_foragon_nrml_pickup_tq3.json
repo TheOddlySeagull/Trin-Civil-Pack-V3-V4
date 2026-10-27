@@ -181,39 +181,6 @@
         },
         {
             "pos": [
-                0.0,
-                0.125,
-                4.5625
-            ],
-            "rot": [
-                0.0,
-                0.0,
-                0.0
-            ],
-            "maxValue": 0.34,
-            "types": [
-                "engine_car"
-            ],
-            "defaultPart": "iv_tpp:engine_i4_gasoline_turbo_aut",
-            "interactableVariables": [
-                [
-                    "door_hood"
-                ]
-            ],
-            "linkedParts": [
-                1,
-                2,
-                9,
-                12,
-                13,
-                28,
-                29,
-                34,
-                35
-            ]
-        },
-        {
-            "pos": [
                 0.5,
                 0.3125,
                 3.625
@@ -289,6 +256,39 @@
                 [
                     "door_fr"
                 ]
+            ]
+        },
+        {
+            "pos": [
+                0.0,
+                0.125,
+                4.5625
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "maxValue": 0.34,
+            "types": [
+                "engine_car"
+            ],
+            "defaultPart": "iv_tpp:engine_i4_gasoline_turbo_aut",
+            "interactableVariables": [
+                [
+                    "door_hood"
+                ]
+            ],
+            "linkedParts": [
+                1,
+                2,
+                9,
+                12,
+                13,
+                28,
+                29,
+                34,
+                35
             ]
         },
         {
@@ -1220,11 +1220,11 @@
             "animations": [
                 {
                     "animationType": "visibility",
-                    "variable": "engine_isautomatic_5"
+                    "variable": "engine_isautomatic_1"
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_isdualclutch_5"
+                    "variable": "engine_isdualclutch_1"
                 },
                 {
                     "animationType": "visibility",
@@ -1313,7 +1313,7 @@
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_running_5",
+                    "variable": "engine_running_1",
                     "clampMin": 1.0,
                     "clampMax": 1.0
                 }
@@ -1359,7 +1359,7 @@
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_running_5",
+                    "variable": "engine_running_1",
                     "clampMin": 1.0,
                     "clampMax": 1.0
                 }
@@ -1405,7 +1405,7 @@
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_running_5",
+                    "variable": "engine_running_1",
                     "clampMin": 1.0,
                     "clampMax": 1.0
                 }
@@ -1451,7 +1451,7 @@
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_running_5",
+                    "variable": "engine_running_1",
                     "clampMin": 1.0,
                     "clampMax": 1.0
                 }
@@ -1567,9 +1567,7 @@
                 "animations": [
                     {
                         "animationType": "visibility",
-                        "variable": "isAutomatic_5",
-                        "clampMin": 0.0,
-                        "clampMax": 0.0
+                        "variable": "engine_isautomatic_1"
                     },
                     {
                         "animationType": "rotation",
@@ -1641,7 +1639,7 @@
                 "animations": [
                     {
                         "animationType": "rotation",
-                        "variable": "engine_gearshift_5",
+                        "variable": "engine_gearshift_1",
                         "centerPoint": [
                             0.0,
                             0.28125,
@@ -2086,7 +2084,7 @@
                 "brightnessAnimations": [
                     {
                         "animationType": "visibility",
-                        "variable": "engine_reversed_5",
+                        "variable": "engine_reversed_1",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -2401,7 +2399,7 @@
                 "activeAnimations": [
                     {
                         "animationType": "visibility",
-                        "variable": "engine_piston_1_2_cam_5",
+                        "variable": "engine_piston_1_2_cam_1",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -2427,7 +2425,7 @@
                 "activeAnimations": [
                     {
                         "animationType": "visibility",
-                        "variable": "engine_piston_2_2_cam_5",
+                        "variable": "engine_piston_2_2_cam_1",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -2446,7 +2444,7 @@
                 "activeAnimations": [
                     {
                         "animationType": "visibility",
-                        "variable": "engine_backfired_5",
+                        "variable": "engine_backfired_1",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }

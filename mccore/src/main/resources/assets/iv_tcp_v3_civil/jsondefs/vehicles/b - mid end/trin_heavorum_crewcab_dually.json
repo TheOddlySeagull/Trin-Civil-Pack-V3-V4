@@ -247,34 +247,6 @@
             ]
         },
         {
-            "_comment": "part 15: Engine (v6), powering rear wheels",
-            "pos": [
-                0,
-                0.5625,
-                5.125
-            ],
-            "types": [
-                "engine_car",
-                "engine_car_electric"
-            ],
-            "defaultPart": "iv_tpp:engine_v8_gasoline_normal_aut",
-            "linkedParts": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6
-            ],
-            "interactableVariables": [
-                [
-                    "door_hood"
-                ]
-            ],
-            "maxValue": 0.71,
-            "intakeOffset": 0
-        },
-        {
             "_comment": "part 7: Front left seat (Driver)",
             "pos": [
                 0.625,
@@ -481,6 +453,34 @@
                 90.0,
                 0.0
             ]
+        },
+        {
+            "_comment": "part 15: Engine (v6), powering rear wheels",
+            "pos": [
+                0,
+                0.5625,
+                5.125
+            ],
+            "types": [
+                "engine_car",
+                "engine_car_electric"
+            ],
+            "defaultPart": "iv_tpp:engine_v8_gasoline_normal_aut",
+            "linkedParts": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "interactableVariables": [
+                [
+                    "door_hood"
+                ]
+            ],
+            "maxValue": 0.71,
+            "intakeOffset": 0
         },
         {
             "_comment": "part 16: Front lisence plate",
@@ -1229,7 +1229,7 @@
             "animations": [
                 {
                     "animationType": "visibility",
-                    "variable": "engine_isautomatic_7"
+                    "variable": "engine_isautomatic_1"
                 },
                 {
                     "animationType": "translation",
@@ -1305,7 +1305,7 @@
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_running_7",
+                    "variable": "engine_running_1",
                     "clampMin": 1.0,
                     "clampMax": 1.0
                 }
@@ -1352,7 +1352,7 @@
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_running_7",
+                    "variable": "engine_running_1",
                     "clampMin": 1.0,
                     "clampMax": 1.0
                 }
@@ -1399,7 +1399,7 @@
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_running_7",
+                    "variable": "engine_running_1",
                     "clampMin": 1.0,
                     "clampMax": 1.0
                 }
@@ -1446,7 +1446,7 @@
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_running_7",
+                    "variable": "engine_running_1",
                     "clampMin": 1.0,
                     "clampMax": 1.0
                 }
@@ -2148,9 +2148,7 @@
                 "animations": [
                     {
                         "animationType": "visibility",
-                        "variable": "isAutomatic_7",
-                        "clampMin": 0.0,
-                        "clampMax": 0.0
+                        "variable": "engine_isautomatic_1"
                     },
                     {
                         "animationType": "rotation",
@@ -2224,7 +2222,7 @@
                 "animations": [
                     {
                         "animationType": "rotation",
-                        "variable": "engine_gearshift_7",
+                        "variable": "engine_gearshift_1",
                         "centerPoint": [
                             0,
                             0.53125,
@@ -2651,13 +2649,13 @@
                 "brightnessAnimations": [
                     {
                         "animationType": "visibility",
-                        "variable": "engine_reversed_7",
+                        "variable": "engine_reversed_1",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     },
                     {
                         "animationType": "visibility",
-                        "variable": "engine_running_7",
+                        "variable": "engine_running_1",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -2849,7 +2847,7 @@
                     },
                     {
                         "animationType": "visibility",
-                        "variable": "engine_running_7",
+                        "variable": "engine_running_1",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -2964,7 +2962,7 @@
                 "activeAnimations": [
                     {
                         "animationType": "visibility",
-                        "variable": "engine_piston_1_1_cam_7",
+                        "variable": "engine_piston_1_1_cam_1",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -2991,7 +2989,7 @@
                 "activeAnimations": [
                     {
                         "animationType": "visibility",
-                        "variable": "engine_piston_1_1_cam_7",
+                        "variable": "engine_piston_1_1_cam_1",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -3016,7 +3014,7 @@
                 "activeAnimations": [
                     {
                         "animationType": "visibility",
-                        "variable": "engine_backfired_7",
+                        "variable": "engine_backfired_1",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }

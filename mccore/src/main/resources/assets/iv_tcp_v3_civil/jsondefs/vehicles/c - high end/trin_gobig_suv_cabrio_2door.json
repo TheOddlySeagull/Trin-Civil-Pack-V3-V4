@@ -180,45 +180,6 @@
         },
         {
             "pos": [
-                0.0,
-                0.3125,
-                3.0625
-            ],
-            "rot": [
-                0.0,
-                0.0,
-                0.0
-            ],
-            "maxValue": 3.51,
-            "types": [
-                "engine_car"
-            ],
-            "defaultPart": "iv_tpp:trin_v10_fat_diesel",
-            "interactableVariables": [
-                [
-                    "door_hood"
-                ]
-            ],
-            "linkedParts": [
-                1,
-                2,
-                3,
-                4,
-                11,
-                12,
-                13,
-                14,
-                15,
-                16,
-                17,
-                18,
-                19,
-                20,
-                21
-            ]
-        },
-        {
-            "pos": [
                 0.6875,
                 0.75,
                 1.9375
@@ -368,6 +329,45 @@
                 "seat_invisible"
             ],
             "defaultPart": "iv_tpp:trin_accessory_invisiseat_sitting"
+        },
+        {
+            "pos": [
+                0.0,
+                0.3125,
+                3.0625
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "maxValue": 3.51,
+            "types": [
+                "engine_car"
+            ],
+            "defaultPart": "iv_tpp:trin_v10_fat_diesel",
+            "interactableVariables": [
+                [
+                    "door_hood"
+                ]
+            ],
+            "linkedParts": [
+                1,
+                2,
+                3,
+                4,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21
+            ]
         },
         {
             "pos": [
@@ -1248,11 +1248,11 @@
             "animations": [
                 {
                     "animationType": "visibility",
-                    "variable": "engine_isautomatic_5"
+                    "variable": "engine_isautomatic_1"
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_isdualclutch_5"
+                    "variable": "engine_isdualclutch_1"
                 },
                 {
                     "animationType": "visibility",
@@ -1338,7 +1338,7 @@
                 },
                 {
                     "animationType": "translation",
-                    "variable": "engine_rpm_percent_revlimit_5",
+                    "variable": "engine_rpm_percent_revlimit_1",
                     "axis": [
                         -8.0,
                         0.0,
@@ -1411,7 +1411,7 @@
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_running_5",
+                    "variable": "engine_running_1",
                     "clampMin": 1.0,
                     "clampMax": 1.0
                 }
@@ -1478,7 +1478,7 @@
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_running_5",
+                    "variable": "engine_running_1",
                     "clampMin": 1.0,
                     "clampMax": 1.0
                 }
@@ -1545,7 +1545,7 @@
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_running_5",
+                    "variable": "engine_running_1",
                     "clampMin": 1.0,
                     "clampMax": 1.0
                 }
@@ -1612,7 +1612,7 @@
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_running_5",
+                    "variable": "engine_running_1",
                     "clampMin": 1.0,
                     "clampMax": 1.0
                 }
@@ -1727,9 +1727,7 @@
                 "animations": [
                     {
                         "animationType": "visibility",
-                        "variable": "isAutomatic_5",
-                        "clampMin": 0.0,
-                        "clampMax": 0.0
+                        "variable": "engine_isautomatic_1"
                     },
                     {
                         "animationType": "rotation",
@@ -1801,7 +1799,7 @@
                 "animations": [
                     {
                         "animationType": "rotation",
-                        "variable": "engine_gearshift_5",
+                        "variable": "engine_gearshift_1",
                         "centerPoint": [
                             0.0,
                             0.54688,
@@ -2043,7 +2041,7 @@
                 "activeAnimations": [
                     {
                         "animationType": "visibility",
-                        "variable": "engine_piston_1_2_cam_5",
+                        "variable": "engine_piston_1_2_cam_1",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -2070,7 +2068,7 @@
                 "activeAnimations": [
                     {
                         "animationType": "visibility",
-                        "variable": "engine_backfired_5",
+                        "variable": "engine_backfired_1",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -2099,7 +2097,7 @@
                 "activeAnimations": [
                     {
                         "animationType": "visibility",
-                        "variable": "engine_piston_2_2_cam_5",
+                        "variable": "engine_piston_2_2_cam_1",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -2126,7 +2124,7 @@
                 "activeAnimations": [
                     {
                         "animationType": "visibility",
-                        "variable": "engine_backfired_5",
+                        "variable": "engine_backfired_1",
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
