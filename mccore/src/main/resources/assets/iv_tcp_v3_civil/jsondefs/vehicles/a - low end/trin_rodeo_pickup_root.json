@@ -1250,7 +1250,7 @@
                 ]
             },
             {
-                "objectName": "brake_brake",
+                "objectName": "brake",
                 "animations": [
                     {
                         "animationType": "rotation",
