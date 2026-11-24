@@ -1,6 +1,5 @@
 {
     "motorized": {
-        "defaultFuelQty": 3000,
         "hasOpenTop": true,
         "hasAutopilot": true,
         "hasRunningLights": true,
@@ -8,13 +7,20 @@
         "hasTurnSignals": true,
         "emptyMass": 1550,
         "fuelCapacity": 15000,
-        "downForce": 0.75,
+        "defaultFuelQty": 3000,
+        "batteryCapacity": 14,
+        "steeringForceFactor": 0.75,
         "overSteer": 5.0,
         "underSteer": 0.125,
         "overSteerAccel": 10.0,
         "axleRatio": 3.75,
         "brakingFactor": 1.3,
         "dragCoefficient": 0.25,
+        "radioPosition": [
+            0.0,
+            0.125,
+            1.125
+        ],
         "litVariable": "running_light",
         "panel": "mts:default_car"
     },
@@ -27,16 +33,16 @@
             ],
             "minValue": 0.7,
             "maxValue": 0.875,
+            "defaultPart": "iv_tpp:wheel_sport_4d14_1_chromic",
             "types": [
                 "ground_wheel"
             ],
-            "defaultPart": "iv_tpp:wheel_sport_4d14_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
                     "variable": "rlBodyroll",
                     "centerPoint": [
-                        -1e-08,
+                        -1.0E-8,
                         0.0,
                         0.0
                     ],
@@ -44,7 +50,10 @@
                         0.0,
                         0.0,
                         6.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 }
             ]
         },
@@ -62,16 +71,16 @@
             "isMirrored": true,
             "minValue": 0.7,
             "maxValue": 0.875,
+            "defaultPart": "iv_tpp:wheel_sport_4d14_1_chromic",
             "types": [
                 "ground_wheel"
             ],
-            "defaultPart": "iv_tpp:wheel_sport_4d14_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
                     "variable": "rrBodyroll",
                     "centerPoint": [
-                        -1e-08,
+                        -1.0E-8,
                         0.0,
                         0.0
                     ],
@@ -79,7 +88,10 @@
                         0.0,
                         0.0,
                         6.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 }
             ]
         },
@@ -92,16 +104,16 @@
             "turnsWithSteer": true,
             "minValue": 0.7,
             "maxValue": 0.875,
+            "defaultPart": "iv_tpp:wheel_sport_4d14_1_chromic",
             "types": [
                 "ground_wheel"
             ],
-            "defaultPart": "iv_tpp:wheel_sport_4d14_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
                     "variable": "flBodyroll",
                     "centerPoint": [
-                        -1e-08,
+                        -1.0E-8,
                         0.0,
                         3.9375
                     ],
@@ -109,7 +121,10 @@
                         0.0,
                         0.0,
                         6.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "rotation",
@@ -123,7 +138,10 @@
                         0.0,
                         -1.0,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 }
             ]
         },
@@ -142,16 +160,16 @@
             "isMirrored": true,
             "minValue": 0.7,
             "maxValue": 0.875,
+            "defaultPart": "iv_tpp:wheel_sport_4d14_1_chromic",
             "types": [
                 "ground_wheel"
             ],
-            "defaultPart": "iv_tpp:wheel_sport_4d14_1_chromic",
             "animations": [
                 {
                     "animationType": "rotation",
                     "variable": "frBodyroll",
                     "centerPoint": [
-                        -1e-08,
+                        -1.0E-8,
                         0.0,
                         3.9375
                     ],
@@ -159,7 +177,10 @@
                         0.0,
                         0.0,
                         6.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "rotation",
@@ -173,7 +194,10 @@
                         0.0,
                         -1.0,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 }
             ]
         },
@@ -194,11 +218,11 @@
                 1.125
             ],
             "isController": true,
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "types": [
                 "seat"
             ],
-            "toneIndex": 1,
-            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_fl"
@@ -221,11 +245,11 @@
                 0.125,
                 1.125
             ],
+            "toneIndex": 1,
+            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "types": [
                 "seat"
             ],
-            "toneIndex": 1,
-            "defaultPart": "iv_tpp:trin_seat_1_gray",
             "interactableVariables": [
                 [
                     "door_fr"
@@ -268,10 +292,10 @@
                 0.0
             ],
             "maxValue": 0.65,
+            "defaultPart": "iv_tpp:engine_v8_gasoline_turbo_aut",
             "types": [
                 "engine_car"
             ],
-            "defaultPart": "iv_tpp:engine_v8_gasoline_turbo_aut",
             "interactableVariables": [
                 [
                     "door_hood"
@@ -521,7 +545,11 @@
     ],
     "collisionGroups": [
         {
-            "isInterior": true,
+            "collisionTypes": [
+                "entity",
+                "click",
+                "attack"
+            ],
             "collisions": [
                 {
                     "pos": [
@@ -531,8 +559,11 @@
                     ],
                     "width": 0.3125,
                     "height": 0.125,
-                    "variableName": "door_fl",
-                    "variableType": "toggle"
+                    "action": {
+                        "action": "toggle",
+                        "variable": "door_fl",
+                        "value": 0.0
+                    }
                 }
             ],
             "animations": [
@@ -543,12 +574,19 @@
                         1.125,
                         0.0,
                         0.53125
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 }
             ]
         },
         {
-            "isInterior": true,
+            "collisionTypes": [
+                "entity",
+                "click",
+                "attack"
+            ],
             "collisions": [
                 {
                     "pos": [
@@ -558,8 +596,11 @@
                     ],
                     "width": 0.3125,
                     "height": 0.125,
-                    "variableName": "door_fr",
-                    "variableType": "toggle"
+                    "action": {
+                        "action": "toggle",
+                        "variable": "door_fr",
+                        "value": 0.0
+                    }
                 }
             ],
             "animations": [
@@ -570,12 +611,19 @@
                         -1.125,
                         0.0,
                         0.53125
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 }
             ]
         },
         {
-            "isInterior": true,
+            "collisionTypes": [
+                "entity",
+                "click",
+                "attack"
+            ],
             "collisions": [
                 {
                     "pos": [
@@ -585,8 +633,11 @@
                     ],
                     "width": 1.0,
                     "height": 0.5,
-                    "variableName": "door_hood",
-                    "variableType": "toggle"
+                    "action": {
+                        "action": "toggle",
+                        "variable": "door_hood",
+                        "value": 0.0
+                    }
                 }
             ],
             "animations": [
@@ -597,12 +648,19 @@
                         0.0,
                         0.9375,
                         -0.375
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 }
             ]
         },
         {
-            "isInterior": true,
+            "collisionTypes": [
+                "entity",
+                "click",
+                "attack"
+            ],
             "collisions": [
                 {
                     "pos": [
@@ -612,8 +670,11 @@
                     ],
                     "width": 0.3125,
                     "height": 0.125,
-                    "variableName": "door_boot",
-                    "variableType": "toggle"
+                    "action": {
+                        "action": "toggle",
+                        "variable": "door_boot",
+                        "value": 0.0
+                    }
                 }
             ],
             "animations": [
@@ -624,12 +685,19 @@
                         0.0,
                         0.75,
                         0.1875
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 }
             ]
         },
         {
-            "isInterior": true,
+            "collisionTypes": [
+                "entity",
+                "click",
+                "attack"
+            ],
             "collisions": [
                 {
                     "pos": [
@@ -639,8 +707,11 @@
                     ],
                     "width": 1.0,
                     "height": 0.25,
-                    "variableName": "roof",
-                    "variableType": "toggle"
+                    "action": {
+                        "action": "toggle",
+                        "variable": "roof",
+                        "value": 0.0
+                    }
                 }
             ],
             "animations": [
@@ -651,12 +722,19 @@
                         0.0,
                         -0.625,
                         -1.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 }
             ]
         },
         {
-            "isInterior": true,
+            "collisionTypes": [
+                "entity",
+                "click",
+                "attack"
+            ],
             "collisions": [
                 {
                     "pos": [
@@ -666,8 +744,11 @@
                     ],
                     "width": 0.25,
                     "height": 0.25,
-                    "variableName": "window_l",
-                    "variableType": "toggle"
+                    "action": {
+                        "action": "toggle",
+                        "variable": "window_l",
+                        "value": 0.0
+                    }
                 }
             ],
             "animations": [
@@ -678,12 +759,19 @@
                         0.0,
                         0.0,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 }
             ]
         },
         {
-            "isInterior": true,
+            "collisionTypes": [
+                "entity",
+                "click",
+                "attack"
+            ],
             "collisions": [
                 {
                     "pos": [
@@ -693,8 +781,11 @@
                     ],
                     "width": 0.25,
                     "height": 0.25,
-                    "variableName": "window_r",
-                    "variableType": "toggle"
+                    "action": {
+                        "action": "toggle",
+                        "variable": "window_r",
+                        "value": 0.0
+                    }
                 }
             ],
             "animations": [
@@ -705,11 +796,20 @@
                         0.0,
                         0.0,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 }
             ]
         },
         {
+            "collisionTypes": [
+                "entity",
+                "click",
+                "block",
+                "attack"
+            ],
             "collisions": [
                 {
                     "pos": [
@@ -961,15 +1061,24 @@
             "animations": [
                 {
                     "animationType": "visibility",
-                    "variable": "engine_isautomatic_1"
+                    "variable": "engine_isautomatic_1",
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "visibility",
-                    "variable": "engine_isdualclutch_1"
+                    "variable": "engine_isdualclutch_1",
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "visibility",
                     "variable": "!engine_gear_1",
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0,
                     "reverseDelay": 6
                 },
                 {
@@ -981,6 +1090,8 @@
                         0.0
                     ],
                     "offset": 0.5,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0,
                     "duration": 3
                 },
                 {
@@ -991,6 +1102,9 @@
                         0.0,
                         0.0
                     ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0,
                     "duration": 3
                 }
             ]
@@ -1000,7 +1114,10 @@
             "animations": [
                 {
                     "animationType": "visibility",
-                    "variable": "p_brake"
+                    "variable": "p_brake",
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "translation",
@@ -1009,7 +1126,10 @@
                         1.0,
                         0.0,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 }
             ]
         },
@@ -1020,6 +1140,7 @@
                 {
                     "animationType": "visibility",
                     "variable": "slip",
+                    "offset": 0.0,
                     "clampMin": 8.0,
                     "clampMax": 32767.0,
                     "absolute": true
@@ -1075,7 +1196,10 @@
                         0.0,
                         -0.001,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "translation",
@@ -1084,7 +1208,10 @@
                         0.0,
                         0.005,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "translation",
@@ -1093,7 +1220,10 @@
                         0.0,
                         -1.0,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "translation",
@@ -1102,7 +1232,10 @@
                         0.0,
                         1.0,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "translation",
@@ -1111,7 +1244,10 @@
                         0.0,
                         4.0,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "translation",
@@ -1120,11 +1256,15 @@
                         0.0,
                         -0.5,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "visibility",
                     "variable": "engine_running_1",
+                    "offset": 0.0,
                     "clampMin": 1.0,
                     "clampMax": 1.0
                 }
@@ -1142,7 +1282,10 @@
                         0.0,
                         -0.001,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "translation",
@@ -1151,7 +1294,10 @@
                         0.0,
                         0.005,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "translation",
@@ -1160,7 +1306,10 @@
                         0.0,
                         1.0,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "translation",
@@ -1169,7 +1318,10 @@
                         0.0,
                         -1.0,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "translation",
@@ -1178,7 +1330,10 @@
                         0.0,
                         -4.0,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "translation",
@@ -1187,11 +1342,15 @@
                         0.0,
                         -0.5,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "visibility",
                     "variable": "engine_running_1",
+                    "offset": 0.0,
                     "clampMin": 1.0,
                     "clampMax": 1.0
                 }
@@ -1209,7 +1368,10 @@
                         0.0,
                         -0.001,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "translation",
@@ -1218,7 +1380,10 @@
                         0.0,
                         0.005,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "translation",
@@ -1227,7 +1392,10 @@
                         0.0,
                         -1.0,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "translation",
@@ -1236,7 +1404,10 @@
                         0.0,
                         1.0,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "translation",
@@ -1245,7 +1416,10 @@
                         0.0,
                         -4.0,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "translation",
@@ -1254,11 +1428,15 @@
                         0.0,
                         -0.5,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "visibility",
                     "variable": "engine_running_1",
+                    "offset": 0.0,
                     "clampMin": 1.0,
                     "clampMax": 1.0
                 }
@@ -1276,7 +1454,10 @@
                         0.0,
                         -0.001,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "translation",
@@ -1285,7 +1466,10 @@
                         0.0,
                         0.005,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "translation",
@@ -1294,7 +1478,10 @@
                         0.0,
                         1.0,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "translation",
@@ -1303,7 +1490,10 @@
                         0.0,
                         -1.0,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "translation",
@@ -1312,7 +1502,10 @@
                         0.0,
                         4.0,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "translation",
@@ -1321,11 +1514,15 @@
                         0.0,
                         -0.5,
                         0.0
-                    ]
+                    ],
+                    "offset": 0.0,
+                    "clampMin": 0.0,
+                    "clampMax": 0.0
                 },
                 {
                     "animationType": "visibility",
                     "variable": "engine_running_1",
+                    "offset": 0.0,
                     "clampMin": 1.0,
                     "clampMax": 1.0
                 }
@@ -1350,7 +1547,10 @@
                             0.0,
                             0.0,
                             1.0
-                        ]
+                        ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
                     },
                     {
                         "animationType": "rotation",
@@ -1364,7 +1564,10 @@
                             -1.1740976025326226,
                             -0.6642924646492929,
                             5.820419464408779
-                        ]
+                        ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
                     }
                 ]
             },
@@ -1384,6 +1587,9 @@
                             0.0,
                             0.0
                         ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0,
                         "duration": 5
                     },
                     {
@@ -1398,7 +1604,10 @@
                             9.01358445445969,
                             0.8054556066962437,
                             3.439858009459611
-                        ]
+                        ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
                     }
                 ]
             },
@@ -1418,6 +1627,9 @@
                             0.0,
                             0.0
                         ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0,
                         "duration": 5
                     },
                     {
@@ -1432,6 +1644,79 @@
                             6.518318578166674,
                             1.8746372572460306,
                             -7.138081593167578
+                        ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
+                    }
+                ]
+            },
+            {
+                "objectName": "clutch",
+                "animations": [
+                    {
+                        "animationType": "visibility",
+                        "variable": "isAutomatic_8",
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "clutch",
+                        "centerPoint": [
+                            0.0,
+                            0.1875,
+                            2.4375
+                        ],
+                        "axis": [
+                            -30.0,
+                            0.0,
+                            0.0
+                        ],
+                        "duration": 5
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "engine_clutch_upshift_8",
+                        "centerPoint": [
+                            0.0,
+                            0.1875,
+                            2.4375
+                        ],
+                        "axis": [
+                            -30.0,
+                            0.0,
+                            0.0
+                        ],
+                        "duration": 2
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "engine_clutch_downshift_8",
+                        "centerPoint": [
+                            0.0,
+                            0.1875,
+                            2.4375
+                        ],
+                        "axis": [
+                            -30.0,
+                            0.0,
+                            0.0
+                        ],
+                        "duration": 2
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "damage_totaled",
+                        "centerPoint": [
+                            0.0,
+                            0.1875,
+                            2.4375
+                        ],
+                        "axis": [
+                            3.230453252113678,
+                            9.685735338804072,
+                            -4.073530272183623
                         ]
                     }
                 ]
@@ -1452,6 +1737,9 @@
                             0.0,
                             0.0
                         ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0,
                         "duration": 5
                     },
                     {
@@ -1466,7 +1754,10 @@
                             -7.280440349879392,
                             -3.432164458775744,
                             -5.028763089951136
-                        ]
+                        ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
                     }
                 ]
             },
@@ -1485,7 +1776,10 @@
                             1.0,
                             0.0,
                             0.0
-                        ]
+                        ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
                     },
                     {
                         "animationType": "rotation",
@@ -1499,7 +1793,10 @@
                             0.0,
                             0.0,
                             1.0
-                        ]
+                        ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
                     },
                     {
                         "animationType": "rotation",
@@ -1513,7 +1810,10 @@
                             -6.015087009366118,
                             -6.811235500835513,
                             7.208232535410314
-                        ]
+                        ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
                     }
                 ]
             },
@@ -1533,6 +1833,9 @@
                             60.0,
                             0.0
                         ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0,
                         "duration": 15,
                         "forwardsEasing": "easeoutback",
                         "reverseEasing": "easeincubic",
@@ -1551,7 +1854,10 @@
                             0.004648614904601445,
                             0.05189166982816573,
                             3.8290043582384126
-                        ]
+                        ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
                     }
                 ]
             },
@@ -1571,6 +1877,9 @@
                             -60.0,
                             0.0
                         ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0,
                         "duration": 15,
                         "forwardsEasing": "easeoutback",
                         "reverseEasing": "easeincubic",
@@ -1589,7 +1898,10 @@
                             -4.355286836748351,
                             -1.9730617309682348,
                             0.050565499604482866
-                        ]
+                        ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
                     }
                 ]
             },
@@ -1610,6 +1922,9 @@
                             0.0,
                             12.0
                         ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0,
                         "duration": 20
                     },
                     {
@@ -1620,6 +1935,9 @@
                             -0.8125,
                             0.0
                         ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0,
                         "duration": 20
                     },
                     {
@@ -1634,7 +1952,10 @@
                             1.2616259820918287,
                             7.236065365365064,
                             5.43484642600054
-                        ]
+                        ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
                     }
                 ]
             },
@@ -1655,6 +1976,9 @@
                             0.0,
                             -12.0
                         ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0,
                         "duration": 20
                     },
                     {
@@ -1665,6 +1989,9 @@
                             -0.8125,
                             0.0
                         ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0,
                         "duration": 20
                     },
                     {
@@ -1679,7 +2006,10 @@
                             2.4488913742811196,
                             8.573054943898882,
                             -2.9424237236349837
-                        ]
+                        ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
                     }
                 ]
             },
@@ -1694,6 +2024,9 @@
                             -0.8225,
                             0.0
                         ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0,
                         "duration": 50,
                         "reverseDelay": 340
                     }
@@ -1710,6 +2043,9 @@
                             -0.8125,
                             0.0
                         ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0,
                         "duration": 50,
                         "reverseDelay": 340
                     }
@@ -1731,6 +2067,9 @@
                             0.0,
                             0.0
                         ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0,
                         "duration": 40,
                         "forwardsDelay": 50,
                         "reverseDelay": 340
@@ -1748,6 +2087,9 @@
                             0.0,
                             0.0
                         ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0,
                         "duration": 80,
                         "forwardsDelay": 160,
                         "reverseDelay": 110
@@ -1764,7 +2106,10 @@
                             0.061088163234625625,
                             0.838450914564266,
                             9.243044237999097
-                        ]
+                        ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
                     },
                     {
                         "animationType": "rotation",
@@ -1778,7 +2123,10 @@
                             7.5046234092478095,
                             4.372305044514134,
                             8.293196195605987
-                        ]
+                        ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
                     }
                 ]
             },
@@ -1803,6 +2151,9 @@
                             0.0,
                             0.0
                         ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0,
                         "duration": 100,
                         "forwardsDelay": 100,
                         "reverseDelay": 240
@@ -1820,6 +2171,9 @@
                             0.0,
                             0.0
                         ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0,
                         "duration": 100,
                         "forwardsDelay": 240
                     },
@@ -1835,7 +2189,10 @@
                             2.3713694989380976,
                             -0.5466852102955144,
                             -3.2773225817342055
-                        ]
+                        ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
                     },
                     {
                         "animationType": "rotation",
@@ -1849,7 +2206,10 @@
                             -6.022517053607528,
                             5.3274830678770755,
                             6.023122904442491
-                        ]
+                        ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
                     }
                 ]
             },
@@ -1870,6 +2230,9 @@
                             0.0,
                             0.0
                         ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0,
                         "duration": 40,
                         "reverseDelay": 340
                     },
@@ -1886,6 +2249,9 @@
                             0.0,
                             0.0
                         ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0,
                         "duration": 80,
                         "forwardsDelay": 160,
                         "reverseDelay": 110
@@ -1902,7 +2268,10 @@
                             -9.26682570372133,
                             -3.0683747599502853,
                             1.397850749221499
-                        ]
+                        ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
                     },
                     {
                         "animationType": "rotation",
@@ -1916,7 +2285,10 @@
                             8.694727709318549,
                             -7.360517805451792,
                             0.7962413737720127
-                        ]
+                        ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
                     }
                 ]
             },
@@ -1936,6 +2308,9 @@
                             0.0,
                             0.0
                         ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0,
                         "duration": 25,
                         "forwardsEasing": "easeoutquint",
                         "reverseEasing": "easeincubic",
@@ -1954,7 +2329,10 @@
                             -3.9480505194484223,
                             6.41379160551249,
                             2.8813787873198553
-                        ]
+                        ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
                     }
                 ]
             },
@@ -1974,6 +2352,9 @@
                             0.0,
                             0.0
                         ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0,
                         "duration": 5,
                         "forwardsEasing": "easeoutquint",
                         "reverseEasing": "easeincubic",
@@ -1992,7 +2373,10 @@
                             3.585738447230227,
                             -7.9324237490458716,
                             9.009515193420825
-                        ]
+                        ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
                     }
                 ]
             },
@@ -2012,6 +2396,9 @@
                             0.0,
                             0.0
                         ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0,
                         "duration": 2
                     },
                     {
@@ -2026,7 +2413,10 @@
                             -5.150234515361401,
                             -2.882469100677185,
                             6.8106155223968585
-                        ]
+                        ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
                     }
                 ]
             },
@@ -2046,6 +2436,9 @@
                             0.0,
                             0.0
                         ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0,
                         "duration": 2
                     },
                     {
@@ -2060,7 +2453,10 @@
                             0.28189158192813224,
                             2.7041457479610536,
                             4.355710339011781
-                        ]
+                        ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
                     }
                 ]
             },
@@ -2080,6 +2476,9 @@
                             0.0,
                             0.0
                         ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0,
                         "duration": 2
                     },
                     {
@@ -2094,7 +2493,10 @@
                             7.955776041409894,
                             3.8939048488530474,
                             -0.8135024126509389
-                        ]
+                        ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
                     }
                 ]
             }
@@ -2110,6 +2512,7 @@
                     {
                         "animationType": "visibility",
                         "variable": "headlight",
+                        "offset": 0.0,
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -2191,6 +2594,7 @@
                     {
                         "animationType": "visibility",
                         "variable": "engine_reversed_1",
+                        "offset": 0.0,
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -2264,12 +2668,14 @@
                     {
                         "animationType": "visibility",
                         "variable": "right_turn_signal",
+                        "offset": 0.0,
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     },
                     {
                         "animationType": "visibility",
                         "variable": "10_10_0_cycle",
+                        "offset": 0.0,
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -2427,12 +2833,14 @@
                     {
                         "animationType": "visibility",
                         "variable": "left_turn_signal",
+                        "offset": 0.0,
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     },
                     {
                         "animationType": "visibility",
                         "variable": "10_10_0_cycle",
+                        "offset": 0.0,
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -2590,6 +2998,7 @@
                     {
                         "animationType": "visibility",
                         "variable": "running_light",
+                        "offset": 0.0,
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -2663,6 +3072,7 @@
                     {
                         "animationType": "visibility",
                         "variable": "brake",
+                        "offset": 0.0,
                         "clampMin": 0.01,
                         "clampMax": 1.0
                     }
@@ -2820,6 +3230,7 @@
                     {
                         "animationType": "visibility",
                         "variable": "running_light",
+                        "offset": 0.0,
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -2921,6 +3332,7 @@
                     {
                         "animationType": "visibility",
                         "variable": "running_light",
+                        "offset": 0.0,
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -3218,12 +3630,14 @@
                     {
                         "animationType": "visibility",
                         "variable": "EMERLTS",
+                        "offset": 0.0,
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     },
                     {
                         "animationType": "visibility",
                         "variable": "0_4_16_cycle",
+                        "offset": 0.0,
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -3273,6 +3687,7 @@
                     {
                         "animationType": "visibility",
                         "variable": "horn",
+                        "offset": 0.0,
                         "clampMin": 1.0,
                         "clampMax": 1.0,
                         "reverseDelay": 4
@@ -3287,6 +3702,9 @@
                             1.0,
                             0.0
                         ],
+                        "offset": 0.0,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0,
                         "duration": 3,
                         "forwardsDelay": -2
                     }
@@ -3297,7 +3715,8 @@
                 "middleDistance": 0.0,
                 "middleDistanceVolume": 0.0,
                 "maxDistance": 0.0,
-                "maxDistanceVolume": 0.0
+                "maxDistanceVolume": 0.0,
+                "conicalAngle": 0.0
             }
         ],
         "particles": [
@@ -3308,7 +3727,11 @@
                 "quantity": 1,
                 "transparency": 0.25,
                 "toTransparency": 0.25,
-                "scale": 0.2,
+                "scale": [
+                    0.2,
+                    0.2,
+                    0.2
+                ],
                 "hitboxSize": 0.2,
                 "color": "D9D9D9",
                 "pos": [
@@ -3325,6 +3748,7 @@
                     {
                         "animationType": "visibility",
                         "variable": "engine_piston_1_2_cam_1",
+                        "offset": 0.0,
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -3335,7 +3759,11 @@
                 "spawningOrientation": "entity",
                 "renderingOrientation": "player",
                 "quantity": 5,
-                "scale": 0.5,
+                "scale": [
+                    0.5,
+                    0.5,
+                    0.5
+                ],
                 "hitboxSize": 0.2,
                 "color": "000000",
                 "pos": [
@@ -3352,6 +3780,7 @@
                     {
                         "animationType": "visibility",
                         "variable": "engine_backfired_1",
+                        "offset": 0.0,
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -3364,7 +3793,11 @@
                 "quantity": 1,
                 "transparency": 0.25,
                 "toTransparency": 0.25,
-                "scale": 0.2,
+                "scale": [
+                    0.2,
+                    0.2,
+                    0.2
+                ],
                 "hitboxSize": 0.2,
                 "color": "D9D9D9",
                 "pos": [
@@ -3381,6 +3814,7 @@
                     {
                         "animationType": "visibility",
                         "variable": "engine_piston_2_2_cam_1",
+                        "offset": 0.0,
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
@@ -3391,7 +3825,11 @@
                 "spawningOrientation": "entity",
                 "renderingOrientation": "player",
                 "quantity": 5,
-                "scale": 0.5,
+                "scale": [
+                    0.5,
+                    0.5,
+                    0.5
+                ],
                 "hitboxSize": 0.2,
                 "color": "000000",
                 "pos": [
@@ -3408,6 +3846,7 @@
                     {
                         "animationType": "visibility",
                         "variable": "engine_backfired_1",
+                        "offset": 0.0,
                         "clampMin": 1.0,
                         "clampMax": 1.0
                     }
